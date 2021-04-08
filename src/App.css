@@ -1,38 +1,125 @@
-.App {
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 600px;
+  max-height: 240px;
+
+  padding: 24px 0;
+}
+
+h3#title {
+  font-size: 24px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Latex {
+  padding: 0 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.question__categories {
+  color: #00c9a7;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.question__title {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.question__title .info {
+  padding-left: 0.5rem;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.choice ul {
+  list-style-type: upper-alpha;
+}
+
+.choice__true {
+  font-weight: bolder;
+  color: #008b74;
+}
+
+.choice ul li {
+  padding: 0.5rem 0;
+}
+
+.explannation {
+  border: 1px solid #b2bec3;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.explannation h4 {
+  font-weight: bold;
+}
+
+.explannation ul li {
+  padding: 0.5rem 0;
+}
+
+/* 
+.navbar {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar .navbar--section, .navbar--chapter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.navbar .navbar--section > h4, .navbar--chapter > h4{
+  grid-column: 1 / 3;
+} */
+
+.navbar ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.navbar li {
+  display: inline;
+  padding: 1rem 0.5rem;
+}
+
+.navbar li a {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+li.active a {
+  color: #d63031;
+  font-weight: bold;
+}
+
+ol {
+  list-style: upper-roman;
+}
+
+ol li {
+  padding: 0.5rem 0;
+  position: relative;
+  left: -16px;
+}
+
+.full__text {
+  border: 1px solid #2d3436;
+  border-radius: 4px;
+  padding: 1rem 0.5rem;
+  margin: 0.5rem 0;
+  font-size: 14px;
+}
+
+.full__text ul {
+  list-style-type: upper-alpha;
 }

@@ -1,0 +1,2699 @@
+{
+    "code": "2D_1",
+    "name": "2D_1",
+    "description": "",
+    "rank": "BASIC",
+    "duration": 1,
+    "list_questions": [
+        {
+            "code": "2D1X5_58",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "\u0110\u1ed3 th\u1ecb \u1edf h\u00ecnh b\u00ean l\u00e0 \u0111\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 n\u00e0o?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_58_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_58_C1",
+                    "content": "$y=-x^3-x+2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_58_C2",
+                    "content": "$y=-x^3+1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_58_C3",
+                    "content": "$y=-x^3+3x+2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_58_C4",
+                    "content": "$y=-x^3+2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "%\nTa th\u1ea5y \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 \u0111i qua \u0111i\u1ec3m $(1;1)$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_63",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "\u0110\u01b0\u1eddng cong trong h\u00ecnh v\u1ebd l\u00e0 \u0111\u1ed3 th\u1ecb c\u1ee7a m\u1ed9t h\u00e0m s\u1ed1 trong b\u1ed1n h\u00e0m s\u1ed1 \u0111\u01b0\u1ee3c li\u1ec7t k\u00ea \u1edf c\u00e1c ph\u01b0\u01a1ng \u00e1n $\\textbf{A, B, C, D}$. H\u1ecfi h\u00e0m s\u1ed1 \u0111\u00f3 l\u00e0 h\u00e0m s\u1ed1 n\u00e0o?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_63_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_63_C1",
+                    "content": "$y=x^3-3x^2-3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_63_C2",
+                    "content": "$y=x^3-6x^2+9x+3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_63_C3",
+                    "content": "$y=-x^2+3x+3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_63_C4",
+                    "content": "$y=x^3-3x^2+3$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "%\nNh\u00ecn v\u00e0o d\u1ea1ng \u0111\u1ed3 th\u1ecb, ta x\u00e1c \u0111\u1ecbnh \u0111\u01b0\u1ee3c $a>0$.$\\\\$\n\u0110\u1ed3 th\u1ecb h\u00e0m s\u1ed1 c\u1eaft tr\u1ee5c tung t\u1ea1i \u0111i\u1ec3m $(0;3)$ n\u00ean $d=3$.$\\\\$\nHai \u0111i\u1ec3m c\u1ef1c tr\u1ecb c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 c\u00f3 ho\u00e0nh \u0111\u1ed9 l\u1ea7n l\u01b0\u1ee3t l\u00e0 $x=0$ v\u00e0 $x=2$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_64",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "B\u1ea3ng bi\u1ebfn thi\u00ean trong h\u00ecnh v\u1ebd l\u00e0 b\u1ea3ng bi\u1ebfn thi\u00ean c\u1ee7a m\u1ed9t trong b\u1ed1n h\u00e0m s\u1ed1 \u0111\u01b0\u1ee3c li\u1ec7t k\u00ea \u1edf c\u00e1c ph\u01b0\u01a1ng \u00e1n A, B, C, D d\u01b0\u1edbi \u0111\u00e2y. H\u1ecfi h\u00e0m s\u1ed1 \u0111\u00f3 l\u00e0 h\u00e0m s\u1ed1 n\u00e0o?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_64_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_64_C1",
+                    "content": "$y=x^4-2x^2+2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X5_64_C2",
+                    "content": "$y=-2x^3-x^2+2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_64_C3",
+                    "content": "$y=-x^4+2x^2+2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_64_C4",
+                    "content": "$y=2x^4-3x^2+2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "%\nNh\u00ecn v\u00e0o B\u1ea3ng bi\u1ebfn thi\u00ean, ta th\u1ea5y $a>0$, n\u00ean lo\u1ea1i c\u00e1c ph\u01b0\u01a1ng \u00e1n B, C.$\\\\$\nTa th\u1ea5y $x_{CT}=\\pm 1$ n\u00ean ph\u01b0\u01a1ng \u00e1n A \u0111\u00fang.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_65",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $y=\\dfrac{x+b}{cx+d}$ c\u00f3 \u0111\u1ed3 th\u1ecb nh\u01b0 h\u00ecnh v\u1ebd. Kh\u1eb3ng \u0111\u1ecbnh n\u00e0o d\u01b0\u1edbi \u0111\u00e2y \u0111\u00fang?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_65_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_65_C1",
+                    "content": "$b<0,c>0,d<0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_65_C2",
+                    "content": "$b>0,c>0,d>0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_65_C3",
+                    "content": "$b<0,c<0,d>0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_65_C4",
+                    "content": "$b<0,c>0,d>0$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "%\nTa th\u1ea5y \u0111\u01b0\u1eddng ti\u1ec7m c\u1eadn ngang $y=\\dfrac{1}{c}>1$, suy ra $c>0$.$\\\\$\n\u0110\u01b0\u1eddng ti\u1ec7m c\u1eadn \u0111\u1ee9ng $x=-\\dfrac{d}{c}<0$, suy ra $d>0$.$\\\\$\nGiao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb v\u1edbi tr\u1ee5c tung l\u00e0 $y=\\dfrac{b}{d}<0$, suy ra $b<0$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_94",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ecm $a$, $b$, $c$ \u0111\u1ec3 h\u00e0m s\u1ed1 $y=\\dfrac{ax+2}{cx+b}$ c\u00f3 \u0111\u1ed3 th\u1ecb nh\u01b0 h\u00ecnh b\u00ean.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_94_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_94_C1",
+                    "content": "$a=2$, $b=-2$, $c=-1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_94_C2",
+                    "content": "$a=1$, $b=-1$, $c=-1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_94_C3",
+                    "content": "$a=1$, $b=2$, $c=1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_94_C4",
+                    "content": "$a=1$, $b=-2$, $c=1$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "\u0110\u1ec3 \u0111\u01b0\u1eddng ti\u1ec7m c\u00e2n \u0111\u1ee9ng l\u00e0 $x=2$ th\u00ec $-\\dfrac{b}{c}=2$.$\\\\$\n\u0110\u1ec3 \u0111\u01b0\u1eddng ti\u1ec7m c\u1eadn ngang l\u00e0 $y=1$ th\u00ec $\\dfrac{a}{c}=1$.$\\\\$\n\u0110\u1ed3 th\u1ecb h\u00e0m s\u1ed1 \u0111i qua \u0111i\u1ec3m $(-2;0)$. T\u1eeb ba d\u1eef ki\u1ec7n tr\u00ean ta t\u00ecm \u0111\u01b0\u1ee3c $a=1$, $b=-2$, $c=1$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_103",
+            "description": "",
+            "level": 3.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $y=f(x)$ c\u00f3 \u0111\u1ed3 th\u1ecb nh\u01b0 h\u00ecnh v\u1ebd. T\u00ecm s\u1ed1 \u0111i\u1ec3m c\u1ef1c tr\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $y=\\left|f(x-1)\\right|$.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_103_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_103_C1",
+                    "content": "7",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X5_103_C2",
+                    "content": "5",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_103_C3",
+                    "content": "3",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_103_C4",
+                    "content": "9",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "T\u1eeb \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=f(x)$, ta suy ra \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=\\left|f(x-1)\\right|$ b\u1eb1ng c\u00e1ch d\u1ecbch sang ph\u1ea3i 1 \u0111\u01a1n v\u1ecb v\u00e0 l\u1ea5y \u0111\u1ed1i x\u1ee9ng ph\u1ea7n ph\u00eda d\u01b0\u1edbi tr\u1ee5c ho\u00e0nh qua tr\u1ee5c ho\u00e0nh.$\\\\$\nD\u1ef1a v\u00e0o \u0111\u1ed3 th\u1ecb $|f(x-1)|$, ta ch\u1ecdn \u0111\u01b0\u1ee3c \u0111\u00e1p \u00e1n.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_104",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "B\u1ea3ng bi\u1ebfn thi\u00ean \u1edf h\u00ecnh b\u00ean l\u00e0 c\u1ee7a h\u00e0m s\u1ed1 n\u00e0o sau \u0111\u00e2y?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_104_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_104_C1",
+                    "content": "$y=\\dfrac{x+1}{x+2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_104_C2",
+                    "content": "$y=\\dfrac{x+3}{2+x}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X5_104_C3",
+                    "content": "$y=\\dfrac{x-1}{2x+1}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_104_C4",
+                    "content": "$y=\\dfrac{x+1}{x-2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "H\u00e0m s\u1ed1 kh\u00f4ng x\u00e1c \u0111\u1ecbnh t\u1ea1i $x=-2$ n\u00ean lo\u1ea1i 2 \u0111\u00e1p \u00e1n.$\\\\$\nH\u00e0m s\u1ed1 ngh\u1ecbch bi\u1ebfn tr\u00ean t\u1eadp x\u00e1c \u0111\u1ecbnh. T\u1eeb \u0111\u00f3, c\u00f3 \u0111\u00e1p \u00e1n.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_113",
+            "description": "",
+            "level": 3.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $y=f(x)$ x\u00e1c \u0111\u1ecbnh v\u00e0 c\u00f3 \u0111\u1ea1o h\u00e0m $f'(x).$ \u0110\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $f'(x)$ nh\u01b0 h\u00ecnh b\u00ean. Kh\u1eb3ng \u0111\u1ecbnh n\u00e0o sau \u0111\u00e2y l\u00e0 $\\textbf{\u0111\u00fang}$?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_113_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_113_C1",
+                    "content": "H\u00e0m s\u1ed1 $y=f(x)$ \u0111\u1ed3ng bi\u1ebfn tr\u00ean kho\u1ea3ng $(-\\infty; 2)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_113_C2",
+                    "content": "H\u00e0m s\u1ed1 $y=f(x)$ \u0111\u1ed3ng bi\u1ebfn tr\u00ean kho\u1ea3ng $(-\\infty; -1)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_113_C3",
+                    "content": "H\u00e0m s\u1ed1 $y=f(x)$ c\u00f3 ba \u0111i\u1ec3m c\u1ef1c tr\u1ecb",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X5_113_C4",
+                    "content": "H\u00e0m s\u1ed1 $y=f(x)$ ngh\u1ecbch bi\u1ebfn tr\u00ean kho\u1ea3ng $(0; 1)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "Nh\u00ecn v\u00e0o \u0111\u1ed3 th\u1ecb ta th\u1ea5y<ul>\n<li>Tr\u00ean kho\u1ea3ng $(-\\infty;-1)$ th\u00ec $f'(x) < 0$ n\u00ean h\u00e0m s\u1ed1 ngh\u1ecbch bi\u1ebfn.</li>\n<li>Tr\u00ean kho\u1ea3ng $(-1;1)$ ta c\u00f3 $f'(x) > 0$ n\u00ean h\u00e0m s\u1ed1 \u0111\u1ed3ng bi\u1ebfn.</li>\n<li>Tr\u00ean kho\u1ea3ng $(1;2)$ h\u00e0m s\u1ed1 ngh\u1ecbch bi\u1ebfn.</li>\n<li>Tr\u00ean kho\u1ea3ng $(2;+\\infty)$ h\u00e0m s\u1ed1 \u0111\u1ed3ng bi\u1ebfn.</li>\n</ul>V\u1eady h\u00e0m s\u1ed1 c\u00f3 ba c\u1ef1c tr\u1ecb.",
+                    "variety": "HTML"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_117",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "H\u00ecnh v\u1ebd b\u00ean l\u00e0 \u0111\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $y=\\dfrac{ax+b}{cx+d}$. M\u1ec7nh \u0111\u1ec1 n\u00e0o sau \u0111\u00e2y $\\textbf{\u0111\u00fang}$?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_117_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_117_C1",
+                    "content": "$ad>0,\\,ab<0$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X5_117_C2",
+                    "content": "$bd>0,\\,ad>0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_117_C3",
+                    "content": "$bd>0,\\,ab>0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_117_C4",
+                    "content": "$ab<0,\\,ad<0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 v\u1edbi $x=0\\Rightarrow y=\\dfrac{b}{d}<0,\\,y=0\\Rightarrow x=-\\dfrac{b}{a}>0$ $\\Rightarrow ad>0,ab<0$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_119",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $y=f\\left( x \\right)$ c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean nh\u01b0 sau.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_119_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "D\u1ef1a v\u00e0o b\u1ea3ng bi\u1ebfn thi\u00ean, t\u00ecm m\u1ec7nh \u0111\u1ec1 \u0111\u00fang trong c\u00e1c m\u1ec7nh \u0111\u1ec1 sau \u0111\u00e2y.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_119_C1",
+                    "content": "H\u00e0m s\u1ed1 \u0111\u1ea1t gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t tr\u00ean kho\u1ea3ng $\\left( -\\infty ;-1 \\right)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_119_C2",
+                    "content": "H\u00e0m s\u1ed1 \u0111\u1ea1t gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t tr\u00ean n\u1eeda kho\u1ea3ng $\\left[ 2;+\\infty  \\right)$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X5_119_C3",
+                    "content": "H\u00e0m s\u1ed1 kh\u00f4ng c\u00f3 gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t tr\u00ean \u0111o\u1ea1n $\\left[ 0;2 \\right]$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_119_C4",
+                    "content": "H\u00e0m s\u1ed1 \u0111\u1ea1t gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t v\u00e0 gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t tr\u00ean \u0111o\u1ea1n $\\left[ -2;1 \\right]$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "D\u1ef1a v\u00e0o b\u1ea3ng bi\u1ebfn thi\u00ean, tr\u00ean n\u1eeda kho\u1ea3ng $\\left[ 2;+\\infty  \\right)$, h\u00e0m s\u1ed1 $y=f(x)$ \u0111\u1ed3ng bi\u1ebfn, n\u00ean ta c\u00f3 $f(x)\\geq f(2),\\,\\forall x\\in \\left[ 2;+\\infty  \\right)$. Do \u0111\u00f3, h\u00e0m s\u1ed1 \u0111\u1ea1t gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t t\u1ea1i $f(2)$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_120",
+            "description": "",
+            "level": 3.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "H\u00e0m s\u1ed1  $y=ax^3+bx^2+cx+d \\left( a\\ne 0 \\right)$  c\u00f3 \u0111\u1ed3 th\u1ecb sau. Khi \u0111\u00f3, kh\u1eb3ng \u0111\u1ecbnh n\u00e0o sau \u0111\u00e2y l\u00e0 \u0111\u00fang?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_120_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_120_C1",
+                    "content": "$a>0,  b>0,  c=0,  d > 0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_120_C2",
+                    "content": "$a>0,  b<0,  c>0,  d > 0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_120_C3",
+                    "content": "$a>0,  b>0,  c>0,  d > 0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_120_C4",
+                    "content": "$a>0,  b<0,  c=0,  d > 0$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "\u0110\u1ed3 th\u1ecb h\u00e0m s\u1ed1 \u0111i l\u00ean \u1edf nh\u00e1nh ph\u1ea3i ngo\u00e0i c\u00f9ng n\u00ean $a>0$, c\u1eaft tr\u1ee5c tung t\u1ea1i \u0111i\u1ec3m c\u00f3 tung \u0111\u1ed9 d\u01b0\u01a1ng, do \u0111\u00f3 $d>0$. \u0110\u1ea1o h\u00e0m $y'=3ax^2+2bx+c$, h\u00e0m s\u1ed1 c\u00f3 2 c\u1ef1c tr\u1ecb t\u1ea1i $x_1,x_2$ trong \u0111\u00f3  $x_1=0,x_2>0$ n\u00ean suy ra \n$\\left\\{\\begin{array}{l}\n\\Delta_{y'}>0\\\\\n-\\dfrac{b}{a}>0\\\\\nc=0\\\\\n\\end{array}\\right.\\Rightarrow \n\\left\\{\\begin{array}{l}\nb^2-3ac>0\\\\\nb<0 \\\\\nc=0\n\\end{array}\\right.\\Rightarrow \n\\left\\{\\begin{array}{l}\nb<0\\\\\nc=0\n\\end{array}\\right.$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_144",
+            "description": "",
+            "level": 3.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": true
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $y=f(x)$ li\u00ean t\u1ee5c tr\u00ean $\\mathbb{R}$ v\u00e0 c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean nh\u01b0 sau.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_144_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "T\u1eadp h\u1ee3p t\u1ea5t c\u1ea3 c\u00e1c gi\u00e1 tr\u1ecb th\u1ef1c c\u1ee7a tham s\u1ed1 $m$ \u0111\u1ec3 ph\u01b0\u01a1ng tr\u00ecnh $|f(x)+2 | =m $\nc\u00f3 b\u1ed1n nghi\u1ec7m th\u1ef1c ph\u00e2n bi\u1ec7t l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_144_C1",
+                    "content": "$(0;5)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_144_C2",
+                    "content": "$[1;4)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_144_C3",
+                    "content": "$(0;4)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_144_C4",
+                    "content": "$(1;4)$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "S\u1ed1 nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh l\u00e0 s\u1ed1 giao \u0111i\u1ec3m\nc\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=| f(x)+2|$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $y=m$. \nB\u1ea3ng bi\u1ebfn thi\u00ean c\u1ee7a h\u00e0m s\u1ed1 $y=f(x) +2$ v\u00e0 \u0111\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $y=\\left| f(x)+2\\right|$. $\\\\$",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_EXPLAIN_144_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_EXPLAIN_144_2.svg",
+                    "variety": "IMG"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_160",
+            "description": "",
+            "level": 3.0,
+            "duration": 180.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": true
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ecm t\u1ea5t c\u1ea3 c\u00e1c gi\u00e1 tr\u1ecb th\u1ef1c c\u1ee7a tham s\u1ed1 $m$ \u0111\u1ec3 ph\u01b0\u01a1ng tr\u00ecnh $4|x|^3-3|x|-1=mx-m$ c\u00f3 4 nghi\u1ec7m ph\u00e2n bi\u1ec7t.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_160_C1",
+                    "content": "$m\\in \\left(1;6\\sqrt{3}-9 \\right)$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X5_160_C2",
+                    "content": "$m\\in \\left(9-6\\sqrt{3};-1 \\right)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_160_C3",
+                    "content": "$m\\in \\left(6\\sqrt{3}-9;6\\sqrt{3}+9 \\right)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_160_C4",
+                    "content": "$m\\in \\left(9-6\\sqrt{3};1 \\right)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "Ph\u01b0\u01a1ng ph\u00e1p gi\u1ea3i: s\u1eed d\u1ee5ng \u0111\u1ed3 th\u1ecb.$\\\\$\nS\u1ed1 nghi\u1ec7m ph\u00e2n bi\u1ec7t c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh$4|x|^3-3|x|-1=mx-m$ch\u00ednh l\u00e0 s\u1ed1 \u0111i\u1ec3m chung c\u1ee7a $2$ \u0111\u1ed3 th\u1ecb$\\\\$\n$(C): y = 4|x|^3-3|x|-1$ v\u00e0 $d: y =mx-m$.$\\\\$\nNh\u1eadn th\u1ea5y, $d: y = m(x-1) + 0$ n\u00ean $d$ l\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng \u0111i qua \u0111i\u1ec3m $M(1;0)$ v\u00e0 c\u00f3 h\u1ec7 s\u1ed1 g\u00f3c $k_d = m$.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_EXPLAIN_160_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "\nT\u1eeb \u0111\u1ed3 th\u1ecb ta th\u1ea5y, \u0111\u01b0\u1eddng th\u1eb3ng $d$ c\u1eaft $(C)$ t\u1ea1i $4$ \u0111i\u1ec3m ph\u00e2n bi\u1ec7t khi $d$ n\u1eb1m gi\u1eefa $2$ \u0111\u01b0\u1eddng th\u1eb3ng $d_1$ v\u00e0 $d_2$. Trong \u0111\u00f3:$\\\\$\n+ $d_1: y = x - 1$ l\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng \u0111i qua $2$ \u0111i\u1ec3m $M(1; 0)$ v\u00e0 $N(0;-1)$.$\\\\$\n+ $d_2: y = (6\\sqrt{3}-9)(x-1)$ l\u00e0 ti\u1ebfp tuy\u1ebfn c\u1ee7a $(C)$ \u0111i qua $M(1;0)$.$\\\\$\n\u0110\u01b0\u1eddng th\u1eb3ng $d$ n\u1eb1m gi\u1eefa $2$ \u0111\u01b0\u1eddng th\u1eb3ng $d_1, d_2$ khi \\quad $k_{d_1} < k_d < k_{d_2} \\quad \\Leftrightarrow \\quad 1 < m < 6\\sqrt{3}-9$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X5_190",
+            "description": "",
+            "level": 1.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $f(x)$ c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean nh\u01b0 b\u1ea3ng d\u01b0\u1edbi \u0111\u00e2y.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X5/2D1X5_QUESTION_190_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "Trong c\u00e1c kh\u1eb3ng \u0111\u1ecbnh sau, kh\u1eb3ng \u0111\u1ecbnh n\u00e0o \u0111\u00fang?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X5_190_C1",
+                    "content": "\u0110\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $f(x)$ c\u00f3 \u0111\u00fang $1$ ti\u1ec7m c\u1eadn ngang v\u00e0 $1$ ti\u1ec7m c\u1eadn \u0111\u1ee9ng",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_190_C2",
+                    "content": "\u0110\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $f(x)$ kh\u00f4ng c\u00f3 ti\u1ec7m c\u1eadn ngang v\u00e0 $1$ ti\u1ec7m c\u1eadn \u0111\u1ee9ng",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_190_C3",
+                    "content": "\u0110\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $f(x)$ c\u00f3 \u0111\u00fang $2$ ti\u1ec7m c\u1eadn ngang v\u00e0 kh\u00f4ng c\u00f3 ti\u1ec7m c\u1eadn \u0111\u1ee9ng",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X5_190_C4",
+                    "content": "\u0110\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $f(x)$ c\u00f3 \u0111\u00fang $2$ ti\u1ec7m c\u1eadn ngang v\u00e0 $1$ ti\u1ec7m c\u1eadn \u0111\u1ee9ng",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Kh\u1ea3o s\u00e1t s\u1ef1 bi\u1ebfn thi\u00ean v\u00e0 v\u1ebd \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 - Ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u1ed3 th\u1ecb - \u0110\u1ed3 th\u1ecb h\u00e0m ch\u1ee9a tr\u1ecb tuy\u1ec7t \u0111\u1ed1i",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3: $\\lim\\limits_{x \\to  + \\infty } f\\left( x \\right) =  - 1$$\\\\$\n$\\lim\\limits_{x \\to  - \\infty } f\\left( x \\right) =  1$. \nN\u00ean \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $f(x)$ c\u00f3 2 \u0111\u01b0\u1eddng ti\u1ec7m c\u1eadn ngang: $y=-1$ v\u00e0 $y=1$.$\\\\$\n$\\lim\\limits_{x \\to  (-1)^{+} } f\\left( x \\right) = +\\infty$ $\\Rightarrow$ TC\u0110: $x=-1$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_1",
+            "description": "",
+            "level": 2.5,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00ecnh ph\u1eb3ng $\\mathcal D$ gi\u1edbi h\u1ea1n b\u1edfi \u0111\u01b0\u1eddng cong $y=\\sqrt{2+\\sin x}$, tr\u1ee5c ho\u00e0nh v\u00e0 c\u00e1c \u0111\u01b0\u1eddng th\u1eb3ng $x=0$, $x=\\pi$. Kh\u1ed1i tr\u00f2n xoay t\u1ea1o th\u00e0nh khi quay $\\mathcal{D}$ quanh tr\u1ee5c ho\u00e0nh c\u00f3 th\u1ec3 t\u00edch $V$ b\u1eb1ng bao nhi\u00eau?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_1_C1",
+                    "content": "$V=2\\left(\\pi+1\\right)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_1_C2",
+                    "content": "$V=2\\pi\\left(\\pi+1\\right)$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_1_C3",
+                    "content": "$V=2\\pi ^2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_1_C4",
+                    "content": "$V=2\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3$\\\\$\n$\\begin{aligned}[l]\n&-1\\leq \\sin x\\leq 1\\\\\n\\Leftrightarrow & 1\\leq 2+\\sin x\\leq 3\\\\\n\\Leftrightarrow & 1\\leq y\\leq \\sqrt{3}\n\\end{aligned}$$\\\\$\nDo v\u1eady \u0111\u01b0\u1eddng cong $y=\\sqrt{2+\\sin x}$ kh\u00f4ng c\u1eaft tr\u1ee5c ho\u00e0nh. V\u1eady, ta c\u00f3\n$$V=\\pi\\displaystyle\\int\\limits _0 ^{\\pi} \\left(2+\\sin x\\right)\\mathrm{\\,d}x= \\left(2x-\\cos x\\right) \\bigg \\vert_0^{\\pi}=2\\pi\\left(\\pi+1\\right).$$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_51",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $y=x^2+1$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $y=x+3$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_51_C1",
+                    "content": "$\\dfrac{9}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_51_C2",
+                    "content": "$\\dfrac{13}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_51_C3",
+                    "content": "$\\dfrac{11}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_51_C4",
+                    "content": "$\\dfrac{7}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 ph\u01b0\u01a1ng tr\u00ecnh ho\u00e0nh \u0111\u1ed9n giao \u0111i\u1ec3m l\u00e0 $x^2+1=x+3$, suy ra $x=2$ ho\u1eb7c $x=-1$.$\\\\$\nV\u1eady $S= \\displaystyle \\int \\limits_{-1}^2 \\left|x^2-x-2\\right| \\textrm{d}x=\\dfrac{9}{2}$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_52",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi hai \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=\\sqrt{x},y=6-x$ v\u00e0 tr\u1ee5c ho\u00e0nh.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_52_C1",
+                    "content": "$\\dfrac{22}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_52_C2",
+                    "content": "$\\dfrac{16}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_52_C3",
+                    "content": "$\\dfrac{11}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_52_C4",
+                    "content": "$\\dfrac{23}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "Gi\u1ea3i ph\u01b0\u01a1ng tr\u00ecnh $\\sqrt{x}=6-x$, ta \u0111\u01b0\u1ee3c $x=4$. V\u1edbi ph\u01b0\u01a1ng tr\u00ecnh $\\sqrt{x}=0$, ta \u0111\u01b0\u1ee3c $x=0$ v\u00e0 v\u1edbi ph\u01b0\u01a1ng tr\u00ecnh $6-x=0$, ta \u0111\u01b0\u1ee3c $x=6$.$\\\\$ \nDo \u0111\u00f3 $S=\\displaystyle \\int \\limits_0^4 \\left|\\sqrt{x}\\right|\\textrm{d}x + \\int \\limits_4^6\\left|6-x\\right| \\textrm{d}x=\\dfrac{22}{3}$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_73",
+            "description": "",
+            "level": 3.0,
+            "duration": 180.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho $(C)$ l\u00e0 cung c\u1ee7a \u0111\u01b0\u1eddng cong $y=-x^3+x$ v\u1edbi $x\\in \\left[0; 1\\right].$ T\u00ecm t\u1ea5t c\u1ea3 c\u00e1c gi\u00e1 tr\u1ecb th\u1ef1c c\u1ee7a tham s\u1ed1 $k$ \u0111\u1ec3 \u0111\u01b0\u1eddng th\u1eb3ng $d: y=(k-2)x$ chia h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi cung $(C)$ v\u00e0 tr\u1ee5c ho\u00e0nh $Ox$ th\u00e0nh hai ph\u1ea7n c\u00f3 di\u1ec7n t\u00edch b\u1eb1ng nhau.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_73_C1",
+                    "content": "$k=3-\\dfrac{\\sqrt{2}}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_73_C2",
+                    "content": "$k=3-\\sqrt{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_73_C3",
+                    "content": "$k=3+\\dfrac{\\sqrt{2}}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_73_C4",
+                    "content": "$k=3+\\sqrt{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "- Di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi cung $(C)$ v\u00e0 tr\u1ee5c ho\u00e0nh l\u00e0 $\\displaystyle\\int\\limits_0^1|-x^3+x|\\mathrm{\\,d}x=\\dfrac{1}{4}.$$\\\\$\n- Ho\u00e0nh \u0111\u1ed9 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb $(C)$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $d$ l\u00e0 $x=0,$ $x=\\sqrt{3-k}.$$\\\\$\n- \u0110\u1ec3 $d$ chia h\u00ecnh gi\u1edbi h\u1ea1n th\u00e0nh hai ph\u1ea7n c\u00f3 di\u1ec7n t\u00edch b\u1eb1ng nhau th\u00ec\n$$\\displaystyle\\int\\limits_0^{\\sqrt{3-k}}|-x^3+x-(k-2)x|\\mathrm{\\,d}x=\\dfrac{1}{8}$$\n$$\\Leftrightarrow k=3-\\dfrac{\\sqrt{2}}{2}.$$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_77",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ednh di\u1ec7n t\u00edch $S$ c\u1ee7a h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $y=\\mathrm{e}^x+x$ v\u00e0 c\u00e1c \u0111\u01b0\u1eddng th\u1eb3ng $x-y+1=0,\\, x=\\ln 5$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_77_C1",
+                    "content": "$S=5-\\ln 4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_77_C2",
+                    "content": "$S=4-\\ln 5$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_77_C3",
+                    "content": "$S=4+\\ln 5$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_77_C4",
+                    "content": "$S=5+\\ln 4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "%\nGi\u1ea3i ph\u01b0\u01a1ng tr\u00ecnh $\\mathrm{e}^x+x=x+1 \\Longrightarrow x=0$.$\\\\$\nSuy ra $S= \\displaystyle \\int \\limits_0^{\\ln 5} \\left|e^x-1\\right| \\mathrm{\\,d}x = 4-\\ln 5$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_78",
+            "description": "",
+            "level": 3.0,
+            "duration": 120.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00ecnh ph\u1eb3ng $(H)$ gi\u1edbi h\u1ea1n b\u1edfi c\u00e1c \u0111\u01b0\u1eddng $y=x^2$, $y=0$, $x=0$, $x=4$. \u0110\u01b0\u1eddng th\u1eb3ng $y=k \\ (0<k<16)$ chia h\u00ecnh $(H)$ th\u00e0nh hai ph\u1ea7n c\u00f3 di\u1ec7n t\u00edch $S_1$, $S_2$ (h\u00ecnh v\u1ebd). T\u00ecm $k$ \u0111\u1ec3 $S_1 = S_2$.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D3X3/2D3X3_QUESTION_78_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_78_C1",
+                    "content": "$k=3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_78_C2",
+                    "content": "$k=8$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_78_C3",
+                    "content": "$k=4$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_78_C4",
+                    "content": "$k=5$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "\u0110\u1eb7t $S=S_1+S_2$. Ta c\u00f3 $S=\\displaystyle\\int\\limits_0^4{x^2}\\mathrm{\\,d}x =\\dfrac{64}{3}$(\u0111vdt).$\\\\$\nSuy ra, $S_1=S_2=\\dfrac{32}{3}$(\u0111vdt). V\u1edbi $y=k$ th\u00ec $x=\\sqrt{k}(x>0)$, n\u00ean \n$$S_1=\\displaystyle\\int\\limits_{\\sqrt{k}}^4(x^2-k)= \\dfrac{64-k\\sqrt k}{3}-k(4-\\sqrt k)=\\dfrac{64}{3}+\\dfrac{2k\\sqrt k}{3}-4k$$\nGi\u1ea3i ph\u01b0\u01a1ng tr\u00ecnh, $S_1=\\dfrac{32}{3}$, ta \u0111\u01b0\u1ee3c $k=4$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_80",
+            "description": "",
+            "level": 2.5,
+            "duration": 180.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ednh di\u1ec7n t\u00edch $S$ c\u1ee7a h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=x^2+2x+1$, tr\u1ee5c ho\u00e0nh v\u00e0 c\u00e1c \u0111\u01b0\u1eddng th\u1eb3ng $x=-1, x=3$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_80_C1",
+                    "content": "$S=\\dfrac{64}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_80_C2",
+                    "content": "$S=\\dfrac{56}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_80_C3",
+                    "content": "$S=\\dfrac{37}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_80_C4",
+                    "content": "$S=21$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "%\nTa c\u00f3 $S=\\displaystyle \\int \\limits_{-1}^3 \\left|x^2+2x+1\\right| \\textrm{d}x=\\dfrac{64}{3}$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_84",
+            "description": "",
+            "level": 3.0,
+            "duration": 120.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "V\u1edbi gi\u00e1 tr\u1ecb n\u00e0o c\u1ee7a $m$ th\u00ec di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng \u0111\u01b0\u1ee3c gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y = x^4 + 2mx^2 + m^2$ v\u00e0 c\u00e1c \u0111\u01b0\u1eddng th\u1eb3ng $y = 0$, $x = 0$, $x = 1$ l\u00e0 $\\dfrac{28}{15}$?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_84_C1",
+                    "content": "$\\left[\\begin{aligned}&m=1\\\\ &m=-\\dfrac{5}{3}\\end{aligned}\\right.$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_84_C2",
+                    "content": "$\\left[\\begin{aligned}&m=1\\\\ &m=\\dfrac{5}{3}\\end{aligned}\\right.$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_84_C3",
+                    "content": "$\\left[\\begin{aligned}&m=-1\\\\ &m=\\dfrac{5}{3}\\end{aligned}\\right.$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_84_C4",
+                    "content": "$\\left[\\begin{aligned}&m=-1\\\\ &m=-\\dfrac{5}{3}\\end{aligned}\\right.$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "V\u00ec $x^4 + 2mx^2 + m^2 = (x^2 + m)^2 \\ge 0$ n\u00ean$S = \\displaystyle \\int \\limits_0^1 (x^4 + 2mx^2 + m^2) \\mathrm{\\, d}x = \\left(\\dfrac{x^5}{5} + \\dfrac{2}{3}mx^3 + m^2 x \\right) \\Bigg \\vert_0^1 = m^2 + \\dfrac{2}{3}m + \\dfrac{1}{5} = \\dfrac{28}{15} \\Leftrightarrow \\left[\\begin{aligned}&m=1\\\\ &m=-\\dfrac{5}{3}\\end{aligned}\\right.$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_85",
+            "description": "",
+            "level": 3.0,
+            "duration": 180.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $y = \\dfrac{1}{3}x^3 + mx^2 - 2x - 2m - \\dfrac{1}{3}$, ($m$ l\u00e0 tham s\u1ed1) c\u00f3 \u0111\u1ed3 th\u1ecb l\u00e0 $(C)$. C\u00f3 t\u1ea5t c\u1ea3 bao nhi\u00eau gi\u00e1 tr\u1ecb c\u1ee7a $m \\in \\left(0; \\dfrac{5}{6}\\right)$ \u0111\u1ec3 h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb $(C)$ v\u00e0 c\u00e1c \u0111\u01b0\u1eddng th\u1eb3ng $x = 0,$ $x = 2,$ $y = 0$ c\u00f3 di\u1ec7n t\u00edch b\u1eb1ng $4$?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_85_C1",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_85_C2",
+                    "content": "$0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_85_C3",
+                    "content": "$2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_85_C4",
+                    "content": "$1$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "X\u00e9t h\u00e0m s\u1ed1 $y = \\dfrac{1}{3}x^3 + mx^2 - 2x - 2m - \\dfrac{1}{3}$, v\u1edbi $x \\in D = [0;2]$ v\u00e0 $0<m<\\dfrac{5}{6}$.$\\\\$\nTa c\u00f3: \\, $y' = x^2 + 2mx -2$.$\\\\$\n$y' = 0 \\Leftrightarrow \\left[\\begin{aligned}&x=-m-\\sqrt{m^2+2} < 0\\\\ &x = \\sqrt{m^2 + 2}-m \\in D\\end{aligned}\\right.$ (v\u00ec $0 = m - m <\\sqrt{m^2 +2} - m < m+2 - 2 =2).$$\\\\$",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D3X3/2D3X3_EXPLAIN_85_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "T\u1eeb BBT suy ra $y < 0, \\forall x \\in [0;2]$ v\u00e0 $0 < m < \\dfrac{5}{6}$. Do \u0111\u00f3:\n$$S = \\displaystyle \\int \\limits_0^2 \\left(-\\dfrac{1}{3}x^3 -mx^2 +2x +2m + \\dfrac{1}{3} \\right) \\mathrm{\\, d}x = 4 \\Leftrightarrow \\dfrac{4m}{3}=\\dfrac{2}{3} \\Leftrightarrow m = \\dfrac{1}{2} \\in \\left(\\dfrac{5}{6} \\right).$$\nV\u1eady c\u00f3 \u0111\u00fang $1$ gi\u00e1 tr\u1ecb c\u1ee7a $m \\in \\left( 0; \\dfrac{5}{6}\\right)$ th\u1ecfa m\u00e3n y\u00eau c\u1ea7u b\u00e0i to\u00e1n",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_87",
+            "description": "",
+            "level": 2.5,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ednh di\u1ec7n t\u00edch $S$ c\u1ee7a h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb c\u1ee7a c\u00e1c h\u00e0m s\u1ed1 $y=\\left(\\mathrm{e}+1\\right)x$ v\u00e0 $y=\\left(1+\\mathrm{e}^x\\right)x$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_87_C1",
+                    "content": "$S=\\dfrac{\\mathrm{e}}{2}-1$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_87_C2",
+                    "content": "$S=\\dfrac{\\mathrm{e}}{2}-2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_87_C3",
+                    "content": "$S=\\dfrac{\\mathrm{e}}{3}-1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_87_C4",
+                    "content": "$S=\\dfrac{\\mathrm{e}}{2}+1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "C\u00f3 $S= \\displaystyle \\int \\limits_0^1 \\Big|\\left(\\mathrm{e}+1\\right)x - \\left(1+\\mathrm{e}^x\\right)x\\Big| \\mathrm{\\,d} x$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_88",
+            "description": "",
+            "level": 2.5,
+            "duration": 120.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ednh di\u1ec7n t\u00edch $S$ c\u1ee7a h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb c\u1ee7a c\u00e1c h\u00e0m s\u1ed1 $y=x^2-x+3$ v\u00e0 $y=2x+1$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_88_C1",
+                    "content": "$S=5$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_88_C2",
+                    "content": "$S=6$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_88_C3",
+                    "content": "$S=\\dfrac{7}{6}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_88_C4",
+                    "content": "$S=\\dfrac{1}{6}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "C\u00f3 $S=\\displaystyle \\int \\limits_1^2 \\left|x^2-3x+2\\right| \\mathrm{\\,d}x = \\dfrac{1}{6}$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_90",
+            "description": "",
+            "level": 3.5,
+            "duration": 180.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=x^3$ tr\u00ean \u0111o\u1ea1n $\\left[0;1 \\right]$ v\u00e0 m\u1ed9t s\u1ed1 th\u1ef1c $t\\in \\left[0;1 \\right]$. G\u1ecdi $S_1$ l\u00e0 di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi c\u00e1c \u0111\u01b0\u1eddng $y=x^3, y=t^3,x=0$ v\u00e0 $S_2$ l\u00e0 di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi c\u00e1c \u0111\u01b0\u1eddng $y=x^3, y=t^3,x=1.$ G\u1ecdi $m, M$ l\u1ea7n l\u01b0\u1ee3t l\u00e0 gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t, gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t c\u1ee7a $S_1 + S_2$. T\u00ednh $2M+16m.$",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_90_C1",
+                    "content": "$2M+16m =10$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_90_C2",
+                    "content": "$2M+16m =5$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_90_C3",
+                    "content": "$2M+16m =7$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_90_C4",
+                    "content": "$2M+16m =3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 di\u1ec7n t\u00edch $ S_1 =\\displaystyle\\int\\limits_{0}^{t}(t^3-x^3)\\mathrm{\\,d}x =\\dfrac{3t^4}{4} .$$\\\\$\nTa c\u00f3 di\u1ec7n t\u00edch $ S_2 =\\displaystyle\\int\\limits_{t}^{1}(x^3-t^3)\\mathrm{\\,d}x =\\dfrac{3t^4}{4} -t^3 +\\dfrac{1}{4} .$$\\\\$\nKhi \u0111\u00f3 $S_1+S_2 =\\dfrac{3}{2}t -t^3+\\dfrac{1}{4}, t \\in \\left[0;1 \\right]$.\nX\u00e9t h\u00e0m $f(t) = \\dfrac{3}{2}t -t^3+\\dfrac{1}{4}, t \\in \\left[0;1 \\right] \\Rightarrow M =\\dfrac{3}{4}, m=\\dfrac{7}{32}.$$\\\\$\nV\u1eady $2M+16m =5.$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_101",
+            "description": "",
+            "level": 2.0,
+            "duration": 90.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng $S$ gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb c\u1ee7a c\u00e1c h\u00e0m s\u1ed1 $y=x^2,$ $y=\\dfrac{x^2}{27},$ $y=\\dfrac{27}{x}$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_101_C1",
+                    "content": "$S=234$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_101_C2",
+                    "content": "$S=27\\ln 3$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_101_C3",
+                    "content": "$S=\\dfrac{26}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_101_C4",
+                    "content": "$S=27\\ln 3-\\dfrac{26}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "$\\left(C_1\\right)$ c\u1eaft $\\left(C_2\\right)$ t\u1ea1i $x=0,\\,\\left(C_1\\right)$ c\u1eaft $\\left(C_3\\right)$ t\u1ea1i $x=3,\\,\\left(C_2\\right)$ c\u1eaft $\\left(C_3\\right)$ t\u1ea1i $x=9.$$\\\\$\n$S=\\displaystyle\\int\\limits_0^3{\\left(x^2-\\dfrac{x^2}{27}\\right)\\mathrm{\\,d}x} +\\displaystyle\\int\\limits_3^9{\\left(\\dfrac{27}{x}-\\dfrac{x^2}{27}\\right)\\mathrm{\\,d}x} =27\\ln 3$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_104",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "G\u1ecdi $S_1$ l\u00e0 di\u1ec7n t\u00edch h\u00ecnh vu\u00f4ng c\u1ea1nh b\u1eb1ng $2$ v\u00e0 $S_2$ l\u00e0 di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi c\u00e1c \u0111\u01b0\u1eddng $y=x^2, y=0, x=-2, x=2$. Kh\u1eb3ng \u0111\u1ecbnh n\u00e0o sau \u0111\u00e2y l\u00e0 kh\u1eb3ng \u0111\u1ecbnh \u0111\u00fang?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_104_C1",
+                    "content": "$S_1=S_2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_104_C2",
+                    "content": "$\\dfrac{S_2}{S_1}=\\dfrac{2}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_104_C3",
+                    "content": "$S_2=\\dfrac{4}{3}S_1$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_104_C4",
+                    "content": "$S_1>S_2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3: $S_1=4$ v\u00e0 $S_2=\\displaystyle\\int\\limits_{-2}^2 x^2\\mathrm{\\, d}x=\\dfrac{16}{3}\\Rightarrow S_2=\\dfrac{4}{3}S_1$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_105",
+            "description": "",
+            "level": 3.0,
+            "duration": 180.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho parabol $(P)$ c\u00f3 \u0111\u1ec9nh $I(-1; 0)$ v\u00e0 c\u1eaft \u0111\u01b0\u1eddng th\u1eb3ng $d$ t\u1ea1i hai \u0111i\u1ec3m $A(-2; 1)$ v\u00e0 $B(1; 4)$ nh\u01b0 h\u00ecnh v\u1ebd b\u00ean. T\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edbi parabol $(P)$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $d$.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D3X3/2D3X3_QUESTION_105_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_105_C1",
+                    "content": "$S=\\dfrac{9}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_105_C2",
+                    "content": "$S=\\dfrac{13}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_105_C3",
+                    "content": "$S=\\dfrac{5}{6}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_105_C4",
+                    "content": "$S=\\dfrac{21}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "Ph\u01b0\u01a1ng tr\u00ecnh \u0111\u01b0\u1eddng th\u1eb3ng $AB: y=x+3$$\\\\$\nPh\u01b0\u01a1ng tr\u00ecnh parabol $(P): y=(x-1)^2$.$\\\\$\n$\\Rightarrow S=\\displaystyle\\int\\limits_{-2}^1 \\left(x+3-(x+1)^2\\right)\\mathrm{\\, d}x =\\dfrac{9}{2}$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_110",
+            "description": "",
+            "level": 3.5,
+            "duration": 120.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "G\u1ecdi $(H)$  l\u00e0 h\u00ecnh ph\u1eb3ng  gi\u1edbi h\u1ea1n b\u1edfi  \u0111\u1ed3 th\u1ecb $(P)$ c\u1ee7a  h\u00e0m s\u1ed1 $y=6x-x^2$ v\u00e0 tr\u1ee5c ho\u00e0nh. Hai \u0111\u01b0\u1eddng th\u1eb3ng  $y=m$  v\u00e0  $y=n$ chia h\u00ecnh $(H)$  th\u00e0nh  ba  ph\u1ea7n  c\u00f3  di\u1ec7n t\u00edch b\u1eb1ng  nhau. T\u00ednh $P={(9-m)}^3 +{(9-n)}^3$.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D3X3/2D3X3_QUESTION_110_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_110_C1",
+                    "content": "$P=405$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_110_C2",
+                    "content": "$P=409$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_110_C3",
+                    "content": "$P=407$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_110_C4",
+                    "content": "$P=403$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "$\\bullet$ Ph\u01b0\u01a1ng tr\u00ecnh  ho\u00e0nh \u0111\u1ed9 giao \u0111i\u1ec3m c\u1ee7a  $y=6x-x^2$ v\u00e0  \u0111\u01b0\u1eddng th\u1eb3ng $y=n$ l\u00e0\n$$6x-x^2=n\\Rightarrow x^2-6x+n=0\\ \\ (*)$$ v\u1edbi  $n<9$. G\u1ecdi $a,b\\ (a<b)$ l\u00e0  hai nghi\u1ec7m c\u1ee7a  ph\u01b0\u01a1ng tr\u00ecnh (*)  v\u1edbi  $a+b=6$ v\u00e0 $a.b=n$.$\\\\$\n$\\bullet$ G\u1ecdi $S_1$ l\u00e0  di\u1ec7n t\u00edch h\u00ecnh  ph\u1eb3ng  gi\u1edbi  h\u1ea1n b\u1edfi  $y=6x-x^2$ v\u00e0  $y=n.$ Khi \u0111\u00f3\n\\begin{eqnarray}\n$S_1$ & $ =\\displaystyle\\int\\limits_{a}^{b} (6x-x^2-n)\\, \\mathrm{\\, d}x =3(b^2-a^2) -\\dfrac{1}{3}(b^3-a^3) -n(b-a)$\\\\\n &$=3(a+b)(b-a) -\\dfrac{1}{3}(b-a)\\left[ (a+b)^2-ab\\right] -n(b-a)$\\\\\n& $= 18(b-a) -\\dfrac{1}{3}(b-a)\\left[36-n\\right] -n(b-a)=\\dfrac{4}{3}\\sqrt{9-n}(9-n)$\n\\end{eqnarray}\n$\\bullet$ G\u1ecdi $S_2$ l\u00e0  di\u1ec7n t\u00edch h\u00ecnh  ph\u1eb3ng  gi\u1edbi  h\u1ea1n b\u1edfi  $y=6x-x^2$ v\u00e0  $y=m.$ Khi \u0111\u00f3 $S_2=\\dfrac{4}{3}\\sqrt{9-m}(9-m)$.$\\\\$\n$\\bullet$ G\u1ecdi $S$ l\u00e0  di\u1ec7n t\u00edch h\u00ecnh  ph\u1eb3ng  gi\u1edbi  h\u1ea1n b\u1edfi  $y=6x-x^2$ v\u00e0 tr\u1ee5c ho\u00e0nh, khi \u0111\u00f3 $S=36$.$\\\\$\n$\\bullet$ T\u1eeb gi\u1ea3  thi\u1ebft ta  c\u00f3 $\\begin{cases} S_1=\\dfrac{1}{3}S\\\\ S_2=\\dfrac{2}{3}S \\end{cases}\\Rightarrow \\begin{cases} {(9-n)}^3=81\\\\ {(9-m)}^3=324\\end{cases}$. \nV\u1eady $P=405$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_111",
+            "description": "",
+            "level": 2.5,
+            "duration": 120.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng trong h\u00ecnh v\u1ebd b\u00ean l\u00e0",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D3X3/2D3X3_QUESTION_111_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_111_C1",
+                    "content": "$\\dfrac{22}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_111_C2",
+                    "content": "2",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_111_C3",
+                    "content": "$\\dfrac{16}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_111_C4",
+                    "content": "$\\dfrac{10}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "L\u1eadp ph\u01b0\u01a1ng tr\u00ecnh \u0111\u01b0\u1eddng cong: $y=\\sqrt{x}$.$\\\\$ L\u1eadp ph\u01b0\u01a1ng tr\u00ecnh \u0111\u01b0\u1eddng th\u1eb3ng $y=x-2$.$\\\\$Di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng c\u1ea7n t\u00ecm l\u00e0$\\\\$ $S=\\displaystyle\\int\\limits_{0}^{2}\\sqrt{x}\\\\mathrm{\\, d}x+\\displaystyle\\int\\limits_{2}^{4}(\\sqrt{x}-x+2)\\mathrm{\\, d}x=\\dfrac{10}{3}$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_134",
+            "description": "",
+            "level": 3.0,
+            "duration": 120.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Trong m\u1eb7t ph\u1eb3ng $Oxy$, cho $A(-1;1)$, $B(2;4)$. G\u1ecdi $M$, $N$ l\u1ea7n l\u01b0\u1ee3t l\u00e0 h\u00ecnh chi\u1ebfu c\u1ee7a $A$, $B$ l\u00ean tr\u1ee5c $Ox$. T\u00ednh th\u1ec3 t\u00edch $V$ c\u1ee7a kh\u1ed1i tr\u00f2n xoay sinh ra khi quay t\u1ee9 gi\u00e1c $MABN$ quanh tr\u1ee5c $Ox$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_134_C1",
+                    "content": "$V=21\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_134_C2",
+                    "content": "$V=\\dfrac{65}{3}\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_134_C3",
+                    "content": "$V=\\dfrac{15}{2}\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_134_C4",
+                    "content": "$V=6\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "Khi \u0111\u00f3 \u0111\u01b0\u1eddng th\u1eb3ng \u0111i qua hai \u0111i\u1ec3m $AB$ c\u00f3 ph\u01b0\u01a1ng tr\u00ecnh $y=x+2$. Theo c\u00f4ng th\u1ee9c t\u00ednh th\u1ec3 t\u00edch kh\u1ed1i tr\u00f2n xoay ta c\u00f3: $V = \\displaystyle\\int\\limits_{-1}^{2}\\pi. (x+2)^2\\mathrm{dx}=21\\pi$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_135",
+            "description": "",
+            "level": 2.0,
+            "duration": 60.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi c\u00e1c \u0111\u01b0\u1eddng \n$y=x^3-1,$ $y=0,$ $x=0,$ $x=2$   b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_135_C1",
+                    "content": "$\\dfrac{5}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_135_C2",
+                    "content": "$\\dfrac{7}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_135_C3",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_135_C4",
+                    "content": "$\\dfrac{9}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "$S= \\displaystyle \\int\\limits_{0}^{2}\\left|x^3-1\\right| \\mathrm{\\,d}x = \\dfrac{7}{2}$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_143",
+            "description": "",
+            "level": 3.0,
+            "duration": 180.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho parabol $(P): y = x^2 - 4x + 5$. T\u00ednh di\u1ec7n t\u00edch $S$ c\u1ee7a h\u00ecnh ph\u1eb3ng \u0111\u01b0\u1ee3c gi\u1edbi h\u1ea1n b\u1edfi $(P)$ v\u00e0 c\u00e1c ti\u1ebfp tuy\u1ebfn c\u1ee7a $(P)$ k\u1ebb t\u1eeb \u0111i\u1ec3m $A\\left(\\dfrac{5}{2}; -1 \\right)$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_143_C1",
+                    "content": "$S= \\dfrac{18}{4}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_143_C2",
+                    "content": "$S = \\dfrac{9}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_143_C3",
+                    "content": "$S = \\dfrac{9}{4}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_143_C4",
+                    "content": "$S = \\dfrac{9}{8}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "G\u1ecdi $d$ l\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng qua $A\\left(\\dfrac{5}{2}; -1 \\right)$ v\u00e0 c\u00f3 h\u1ec7 s\u1ed1 g\u00f3c l\u00e0 $k$. Khi \u0111\u00f3, $d: y = k\\left(x - \\dfrac{5}{2}\\right) - 1$.$\\\\$\nGi\u1ea3i h\u1ec7 \u0111i\u1ec1u ki\u1ec7n ti\u1ebfp x\u00fac $\\begin{cases} k\\left(x - \\dfrac{5}{2}\\right) - 1 = x^2 -4x + 5\\\\ k = 2x - 4\\end{cases}$ ta \u0111\u01b0\u1ee3c:\n$\\begin{cases} x = 1\\\\ k =-2\\end{cases}$ ho\u1eb7c $\\begin{cases}x=4\\\\k=4\\end{cases}$.$\\\\$\nSuy ra c\u00f3 $2$ ti\u1ebfp tuy\u1ebfn qua $A$ l\u00e0 $d_1: y = -2x + 4$ v\u00e0 $d_2: y = 4x -11$. T\u1eeb \u0111\u00f3 t\u00ednh \u0111\u01b0\u1ee3c\n$$S = \\displaystyle \\int \\limits_1^{\\frac{5}{2}}\\left| (x^2 -4x + 5) - (-2x + 4)\\right|\\mathrm{\\,d}x + \\displaystyle \\int \\limits_{\\frac{5}{2}}^4 \\left| (x^2 -4x + 5) - (4x -11)\\right| \\mathrm{\\,d}x = \\dfrac{9}{4} \\, .$$\nL\u01b0u \u00fd: $(P)$ l\u00e0 parabol c\u00f3 h\u01b0\u1edbng quay l\u00ean n\u00ean m\u1ecdi ti\u1ebfp tuy\u1ebfn \u0111\u1ec1u n\u1eb1m d\u01b0\u1edbi $(P)$. Do \u0111\u00f3, trong c\u00e1c c\u00f4ng th\u1ee9c t\u00edch ph\u00e2n \u1edf tr\u00ean ch\u00fang ta c\u00f3 th\u1ec3 b\u1ecf d\u1ea5u tr\u1ecb tuy\u1ec7t \u0111\u1ed1i \u0111\u1ec3 t\u00ednh to\u00e1n nhanh h\u01a1n",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D3X3_149",
+            "description": "",
+            "level": 3.0,
+            "duration": 120.0,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho s\u1ed1 ph\u1ee9c $z=a+ bi$ (v\u1edbi $a,b\\in\\mathbb{R}$) th\u1ecfa m\u00e3n $a^2+b^2\\le 1\\le a-b.$ G\u1ecdi h\u00ecnh ph\u1eb3ng $(H)$ l\u00e0 t\u1eadp h\u1ee3p c\u00e1c \u0111i\u1ec3m bi\u1ec3u di\u1ec5n c\u1ee7a s\u1ed1 ph\u1ee9c $z$ trong m\u1eb7t ph\u1eb3ng ph\u1ee9c. T\u00ednh di\u1ec7n t\u00edch c\u1ee7a h\u00ecnh $(H)$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D3X3_149_C1",
+                    "content": "$\\dfrac34\\pi+\\dfrac12$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_149_C2",
+                    "content": "$\\dfrac14\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D3X3_149_C3",
+                    "content": "$\\dfrac14\\pi-\\dfrac12$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D3X3_149_C4",
+                    "content": "$1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "\u1ee8ng d\u1ee5ng c\u1ee7a t\u00edch ph\u00e2n trong t\u00ednh di\u1ec7n t\u00edch h\u00ecnh ph\u1eb3ng",
+            "explanations": [
+                {
+                    "content": "G\u1ee3i \u00fd. \u0110\u01b0\u1eddng th\u1eb3ng $x-y-1=0$ chia h\u00ecnh tr\u00f2n t\u00e2m $O$ b\u00e1n k\u00ednh $1$ th\u00e0nh hai ph\u1ea7n, ph\u00e2n kh\u00f4ng ch\u1ee9a $O$ ch\u00ednh l\u00e0 h\u00ecnh $(H)$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_1",
+            "description": "",
+            "level": 3.0,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "M\u1ed9t v\u1eadt chuy\u1ec3n \u0111\u1ed9ng theo quy lu\u1eadt $s=-\\dfrac{1}{2}t^3+6t^2$ v\u1edbi $t$ (gi\u00e2y) l\u00e0 kho\u1ea3ng th\u1eddi gian t\u00ednh t\u1eeb khi v\u1eadt b\u1eaft \u0111\u1ea7u chuy\u1ec3n \u0111\u1ed9ng v\u00e0 $s$ (m\u00e9t) l\u00e0 qu\u00e3ng \u0111\u01b0\u1eddng v\u1eadt di chuy\u1ec3n \u0111\u01b0\u1ee3c trong kho\u1ea3ng th\u1eddi gian \u0111\u00f3. H\u1ecfi trong kho\u1ea3ng th\u1eddi gian $6$ gi\u00e2y, k\u1ec3 t\u1eeb khi b\u1eaft \u0111\u1ea7u chuy\u1ec3n \u0111\u1ed9ng, v\u1eadn t\u1ed1c l\u1edbn nh\u1ea5t c\u1ee7a v\u1eadt \u0111\u1ea1t \u0111\u01b0\u1ee3c b\u1eb1ng bao nhi\u00eau?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_1_C1",
+                    "content": "$24$ m/s",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_1_C2",
+                    "content": "$108$ m/s",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_1_C3",
+                    "content": "$18$ m/s",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_1_C4",
+                    "content": "$64$ m/s",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "V\u1eadn t\u1ed1c $v=v(t)=s'=-\\dfrac{3}{2}t^2+12t$. Ta c\u1ea7n t\u00ecm gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t c\u1ee7a h\u00e0m $v(t)$ v\u1edbi $t\\in[0;6]$. D\u1ec5 t\u00ednh \u0111\u01b0\u1ee3c gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t \u0111\u00f3 b\u1eb1ng $24$ m/s, \u0111\u1ea1t \u0111\u01b0\u1ee3c t\u1ea1i th\u1eddi \u0111i\u1ec3m $t=4$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_2",
+            "description": "",
+            "level": 3.0,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "M\u1ed9t v\u1eadt chuy\u1ec3n \u0111\u1ed9ng theo quy lu\u1eadt $s=-\\dfrac{1}{3} t^3 + 6 t^2$ v\u1edbi $t$ (gi\u00e2y) l\u00e0 kho\u1ea3ng th\u1eddi gian t\u00ednh t\u1eeb khi v\u1eadt b\u1eaft \u0111\u1ea7u chuy\u1ec3n \u0111\u1ed9ng v\u00e0 $s$ (m\u00e9t) l\u00e0 qu\u00e3ng \u0111\u01b0\u1eddng v\u1eadt di chuy\u1ec3n \u0111\u01b0\u1ee3c trong kho\u1ea3ng th\u1eddi gian \u0111\u00f3. H\u1ecfi trong kho\u1ea3ng th\u1eddi gian 9 gi\u00e2y, k\u1ec3 t\u1eeb khi b\u1eaft \u0111\u1ea7u chuy\u1ec3n \u0111\u1ed9ng, v\u1eadn t\u1ed1c l\u1edbn nh\u1ea5t c\u1ee7a v\u1eadt \u0111\u1ea1t \u0111\u01b0\u1ee3c b\u1eb1ng bao nhi\u00eau?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_2_C1",
+                    "content": "$144$ m/s",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_2_C2",
+                    "content": "$36$ m/s",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_2_C3",
+                    "content": "$243$ m/s",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_2_C4",
+                    "content": "$27$ m/s",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "V\u1eadn t\u1ed1c c\u1ee7a v\u1eadt \u0111\u01b0\u1ee3c t\u00ednh b\u1edfi: $v(t)=-t^2+12t$.$\\\\$\n\tTa c\u00f3 $v'(t)=-2t+12$.$\\\\$\n\tB\u1ea3ng bi\u1ebfn thi\u00ean:",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X8/2D1X8_EXPLAIN_2_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "D\u1ef1a v\u00e0o b\u1ea3ng bi\u1ebfn thi\u00ean ta c\u00f3 v\u1eadn t\u1ed1c l\u1edbn nh\u1ea5t c\u1ee7a v\u1eadt \u0111\u1ea1t \u0111\u01b0\u1ee3c b\u1eb1ng $36$ m/s.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_22",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "M\u1ed9t c\u1eeda h\u00e0ng b\u00e1n l\u1ebb ph\u1ea7n m\u1ec1m di\u1ec7t vi-r\u00fat Bkav Pro v\u1edbi gi\u00e1 l\u00e0 300.000 VN\u0110. V\u1edbi gi\u00e1 b\u00e1n n\u00e0y, c\u1eeda h\u00e0ng ch\u1ec9 b\u00e1n \u0111\u01b0\u1ee3c kho\u1ea3ng 25 s\u1ea3n ph\u1ea9m. C\u1eeda h\u00e0ng t\u00ednh to\u00e1n r\u1eb1ng n\u1ebfu  gi\u1ea3m gi\u00e1 b\u00e1n \u0111i 20.000 VN\u0110 th\u00ec s\u1ed1 s\u1ea3n ph\u1ea9m b\u00e1n \u0111\u01b0\u1ee3c s\u1ebd t\u0103ng th\u00eam l\u00e0 40. X\u00e1c \u0111\u1ecbnh gi\u00e1 b\u00e1n \u0111\u1ec3 c\u1eeda h\u00e0ng thu \u0111\u01b0\u1ee3c l\u1ee3i nhu\u1eadn l\u1edbn nh\u1ea5t, bi\u1ebft r\u1eb1ng gi\u00e1 mua v\u1ec1 c\u1ee7a m\u1ed9t s\u1ea3n ph\u1ea9m l\u00e0 167.500 VN\u0110.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_22_C1",
+                    "content": "156.250 VN\u0110",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_22_C2",
+                    "content": "240.000 VN\u0110",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_22_C3",
+                    "content": "166.000 VN\u0110",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_22_C4",
+                    "content": "249.750 VN\u0110",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "G\u1ecdi $x$ l\u00e0 s\u1ed1 l\u1ea7n c\u1eeda h\u00e0ng gi\u1ea3m gi\u00e1 $(1\\le x \\le 6)$.$\\\\$\nS\u1ed1 s\u1ea3n ph\u1ea9m b\u00e1n \u0111\u01b0\u1ee3c l\u00e0 $25+40x$(s\u1ea3n ph\u1ea9m).$\\\\$\nS\u1ed1 ti\u1ec1n l\u00e3i khi b\u00e1n m\u1ed9t s\u1ea3n ph\u1ea9m l\u00e0 $132 500 -20 000x$(VN\u0110).$\\\\$\nKhi \u0111\u00f3, l\u1ee3i nhu\u1eadn c\u1ee7a c\u1eeda h\u00e0ng l\u00e0 $f(x)=(132 500 -20 000x)(25+40x)=-8.10^5 x^2+48.10^5x+132 500.25$$\\\\$\n$f(x)$ \u0111\u1ea1t l\u1edbn nh\u1ea5t khi $x=-\\dfrac{48.10^5}{-16.10^5}=3$. Suy ra, gi\u00e1 b\u00e1n s\u1ea3n ph\u1ea9m l\u00e0 $240 000$(VN\u0110).",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_23",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "M\u1ed9t m\u00e0n \u1ea3nh h\u00ecnh ch\u1eef nh\u1eadt cao 1,4 m\u00e9t \u0111\u01b0\u1ee3c \u0111\u1eb7t \u1edf \u0111\u1ed9 cao 1,8 m\u00e9t so v\u1edbi t\u1ea7m m\u1eaft c\u1ee7a ng\u01b0\u1eddi quan s\u00e1t (t\u00ednh t\u1eeb m\u00e9p d\u01b0\u1edbi c\u1ee7a m\u00e0n h\u00ecnh). \u0110\u1ec3 nh\u00ecn r\u00f5 nh\u1ea5t, ph\u1ea3i x\u00e1c \u0111\u1ecbnh v\u1ecb tr\u00ed \u0111\u1ee9ng sao cho g\u00f3c nh\u00ecn $\\widehat{BOC}$ l\u00e0 l\u1edbn nh\u1ea5t, h\u00e3y x\u00e1c \u0111\u1ecbnh v\u1ecb tr\u00ed \u0111\u00f3.\n",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X8/2D1X8_QUESTION_23_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_23_C1",
+                    "content": "$AO=3\\mathrm{\\,m}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_23_C2",
+                    "content": "$AO=2,6\\mathrm{\\,m}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_23_C3",
+                    "content": "$AO=2\\mathrm{\\,m}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_23_C4",
+                    "content": "$AO=2,4\\mathrm{\\,m}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "- \u0110\u1eb7t $AO=x,$ suy ra $BO=\\sqrt{1,8^2+x^2}, CO=\\sqrt{3,2^2+x^2}$ v\u00e0 $\\sin\\widehat{C}=\\dfrac{x}{\\sqrt{3,2^2+x^2}}.$$\\\\$\n- \u00c1p d\u1ee5ng \u0111\u1ecbnh l\u00ed h\u00e0m s\u1ed1 $\\sin$ trong tam gi\u00e1c $BCO$, v\u00e0 s\u1eed d\u1ee5ng B\u0110T Bunhiacovxki, ta c\u00f3\n$$\\dfrac{\\sin\\widehat{BOC}}{1,4}=\\dfrac{\\sin\\widehat{C}}{\\sqrt{1,8^2+x^2}} \\Rightarrow \\sin\\widehat{BOC}=\\dfrac{1,4.x}{\\sqrt{1,8^2+x^2}.\\sqrt{3,2^2+x^2}}\\le\\dfrac{1,4.x}{1,8x+3,2x}=0,28. $$\n- V\u1eady g\u00f3c nh\u00ecn l\u1edbn nh\u1ea5t x\u1ea3y ra khi d\u1ea5u b\u1eb1ng x\u1ea3y ra, \u0111i\u1ec1u \u0111\u00f3 t\u01b0\u01a1ng \u0111\u01b0\u01a1ng v\u1edbi $\\dfrac{1,8}{x}=\\dfrac{x}{3,2}\\Leftrightarrow x=2,4.$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_26",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "M\u1ed9t v\u1eadt chuy\u1ec3n \u0111\u1ed9ng theo quy lu\u1eadt $s=t^3-6t^2-15t+1,$ v\u1edbi $s$ l\u00e0 qu\u00e3ng \u0111\u01b0\u1eddng \u0111\u01b0\u1ee3c t\u00ednh theo \u0111\u01a1n v\u1ecb m\u00e9t v\u00e0 $t$ l\u00e0 th\u1eddi gian \u0111\u01b0\u1ee3c t\u00ednh b\u1eb1ng gi\u00e2y. T\u00ednh gia t\u1ed1c $a$ c\u1ee7a chuy\u1ec3n \u0111\u1ed9ng khi v\u1eadn t\u1ed1c b\u1eb1ng $0$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_26_C1",
+                    "content": "$a=16$ m/s$^2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_26_C2",
+                    "content": "$a=18$ m/s$^2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_26_C3",
+                    "content": "$a=19$ m/s$^2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_26_C4",
+                    "content": "$a=18$ m/s$^2$ ho\u1eb7c $a=-18$ m/s$^2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $v=s'=3t^2-12t-15=0\\Leftrightarrow \\begin{cases} t=-1\\textrm{ (lo\u1ea1i)}\\\\ t=5\\end{cases}$. L\u1ea1i c\u00f3 $s''=6t-12$, suy ra $a=s''(5)=18$ m/s$^2$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_27",
+            "description": "",
+            "level": 3.5,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho m\u1ed9t t\u1ea5m b\u00eca h\u00ecnh ch\u1eef nh\u1eadt c\u00f3 chi\u1ec1u d\u00e0i $AB=90$ cm v\u00e0 chi\u1ec1u r\u1ed9ng $BC=60$ cm. Ng\u01b0\u1eddi ta c\u1eaft 6 h\u00ecnh vu\u00f4ng b\u1eb1ng nhau nh\u01b0 h\u00ecnh v\u1ebd, m\u1ed7i h\u00ecnh vu\u00f4ng c\u1ea1nh b\u1eb1ng $x$ cm, r\u1ed3i g\u1eadp t\u1ea5m b\u00eca l\u1ea1i nh\u01b0 h\u00ecnh v\u1ebd b\u00ean d\u01b0\u1edbi \u0111\u00e2y \u0111\u1ec3 \u0111\u01b0\u1ee3c m\u1ed9t h\u1ed9p qu\u00e0 c\u00f3 n\u1eafp. T\u00ecm $x$ \u0111\u1ec3 h\u1ed9p qu\u00e0 nh\u1eadn \u0111\u01b0\u1ee3c c\u00f3 th\u1ec3 t\u00edch l\u1edbn nh\u1ea5t.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X8/2D1X8_QUESTION_27_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X8/2D1X8_QUESTION_27_2.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_27_C1",
+                    "content": "$ 9 $ cm",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_27_C2",
+                    "content": "$ \\dfrac{10}{3} $ cm",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_27_C3",
+                    "content": "$ 15 $ cm",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_27_C4",
+                    "content": "$ 10 $ cm",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $x\\, (0<x<30)$ l\u00e0 \u0111\u1ed9 d\u00e0i c\u1ea1nh h\u00ecnh vu\u00f4ng b\u1ecb c\u1eaft, c\u0169ng ch\u00ednh l\u00e0 chi\u1ec1u cao trong kh\u1ed1i h\u1ed9p t\u1ea1o th\u00e0nh. \u0110\u1ed9 d\u00e0i c\u1ea1nh \u0111\u00e1y h\u00ecnh ch\u1eef nh\u1eadt c\u1ee7a kh\u1ed1i h\u1ed9p l\u1ea7n l\u01b0\u1ee3t l\u00e0 $16-2x$ v\u00e0 $\\dfrac{90-3x}{2}$. Khi \u0111\u00f3, th\u1ec3 t\u00edch kh\u1ed1i h\u1ed9p $V=\\dfrac{1}{2}(60-2x)(90-3x).x= 3x^3-180x^2+2700x,\\, (0<x<30)$. \u0110\u1eb7t $f(t)= 3x^3-180x^2+2700x,\\, (0<x<30)$  v\u00e0 kh\u1ea3o s\u00e1t h\u00e0m s\u1ed1 $f(x)$ ta \u0111\u01b0\u1ee3c $\\displaystyle \\min_ f(x)=12000$ hay $\\min V= 12000$ (m$^3$) \u0111\u1ea1t \u0111\u01b0\u1ee3c khi $x=10$ (m).",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_29",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "M\u1ed9t ch\u1ea5t \u0111i\u1ec3m chuy\u1ec3n \u0111\u1ed9ng theo quy lu\u1eadt $s(t)=3t^2-t^3,$ trong \u0111\u00f3 $t$ l\u00e0 kho\u1ea3ng th\u1eddi gian t\u00ednh b\u1eb1ng gi\u00e2y, t\u00ednh t\u1eeb l\u00fac ch\u1ea5t \u0111i\u1ec3m b\u1eaft \u0111\u1ea7u chuy\u1ec3n \u0111\u1ed9ng, $s$ l\u00e0 qu\u1ea3ng \u0111\u01b0\u1eddng ch\u1ea5t \u0111i\u1ec3m \u0111i \u0111\u01b0\u1ee3c t\u00ednh b\u1eb1ng m\u00e9t. T\u00ednh th\u1eddi \u0111i\u1ec3m $t$ (gi\u00e2y) m\u00e0 t\u1ea1i \u0111\u00f3 v\u1eadn t\u1ed1c c\u1ee7a ch\u1ea5t \u0111i\u1ec3m \u0111\u1ea1t gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_29_C1",
+                    "content": "$t=3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_29_C2",
+                    "content": "$t=2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_29_C3",
+                    "content": "$t=5$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_29_C4",
+                    "content": "$t=1$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "V\u1eadn t\u1ed1c ch\u1ea5t \u0111i\u1ec3m $v(t)=s'(t)=6t-3t^2.$ T\u1eeb \u0111\u00f3, $v(t)$ l\u1edbn nh\u1ea5t khi $t=1.$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_30",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Khi nu\u00f4i c\u00e1 th\u00ed nghi\u1ec7m trong h\u1ed3, m\u1ed9t nh\u00e0 sinh v\u1eadt h\u1ecdc th\u1ea5y r\u1eb1ng: N\u1ebfu tr\u00ean m\u1ed7i \u0111\u01a1n v\u1ecb di\u1ec7n t\u00edch c\u1ee7a m\u1eb7t h\u1ed3 c\u00f3 $n$ con c\u00e1 th\u00ec trung b\u00ecnh m\u1ed7i con c\u00e1 sau m\u1ed9t v\u1ee5 c\u00e2n n\u1eb7ng $P(n)=480-20n\\,(\\mathrm{gam}).$ T\u00ecm s\u1ed1 con c\u00e1 ph\u1ea3i th\u1ea3 tr\u00ean m\u1ed7i \u0111\u01a1n v\u1ecb di\u1ec7n t\u00edch c\u1ee7a m\u1eb7t h\u1ed3 \u0111\u1ec3 sau m\u1ed9t v\u1ee5 thu ho\u1ea1ch \u0111\u01b0\u1ee3c nhi\u1ec1u $\\mathrm{gam}$ c\u00e1 nh\u1ea5t.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_30_C1",
+                    "content": "14",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_30_C2",
+                    "content": "15",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_30_C3",
+                    "content": "12",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_30_C4",
+                    "content": "13",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "+ T\u1ed5ng s\u1ed1 gam c\u00e1 tr\u00ean m\u1ed9t \u0111\u01a1n v\u1ecb di\u1ec7n t\u00edch m\u1eb7t h\u1ed3 l\u00e0 $nP(n)=480n-20n^2$ gam.\n\n+ \u0110\u1eb7t $f(n)=480n-20n^2,$ v\u1edbi $n$ l\u00e0 s\u1ed1 nguy\u00ean d\u01b0\u01a1ng. Ta c\u00f3 $\\max\\limits_{[1;+\\infty)}f(t)=f(12)$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_31",
+            "description": "",
+            "level": 3.5,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho m\u1ed9t t\u1ea5m nh\u00f4m h\u00ecnh vu\u00f4ng c\u1ea1nh 12 cm. Ng\u01b0\u1eddi ta c\u1eaft \u1edf b\u1ed1n g\u00f3c c\u1ee7a t\u1ea5m nh\u00f4m \u0111\u00f3 b\u1ed1n h\u00ecnh vu\u00f4ng b\u1eb1ng nhau, m\u1ed7i h\u00ecnh vu\u00f4ng c\u00f3 c\u1ea1nh b\u1eb1ng $x$ (cm), r\u1ed3i g\u1eadp t\u1ea5m nh\u00f4m l\u1ea1i nh\u01b0 h\u00ecnh v\u1ebd b\u00ean \u0111\u1ec3 \u0111\u01b0\u1ee3c m\u1ed9t c\u00e1i h\u1ed9p kh\u00f4ng n\u1eafp. T\u00ecm $x$ \u0111\u1ec3 h\u1ed9p nh\u1eadn \u0111\u01b0\u1ee3c c\u00f3 th\u1ec3 t\u00edch l\u1edbn nh\u1ea5t.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X8/2D1X8_QUESTION_31_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_31_C1",
+                    "content": "$x=2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_31_C2",
+                    "content": "$x=4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_31_C3",
+                    "content": "$x=6$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_31_C4",
+                    "content": "$x=3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "Ta th\u1ea5y $0\\leq x\\leq 6$, th\u1ec3 t\u00edch c\u1ee7a h\u1ed9p kh\u00f4ng n\u1eafp b\u1eb1ng $f(x)=(12-2x)^2.x$. D\u1ec5 th\u1ea5y tr\u00ean $[0;6]$ h\u00e0m s\u1ed1 $f(x)$ \u0111\u1ea1t gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t t\u1ea1i $x=2$ n\u00ean ch\u1ecdn ph\u01b0\u01a1ng \u00e1n A",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_32",
+            "description": "",
+            "level": 3.5,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho m\u1ed9t t\u1ea5m nh\u00f4m h\u00ecnh vu\u00f4ng c\u1ea1nh 12 cm. Ng\u01b0\u1eddi ta c\u1eaft \u1edf b\u1ed1n g\u00f3c c\u1ee7a t\u1ea5m nh\u00f4m \u0111\u00f3 b\u1ed1n h\u00ecnh vu\u00f4ng b\u1eb1ng nhau, m\u1ed7i h\u00ecnh vu\u00f4ng c\u00f3 c\u1ea1nh b\u1eb1ng $x$ cm, r\u1ed3i g\u1eadp t\u1ea5m nh\u00f4m l\u1ea1i nh\u01b0 h\u00ecnh v\u1ebd b\u00ean \u0111\u1ec3 \u0111\u01b0\u1ee3c m\u1ed9t c\u00e1i h\u1ed9p kh\u00f4ng n\u1eafp. T\u00ecm $x$ \u0111\u1ec3 h\u1ed9p nh\u1eadn \u0111\u01b0\u1ee3c c\u00f3 th\u1ec3 t\u00edch l\u1edbn nh\u1ea5t.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X8/2D1X8_QUESTION_32_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_32_C1",
+                    "content": "$x=2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_32_C2",
+                    "content": "$x=4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_32_C3",
+                    "content": "$x=6$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_32_C4",
+                    "content": "$x=3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "Ta th\u1ea5y $0\\leq x\\leq 6$, th\u1ec3 t\u00edch c\u1ee7a h\u1ed9p kh\u00f4ng n\u1eafp b\u1eb1ng $f(x)=(12-2x)^2.x$. D\u1ec5 th\u1ea5y tr\u00ean $[0;6]$ h\u00e0m s\u1ed1 $f(x)$ \u0111\u1ea1t gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t t\u1ea1i $x=2$ n\u00ean ch\u1ecdn ph\u01b0\u01a1ng \u00e1n A",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_33",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "M\u1ed9t \u0111o\u00e0n c\u1ee9u tr\u1ee3 l\u0169 l\u1ee5t \u0111ang \u1edf v\u1ecb tr\u00ed $A$ c\u1ee7a m\u1ed9t t\u1ec9nh mi\u1ec1n trung mu\u1ed1n \u0111\u1ebfn x\u00e3 $C$ \u0111\u1ec3 ti\u1ebfp t\u1ebf l\u01b0\u01a1ng th\u1ef1c v\u00e0 thu\u1ed1c men, ph\u1ea3i \u0111i theo con \u0111\u01b0\u1eddng t\u1eeb $A$ \u0111\u1ebfn $B$ v\u00e0 t\u1eeb $B$ \u0111\u1ebfn $C$ (nh\u01b0 h\u00ecnh v\u1ebd). Tuy nhi\u00ean, do n\u01b0\u1edbc ng\u1eadp con \u0111\u01b0\u1eddng t\u1eeb $A$ \u0111\u1ebfn $B$ n\u00ean \u0111o\u00e0n c\u1ee9u tr\u1ee3 kh\u00f4ng th\u1ec3 \u0111\u1ebfn $C$ b\u1eb1ng xe, nh\u01b0ng \u0111o\u00e0n c\u1ee9u tr\u1ee3 c\u00f3 th\u1ec3 ch\u00e8o thuy\u1ec1n t\u1eeb $A$ \u0111\u1ebfn v\u1ecb tr\u00ed $D$ tr\u00ean \u0111o\u1ea1n \u0111\u01b0\u1eddng t\u1eeb $B$ \u0111\u1ebfn $C$ v\u1edbi v\u1eadn t\u1ed1c $4${km/h}, r\u1ed3i \u0111i b\u1ed9 \u0111\u1ebfn $C$ v\u1edbi v\u1eadn t\u1ed1c $6${km/h}. Bi\u1ebft $A$ c\u00e1ch $B$ m\u1ed9t kho\u1ea3ng $5${km}, $B$ c\u00e1ch $C$ m\u1ed9t kho\u1ea3ng $7${km}. H\u1ecfi v\u1ecb tr\u00ed \u0111i\u1ec3m $D$ c\u00e1ch $A$ bao xa \u0111\u1ec3 \u0111o\u00e0n c\u1ee9u tr\u1ee3 \u0111i \u0111\u1ebfn x\u00e3 $C$ nhanh nh\u1ea5t?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X8/2D1X8_QUESTION_33_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_33_C1",
+                    "content": "$AD=5\\sqrt{3}${km}",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_33_C2",
+                    "content": "$AD=3\\sqrt{5}${km}",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_33_C3",
+                    "content": "$AD=5\\sqrt{2}${km}",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_33_C4",
+                    "content": "$AD=2\\sqrt{5}${km}",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "G\u1ecdi $x$ (\u0111\u01a1n v\u1ecb km) l\u00e0 \u0111\u1ed9 d\u00e0i \u0111o\u1ea1n $BD$. Khi \u0111\u00f3 th\u1eddi gian $y$ (\u0111\u01a1n v\u1ecb gi\u1edd (h)) \u0111\u1ec3 \u0111o\u00e0n c\u1ee9u tr\u1ee3 \u0111i theo l\u1ed9 tr\u00ecnh t\u1eeb $A$ qua $D$ \u0111\u1ebfn $C$ l\u00e0 $y=\\dfrac{\\sqrt{25+x^2}}{4}+\\dfrac{(7-x)}{6}$ v\u1edbi $x\\in [0;7]$. Ta c\u00f3 $y'=\\dfrac{x}{4\\sqrt{25+x^2}}-\\dfrac{1}{6}$, $y'=0\\Leftrightarrow x=2\\sqrt{5}$. Thay c\u00e1c gi\u00e1 tr\u1ecb v\u00e0o ki\u1ec3m tra ta \u0111\u01b0\u1ee3c th\u1eddi gian ng\u1eafn nh\u1ea5t khi $x=2\\sqrt{5}$ t\u1ee9c l\u00e0 $AD=3\\sqrt{5}$.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_36",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Sau khi ph\u00e1t hi\u1ec7n m\u1ed9t b\u1ec7nh d\u1ecbch, c\u00e1c chuy\u00ean gia y t\u1ebf \u01b0\u1edbc t\u00ednh s\u1ed1 ng\u01b0\u1eddi nhi\u1ec5m b\u1ec7nh k\u1ec3 t\u1eeb ng\u00e0y xu\u1ea5t hi\u1ec7n b\u1ec7nh nh\u00e2n \u0111\u1ea7u ti\u00ean \u0111\u1ebfn ng\u00e0y th\u1ee9 $t$ \u0111\u01b0\u1ee3c t\u00ednh theo c\u00f4ng th\u1ee9c $f(t)=45t^2-t^3,\\,0\\leq t\\leq 25.$ N\u1ebfu coi $f(t)$ l\u00e0 h\u00e0m s\u1ed1 x\u00e1c \u0111\u1ecbnh tr\u00ean \u0111o\u1ea1n $[0;25]$ th\u00ec \u0111\u1ea1o h\u00e0m $f'(t)$ \u0111\u01b0\u1ee3c xem l\u00e0 t\u1ed1c \u0111\u1ed9 truy\u1ec1n b\u1ec7nh (ng\u01b0\u1eddi/ng\u00e0y) t\u1ea1i th\u1eddi \u0111i\u1ec3m $t$. X\u00e1c \u0111\u1ecbnh ng\u00e0y m\u00e0 t\u1ed1c \u0111\u1ed9 truy\u1ec1n b\u1ec7nh l\u00e0 l\u1edbn nh\u1ea5t.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_36_C1",
+                    "content": "Ng\u00e0y th\u1ee9 $16$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_36_C2",
+                    "content": "Ng\u00e0y th\u1ee9 $15$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_36_C3",
+                    "content": "Ng\u00e0y th\u1ee9 $5$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_36_C4",
+                    "content": "Ng\u00e0y th\u1ee9 $19$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $f'(t)=90t-3t^2.$ X\u00e9t h\u00e0m s\u1ed1 $g(t)=90t-3t^2$ l\u00e0 h\u00e0m ch\u1ec9 t\u1ed1c \u0111\u1ed9 truy\u1ec1n b\u1ec7nh t\u1ea1i th\u1eddi \u0111i\u1ec3m $t$. B\u00e0i to\u00e1n tr\u1edf th\u00e0nh t\u00ecm gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1 $y=g(t)$ tr\u00ean $[0;25].$$\\\\$\nC\u00f3 $g'(t)=90-6t=0\\Leftrightarrow t=15.$$\\\\$\nC\u00f3 $g(0)=0,g(15)=675,g(25)=357.$ V\u1eady ng\u00e0y th\u1ee9 $15$ l\u00e0 ng\u00e0y m\u00e0 t\u1ed1c \u0111\u1ed9 truy\u1ec1n b\u1ec7nh l\u1edbn nh\u1ea5t.",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_37",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "C\u00f4ng ty $X$ mu\u1ed1n thi\u1ebft k\u1ebf c\u00e1c h\u1ed9p ch\u1ee9a s\u1ea3n ph\u1ea9m d\u1ea1ng h\u00ecnh tr\u1ee5 c\u00f3 n\u1eafp v\u1edbi dung t\u00edch b\u1eb1ng $100\\textrm{\\,cm}^3$, b\u00e1n k\u00ednh \u0111\u00e1y $x\\textrm{\\,cm}$, chi\u1ec1u cao $h\\textrm{\\,cm}$ (xem h\u00ecnh b\u00ean). Khi thi\u1ebft k\u1ebf, c\u00f4ng ty $X$ lu\u00f4n \u0111\u1eb7t m\u1ee5c ti\u00eau sao cho v\u1eadt li\u1ec7u l\u00e0m v\u1ecf h\u1ed9p l\u00e0 \u00edt nh\u1ea5t, ngh\u0129a l\u00e0 di\u1ec7n t\u00edch to\u00e0n ph\u1ea7n h\u00ecnh tr\u1ee5 l\u00e0 nh\u1ecf nh\u1ea5t. Khi \u0111\u00f3, k\u00edch th\u01b0\u1edbc c\u1ee7a $x$ v\u00e0 $h$ g\u1ea7n b\u1eb1ng s\u1ed1 n\u00e0o nh\u1ea5t trong c\u00e1c s\u1ed1 d\u01b0\u1edbi \u0111\u00e2y \u0111\u1ec3 c\u00f4ng ty $X$ ti\u1ebft ki\u1ec7m \u0111\u01b0\u1ee3c v\u1eadt li\u1ec7u nh\u1ea5t?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://dd5sp1fahktbq.cloudfront.net/image_latex/Img_Question_Bank/Img_2D1X8/2D1X8_QUESTION_37_1.svg",
+                    "variety": "IMG"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_37_C1",
+                    "content": "$h\\approx 4,128\\textrm{\\,cm}$ v\u00e0 $x\\approx 2,747\\textrm{\\,cm}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_37_C2",
+                    "content": "$h\\approx 5,031\\textrm{\\,cm}$ v\u00e0 $x\\approx 2,515\\textrm{\\,cm}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_37_C3",
+                    "content": "$h\\approx 6,476\\textrm{\\,cm}$ v\u00e0 $x\\approx 2,217\\textrm{\\,cm}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_37_C4",
+                    "content": "$h\\approx 3,261\\textrm{\\,cm}$ v\u00e0 $x\\approx 3,124\\textrm{\\,cm}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $V=\\pi x^2h=100\\text{\\,cm}^3$. T\u1eeb \u0111\u00f3 $h=\\dfrac{100}{\\pi x^2}$.$\\\\$\nDo \u0111\u00f3 di\u1ec7n t\u00edch to\u00e0n ph\u1ea7n c\u1ee7a h\u1ed9p \u0111\u1ef1ng l\u00e0 $S=2\\pi x^2+\\dfrac{200}{x}$.$\\\\$\n\u00c1p d\u1ee5ng b\u1ea5t \u0111\u1eb3ng th\u1ee9c AM-GM\n$$S=2\\pi x^2+\\dfrac{100}{x}+\\dfrac{100}{x}=\\geq 3\\sqrt[3]{20000\\pi}.$$\nV\u1eady $\\min S$ \u0111\u1ea1t \u0111\u01b0\u1ee3c khi v\u00e0 ch\u1ec9 khi $2\\pi x^2=\\dfrac{100}{x}$. T\u1ee9c l\u00e0 $x\\approx 2.515$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_38",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "M\u1ed9t nh\u00e0 m\u00e1y s\u1ea3n xu\u1ea5t c\u1ea7n thi\u1ebft k\u1ebf m\u1ed9t th\u00f9ng s\u01a1n d\u1ea1ng h\u00ecnh tr\u1ee5 c\u00f3 n\u1eafp \u0111\u1eady v\u1edbi dung t\u00edch $1000\\mathrm{\\, cm}^3$. T\u00ednh b\u00e1n k\u00ednh c\u1ee7a n\u1eafp \u0111\u1eady sao cho nh\u00e0 s\u1ea3n xu\u1ea5t ti\u1ebft ki\u1ec7m \u0111\u01b0\u1ee3c nguy\u00ean li\u1ec7u nh\u1ea5t.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_38_C1",
+                    "content": "$\\dfrac{10}{\\sqrt[3]{2\\pi}}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "2D1X8_38_C2",
+                    "content": "$\\dfrac{10\\sqrt{5}}{\\sqrt{\\pi}}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_38_C3",
+                    "content": "$\\dfrac{10\\sqrt[3]{5}}{\\sqrt[3]{\\pi}}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_38_C4",
+                    "content": "$\\dfrac{5}{\\sqrt[3]{2\\pi}}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "G\u1ecdi b\u00e1n k\u00ednh \u0111\u00e1y c\u1ee7a h\u00ecnh tr\u1ee5 l\u00e0 $R$, chi\u1ec1u cao h\u00ecnh tr\u1ee5 l\u00e0 $h$. Ta c\u00f3: $V=\\pi R^2h\\Leftrightarrow h=\\dfrac{1000}{\\pi R^2}$.$\\\\$\nM\u1eb7t kh\u00e1c $S_{xq}=2\\pi Rh+2\\pi R^2=\\dfrac{2000}{R}+2\\pi R^2\\geq 3\\sqrt[3]{\\dfrac{1000}{R}.\\dfrac{1000}{R}.2\\pi R^2}=300\\sqrt[3]{2\\pi}$.$\\\\$\n\u0110\u1eb3ng th\u1ee9c x\u1ea3y ra khi $\\dfrac{1000}{R}=2\\pi R^2\\Leftrightarrow R^3=\\dfrac{1000}{2\\pi}\\Leftrightarrow R=\\dfrac{10}{\\sqrt[3]{2\\pi}}$",
+                    "variety": "TEXT"
+                }
+            ]
+        },
+        {
+            "code": "2D1X8_39",
+            "description": "",
+            "level": 3.0,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": true,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "M\u1ed9t b\u00e1c n\u00f4ng d\u00e2n c\u1ea7n x\u00e2y d\u1ef1ng m\u1ed9t h\u1ed1 ga kh\u00f4ng c\u00f3 n\u1eafp d\u1ea1ng h\u00ecnh h\u1ed9p ch\u1eef nh\u1eadt c\u00f3 th\u1ec3 t\u00edch $3200\\mathrm{\\,cm^3},$ t\u1ec9 s\u1ed1 gi\u1eefa chi\u1ec1u cao c\u1ee7a h\u1ed1 v\u00e0 chi\u1ec1u r\u1ed9ng c\u1ee7a \u0111\u00e1y b\u1eb1ng $2.$ H\u00e3y x\u00e1c \u0111\u1ecbnh di\u1ec7n t\u00edch c\u1ee7a \u0111\u00e1y h\u1ed1 ga \u0111\u1ec3 khi x\u00e2y ti\u1ebft ki\u1ec7m nguy\u00ean v\u1eadt li\u1ec7u nh\u1ea5t.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "2D1X8_39_C1",
+                    "content": "$1600\\mathrm{\\,cm^2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_39_C2",
+                    "content": "$1200\\mathrm{\\,cm^2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_39_C3",
+                    "content": "$120\\mathrm{\\,cm^2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "2D1X8_39_C4",
+                    "content": "$160\\mathrm{\\,cm^2}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "question_categories": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t - Gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1",
+            "explanations": [
+                {
+                    "content": "- \u0110\u1eb7t $c$ l\u00e0 chi\u1ec1u cao, $d$ l\u00e0 chi\u1ec1u d\u00e0i, $r$ l\u00e0 chi\u1ec1u r\u1ed9ng c\u1ee7a h\u1ed1 ga. Suy ra th\u1ec3 t\u00edch c\u1ee7a h\u1ed1 ga $V=d.r.c=2dr^2=3200\\Rightarrow d=\\dfrac{1600}{r^2}.$ $\\\\$\n- T\u1ed5ng di\u1ec7n t\u00edch xung quanh v\u00e0 di\u1ec7n t\u00edch \u0111\u00e1y h\u1ed1 ga l\u00e0 $S=2dc+2rc+dr=\\dfrac{8000}{r}+4r^2=\\dfrac{4000}{r}+\\dfrac{4000}{r}+4r^2\\ge 3\\sqrt[3]{4.4000^2}=400.$ D\u1ea5u b\u1eb1ng x\u1ea3y ra khi $r=10,$ t\u1eeb \u0111\u00f3 suy ra $d=16.$ V\u1eady di\u1ec7n t\u00edch \u0111\u00e1y h\u1ed1 ga l\u00e0 $160\\mathrm{\\,cm^2}.$",
+                    "variety": "TEXT"
+                }
+            ]
+        }
+    ]
+}
