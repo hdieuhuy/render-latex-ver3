@@ -167,7 +167,6 @@ const exams = [
 let data = null;
 function App() {
   let id = window.location.pathname.split("/")[1] || "2D1_1";
-
   const newID = decodeURI(id);
   data = require(`./json/${newID}`);
 
