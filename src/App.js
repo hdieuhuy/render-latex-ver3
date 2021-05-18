@@ -3,9 +3,10 @@
 /* eslint-disable no-undef */
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import './App.css';
+import './styles/main.css';
 import Navbar from './components/Navbar';
 // import Exam from './components/Exam';
+import 'antd/dist/antd.css';
 
 function App() {
   return (

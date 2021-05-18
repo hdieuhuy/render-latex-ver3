@@ -1,7 +1,7 @@
 import React from 'react';
 
-const FormDeleteExam = () => {
-  return <div>FormDeleteExam</div>;
+const FormDelete = () => {
+  return <div>FormDelete</div>;
 };
 
-export default FormDeleteExam;
+export default FormDelete;

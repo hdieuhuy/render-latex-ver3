@@ -1,26 +1,35 @@
 import React, { useEffect, useState } from 'react';
 import parse from 'html-react-parser';
+import { Empty } from 'antd';
 
 import { getExam } from '../api';
 import { get, isEmpty } from 'lodash';
+import { useParams } from 'react-router-dom';
+import '../styles/exam.css';
 
 const Exam = () => {
   const [data, setData] = useState({});
+  const { examCode } = useParams();
+  console.log('examCode', examCode);
 
   useEffect(() => {
-    getExam('None_explain_4').then((res) => {
+    if (!examCode) return;
+
+    getExam(examCode).then((res) => {
+      console.log('res', res);
       const _data = JSON.parse(get(res.data, 'getExam.contentExam', {}));
 
       setData(_data);
     });
-  }, []);
+  }, [examCode]);
 
   useEffect(() => {
     window.MathJax.Hub.Startup.Typeset();
   }, [data]);
 
   const renderData = () => {
-    if (isEmpty(data)) return 'loading';
+    if (isEmpty(data))
+      return <Empty description="Không tìm thấy trong database" />;
 
     return data.list_questions.map((item, key) => (
       <div className="item">

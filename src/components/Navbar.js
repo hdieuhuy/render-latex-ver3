@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Exam from '../components/Exam';
-import Upload from '../components/Upload';
-import FormDelete from '../components/FormDeleteExam';
+import Exam from './Exam';
+import Upload from './UploadExam';
+import FormDelete from './FormDeleteExam';
 import FormGoExam from './FormGoExam';
 
 const Navbar = () => {
@@ -23,10 +23,10 @@ const Navbar = () => {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/">
+          <Route path="/" exact>
             <FormGoExam />
           </Route>
-          <Route path="/exam">
+          <Route path="/exam/:examCode">
             <Exam />
           </Route>
           <Route path="/upload">
