@@ -63,8 +63,6 @@ const exams = [
   // "Lv_gte_4_50",
   // "Lv_gte_4_51",
 
-  "trung_TN_1",
-  "trung_TN_2",
   "tuan_TN_1",
   "tuan_TN_2",
   "ex1_1",
