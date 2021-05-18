@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -63,54 +63,6 @@ h3#title {
 
 .explannation ul li {
   padding: 0.5rem 0;
-}
-
-/* 
-.navbar {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.navbar .navbar--section, .navbar--chapter {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.navbar .navbar--section > h4, .navbar--chapter > h4{
-  grid-column: 1 / 3;
-} */
-
-.navbar ul {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-}
-
-.navbar li {
-  display: inline;
-  padding: 1rem 0.5rem;
-}
-
-.navbar li a {
-  font-size: 14px;
-  color: #000;
-  text-decoration: none;
-}
-
-li.active a {
-  color: #d63031;
-  font-weight: bold;
-}
-
-ol {
-  list-style: upper-roman;
-}
-
-ol li {
-  padding: 0.5rem 0;
-  position: relative;
-  left: -16px;
 }
 
 .full__text {
