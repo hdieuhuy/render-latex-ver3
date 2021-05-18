@@ -66,7 +66,19 @@ const exams = [
   "trung_TN_1",
   "trung_TN_2",
   "tuan_TN_1",
-  "tuan_TN_2"
+  "tuan_TN_2",
+  "ex1_1",
+  "ex1_2",
+  "ex1_3",
+  "ex1_4",
+  "ex1_5",
+
+  "ex2_1",
+  "ex2_2",
+  "ex2_3",
+  "ex2_4",
+  "ex2_5",
+
 ];
 
 let data = null;
