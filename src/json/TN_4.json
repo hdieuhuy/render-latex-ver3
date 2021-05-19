@@ -1,0 +1,3508 @@
+{
+    "code": "ex4",
+    "name": "..\\Data_Question_Latex\\TN\\latex\\De04.tex",
+    "description": "",
+    "rank": "BASIC",
+    "duration": 1,
+    "list_questions": [
+        {
+            "code": "TN_4_1",
+            "description": "",
+            "level": null,
+            "duration": null,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "{De04c1.png} \\end{center}",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_1_C1",
+                    "content": "$2a$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_1_C2",
+                    "content": "$4a$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_1_C3",
+                    "content": "$\\sqrt{2}$a",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_1_C4",
+                    "content": "$2\\sqrt{2}a$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "G\u1ecdi $ x $ l\u00e0 c\u1ea1nh h\u00ecnh l\u1eadp ph\u01b0\u01a1ng.\\\\ Theo c\u00f4ng th\u1ee9c t\u00ednh th\u1ec3 t\u00edch kh\u1ed1i l\u1eadp ph\u01b0\u01a1ng ta c\u00f3 $ x^3 = 8a^3 \\Leftrightarrow x = 2a$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": null,
+            "original_content": "Cho kh\u1ed1i l\u1eadp ph\u01b0\u01a1ng c\u00f3 th\u1ec3 t\u00edch b\u1eb1ng $ 8a^3 $. Khi \u0111\u00f3 \u0111\u1ed9 d\u00e0i c\u1ea1nh c\u1ee7a h\u00ecnh l\u1eadp ph\u01b0\u01a1ng s\u1ebd b\u1eb1ng bao nhi\u00eau?\n\t\\begin{center}\n\t\t\\includegraphics[scale=0.5]{De04c1.png}\n\t\\end{center}\n\t\\choice\n\t{\\True $2a$}\n\t{$4a$}\n\t{$\\sqrt{2}$a}\n\t{$2\\sqrt{2}a$}\t\n\t\\loigiai{\n\t\tG\u1ecdi $ x $ l\u00e0 c\u1ea1nh h\u00ecnh l\u1eadp ph\u01b0\u01a1ng.\\\\\n\t\tTheo c\u00f4ng th\u1ee9c t\u00ednh th\u1ec3 t\u00edch kh\u1ed1i l\u1eadp ph\u01b0\u01a1ng ta c\u00f3 $ x^3 = 8a^3 \\Leftrightarrow x = 2a$.\n\t}",
+            "created_date": {
+                "$date": 1621427751740
+            },
+            "last_update": {
+                "$date": 1621427751740
+            },
+            "sub_section": null,
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_2",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "G\u1ecdi $ M $, $ m $ l\u1ea7n l\u01b0\u1ee3t l\u00e0 gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t, gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1 $ y = \\sqrt{5-4x} $ tr\u00ean \u0111o\u1ea1n $ \\left[-1;1 \\right] $. Khi \u0111\u00f3 gi\u00e1 tr\u1ecb c\u1ee7a $ M $, $ m $ l\u1ea7n l\u01b0\u1ee3t l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_2_C1",
+                    "content": "$M = 3$, $ m = 1 $",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_2_C2",
+                    "content": "$M = 1$, $ m = 0 $",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_2_C3",
+                    "content": "$M = 3$, $ m = 0 $",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_2_C4",
+                    "content": "$M = 1$, $ m = 3 $",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "H\u00e0m s\u1ed1 $y = \\sqrt{5-4x} $ tr\u00ean \u0111o\u1ea1n $ \\left[-1;1 \\right] $.\\\\ Ta c\u00f3 $ y' = \\dfrac{-2}{\\sqrt{5-4x}} < 0$ v\u1edbi m\u1ecdi $ x \\in \\left[-1;1 \\right]$, suy ra h\u00e0m s\u1ed1 ngh\u1ecbch bi\u1ebfn tr\u00ean $ \\left[-1;1 \\right] $.\\\\ V\u1eady $ M = y(-1) = 3 $ v\u00e0 $ m = y(1) =1 $.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X3",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C3"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D1Y3-1]\n\tG\u1ecdi $ M $, $ m $ l\u1ea7n l\u01b0\u1ee3t l\u00e0 gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t, gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1 $ y = \\sqrt{5-4x} $ tr\u00ean \u0111o\u1ea1n $ \\left[-1;1 \\right] $. Khi \u0111\u00f3 gi\u00e1 tr\u1ecb c\u1ee7a $ M $, $ m $ l\u1ea7n l\u01b0\u1ee3t l\u00e0\t\n\t\\choice\n\t{\\True $M = 3$, $ m = 1 $}\n\t{$M = 1$, $ m = 0 $ }\n\t{$M = 3$, $ m = 0 $}\n\t{$M = 1$, $ m = 3 $}\n\t\\loigiai{\n\t\tH\u00e0m s\u1ed1 $y = \\sqrt{5-4x} $ tr\u00ean \u0111o\u1ea1n $ \\left[-1;1 \\right] $.\\\\\n\t\tTa c\u00f3 $ y' = \\dfrac{-2}{\\sqrt{5-4x}} < 0$ v\u1edbi m\u1ecdi $ x \\in \\left[-1;1 \\right]$, suy ra h\u00e0m s\u1ed1 ngh\u1ecbch bi\u1ebfn tr\u00ean $ \\left[-1;1 \\right] $.\\\\\n\t\tV\u1eady $ M = y(-1) = 3 $ v\u00e0 $ m = y(1) =1 $.\n\t}",
+            "created_date": {
+                "$date": 1621427751741
+            },
+            "last_update": {
+                "$date": 1621427751741
+            },
+            "sub_section": "2D1Y3-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_3",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "S\u1ed1 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $ y= x^3 -3x +2 $ v\u00e0 tr\u1ee5c ho\u00e0nh l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_3_C1",
+                    "content": "$0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_3_C2",
+                    "content": "$2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_3_C3",
+                    "content": "$1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_3_C4",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ph\u01b0\u01a1ng tr\u00ecnh ho\u00e0nh \u0111\u1ed9 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $ y= x^3 -3x +2 $ v\u00e0 tr\u1ee5c ho\u00e0nh l\u00e0 $$ x^3 -3x +2 = 0 \\Leftrightarrow \\\\left[\\\\begin{aligned} & x = 1\\\\ & x = -2.\\\\end{aligned}\\\\right $$ V\u1eady c\u00f3 hai giao \u0111i\u1ec3m l\u00e0 $ \\left( 1;0\\right) $ v\u00e0 $ \\left( -2;0\\right) $.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D1Y5-4]\n\tS\u1ed1 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $ y= x^3 -3x +2 $ v\u00e0 tr\u1ee5c ho\u00e0nh l\u00e0\n\t\\choice\n\t{$0$}\n\t{\\True $2$}\n\t{$1$}\n\t{$3$}\n\t\\loigiai{\n\t\tPh\u01b0\u01a1ng tr\u00ecnh ho\u00e0nh \u0111\u1ed9 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $ y= x^3 -3x +2 $ v\u00e0 tr\u1ee5c ho\u00e0nh l\u00e0\n\t\t$$ x^3 -3x +2 = 0 \\Leftrightarrow  \\hoac{\n\t\t\t& x = 1\\\\\n\t\t\t& x = -2.} $$\n\t\tV\u1eady c\u00f3 hai giao \u0111i\u1ec3m l\u00e0 $ \\left( 1;0\\right)  $ v\u00e0 $ \\left( -2;0\\right) $.\n\t}",
+            "created_date": {
+                "$date": 1621427751741
+            },
+            "last_update": {
+                "$date": 1621427751741
+            },
+            "sub_section": "2D1Y5-4",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_4",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho c\u1ea5p s\u1ed1 nh\u00e2n $ \\left( u_n\\right) $ v\u1edbi $ u_1 = 3 $ v\u00e0 $ u_2 = 9 $. C\u00f4ng b\u1ed9i c\u1ee7a c\u1ea5p s\u1ed1 nh\u00e2n \u0111\u00e3 cho b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_4_C1",
+                    "content": "$6$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_4_C2",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_4_C3",
+                    "content": "$\\dfrac{1}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_4_C4",
+                    "content": "$-6$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "V\u00ec c\u1ea5p s\u1ed1 nh\u00e2n $ \\left( u_n\\right) $ c\u00f3 $ u_1 = 3 $ v\u00e0 $ u_2 = 9 $ n\u00ean c\u00f4ng b\u1ed9i c\u1ee7a c\u1ea5p s\u1ed1 nh\u00e2n \u0111\u00e3 cho l\u00e0 $ q = \\dfrac{u_2}{u_1} = \\dfrac{9}{3} = 3$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "1D3X4",
+                "math",
+                "math_11",
+                "math_11_hk1",
+                "math_11_algebra",
+                "math_11_algebra_C4"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[1D3Y4-2]\n\tCho c\u1ea5p s\u1ed1 nh\u00e2n $ \\left( u_n\\right) $ v\u1edbi $ u_1 = 3 $ v\u00e0 $ u_2 = 9 $. C\u00f4ng b\u1ed9i c\u1ee7a c\u1ea5p s\u1ed1 nh\u00e2n \u0111\u00e3 cho b\u1eb1ng\n\t\\choice\n\t{$6$}\n\t{\\True $3$}\n\t{$\\dfrac{1}{3}$}\n\t{$-6$}\n\t\\loigiai{V\u00ec c\u1ea5p s\u1ed1 nh\u00e2n $ \\left( u_n\\right) $ c\u00f3 $ u_1 = 3 $ v\u00e0 $ u_2 = 9 $ n\u00ean c\u00f4ng b\u1ed9i c\u1ee7a c\u1ea5p s\u1ed1 nh\u00e2n \u0111\u00e3 cho l\u00e0 $ q = \\dfrac{u_2}{u_1} = \\dfrac{9}{3} = 3$.\n\t}",
+            "created_date": {
+                "$date": 1621427751741
+            },
+            "last_update": {
+                "$date": 1621427751741
+            },
+            "sub_section": "1D3Y4-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_5",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Trong kh\u00f4ng gian $ Oxyz $, cho \u0111\u01b0\u1eddng th\u1eb3ng $ d \\colon \\dfrac{x-1}{2} = \\dfrac{y-2}{3} = \\dfrac{z+1}{-1}$. V\u00e9c-t\u01a1 n\u00e0o d\u01b0\u1edbi \u0111\u00e2y l\u00e0 m\u1ed9t v\u00e9c-t\u01a1 ch\u1ec9 ph\u01b0\u01a1ng c\u1ee7a $ d $?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_5_C1",
+                    "content": "$ \\overrightarrow{u_1} \\left(2;3;-1 \\right) $",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_5_C2",
+                    "content": "$ \\overrightarrow{u_2} \\left(1;2;-1 \\right) $",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_5_C3",
+                    "content": "$ \\overrightarrow{u_3} \\left(2;3;1 \\right) $",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_5_C4",
+                    "content": "$ \\overrightarrow{u_4} \\left(-1;-2;1 \\right) $",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "V\u00ec \u0111\u01b0\u1eddng th\u1eb3ng $ d \\colon \\dfrac{x-1}{2} = \\dfrac{y-2}{3} = \\dfrac{z+1}{-1}$ n\u00ean $ d $ c\u00f3 m\u1ed9t v\u00e9c-t\u01a1 ch\u1ec9 ph\u01b0\u01a1ng l\u00e0 $ \\overrightarrow{u_1} \\left(2;3;-1 \\right) $.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H3F3",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_geometry",
+                "math_12_geometry_C3"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2H3Y3-1]\n\tTrong kh\u00f4ng gian $ Oxyz $, cho \u0111\u01b0\u1eddng th\u1eb3ng $ d \\colon \\dfrac{x-1}{2} = \\dfrac{y-2}{3} = \\dfrac{z+1}{-1}$. V\u00e9c-t\u01a1 n\u00e0o d\u01b0\u1edbi \u0111\u00e2y l\u00e0 m\u1ed9t\n\tv\u00e9c-t\u01a1 ch\u1ec9 ph\u01b0\u01a1ng c\u1ee7a $ d $?\n\t\\choice\n\t{\\True $ \\overrightarrow{u_1} \\left(2;3;-1 \\right) $}\n\t{$ \\overrightarrow{u_2} \\left(1;2;-1 \\right) $}\n\t{$ \\overrightarrow{u_3} \\left(2;3;1 \\right) $}\n\t{$ \\overrightarrow{u_4} \\left(-1;-2;1 \\right) $}\n\t\\loigiai{\n\t\tV\u00ec \u0111\u01b0\u1eddng th\u1eb3ng $ d \\colon \\dfrac{x-1}{2} = \\dfrac{y-2}{3} = \\dfrac{z+1}{-1}$ n\u00ean $ d $ c\u00f3 m\u1ed9t v\u00e9c-t\u01a1 ch\u1ec9 ph\u01b0\u01a1ng l\u00e0 $ \\overrightarrow{u_1} \\left(2;3;-1 \\right) $.\n\t}",
+            "created_date": {
+                "$date": 1621427751741
+            },
+            "last_update": {
+                "$date": 1621427751741
+            },
+            "sub_section": "2H3Y3-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_6",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $f(x)$ li\u00ean t\u1ee5c tr\u00ean $\\mathbb{R}$ c\u00f3 b\u1ea3ng x\u00e9t d\u1ea5u c\u1ee7a $f\u2019(x)$ nh\u01b0 sau \\begin{center}",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_5_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "\\end{center} S\u1ed1 \u0111i\u1ec3m c\u1ef1c ti\u1ec3u c\u1ee7a h\u00e0m s\u1ed1 \u0111\u00e3 cho l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_6_C1",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_6_C2",
+                    "content": "$4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_6_C3",
+                    "content": "$2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_6_C4",
+                    "content": "$1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Theo gi\u1ea3 thi\u1ebft ta c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean h\u00e0m s\u1ed1 $f(x)$ \\begin{center}",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_EXPLAIN_5_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "\\end{center} H\u00e0m s\u1ed1 \u0111\u1ea1t c\u1ef1c ti\u1ec3u t\u1ea1i \u0111i\u1ec3m $x_0\\in \\mathscr{D}$ n\u1ebfu t\u1ea1i \u0111\u00f3 $f'\\left(x_0\\right)=0$ ho\u1eb7c $f'\\left(x_0\\right)$ kh\u00f4ng x\u00e1c \u0111\u1ecbnh v\u00e0 d\u1ea5u $f'(x)$ \u0111\u1ed5i d\u1ea5u t\u1eeb tr\u1eeb sang c\u1ed9ng. T\u1eeb \u0111\u00f3 suy ra h\u00e0m s\u1ed1 \u0111\u00e3 cho c\u00f3 $2$ \u0111i\u1ec3m c\u1ef1c ti\u1ec3u.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X2",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C2"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D1Y2-2]\n\tCho h\u00e0m s\u1ed1 $f(x)$ li\u00ean t\u1ee5c tr\u00ean $\\mathbb{R}$ c\u00f3 b\u1ea3ng x\u00e9t d\u1ea5u c\u1ee7a $f\u2019(x)$ nh\u01b0 sau\n\t\\begin{center}\n\t\t\\begin{tikzpicture}\n\t\t\\tkzTabInit[deltacl=0.5,espcl=2,lgt=2]\n\t\t{$x$/0.7,$f'(x)$/0.7}\n\t\t{$-\\infty$,$-1$,$0$,$2$,$4$,$+\\infty$}\n\t\t\\tkzTabLine{,+,0,-,d,+,0,-,0,+,}\n\t\t\\end{tikzpicture}\n\t\\end{center}\n\tS\u1ed1 \u0111i\u1ec3m c\u1ef1c ti\u1ec3u c\u1ee7a h\u00e0m s\u1ed1 \u0111\u00e3 cho l\u00e0\n\t\\choice\n\t{$3$}\n\t{$4$}\n\t{\\True $2$}\n\t{$1$}\n\t\\loigiai{\n\t\tTheo gi\u1ea3 thi\u1ebft ta c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean h\u00e0m s\u1ed1 $f(x)$\n\t\t\\begin{center}\n\t\t\t\\begin{tikzpicture}\n\t\t\t\\tkzTabInit[deltacl=0.5,espcl=2,lgt=2]\n\t\t\t{$x$/0.7,$f'(x)$/0.7,$f(x)$/2}\n\t\t\t{$-\\infty$,$-1$,$0$,$2$,$4$,$+\\infty$}\n\t\t\t\\tkzTabLine{,+,0,-,d,+,0,-,0,+,}\n\t\t\t\\tkzTabVar{-/ , +/C\u0110, -/CT , +/C\u0110 , -/CT , +/}\n\t\t\t\\end{tikzpicture}\n\t\t\\end{center}\n\t\tH\u00e0m s\u1ed1 \u0111\u1ea1t c\u1ef1c ti\u1ec3u t\u1ea1i \u0111i\u1ec3m $x_0\\in \\mathscr{D}$ n\u1ebfu t\u1ea1i \u0111\u00f3 $f'\\left(x_0\\right)=0$ ho\u1eb7c $f'\\left(x_0\\right)$ kh\u00f4ng x\u00e1c \u0111\u1ecbnh v\u00e0 d\u1ea5u $f'(x)$ \u0111\u1ed5i d\u1ea5u t\u1eeb tr\u1eeb sang c\u1ed9ng. T\u1eeb \u0111\u00f3 suy ra h\u00e0m s\u1ed1 \u0111\u00e3 cho c\u00f3 $2$ \u0111i\u1ec3m c\u1ef1c ti\u1ec3u.\n\t}",
+            "created_date": {
+                "$date": 1621427751741
+            },
+            "last_update": {
+                "$date": 1621427751741
+            },
+            "sub_section": "2D1Y2-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_7",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ednh m\u00f4-\u0111un c\u1ee7a s\u1ed1 ph\u1ee9c $z=3+4i$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_7_C1",
+                    "content": "$4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_7_C2",
+                    "content": "$25$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_7_C3",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_7_C4",
+                    "content": "$5$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $|z|=\\sqrt{3^2+4^2}=5$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D4F1",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_algebra",
+                "math_12_algebra_C1"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D4Y1-1]\n\tT\u00ednh m\u00f4-\u0111un c\u1ee7a s\u1ed1 ph\u1ee9c $z=3+4i$.\n\t\\choice\n\t{$4$}\n\t{$25$}\n\t{$3$}\n\t{\\True $5$}\n\t\\loigiai{\n\t\tTa c\u00f3 $|z|=\\sqrt{3^2+4^2}=5$.\n\t}",
+            "created_date": {
+                "$date": 1621427751743
+            },
+            "last_update": {
+                "$date": 1621427751743
+            },
+            "sub_section": "2D4Y1-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_8",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u1eadp x\u00e1c \u0111\u1ecbnh $\\mathscr{D}$ c\u1ee7a h\u00e0m s\u1ed1 $y=(2x-1)^{\\pi}$ l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_8_C1",
+                    "content": "$\\mathscr{D}=\\left[\\dfrac{1}{2};+\\infty\\right)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_8_C2",
+                    "content": "$\\mathscr{D}=\\mathbb{R}\\setminus\\left\\{\\dfrac{1}{2}\\right\\}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_8_C3",
+                    "content": "$\\mathscr{D}=\\mathbb{R}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_8_C4",
+                    "content": "$\\mathscr{D}=\\left(\\dfrac{1}{2};+\\infty\\right)$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Do $\\pi$ l\u00e0 s\u1ed1 kh\u00f4ng nguy\u00ean, n\u00ean \u0111i\u1ec1u ki\u1ec7n l\u00e0 $2x-1>0\\Leftrightarrow x>\\dfrac{1}{2}$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D2X2",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C2"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D2Y2-1]\n\tT\u1eadp x\u00e1c \u0111\u1ecbnh $\\mathscr{D}$ c\u1ee7a h\u00e0m s\u1ed1 $y=(2x-1)^{\\pi}$ l\u00e0\n\t\\choice\n\t{$\\mathscr{D}=\\left[\\dfrac{1}{2};+\\infty\\right)$}\n\t{$\\mathscr{D}=\\mathbb{R}\\setminus\\left\\{\\dfrac{1}{2}\\right\\}$}\n\t{$\\mathscr{D}=\\mathbb{R}$}\n\t{\\True $\\mathscr{D}=\\left(\\dfrac{1}{2};+\\infty\\right)$}\n\t\\loigiai{\n\t\tDo $\\pi$ l\u00e0 s\u1ed1 kh\u00f4ng nguy\u00ean, n\u00ean \u0111i\u1ec1u ki\u1ec7n l\u00e0 $2x-1>0\\Leftrightarrow x>\\dfrac{1}{2}$.\n\t}",
+            "created_date": {
+                "$date": 1621427751743
+            },
+            "last_update": {
+                "$date": 1621427751743
+            },
+            "sub_section": "2D2Y2-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_9",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "{ \u0110\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 n\u00e0o d\u01b0\u1edbi \u0111\u00e2y c\u00f3 d\u1ea1ng nh\u01b0 \u0111\u01b0\u1eddng cong \u1edf h\u00ecnh b\u00ean?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "} {",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_8_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "}",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_9_C1",
+                    "content": "$y=\\dfrac{x+1}{x-1}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_9_C2",
+                    "content": "$y=\\dfrac{2 x-1}{x-1}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_9_C3",
+                    "content": "$y=\\dfrac{x}{x+1}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_9_C4",
+                    "content": "$y=\\dfrac{x-1}{x+1}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Do \u0111\u1ed3 th\u1ecb c\u00f3 ti\u1ec7m c\u1eadn \u0111\u1ee9ng l\u00e0 $x=1$, ti\u1ec7m c\u1eadn ngang $y=1$, suy ra \u0111\u1ed3 th\u1ecb \u0111\u00e3 cho l\u00e0 $y=\\dfrac{x+1}{x-1}$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D1B5-1]\n\t\\immini\n\t{\n\t\t\u0110\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 n\u00e0o d\u01b0\u1edbi \u0111\u00e2y c\u00f3 d\u1ea1ng nh\u01b0 \u0111\u01b0\u1eddng cong \u1edf h\u00ecnh b\u00ean?\n\t\t\\choice\n\t\t{\\True $y=\\dfrac{x+1}{x-1}$}\n\t\t{$y=\\dfrac{2 x-1}{x-1}$}\n\t\t{$y=\\dfrac{x}{x+1}$}\n\t\t{$y=\\dfrac{x-1}{x+1}$}\n\t}\n\t{\n\t\t\\begin{tikzpicture}[scale=0.6, font=\\footnotesize, line join=round, line cap=round,>=stealth]\n\t\t\\def\\a{1} \\def\\b{1} \\def\\c{1} \\def\\d{-1} % H\u1ec7 s\u1ed1\n\t\t\\def\\xmin{-4} \\def\\xmax{5}\n\t\t\\def\\ymin{-4} \\def\\ymax{5}\n\t\t%\\draw[color=gray!50,dashed] (\\xmin,\\ymin) grid (\\xmax,\\ymax);\n\t\t\\draw[->] (\\xmin,0)--(\\xmax,0) node [below]{$x$};\n\t\t\\draw[->] (0,\\ymin)--(0,\\ymax) node [left]{$y$};\n\t\t\\node at (0,0) [above right]{$O$};\n\t\t\\clip (\\xmin+0.1,\\ymin+0.1) rectangle (\\xmax-0.1,\\ymax-0.1);\n\t\t\\draw[smooth,samples=300,domain=\\xmin:(-\\d/\\c-0.1)] plot(\\x,{(\\a*(\\x)+\\b)/(\\c*(\\x)+\\d)});\n\t\t\\draw[smooth,samples=300,domain=(-\\d/\\c+0.1:\\xmax)] plot(\\x,{(\\a*(\\x)+\\b)/(\\c*(\\x)+\\d)});\n\t\t\\draw[dashed] (-\\d/\\c,\\ymin)--(-\\d/\\c,\\ymax);\n\t\t\\draw[dashed] (\\xmin,\\a/\\c)--(\\xmax,\\a/\\c);\n\t\t\\node at (1,0) [below right]{$1$};\n\t\t\\node at (0,1) [above left]{$1$};\n\t\t\\end{tikzpicture}\n\t\t\n\t}\n\t\\loigiai{\n\t\tDo \u0111\u1ed3 th\u1ecb c\u00f3 ti\u1ec7m c\u1eadn \u0111\u1ee9ng l\u00e0 $x=1$, ti\u1ec7m c\u1eadn ngang $y=1$, suy ra \u0111\u1ed3 th\u1ecb \u0111\u00e3 cho l\u00e0 $y=\\dfrac{x+1}{x-1}$.\n\t}",
+            "created_date": {
+                "$date": 1621427751743
+            },
+            "last_update": {
+                "$date": 1621427751743
+            },
+            "sub_section": "2D1B5-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_10",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho $a$ l\u00e0 s\u1ed1 th\u1ef1c d\u01b0\u01a1ng kh\u00e1c $1$. M\u1ec7nh \u0111\u1ec1 n\u00e0o sau \u0111\u00e2y l\u00e0 \u0111\u00fang v\u1edbi m\u1ecdi s\u1ed1 th\u1ef1c d\u01b0\u01a1ng $x$, $y$?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_10_C1",
+                    "content": "$\\log_{a}(x y)=\\log_{a} x\\cdot\\log_{a} y$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_10_C2",
+                    "content": "$\\log_{a}(x y)=\\log_{a} x-\\log_{a} y$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_10_C3",
+                    "content": "$\\log_{a}(x y)=\\log_{a}(x+y)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_10_C4",
+                    "content": "$\\log_{a}(x y)=\\log_{a} x+\\log_{a} y$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 c\u00f4ng th\u1ee9c $\\log_{a}(x y)=\\log_{a} x+\\log_{a} y$ v\u1edbi $0 < a\\ne 1$; $x,y>0$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D2X3",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C3"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D2Y3-2]\n\tCho $a$ l\u00e0 s\u1ed1 th\u1ef1c d\u01b0\u01a1ng kh\u00e1c $1$. M\u1ec7nh \u0111\u1ec1 n\u00e0o sau \u0111\u00e2y l\u00e0 \u0111\u00fang v\u1edbi m\u1ecdi s\u1ed1 th\u1ef1c d\u01b0\u01a1ng $x$, $y$?\n\t\\choice\n\t{$\\log_{a}(x y)=\\log_{a} x\\cdot\\log_{a} y$}\n\t{$\\log_{a}(x y)=\\log_{a} x-\\log_{a} y$}\n\t{$\\log_{a}(x y)=\\log_{a}(x+y)$}\n\t{\\True $\\log_{a}(x y)=\\log_{a} x+\\log_{a} y$}\n\t\\loigiai{\n\t\tTa c\u00f3 c\u00f4ng th\u1ee9c $\\log_{a}(x y)=\\log_{a} x+\\log_{a} y$ v\u1edbi $0<a\\ne 1$; $x,y>0$.\n\t}",
+            "created_date": {
+                "$date": 1621427751744
+            },
+            "last_update": {
+                "$date": 1621427751744
+            },
+            "sub_section": "2D2Y3-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_11",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Trong kh\u00f4ng gian $Oxyz$, h\u00ecnh chi\u1ebfu vu\u00f4ng g\u00f3c c\u1ee7a \u0111i\u1ec3m $M(2;1;-1)$ l\u00ean tr\u1ee5c $Oy$ c\u00f3 t\u1ecda \u0111\u1ed9 l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_11_C1",
+                    "content": "$(0;1;-1)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_11_C2",
+                    "content": "$(2;0;-1)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_11_C3",
+                    "content": "$(2;1;0)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_11_C4",
+                    "content": "$(0;1;0)$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "H\u00ecnh chi\u1ebfu c\u1ee7a \u0111i\u1ec3m $M(2;1;-1)$ l\u00ean tr\u1ee5c $Oy$ l\u00e0 \u0111i\u1ec3m $M'(0;1;0)$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H3F1",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_geometry",
+                "math_12_geometry_C1"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2H3B1-1]\n\tTrong kh\u00f4ng gian $Oxyz$, h\u00ecnh chi\u1ebfu vu\u00f4ng g\u00f3c c\u1ee7a \u0111i\u1ec3m $M(2;1;-1)$ l\u00ean tr\u1ee5c $Oy$ c\u00f3 t\u1ecda \u0111\u1ed9 l\u00e0\n\t\\choice\n\t{$(0;1;-1)$}\n\t{$(2;0;-1)$}\n\t{$(2;1;0)$}\n\t{\\True $(0;1;0)$}\n\t\\loigiai{\n\t\tH\u00ecnh chi\u1ebfu c\u1ee7a \u0111i\u1ec3m $M(2;1;-1)$ l\u00ean tr\u1ee5c $Oy$ l\u00e0 \u0111i\u1ec3m $M'(0;1;0)$.\n\t}",
+            "created_date": {
+                "$date": 1621427751744
+            },
+            "last_update": {
+                "$date": 1621427751744
+            },
+            "sub_section": "2H3B1-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_12",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Ti\u1ec7m c\u1eadn \u0111\u1ee9ng c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=\\dfrac{x-2}{x+1}$ l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_12_C1",
+                    "content": "$y=-2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_12_C2",
+                    "content": "$y=1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_12_C3",
+                    "content": "$x=-1$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_12_C4",
+                    "content": "$x=2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $\\lim \\limits_{x \\to -1^+} \\dfrac{x-2}{x+1}=-\\infty$ v\u00e0 $\\lim \\limits_{x \\to -1^-} \\dfrac{x-2}{x+1}=+\\infty$ n\u00ean ti\u1ec7m c\u1eadn \u0111\u1ee9ng c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=\\dfrac{x-2}{x+1}$ l\u00e0 $x=-1$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X4",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C4"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D1Y4-1]\n\tTi\u1ec7m c\u1eadn \u0111\u1ee9ng c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=\\dfrac{x-2}{x+1}$ l\u00e0\n\t\\choice\n\t{$y=-2$}\n\t{$y=1$}\n\t{\\True $x=-1$}\n\t{$x=2$}\n\t\\loigiai{\n\t\tTa c\u00f3 $\\lim \\limits_{x \\to -1^+} \\dfrac{x-2}{x+1}=-\\infty$ v\u00e0 $\\lim \\limits_{x \\to -1^-} \\dfrac{x-2}{x+1}=+\\infty$ n\u00ean ti\u1ec7m c\u1eadn \u0111\u1ee9ng c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=\\dfrac{x-2}{x+1}$ l\u00e0 $x=-1$.\n\t}",
+            "created_date": {
+                "$date": 1621427751744
+            },
+            "last_update": {
+                "$date": 1621427751744
+            },
+            "sub_section": "2D1Y4-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_13",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $y=f(x)$ li\u00ean t\u1ee5c tr\u00ean $\\mathbb{R}$ v\u00e0 c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean nh\u01b0 sau. \u0110i\u1ec3m c\u1ef1c \u0111\u1ea1i c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=f(x)$ l\u00e0 \\begin{center}",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_12_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "\\end{center}",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_13_C1",
+                    "content": "$(-1;-4)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_13_C2",
+                    "content": "$(0;-3)$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_13_C3",
+                    "content": "$0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_13_C4",
+                    "content": "$-3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "T\u1eeb b\u1ea3ng bi\u1ebfn thi\u00ean ta th\u1ea5y \u0111i\u1ec3m c\u1ef1c \u0111\u1ea1i c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=f(x)$ l\u00e0 $M(0;-3)$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X2",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C2"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D1Y2-2]\n\tCho h\u00e0m s\u1ed1 $y=f(x)$ li\u00ean t\u1ee5c tr\u00ean $\\mathbb{R}$ v\u00e0 c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean nh\u01b0 sau. \u0110i\u1ec3m c\u1ef1c \u0111\u1ea1i c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=f(x)$ l\u00e0\n\t\\begin{center}\n\t\t\\begin{tikzpicture}[>=stealth]\n\t\t\\tkzTabInit[nocadre=false,lgt=1,espcl=2,deltacl=0.5]{$x$/.7 ,$y'$/.7,$y$/2}\n\t\t{$-\\infty$ , $-1$ , $0$ , $1$ , $+\\infty$}\n\t\t\\tkzTabLine{ , - , $0$ , + , $0$ , - , $0$ , + , }\n\t\t\\tkzTabVar{+/$+\\infty$ , -/$-4$, +/$-3$ , -/$-4$ , +/$+\\infty$}\n\t\t\\end{tikzpicture}\n\t\\end{center}\n\t\\choice\n\t{$(-1;-4)$}\n\t{\\True $(0;-3)$}\n\t{$0$}\n\t{$-3$}\n\t\\loigiai{\n\t\tT\u1eeb b\u1ea3ng bi\u1ebfn thi\u00ean ta th\u1ea5y \u0111i\u1ec3m c\u1ef1c \u0111\u1ea1i c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=f(x)$ l\u00e0 $M(0;-3)$.\n\t}",
+            "created_date": {
+                "$date": 1621427751744
+            },
+            "last_update": {
+                "$date": 1621427751744
+            },
+            "sub_section": "2D1Y2-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_14",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "N\u1ebfu $\\displaystyle\\int\\limits_0^1 f(x) \\mathrm{\\,d}x=4$ v\u00e0 $\\displaystyle\\int\\limits_0^1 g(x) \\mathrm{\\,d}x=-1$ th\u00ec $\\displaystyle\\int\\limits_0^1 \\left[2f(x)-3g(x) \\right] \\mathrm{\\,d}x$ b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_14_C1",
+                    "content": "$5$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_14_C2",
+                    "content": "$7$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_14_C3",
+                    "content": "$9$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_14_C4",
+                    "content": "$11$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $\\displaystyle\\int\\limits_0^1 \\left[2f(x)-3g(x) \\right] \\mathrm{\\,d}x = 2 \\displaystyle\\int\\limits_0^1 f(x) \\mathrm{\\,d}x -3 \\displaystyle\\int\\limits_0^1 g(x) \\mathrm{\\,d}x =2\\cdot 4 -3 \\cdot (-1)=11$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D3X2",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_algebra",
+                "math_12_algebra_C2"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D3B2-1]\n\tN\u1ebfu $\\displaystyle\\int\\limits_0^1 f(x) \\mathrm{\\,d}x=4$ v\u00e0 $\\displaystyle\\int\\limits_0^1 g(x) \\mathrm{\\,d}x=-1$ th\u00ec $\\displaystyle\\int\\limits_0^1 \\left[2f(x)-3g(x) \\right] \\mathrm{\\,d}x$ b\u1eb1ng\n\t\\choice\n\t{ $5$}\n\t{$7$}\n\t{$9$}\n\t{\\True $11$}\n\t\\loigiai{\n\t\tTa c\u00f3 $\\displaystyle\\int\\limits_0^1 \\left[2f(x)-3g(x) \\right] \\mathrm{\\,d}x = 2 \\displaystyle\\int\\limits_0^1 f(x) \\mathrm{\\,d}x -3 \\displaystyle\\int\\limits_0^1 g(x) \\mathrm{\\,d}x =2\\cdot 4 -3 \\cdot (-1)=11$.\t\n\t}",
+            "created_date": {
+                "$date": 1621427751745
+            },
+            "last_update": {
+                "$date": 1621427751745
+            },
+            "sub_section": "2D3B2-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_15",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho kh\u1ed1i tr\u1ee5 c\u00f3 chi\u1ec1u cao $h = 3$ v\u00e0 b\u00e1n k\u00ednh \u0111\u00e1y $r = 4$. Th\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i tr\u1ee5 \u0111\u00e3 cho b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_15_C1",
+                    "content": "$36\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_15_C2",
+                    "content": "$16\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_15_C3",
+                    "content": "$48\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_15_C4",
+                    "content": "$4\\pi$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Th\u1ebf t\u00edch kh\u1ed1i tr\u1ee5 b\u1eb1ng $V=\\pi r^2h=\\pi\\cdot 4^2\\cdot 3=48\\pi$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H2F1",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_geometry",
+                "math_12_geometry_C1"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2H2Y1-1] \n\tCho kh\u1ed1i tr\u1ee5 c\u00f3 chi\u1ec1u cao $h = 3$ v\u00e0 b\u00e1n k\u00ednh \u0111\u00e1y $r = 4$. Th\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i tr\u1ee5 \u0111\u00e3 cho b\u1eb1ng\n\t\\choice\n\t{$36\\pi$}\n\t{$16\\pi$}\n\t{\\True $48\\pi$}\n\t{$4\\pi$}\n\t\\loigiai{\n\t\tTh\u1ebf t\u00edch kh\u1ed1i tr\u1ee5 b\u1eb1ng $V=\\pi r^2h=\\pi\\cdot 4^2\\cdot 3=48\\pi$.\n\t}",
+            "created_date": {
+                "$date": 1621427751745
+            },
+            "last_update": {
+                "$date": 1621427751745
+            },
+            "sub_section": "2H2Y1-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_16",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "{ Cho h\u00e0m s\u1ed1 b\u1eadc b\u1ed1n $ y=f(x) $ c\u00f3 \u0111\u1ed3 th\u1ecb trong h\u00ecnh v\u1ebd b\u00ean d\u01b0\u1edbi. T\u1eadp nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $ f(x)=1 $ c\u00f3 s\u1ed1 ph\u1ea7n t\u1eed l\u00e0",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "} {",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_15_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "}",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_16_C1",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_16_C2",
+                    "content": "$2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_16_C3",
+                    "content": "$1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_16_C4",
+                    "content": "$4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "{ S\u1ed1 nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $ f(x)=1 $ b\u1eb1ng s\u1ed1 giao \u0111i\u1ec3m c\u1ee7a hai \u0111\u1ed3 th\u1ecb $ y=f(x) \\,\\, (C)$ v\u00e0 $ y=1 \\,\\,(d)$.\\\\ D\u1ef1a v\u00e0o \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $ y=f(x) $, ta th\u1ea5y \u0111\u01b0\u1eddng th\u1eb3ng $ y=1 $ c\u1eaft \u0111\u1ed3 th\u1ecb t\u1ea1i $ 3 $ \u0111i\u1ec3m ph\u00e2n bi\u1ec7t. {",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_EXPLAIN_15_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "}",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D1Y5-3]\n\t\\immini\n\t{\n\t\tCho h\u00e0m s\u1ed1 b\u1eadc b\u1ed1n $ y=f(x) $ c\u00f3 \u0111\u1ed3 th\u1ecb trong h\u00ecnh v\u1ebd b\u00ean d\u01b0\u1edbi. T\u1eadp nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $ f(x)=1 $ c\u00f3 s\u1ed1 ph\u1ea7n t\u1eed l\u00e0\n\t\t\\choice\n\t\t{\\True $3$}\n\t\t{$2$}\n\t\t{$1$}\n\t\t{$4$}\n\t}\n\t{\n\t\t\\begin{tikzpicture}[scale=0.7, font=\\footnotesize, line join=round, line cap=round, >=stealth]\n\t\t\\def\\a{1/4} % H\u1ec7 s\u1ed1 a ph\u1ea3i kh\u00e1c 0\n\t\t\\def\\b{-2}\n\t\t\\def\\c{1}\n\t\t\\draw[->] (-3.2,0) -- (3.2,0) node[below] {$x$};\n\t\t\\draw[->] (0,-3.2) -- (0,2.5) node[left] {$y$};\n\t\t\\draw (0,0)node[below left]{$O$};\n\t\t\\draw[samples=150,smooth,domain=-2.9:2.9] plot(\\x,{\\a*(\\x)^4+(\\b)*(\\x)^2+(\\c)});\n\t\t\\draw[dashed] (-2,0) node[above]{$ -2 $}|-(0,-3)node[above left]{$ -3 $}-|(2,0)node[above]{$ 2 $};\n\t\t\\foreach \\x in {-2,0,2} \\fill (\\x,0) circle (1pt);\n\t\t\\foreach \\y in {1,-3} \\fill (0,\\y) circle (1pt);\n\t\t\\draw (0,1)node[above left]{$1$};\n\t\t\\end{tikzpicture}\n\t}\n\t\\loigiai{\n\t\t\\immini\n\t\t{\n\t\t\tS\u1ed1 nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $ f(x)=1 $ b\u1eb1ng s\u1ed1 giao \u0111i\u1ec3m c\u1ee7a hai \u0111\u1ed3 th\u1ecb $ y=f(x)  \\,\\, (C)$ v\u00e0 $ y=1  \\,\\,(d)$.\\\\\n\t\t\tD\u1ef1a v\u00e0o \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $ y=f(x) $, ta th\u1ea5y \u0111\u01b0\u1eddng th\u1eb3ng $ y=1 $ c\u1eaft \u0111\u1ed3 th\u1ecb t\u1ea1i $ 3 $ \u0111i\u1ec3m ph\u00e2n bi\u1ec7t.\n\t\t}\n\t\t{\n\t\t\t\\begin{tikzpicture}[scale=0.7, font=\\footnotesize, line join=round, line cap=round, >=stealth]\n\t\t\t\\def\\a{1/4} % H\u1ec7 s\u1ed1 a ph\u1ea3i kh\u00e1c 0\n\t\t\t\\def\\b{-2}\n\t\t\t\\def\\c{1}\n\t\t\t\\draw[<->,blue] (-3.2,1) -- (3.2,1) node[above] {$d$};\n\t\t\t\\draw[->] (-3.2,0) -- (3.2,0) node[below] {$x$};\n\t\t\t\\draw[->] (0,-3.2) -- (0,2.5) node[left] {$y$};\n\t\t\t\\draw (0,0)node[below left]{$O$};\n\t\t\t\\draw[samples=150,smooth,domain=-2.9:2.9] plot(\\x,{\\a*(\\x)^4+(\\b)*(\\x)^2+(\\c)});\n\t\t\t\\draw[dashed] (-2,0) node[above]{$ -2 $}|-(0,-3)node[above left]{$ -3 $}-|(2,0)node[above]{$ 2 $};\n\t\t\t\\foreach \\x in {-2,0,2} \\fill (\\x,0) circle (1pt);\n\t\t\t\\foreach \\y in {1,-3} \\fill (0,\\y) circle (1pt);\n\t\t\t\\draw (0,1)node[above left]{$1$};\n\t\t\t\\end{tikzpicture}\n\t\t}\n\t}",
+            "created_date": {
+                "$date": 1621427751745
+            },
+            "last_update": {
+                "$date": 1621427751745
+            },
+            "sub_section": "2D1Y5-3",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_17",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho m\u1eb7t c\u1ea7u c\u00f3 b\u00e1n k\u00ednh $R$. Di\u1ec7n t\u00edch c\u1ee7a m\u1eb7t c\u1ea7u \u0111\u00e3 cho b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_17_C1",
+                    "content": "$4\\pi R^2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_17_C2",
+                    "content": "$4\\pi R$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_17_C3",
+                    "content": "$\\dfrac{4\\pi R^2}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_17_C4",
+                    "content": "$\\dfrac{4\\pi R^3}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "C\u00f4ng th\u1ee9c t\u00ednh di\u1ec7n t\u00edch m\u1eb7t c\u1ea7u c\u00f3 b\u00e1n k\u00ednh $ R $ l\u00e0 $ S= 4\\pi R^2$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H2F2",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_geometry",
+                "math_12_geometry_C2"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2H2Y2-1]\n\tCho m\u1eb7t c\u1ea7u c\u00f3 b\u00e1n k\u00ednh $R$. Di\u1ec7n t\u00edch c\u1ee7a m\u1eb7t c\u1ea7u \u0111\u00e3 cho b\u1eb1ng\n\t\\choice\n\t{\\True $4\\pi R^2$}\n\t{$4\\pi R$}\n\t{$\\dfrac{4\\pi R^2}{3}$}\n\t{$\\dfrac{4\\pi R^3}{3}$}\n\t\\loigiai{\n\t\tC\u00f4ng th\u1ee9c t\u00ednh di\u1ec7n t\u00edch m\u1eb7t c\u1ea7u c\u00f3 b\u00e1n k\u00ednh $ R $ l\u00e0 $ S= 4\\pi R^2$.\n\t}",
+            "created_date": {
+                "$date": 1621427751746
+            },
+            "last_update": {
+                "$date": 1621427751746
+            },
+            "sub_section": "2H2Y2-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_18",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "{ Cho h\u00e0m s\u1ed1 $ y=f(x) $ c\u00f3 \u0111\u1ed3 th\u1ecb nh\u01b0 h\u00ecnh v\u1ebd b\u00ean. H\u00e0m s\u1ed1 $ y=f(x) $ \u0111\u1ed3ng bi\u1ebfn tr\u00ean kho\u1ea3ng n\u00e0o sau \u0111\u00e2y ?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "} {",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_17_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "}",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_18_C1",
+                    "content": "$(0;4)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_18_C2",
+                    "content": "$(-\\infty;0)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_18_C3",
+                    "content": "$(0;2)$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_18_C4",
+                    "content": "$(0;3)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "D\u1ef1a v\u00e0o \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $ y=f(x) $, h\u00e0m s\u1ed1 \u0111\u1ed3ng bi\u1ebfn tr\u00ean $ (0;2) $ v\u00e0 ngh\u1ecbch bi\u1ebfn $ (-\\infty;0) $, $ (0;+\\infty) $.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X1",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C1"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D1Y1-2]\n\t\\immini\n\t{\n\t\tCho h\u00e0m s\u1ed1 $ y=f(x) $ c\u00f3 \u0111\u1ed3 th\u1ecb nh\u01b0 h\u00ecnh v\u1ebd b\u00ean. H\u00e0m s\u1ed1 $ y=f(x) $ \u0111\u1ed3ng bi\u1ebfn tr\u00ean kho\u1ea3ng n\u00e0o sau \u0111\u00e2y ?\n\t\t\\choice\n\t\t{$(0;4)$}\n\t\t{$(-\\infty;0)$}\n\t\t{\\True $(0;2)$}\n\t\t{$(0;3)$}\n\t}\n\t{\n\t\t\\begin{tikzpicture}[scale=0.7, font=\\footnotesize, line join=round, line cap=round, >=stealth]\n\t\t\\def\\a{-1} % H\u1ec7 s\u1ed1 a ph\u1ea3i kh\u00e1c 0\n\t\t\\def\\b{3}\n\t\t\\def\\c{0}\n\t\t\\def\\d{0}\n\t\t\\draw[->] (-1.5,0) -- (3.5,0) node[above] {$x$};\n\t\t\\draw[->] (0,-1.2) -- (0,5) node[left] {$y$};\n\t\t\\draw (0,0)node[below left]{$O$};\n\t\t\\draw[samples=150,smooth,domain=-1.1:3.1] plot(\\x,{\\a*(\\x)^3+(\\b)*(\\x)^2+(\\c)*(\\x)+(\\d)});\n\t\t\\draw[dashed] (-1,0) node[below]{$ -1 $}|-(0,4)node[above right]{$ 4 $}-|(2,0)node[below]{$ 2 $};\n\t\t\\foreach \\x in {-1,0,1,2,3} \n\t\t\\draw[shift={(\\x,0)}] (0,1pt)--(0,-1pt);\n\t\t\\foreach \\y in {-1,1,2,3,4} \n\t\t\\draw[shift={(0,\\y)}] (1pt,0)--(-1pt,0);\n\t\t\\end{tikzpicture}\n\t}\n\t\\loigiai{\n\t\tD\u1ef1a v\u00e0o \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $ y=f(x) $, h\u00e0m s\u1ed1 \u0111\u1ed3ng bi\u1ebfn tr\u00ean $ (0;2) $ v\u00e0 ngh\u1ecbch bi\u1ebfn $ (-\\infty;0) $, $ (0;+\\infty) $.\n\t}",
+            "created_date": {
+                "$date": 1621427751747
+            },
+            "last_update": {
+                "$date": 1621427751747
+            },
+            "sub_section": "2D1Y1-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_19",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u00ecm ph\u1ea7n \u1ea3o c\u1ee7a s\u1ed1 ph\u1ee9c $ z=19-20i $",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_19_C1",
+                    "content": "$20i$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_19_C2",
+                    "content": "$-20$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_19_C3",
+                    "content": "$-20i$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_19_C4",
+                    "content": "$19$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "S\u1ed1 ph\u1ee9c $ z=19-20i $ c\u00f3 ph\u1ea7n th\u1ef1c l\u00e0 $ 19 $ v\u00e0 ph\u1ea7n \u1ea3o l\u00e0 $ -20 $.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D4F1",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_algebra",
+                "math_12_algebra_C1"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D4Y1-1]\n\tT\u00ecm ph\u1ea7n \u1ea3o c\u1ee7a s\u1ed1 ph\u1ee9c $ z=19-20i $\n\t\\choice\n\t{$20i$}\n\t{\\True $-20$}\n\t{$-20i$}\n\t{$19$}\n\t\\loigiai{\n\t\tS\u1ed1 ph\u1ee9c $ z=19-20i $ c\u00f3 ph\u1ea7n th\u1ef1c l\u00e0 $ 19 $ v\u00e0 ph\u1ea7n \u1ea3o l\u00e0 $ -20 $.\n\t}",
+            "created_date": {
+                "$date": 1621427751747
+            },
+            "last_update": {
+                "$date": 1621427751747
+            },
+            "sub_section": "2D4Y1-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_20",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Ph\u01b0\u01a1ng tr\u00ecnh $\\log_2 x=2$ c\u00f3 nghi\u1ec7m l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_20_C1",
+                    "content": "$x=2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_20_C2",
+                    "content": "$x=3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_20_C3",
+                    "content": "$x=1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_20_C4",
+                    "content": "$x=4$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3\t$\\log_2 x=2\\Leftrightarrow x=2^2=4$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D2X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed, Thpt 2020, Phu Duc - Thai Binh]%[B\u00f9i Anh Tu\u1ea5n, 12EX-11]%[2D2B5-1]\n\tPh\u01b0\u01a1ng tr\u00ecnh $\\log_2 x=2$ c\u00f3 nghi\u1ec7m l\u00e0\n\t\\choice\n\t{$x=2$}\n\t{$x=3$}\n\t{$x=1$}\n\t{\\True $x=4$}\n\t\\loigiai{\n\t\tTa c\u00f3\t$\\log_2 x=2\\Leftrightarrow x=2^2=4$.\n\t}",
+            "created_date": {
+                "$date": 1621427751747
+            },
+            "last_update": {
+                "$date": 1621427751747
+            },
+            "sub_section": "2D2B5-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_21",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00ecnh tr\u1ee5 c\u00f3 b\u00e1n k\u00ednh \u0111\u00e1y $ r=4 $ cm v\u00e0 kho\u1ea3ng c\u00e1ch gi\u1eefa hai \u0111\u00e1y b\u1eb1ng $10$ cm. Di\u1ec7n t\u00edch xung quanh c\u1ee7a h\u00ecnh tr\u1ee5 \u0111\u00e3 cho b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_21_C1",
+                    "content": "$40\\pi$ $\\mathrm{cm}^2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_21_C2",
+                    "content": "$\\dfrac{160}{3}\\pi$ $\\mathrm{cm}^2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_21_C3",
+                    "content": "$80\\pi$ $\\mathrm{cm}^2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_21_C4",
+                    "content": "$\\dfrac{40}{3}\\pi$ $\\mathrm{cm}^2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\u0110\u1ed9 d\u00e0i \u0111\u01b0\u1eddng sinh l\u00e0 $l=10$ cm.\\\\ Di\u1ec7n t\u00edch xung quanh c\u1ee7a h\u00ecnh tr\u1ee5 l\u00e0 $S_{xq}=2\\pi rl=2\\pi \\cdot 4\\cdot 10=80\\pi$ $\\mathrm{cm}^2$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H2F1",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_geometry",
+                "math_12_geometry_C1"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2H2B1-2] \n\tCho h\u00ecnh tr\u1ee5 c\u00f3 b\u00e1n k\u00ednh \u0111\u00e1y $ r=4 $ cm v\u00e0 kho\u1ea3ng c\u00e1ch gi\u1eefa hai \u0111\u00e1y b\u1eb1ng $10$ cm. Di\u1ec7n t\u00edch xung quanh c\u1ee7a h\u00ecnh tr\u1ee5 \u0111\u00e3 cho b\u1eb1ng\n\t\\choice\n\t{$40\\pi$ $\\mathrm{cm}^2$}\n\t{$\\dfrac{160}{3}\\pi$ $\\mathrm{cm}^2$}\n\t{\\True $80\\pi$ $\\mathrm{cm}^2$}\n\t{$\\dfrac{40}{3}\\pi$ $\\mathrm{cm}^2$}\n\t\\loigiai{\n\t\t\u0110\u1ed9 d\u00e0i \u0111\u01b0\u1eddng sinh l\u00e0 $l=10$ cm.\\\\\n\t\tDi\u1ec7n t\u00edch xung quanh c\u1ee7a h\u00ecnh tr\u1ee5 l\u00e0 $S_{xq}=2\\pi rl=2\\pi \\cdot 4\\cdot 10=80\\pi$ $\\mathrm{cm}^2$.\n\t}",
+            "created_date": {
+                "$date": 1621427751748
+            },
+            "last_update": {
+                "$date": 1621427751748
+            },
+            "sub_section": "2H2B1-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_22",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "S\u1ed1 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=x^3-3x^2+4$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $y=-4x+8$ l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_22_C1",
+                    "content": "$1$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_22_C2",
+                    "content": "$0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_22_C3",
+                    "content": "$2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_22_C4",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ho\u00e0nh \u0111\u1ed9 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=x^3-3x^2+4$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $y=-4x+8$ l\u00e0 nghi\u1ec7m ph\u01b0\u01a1ng tr\u00ecnh sau $$x^3-3x^2+4=-4x+8\\Leftrightarrow x^3-3x^2+4x-4=0\\Leftrightarrow x=2.$$",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D1B5-4] \n\tS\u1ed1 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=x^3-3x^2+4$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $y=-4x+8$ l\u00e0\n\t\\choice\n\t{\\True $1$}\n\t{$0$}\n\t{$2$}\n\t{$3$}\n\t\\loigiai{\n\t\tHo\u00e0nh \u0111\u1ed9 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=x^3-3x^2+4$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $y=-4x+8$ l\u00e0 nghi\u1ec7m ph\u01b0\u01a1ng tr\u00ecnh sau $$x^3-3x^2+4=-4x+8\\Leftrightarrow x^3-3x^2+4x-4=0\\Leftrightarrow x=2.$$\n\t}",
+            "created_date": {
+                "$date": 1621427751748
+            },
+            "last_update": {
+                "$date": 1621427751748
+            },
+            "sub_section": "2D1B5-4",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_23",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $y=f(x)$ c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean nh\u01b0 h\u00ecnh b\u00ean. \\begin{center}",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_22_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "\\end{center} \u0110i\u1ec3m c\u1ef1c \u0111\u1ea1i c\u1ee7a h\u00e0m s\u1ed1 $y=f(x)$ l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_23_C1",
+                    "content": "$x=-1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_23_C2",
+                    "content": "$x=0$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_23_C3",
+                    "content": "$x=1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_23_C4",
+                    "content": "$y=-3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Quan s\u00e1t b\u1ea3ng bi\u1ebfn thi\u00ean, ta c\u00f3 \u0111i\u1ec3m c\u1ef1c \u0111\u1ea1i c\u1ee7a h\u00e0m s\u1ed1 $y=f(x)$ l\u00e0 $ x=0 $.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X2",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C2"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D1Y2-2] \n\tCho h\u00e0m s\u1ed1 $y=f(x)$ c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean nh\u01b0 h\u00ecnh b\u00ean.\n\t\\begin{center}\n\t\t\\begin{tikzpicture}\n\t\t\\tkzTabInit[nocadre=false,lgt=1.2,espcl=2.5,deltacl=0.6]\n\t\t{$x$ /0.6,$y\u2019$ /0.6,$y$ /2}\n\t\t{$-\\infty$,$-1$,$0$,$1$,$+\\infty$};\n\t\t\\tkzTabLine{,-,0,+,0,-,0,+,};\n\t\t\\tkzTabVar{+/$+\\infty$,-/$-4$,+/$-3$,-/$-4$,+/$+\\infty$};\n\t\t\\end{tikzpicture}\n\t\\end{center}\n\t\u0110i\u1ec3m c\u1ef1c \u0111\u1ea1i c\u1ee7a h\u00e0m s\u1ed1 $y=f(x)$ l\u00e0\n\t\\choice\n\t{$x=-1$}\n\t{\\True $x=0$}\n\t{$x=1$}\n\t{$y=-3$}\n\t\\loigiai{\n\t\tQuan s\u00e1t b\u1ea3ng bi\u1ebfn thi\u00ean, ta c\u00f3 \u0111i\u1ec3m c\u1ef1c \u0111\u1ea1i c\u1ee7a h\u00e0m s\u1ed1 $y=f(x)$ l\u00e0 $ x=0 $.\n\t}",
+            "created_date": {
+                "$date": 1621427751748
+            },
+            "last_update": {
+                "$date": 1621427751748
+            },
+            "sub_section": "2D1Y2-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_24",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "G\u1ecdi $z_1$ v\u00e0 $z_2$ l\u1ea7n l\u01b0\u1ee3t l\u00e0 hai nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $z^2-4z+5=0$, trong \u0111\u00f3 $z_1$ l\u00e0 nghi\u1ec7m ph\u1ee9c c\u00f3 ph\u1ea7n \u1ea3o d\u01b0\u01a1ng. Gi\u00e1 tr\u1ecb c\u1ee7a bi\u1ec3u th\u1ee9c $P=(z_1-2z_2) \\overline{z_2}-4z_1$ b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_24_C1",
+                    "content": "$-5$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_24_C2",
+                    "content": "$-15$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_24_C3",
+                    "content": "$-10$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_24_C4",
+                    "content": "$10$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $z^2-4z+5=0\\Leftrightarrow\\\\left[\\\\begin{aligned}&z_1=2+i\\\\&z_2=2-i.\\\\end{aligned}\\\\right$\\\\ V\u1eady $P=(z_1-2z_2)\\overline{z_2}-4z_1=[2+i-2(2-i)] (2+i)-4(2+i)=-15$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D4F2",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_algebra",
+                "math_12_algebra_C2"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D4B2-2] \n\tG\u1ecdi $z_1$ v\u00e0 $z_2$ l\u1ea7n l\u01b0\u1ee3t l\u00e0 hai nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $z^2-4z+5=0$, trong \u0111\u00f3 $z_1$ l\u00e0 nghi\u1ec7m ph\u1ee9c c\u00f3 ph\u1ea7n \u1ea3o d\u01b0\u01a1ng. Gi\u00e1 tr\u1ecb c\u1ee7a bi\u1ec3u th\u1ee9c $P=(z_1-2z_2) \\overline{z_2}-4z_1$ b\u1eb1ng\n\t\\choice\n\t{$-5$}\n\t{\\True $-15$}\n\t{$-10$}\n\t{$10$}\n\t\\loigiai{\n\t\tTa c\u00f3 $z^2-4z+5=0\\Leftrightarrow\\hoac{&z_1=2+i\\\\&z_2=2-i.}$\\\\\n\t\tV\u1eady  $P=(z_1-2z_2)\\overline{z_2}-4z_1=[2+i-2(2-i)] (2+i)-4(2+i)=-15$.\n\t}",
+            "created_date": {
+                "$date": 1621427751749
+            },
+            "last_update": {
+                "$date": 1621427751749
+            },
+            "sub_section": "2D4B2-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_25",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "T\u1eadp nghi\u1ec7m c\u1ee7a b\u1ea5t ph\u01b0\u01a1ng tr\u00ecnh $4^x-3\\cdot 2^x+2\\le 0$ l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_25_C1",
+                    "content": "$\\left(1;2\\right)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_25_C2",
+                    "content": "$\\left[0;1\\right]$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_25_C3",
+                    "content": "$\\left[1;2\\right]$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_25_C4",
+                    "content": "$\\left[0;1\\right)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\u0110\u1eb7t $t=2^x\\Rightarrow x=\\log_2 t$, \u0110i\u1ec1u ki\u1ec7n $t>0$.\\\\ Khi \u0111\u00f3 b\u1ea5t ph\u01b0\u01a1ng tr\u00ecnh \u0111\u00e3 cho tr\u1edf th\u00e0nh \\begin{eqnarray*} &&t^2-3t+2\\le 0\\\\&\\Leftrightarrow& 1\\le t\\le 2\\\\&\\Leftrightarrow& 0\\le x\\le 1. \\end{eqnarray*}",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D2X6",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C6"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D2B6-1] \n\tT\u1eadp nghi\u1ec7m c\u1ee7a b\u1ea5t ph\u01b0\u01a1ng tr\u00ecnh $4^x-3\\cdot 2^x+2\\le 0$ l\u00e0\n\t\\choice\n\t{$\\left(1;2\\right)$}\n\t{\\True $\\left[0;1\\right]$}\n\t{$\\left[1;2\\right]$}\n\t{$\\left[0;1\\right)$}\n\t\\loigiai{\n\t\t\u0110\u1eb7t $t=2^x\\Rightarrow x=\\log_2 t$, \u0110i\u1ec1u ki\u1ec7n $t>0$.\\\\\n\t\tKhi \u0111\u00f3 b\u1ea5t ph\u01b0\u01a1ng tr\u00ecnh \u0111\u00e3 cho tr\u1edf th\u00e0nh\n\t\t\\begin{eqnarray*}\n\t\t\t&&t^2-3t+2\\le 0\\\\&\\Leftrightarrow& 1\\le t\\le 2\\\\&\\Leftrightarrow& 0\\le x\\le 1.\n\t\t\\end{eqnarray*}\n\t}",
+            "created_date": {
+                "$date": 1621427751749
+            },
+            "last_update": {
+                "$date": 1621427751749
+            },
+            "sub_section": "2D2B6-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_26",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Th\u1ec3 t\u00edch kh\u1ed1i tr\u00f2n xoay t\u1ea1o th\u00e0nh khi quay quanh h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $y=x\\mathrm{e}^x$, tr\u1ee5c ho\u00e0nh v\u00e0 hai \u0111\u01b0\u1eddng th\u1eb3ng $x=0,\\,x=1$ xung quanh tr\u1ee5c $Ox$ \u0111\u01b0\u1ee3c t\u00ednh b\u1edfi c\u00f4ng th\u1ee9c n\u00e0o d\u01b0\u1edbi \u0111\u00e2y",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_26_C1",
+                    "content": "$V=\\pi\\displaystyle\\int\\limits_0^1 x^2\\mathrm{e}^{2x}\\mathrm{d}x $",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_26_C2",
+                    "content": "$V=\\pi\\displaystyle\\int\\limits_0^1 x\\mathrm{e}^{x}\\mathrm{d}x $",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_26_C3",
+                    "content": "$V=\\displaystyle\\int\\limits_0^1 x^2\\mathrm{e}^{2x}\\mathrm{d}x $",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_26_C4",
+                    "content": "$V=\\pi\\displaystyle\\int\\limits_0^1 x^2\\mathrm{e}^{x}\\mathrm{d}x $",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Th\u1ec3 t\u00edch kh\u1ed1i tr\u00f2n xoay gi\u1edbi h\u1ea1n b\u1edfi $y=f(x),\\;y=0,\\;x=a,\\;x=b\\;(a < b)$ l\u00e0 $$V=\\pi\\displaystyle\\int\\limits_a^bf^2(x)\\mathrm{\\,d}x. $$ V\u1eady $V=\\pi\\displaystyle\\int\\limits_0^1 x^2\\mathrm{e}^{2x}\\mathrm{\\,d}x$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D3X3",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_algebra",
+                "math_12_algebra_C3"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D3B3-3] \n\tTh\u1ec3 t\u00edch kh\u1ed1i tr\u00f2n xoay t\u1ea1o th\u00e0nh khi quay quanh h\u00ecnh ph\u1eb3ng gi\u1edbi h\u1ea1n b\u1edfi \u0111\u1ed3 th\u1ecb c\u1ee7a h\u00e0m s\u1ed1 $y=x\\mathrm{e}^x$, tr\u1ee5c ho\u00e0nh v\u00e0 hai \u0111\u01b0\u1eddng th\u1eb3ng $x=0,\\,x=1$ xung quanh tr\u1ee5c $Ox$ \u0111\u01b0\u1ee3c t\u00ednh b\u1edfi c\u00f4ng th\u1ee9c n\u00e0o d\u01b0\u1edbi \u0111\u00e2y\n\t\\choice\n\t{\\True $V=\\pi\\displaystyle\\int\\limits_0^1 x^2\\mathrm{e}^{2x}\\mathrm{d}x $}\n\t{$V=\\pi\\displaystyle\\int\\limits_0^1 x\\mathrm{e}^{x}\\mathrm{d}x $}\n\t{$V=\\displaystyle\\int\\limits_0^1 x^2\\mathrm{e}^{2x}\\mathrm{d}x $}\n\t{$V=\\pi\\displaystyle\\int\\limits_0^1 x^2\\mathrm{e}^{x}\\mathrm{d}x $}\n\t\\loigiai{\n\t\tTh\u1ec3 t\u00edch kh\u1ed1i tr\u00f2n xoay gi\u1edbi h\u1ea1n b\u1edfi $y=f(x),\\;y=0,\\;x=a,\\;x=b\\;(a<b)$ l\u00e0 $$V=\\pi\\displaystyle\\int\\limits_a^bf^2(x)\\mathrm{\\,d}x. $$\n\t\tV\u1eady $V=\\pi\\displaystyle\\int\\limits_0^1 x^2\\mathrm{e}^{2x}\\mathrm{\\,d}x$.\n\t}",
+            "created_date": {
+                "$date": 1621427751749
+            },
+            "last_update": {
+                "$date": 1621427751749
+            },
+            "sub_section": "2D3B3-3",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_27",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho kh\u1ed1i ch\u00f3p $S.ABC$ c\u00f3 \u0111\u00e1y $ABC$ l\u00e0 tam gi\u00e1c vu\u00f4ng t\u1ea1i $B$, bi\u1ebft $AB=3a$ v\u00e0 $BC=a$. C\u1ea1nh b\u00ean $SA$ vu\u00f4ng g\u00f3c v\u1edbi m\u1eb7t \u0111\u00e1y v\u00e0 $SA=3a$. Th\u1ec3 t\u00edch kh\u1ed1i ch\u00f3p \u0111\u00e3 cho b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_27_C1",
+                    "content": "$a^3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_27_C2",
+                    "content": "$\\dfrac{3a^3}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_27_C3",
+                    "content": "$\\dfrac{9a^3}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_27_C4",
+                    "content": "$\\dfrac{a^3}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "$\\triangle ABC$ l\u00e0 tam gi\u00e1c vu\u00f4ng t\u1ea1i $B$ c\u00f3 di\u1ec7n t\u00edch $S=\\dfrac{1}{2}AB\\cdot BC=\\dfrac{3a^2}{2}$.\\\\ Th\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i ch\u00f3p \u0111\u00e3 cho l\u00e0 $V=\\dfrac{1}{3}S_{ABC}\\cdot SA=\\dfrac{1}{3}\\cdot \\dfrac{3a^2}{2}\\cdot 3a=\\dfrac{3a^3}{2}$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H1F3",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_geometry",
+                "math_12_geometry_C3"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2H1B3-2] \n\tCho kh\u1ed1i ch\u00f3p $S.ABC$ c\u00f3 \u0111\u00e1y $ABC$ l\u00e0 tam gi\u00e1c vu\u00f4ng t\u1ea1i $B$, bi\u1ebft $AB=3a$ v\u00e0 $BC=a$. C\u1ea1nh b\u00ean $SA$ vu\u00f4ng g\u00f3c v\u1edbi m\u1eb7t \u0111\u00e1y v\u00e0 $SA=3a$. Th\u1ec3 t\u00edch kh\u1ed1i ch\u00f3p \u0111\u00e3 cho b\u1eb1ng\n\t\\choice\n\t{$a^3$}\n\t{\\True $\\dfrac{3a^3}{2}$}\n\t{$\\dfrac{9a^3}{2}$}\n\t{$\\dfrac{a^3}{3}$}\n\t\\loigiai{\n\t\t$\\triangle ABC$ l\u00e0 tam gi\u00e1c vu\u00f4ng t\u1ea1i $B$ c\u00f3 di\u1ec7n t\u00edch $S=\\dfrac{1}{2}AB\\cdot BC=\\dfrac{3a^2}{2}$.\\\\\n\t\tTh\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i ch\u00f3p \u0111\u00e3 cho l\u00e0 $V=\\dfrac{1}{3}S_{ABC}\\cdot SA=\\dfrac{1}{3}\\cdot \\dfrac{3a^2}{2}\\cdot 3a=\\dfrac{3a^3}{2}$.\n\t}",
+            "created_date": {
+                "$date": 1621427751749
+            },
+            "last_update": {
+                "$date": 1621427751749
+            },
+            "sub_section": "2H1B3-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_28",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 b\u1eadc b\u1ed1n $y=f(x)$ c\u00f3 \u0111\u1ed3 th\u1ecb nh\u01b0 h\u00ecnh v\u1ebd b\u00ean. T\u00ecm t\u1ea5t c\u1ea3 c\u00e1c gi\u00e1 tr\u1ecb c\u1ee7a tham s\u1ed1 th\u1ef1c $m$ \u0111\u1ec3 ph\u01b0\u01a1ng tr\u00ecnh $f(x)+1=m$ c\u00f3 \u0111\u00fang 2 nghi\u1ec7m ph\u00e2n bi\u1ec7t.",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "}{",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_27_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "}",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_28_C1",
+                    "content": "$\\\\left[\\\\begin{aligned}&m=-3\\\\&m>1\\\\end{aligned}\\\\right$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_28_C2",
+                    "content": "$m>2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_28_C3",
+                    "content": "$m\\ge2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_28_C4",
+                    "content": "$\\\\left[\\\\begin{aligned}&m>2\\\\&m=-2\\\\end{aligned}\\\\right$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\\begin{align*} f(x)+1=m\\Leftrightarrow f(x)=m-1.\\tag{1} \\end{align*} S\u1ed1 nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $(1)$ b\u1eb1ng s\u1ed1 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb $y=f(x)$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $y=m-1$.\\\\ Do \u0111\u00f3 ph\u01b0\u01a1ng tr\u00ecnh \u0111\u00e3 cho c\u00f3 \u0111\u00fang $2$ nghi\u1ec7m ph\u00e2n bi\u1ec7t $$\\Leftrightarrow \\\\left[\\\\begin{aligned}&m-1>1\\\\&m-1=-3\\\\end{aligned}\\\\right\\Leftrightarrow\\\\left[\\\\begin{aligned}&m>2\\\\&m=-2.\\\\end{aligned}\\\\right$$",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D1B5-3] \n\tCho h\u00e0m s\u1ed1 b\u1eadc b\u1ed1n $y=f(x)$ c\u00f3 \u0111\u1ed3 th\u1ecb nh\u01b0 h\u00ecnh v\u1ebd b\u00ean.\\immini{ T\u00ecm t\u1ea5t c\u1ea3 c\u00e1c gi\u00e1 tr\u1ecb c\u1ee7a tham s\u1ed1 th\u1ef1c $m$ \u0111\u1ec3 ph\u01b0\u01a1ng tr\u00ecnh $f(x)+1=m$ c\u00f3 \u0111\u00fang 2 nghi\u1ec7m ph\u00e2n bi\u1ec7t.\n\t\t\\choice\n\t\t{$\\hoac{&m=-3\\\\&m>1}$}\n\t\t{$m>2$}\n\t\t{$m\\ge2$}\n\t\t{\\True $\\hoac{&m>2\\\\&m=-2}$}}{\\begin{tikzpicture}[line join=round, line cap=round,>=stealth,thick]\n\t\t\\tikzset{label style/.style={font=\\footnotesize}}\n\t\t\\draw[->] (-3.1,0)--(3.5,0) node[below left] {$x$};\n\t\t\\draw[->] (0,-3.6)--(0,2.1) node[below left] {$y$};\n\t\t\\draw (0,0) node [below left] {$O$};\n\t\t\\foreach \\i /\\j in {-2/-3,0/1,2/-3}{\n\t\t\t\\draw[dashed] (\\i,0)|-(0,\\j);\n\t\t\t\\fill[black] (\\i,\\j) circle (2pt);}\n\t\t\\foreach \\i/\\j in {-2/-3,2/-3}{\\draw (\\i,0) node[above]{$\\i$}\n\t\t\t(0,\\j)node[above right]{$\\j$};}\n\t\t\\foreach \\i/\\j in {0/1}{\\draw (0,\\j)node[above right]{$\\j$};}\n\t\t\\begin{scope}\n\t\t\\clip (-3,-3.5) rectangle (3,2);\n\t\t\\draw[samples=200,domain=-3:3,smooth,variable=\\x] plot (\\x,{0.25*((\\x)^4)+0*((\\x)^3)+-2*((\\x)^2)+0*(\\x)+1});\n\t\t\\end{scope}\n\t\t\\end{tikzpicture}}\n\t\\loigiai{\n\t\t\\begin{align*}\n\t\tf(x)+1=m\\Leftrightarrow f(x)=m-1.\\tag{1}\n\t\t\\end{align*}\n\t\tS\u1ed1 nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $(1)$ b\u1eb1ng s\u1ed1 giao \u0111i\u1ec3m c\u1ee7a \u0111\u1ed3 th\u1ecb $y=f(x)$ v\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng $y=m-1$.\\\\\t\n\t\tDo \u0111\u00f3 ph\u01b0\u01a1ng tr\u00ecnh \u0111\u00e3 cho c\u00f3 \u0111\u00fang $2$ nghi\u1ec7m ph\u00e2n bi\u1ec7t \t$$\\Leftrightarrow \\hoac{&m-1>1\\\\&m-1=-3}\\Leftrightarrow\\hoac{&m>2\\\\&m=-2.}$$\n\t}",
+            "created_date": {
+                "$date": 1621427751749
+            },
+            "last_update": {
+                "$date": 1621427751749
+            },
+            "sub_section": "2D1B5-3",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_29",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Trong kh\u00f4ng gian $Oxyz$, cho hai \u0111i\u1ec3m $A(2;3;1)$ v\u00e0 $B(2;-1;1)$. M\u1eb7t c\u1ea7u \u0111\u01b0\u1eddng k\u00ednh $AB$ c\u00f3 t\u00e2m $I$ v\u00e0 b\u00e1n k\u00ednh $R$ l\u1ea7n l\u01b0\u1ee3t l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_29_C1",
+                    "content": "$I(2;1;1)$ v\u00e0 $R=2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_29_C2",
+                    "content": "$I(0;-4;0)$ v\u00e0 $R=4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_29_C3",
+                    "content": "$I(0;-2;0)$ v\u00e0 $R=4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_29_C4",
+                    "content": "$I(0;-2;0)$ v\u00e0 $R=2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "G\u1ecdi $I(x_I;y_I;z_I)$ l\u00e0 t\u00e2m m\u1eb7t c\u1ea7u \u0111\u01b0\u1eddng k\u00ednh $AB$, khi \u0111\u00f3 $I$ c\u0169ng l\u00e0 trung \u0111i\u1ec3m c\u1ee7a \u0111o\u1ea1n th\u1eb3ng $AB$. \\\\ Do \u0111\u00f3 $\\\\begin{cases}x_I=\\dfrac{x_A+x_B}{2}\\\\y_I=\\dfrac{y_A+y_B}{2}\\\\z_I=\\dfrac{z_A+z_B}{2}\\\\end{cases}2}}\\Leftrightarrow\\\\begin{cases}x_I=2\\\\y_I=1\\\\z_I=1\\\\end{cases}=1}\\Rightarrow I(2;1;1)$.\\\\ G\u1ecdi $R$ l\u00e0 b\u00e1n k\u00ednh m\u1eb7t c\u1ea7u t\u00e2m $I$ \u0111\u01b0\u1eddng k\u00ednh $AB$ th\u00ec $$R=IA=\\sqrt{(x_I-x_A)^2+(y_I-y_A)^2+(z_I-z_A)^2}=2.$$",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H3F1",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_geometry",
+                "math_12_geometry_C1"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2H3B1-3]\n\tTrong kh\u00f4ng gian $Oxyz$, cho hai \u0111i\u1ec3m $A(2;3;1)$ v\u00e0 $B(2;-1;1)$. M\u1eb7t c\u1ea7u \u0111\u01b0\u1eddng k\u00ednh $AB$ c\u00f3 t\u00e2m $I$ v\u00e0 b\u00e1n k\u00ednh $R$ l\u1ea7n l\u01b0\u1ee3t l\u00e0 \n\t\\choice\n\t{\\True $I(2;1;1)$ v\u00e0 $R=2$}\n\t{$I(0;-4;0)$ v\u00e0 $R=4$}\n\t{$I(0;-2;0)$ v\u00e0 $R=4$}\n\t{$I(0;-2;0)$ v\u00e0 $R=2$}\n\t\\loigiai{\n\t\tG\u1ecdi $I(x_I;y_I;z_I)$ l\u00e0 t\u00e2m m\u1eb7t c\u1ea7u \u0111\u01b0\u1eddng k\u00ednh $AB$, khi \u0111\u00f3 $I$ c\u0169ng l\u00e0 trung \u0111i\u1ec3m c\u1ee7a \u0111o\u1ea1n th\u1eb3ng $AB$. \\\\\n\t\tDo \u0111\u00f3 $\\heva{&x_I=\\dfrac{x_A+x_B}{2}\\\\&y_I=\\dfrac{y_A+y_B}{2}\\\\&z_I=\\dfrac{z_A+z_B}{2}}\\Leftrightarrow\\heva{&x_I=2\\\\&y_I=1\\\\&z_I=1}\\Rightarrow I(2;1;1)$.\\\\\n\t\tG\u1ecdi $R$ l\u00e0 b\u00e1n k\u00ednh m\u1eb7t c\u1ea7u t\u00e2m $I$ \u0111\u01b0\u1eddng k\u00ednh $AB$ th\u00ec\n\t\t$$R=IA=\\sqrt{(x_I-x_A)^2+(y_I-y_A)^2+(z_I-z_A)^2}=2.$$\n\t}",
+            "created_date": {
+                "$date": 1621427751750
+            },
+            "last_update": {
+                "$date": 1621427751750
+            },
+            "sub_section": "2H3B1-3",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_30",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "V\u1edbi $a,b$ l\u00e0 hai s\u1ed1 d\u01b0\u01a1ng t\u00f9y \u00fd v\u00e0 $a$ kh\u00e1c $1$, $\\log_{a}(a^2b^3)$ b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_30_C1",
+                    "content": "$6\\log_{a}b$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_30_C2",
+                    "content": "$5\\log_{a}b$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_30_C3",
+                    "content": "$2+3\\log_{a}b$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_30_C4",
+                    "content": "$6(1+\\log_{a}b)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $\\log_{a}(a^2b^3)=\\log_{a}a^2+\\log_{a}b^3=2+3\\log_{a}b$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D2X3",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C3"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D2B3-2] \n\tV\u1edbi $a,b$ l\u00e0 hai s\u1ed1 d\u01b0\u01a1ng t\u00f9y \u00fd v\u00e0 $a$ kh\u00e1c $1$, $\\log_{a}(a^2b^3)$ b\u1eb1ng\n\t\\choice\n\t{$6\\log_{a}b$}\n\t{$5\\log_{a}b$}\n\t{\\True $2+3\\log_{a}b$}\n\t{$6(1+\\log_{a}b)$}\n\t\\loigiai{\n\t\tTa c\u00f3 $\\log_{a}(a^2b^3)=\\log_{a}a^2+\\log_{a}b^3=2+3\\log_{a}b$.\n\t}",
+            "created_date": {
+                "$date": 1621427751750
+            },
+            "last_update": {
+                "$date": 1621427751750
+            },
+            "sub_section": "2D2B3-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_31",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Trong kh\u00f4ng gian $Oxyz$, cho \u0111\u01b0\u1eddng th\u1eb3ng $d\\colon\\dfrac{x-1}{2}=\\dfrac{y}{1}=\\dfrac{z+1}{3}$ v\u00e0 m\u1eb7t ph\u1eb3ng $(Q):2x+y-z=0$. Ph\u01b0\u01a1ng tr\u00ecnh m\u1eb7t ph\u1eb3ng ch\u1ee9a $d$ v\u00e0 vu\u00f4ng g\u00f3c v\u1edbi $(Q)$ l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_31_C1",
+                    "content": "$x+2y+z=0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_31_C2",
+                    "content": "$x+2y-1=0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_31_C3",
+                    "content": "$x-2y-1=0$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_31_C4",
+                    "content": "$x-2y+z=0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $\\\\begin{cases}\\overrightarrow{n}_P\\perp\\overrightarrow{u}_d\\\\\\overrightarrow{n}_P\\perp\\overrightarrow{n}_Q\\\\end{cases}Q}$ v\u00e0 $\\left[\\overrightarrow{n}_Q;\\overrightarrow{u}_d \\right]=(4;-8;0)$. N\u00ean ch\u1ecdn $\\overrightarrow{n}_P=(1;-2;0)$.\\\\ M\u1eb7t ph\u1eb3ng $(P)$ \u0111i qua $M(1;0;-1)$ c\u00f3 VTCP $\\overrightarrow{n}_P=(1;-2;0)$ c\u00f3 ph\u01b0\u01a1ng tr\u00ecnh l\u00e0 $x-2y-1=0$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H3F2",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_geometry",
+                "math_12_geometry_C2"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2H3B2-3]\n\tTrong kh\u00f4ng gian $Oxyz$, cho \u0111\u01b0\u1eddng th\u1eb3ng $d\\colon\\dfrac{x-1}{2}=\\dfrac{y}{1}=\\dfrac{z+1}{3}$ v\u00e0 m\u1eb7t ph\u1eb3ng $(Q):2x+y-z=0$. Ph\u01b0\u01a1ng tr\u00ecnh m\u1eb7t ph\u1eb3ng ch\u1ee9a $d$ v\u00e0 vu\u00f4ng g\u00f3c v\u1edbi $(Q)$ l\u00e0\n\t\\choice\n\t{$x+2y+z=0$}\n\t{$x+2y-1=0$}\n\t{\\True $x-2y-1=0$}\n\t{$x-2y+z=0$}\n\t\\loigiai{\n\t\tTa c\u00f3 $\\heva{&\\overrightarrow{n}_P\\perp\\overrightarrow{u}_d\\\\&\\overrightarrow{n}_P\\perp\\overrightarrow{n}_Q}$ v\u00e0 $\\left[\\overrightarrow{n}_Q;\\overrightarrow{u}_d \\right]=(4;-8;0)$. N\u00ean ch\u1ecdn $\\overrightarrow{n}_P=(1;-2;0)$.\\\\\n\t\tM\u1eb7t ph\u1eb3ng $(P)$ \u0111i qua $M(1;0;-1)$ c\u00f3 VTCP $\\overrightarrow{n}_P=(1;-2;0)$ c\u00f3 ph\u01b0\u01a1ng tr\u00ecnh l\u00e0 $x-2y-1=0$.\n\t}",
+            "created_date": {
+                "$date": 1621427751750
+            },
+            "last_update": {
+                "$date": 1621427751750
+            },
+            "sub_section": "2H3B2-3",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_32",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Trong kh\u00f4ng gian $Oxyz$, cho \u0111\u01b0\u1eddng th\u1eb3ng $d\\colon \\dfrac{x-1}{2}=\\dfrac{y-2}{3}=\\dfrac{z+1}{-1}$ v\u00e0 m\u1eb7t ph\u1eb3ng $(\\alpha)\\colon x-2y+z-1=0$. T\u1ecda \u0111i\u1ec3m giao \u0111i\u1ec3m c\u1ee7a \u0111\u01b0\u1eddng th\u1eb3ng $d$ v\u00e0 m\u1eb7t ph\u1eb3ng $(\\alpha)$ l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_32_C1",
+                    "content": "$(-9;-13;4)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_32_C2",
+                    "content": "$(1;2;-1)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_32_C3",
+                    "content": "$(-1;-1;0)$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_32_C4",
+                    "content": "$(3;5;-2)$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\u0110\u01b0\u1eddng th\u1eb3ng $d$ c\u00f3 ph\u01b0\u01a1ng tr\u00ecnh l\u00e0 $\\\\begin{cases}x=1+2t\\\\y=2+3t\\\\z=-1-t\\\\end{cases}-t}\\,(t\\in\\mathbb{R})$.\\\\ G\u1ecdi $M=d\\cap(\\alpha)$. \\begin{itemize} \\item $M\\in d\\Rightarrow M(1+2t;2+3t;-1-t)$. \\item $M\\in (\\alpha)\\Rightarrow (1+2t)-2(2+3t)+(-1-t)-1=0\\Leftrightarrow t=-1$. \\end{itemize} V\u1eady $M(-1;-1;0)$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H3F3",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_geometry",
+                "math_12_geometry_C3"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2H3B3-3]\n\tTrong kh\u00f4ng gian $Oxyz$, cho \u0111\u01b0\u1eddng th\u1eb3ng $d\\colon \\dfrac{x-1}{2}=\\dfrac{y-2}{3}=\\dfrac{z+1}{-1}$ v\u00e0 m\u1eb7t ph\u1eb3ng $(\\alpha)\\colon x-2y+z-1=0$. T\u1ecda \u0111i\u1ec3m giao \u0111i\u1ec3m c\u1ee7a \u0111\u01b0\u1eddng th\u1eb3ng $d$ v\u00e0 m\u1eb7t ph\u1eb3ng $(\\alpha)$ l\u00e0\n\t\\choice\n\t{$(-9;-13;4)$}\n\t{$(1;2;-1)$}\n\t{\\True $(-1;-1;0)$}\n\t{$(3;5;-2)$}\n\t\\loigiai{\n\t\t\u0110\u01b0\u1eddng th\u1eb3ng $d$ c\u00f3 ph\u01b0\u01a1ng tr\u00ecnh l\u00e0 $\\heva{&x=1+2t\\\\&y=2+3t\\\\&z=-1-t}\\,(t\\in\\mathbb{R})$.\\\\\n\t\tG\u1ecdi $M=d\\cap(\\alpha)$.\n\t\t\\begin{itemize}\n\t\t\t\\item $M\\in d\\Rightarrow M(1+2t;2+3t;-1-t)$.\t\n\t\t\t\\item $M\\in (\\alpha)\\Rightarrow (1+2t)-2(2+3t)+(-1-t)-1=0\\Leftrightarrow t=-1$. \n\t\t\\end{itemize}\n\t\tV\u1eady $M(-1;-1;0)$.\t\n\t}",
+            "created_date": {
+                "$date": 1621427751750
+            },
+            "last_update": {
+                "$date": 1621427751750
+            },
+            "sub_section": "2H3B3-3",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_33",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Trong kh\u00f4ng gian $Oxyz$, cho \u0111i\u1ec3m $A(1;-1;2)$ v\u00e0 hai \u0111\u01b0\u1eddng th\u1eb3ng $d_1\\colon\\\\begin{cases}x=t\\\\y=-1-4t\\\\z=6+6t\\\\end{cases}6t}$, $d_2\\colon\\dfrac{x}{2}=\\dfrac{y-1}{1}=\\dfrac{z+2}{-5}$. Ph\u01b0\u01a1ng tr\u00ecnh \u0111\u01b0\u1eddng th\u1eb3ng \u0111i qua \u0111i\u1ec3m $A$, \u0111\u1ed3ng th\u1eddi vu\u00f4ng g\u00f3c v\u1edbi c\u1ea3 hai \u0111\u01b0\u1eddng th\u1eb3ng $d_1$ v\u00e0 $d_2$ l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_33_C1",
+                    "content": "$\\dfrac{x-1}{3}=\\dfrac{y+1}{-2}=\\dfrac{z-2}{4}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_33_C2",
+                    "content": "$\\dfrac{x-1}{14}=\\dfrac{y+1}{17}=\\dfrac{z-2}{9}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_33_C3",
+                    "content": "$\\dfrac{x-1}{1}=\\dfrac{y+1}{2}=\\dfrac{z-2}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_33_C4",
+                    "content": "$\\dfrac{x-1}{2}=\\dfrac{y+1}{-1}=\\dfrac{z-2}{4}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "G\u1ecdi $d$ l\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng qua $A$ v\u00e0 vu\u00f4ng g\u00f3c v\u1edbi $d_1,\\,d_2$. Khi \u0111\u00f3 $\\overrightarrow{u}_d=[\\overrightarrow{u}_{d_1},\\overrightarrow{u}_{d_2}]=(14;17;9)$.\\\\ V\u1eady $d\\colon \\dfrac{x-1}{14}=\\dfrac{y+1}{17}=\\dfrac{z-2}{9}$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H3F3",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_geometry",
+                "math_12_geometry_C3"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2H3B3-2]\n\tTrong kh\u00f4ng gian $Oxyz$, cho \u0111i\u1ec3m $A(1;-1;2)$ v\u00e0 hai \u0111\u01b0\u1eddng th\u1eb3ng $d_1\\colon\\heva{&x=t\\\\&y=-1-4t\\\\&z=6+6t}$, $d_2\\colon\\dfrac{x}{2}=\\dfrac{y-1}{1}=\\dfrac{z+2}{-5}$. Ph\u01b0\u01a1ng tr\u00ecnh \u0111\u01b0\u1eddng th\u1eb3ng \u0111i qua \u0111i\u1ec3m $A$, \u0111\u1ed3ng th\u1eddi vu\u00f4ng g\u00f3c v\u1edbi c\u1ea3 hai \u0111\u01b0\u1eddng th\u1eb3ng $d_1$ v\u00e0 $d_2$ l\u00e0\t\n\t\\choice\n\t{$\\dfrac{x-1}{3}=\\dfrac{y+1}{-2}=\\dfrac{z-2}{4}$}\n\t{\\True $\\dfrac{x-1}{14}=\\dfrac{y+1}{17}=\\dfrac{z-2}{9}$}\n\t{ $\\dfrac{x-1}{1}=\\dfrac{y+1}{2}=\\dfrac{z-2}{3}$}\n\t{$\\dfrac{x-1}{2}=\\dfrac{y+1}{-1}=\\dfrac{z-2}{4}$}\n\t\\loigiai{\n\t\tG\u1ecdi $d$ l\u00e0 \u0111\u01b0\u1eddng th\u1eb3ng qua $A$ v\u00e0 vu\u00f4ng g\u00f3c v\u1edbi $d_1,\\,d_2$. Khi \u0111\u00f3 $\\overrightarrow{u}_d=[\\overrightarrow{u}_{d_1},\\overrightarrow{u}_{d_2}]=(14;17;9)$.\\\\\n\t\tV\u1eady $d\\colon \\dfrac{x-1}{14}=\\dfrac{y+1}{17}=\\dfrac{z-2}{9}$. \t\t\n\t}",
+            "created_date": {
+                "$date": 1621427751751
+            },
+            "last_update": {
+                "$date": 1621427751751
+            },
+            "sub_section": "2H3B3-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_34",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "H\u00e0m s\u1ed1 n\u00e0o d\u01b0\u1edbi \u0111\u00e2y c\u00f3 \u0111\u1ed3 th\u1ecb d\u1ea1ng nh\u01b0 \u0111\u01b0\u1eddng cong trong h\u00ecnh b\u00ean?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "}{",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_33_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "}",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_34_C1",
+                    "content": "$y=\\dfrac{2x-1}{x+1}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_34_C2",
+                    "content": "$y=x^4+3x^2-1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_34_C3",
+                    "content": "$y=-x^3+3x-1$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_34_C4",
+                    "content": "$y=x^3-3x-1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\\begin{itemize} \\item T\u1eeb h\u00ecnh v\u1ebd ta th\u1ea5y \u0111\u00e2y l\u00e0 \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 b\u1eadc $3$. \\item V\u00ec n\u00e9t cu\u1ed1i c\u1ee7a \u0111\u1ed3 th\u1ecb \u0111i xu\u1ed1ng n\u00ean h\u1ec7 s\u1ed1 $a < 0$. \\end{itemize} V\u1eady h\u00e0m s\u1ed1 c\u00f3 \u0111\u1ed3 th\u1ecb d\u1ea1ng nh\u01b0 \u0111\u01b0\u1eddng cong trong h\u00ecnh \u0111\u00e3 cho l\u00e0 $y=-x^3+3x-1$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D1Y5-1]\n\tH\u00e0m s\u1ed1 n\u00e0o d\u01b0\u1edbi \u0111\u00e2y c\u00f3 \u0111\u1ed3 th\u1ecb d\u1ea1ng nh\u01b0 \u0111\u01b0\u1eddng cong \\immini{trong h\u00ecnh b\u00ean?\t\n\t\t\\haicot\n\t\t{$y=\\dfrac{2x-1}{x+1}$}\n\t\t{$y=x^4+3x^2-1$}\n\t\t{\\True $y=-x^3+3x-1$}\n\t\t{$y=x^3-3x-1$}}{\\begin{tikzpicture}[scale=0.7, font=\\footnotesize, line join=round, line cap=round, >=stealth]\n\t\t\\tikzset{label style/.style={font=\\footnotesize}}\n\t\t\\draw[->] (-3.1,0)--(3.1,0) node[below left] {$x$};\n\t\t\\draw[->] (0,-3.1)--(0,2.1) node[below left] {$y$};\n\t\t\\draw (0,0) node [below left] {$O$};\n\t\t\\begin{scope}\n\t\t\\clip (-3,-3) rectangle (3,2);\n\t\t\\draw[samples=200,domain=-3:3,smooth,variable=\\x] plot (\\x,{-1*((\\x)^3)+0*((\\x)^2)+3*(\\x)+-1});\n\t\t\\end{scope}\n\t\t\\end{tikzpicture}}\n\t\\loigiai{\n\t\t\\begin{itemize}\n\t\t\t\\item T\u1eeb h\u00ecnh v\u1ebd ta th\u1ea5y \u0111\u00e2y l\u00e0 \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 b\u1eadc $3$.\n\t\t\t\\item V\u00ec n\u00e9t cu\u1ed1i c\u1ee7a \u0111\u1ed3 th\u1ecb \u0111i xu\u1ed1ng n\u00ean h\u1ec7 s\u1ed1 $a<0$.\n\t\t\\end{itemize}\n\t\tV\u1eady h\u00e0m s\u1ed1 c\u00f3 \u0111\u1ed3 th\u1ecb d\u1ea1ng nh\u01b0 \u0111\u01b0\u1eddng cong trong h\u00ecnh \u0111\u00e3 cho l\u00e0 $y=-x^3+3x-1$.\t\t\n\t}",
+            "created_date": {
+                "$date": 1621427751751
+            },
+            "last_update": {
+                "$date": 1621427751751
+            },
+            "sub_section": "2D1Y5-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_35",
+            "description": "",
+            "level": 1,
+            "duration": 60,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho s\u1ed1 ph\u1ee9c $z_1=-1+3i$ v\u00e0 $z_2=2-2i$. M\u00f4-\u0111un c\u1ee7a s\u1ed1 ph\u1ee9c $w=z_1+z_2-5$ b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_35_C1",
+                    "content": "$4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_35_C2",
+                    "content": "$\\sqrt{17}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_35_C3",
+                    "content": "$\\sqrt{15}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_35_C4",
+                    "content": "$\\sqrt{21}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $w=z_1+z_2-5=-1+3i+2-2i-5=-4+i\\Rightarrow|w|=\\sqrt{(-4)^{2}+1^{2}}=\\sqrt{17}$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D4F2",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_algebra",
+                "math_12_algebra_C2"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D4Y2-2]\n\tCho s\u1ed1 ph\u1ee9c $z_1=-1+3i$ v\u00e0 $z_2=2-2i$. M\u00f4-\u0111un c\u1ee7a s\u1ed1 ph\u1ee9c $w=z_1+z_2-5$ b\u1eb1ng\t\n\t\\choice\n\t{$4$}\n\t{\\True $\\sqrt{17}$}\n\t{$\\sqrt{15}$}\n\t{$\\sqrt{21}$}\n\t\\loigiai{\n\t\tTa c\u00f3 $w=z_1+z_2-5=-1+3i+2-2i-5=-4+i\\Rightarrow|w|=\\sqrt{(-4)^{2}+1^{2}}=\\sqrt{17}$.\n\t}",
+            "created_date": {
+                "$date": 1621427751753
+            },
+            "last_update": {
+                "$date": 1621427751753
+            },
+            "sub_section": "2D4Y2-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_36",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Gi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1 $f(x)=x^4-10x^2+2$ tr\u00ean \u0111o\u1ea1n $[-1;2]$ b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_36_C1",
+                    "content": "$2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_36_C2",
+                    "content": "$-22$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_36_C3",
+                    "content": "$-23$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_36_C4",
+                    "content": "$-7$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $f'(x)=4x^3-20x$. Cho $f'(x)=0\\Leftrightarrow \\\\left[\\\\begin{aligned}&x=0\\in[-1;2]\\\\&x=\\pm \\sqrt{5}\\notin[-1;2].\\\\end{aligned}\\\\right$\\\\ C\u00f3 $f(-1)=-7;\\,f(0)=2;\\,f(2)=-22$.\\\\ V\u1eady $\\max\\limits_{x\\in[-1;2]} f(x)=2$ t\u1ea1i $x=0$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X3",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C3"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D1B3-1]\n\tGi\u00e1 tr\u1ecb l\u1edbn nh\u1ea5t c\u1ee7a h\u00e0m s\u1ed1 $f(x)=x^4-10x^2+2$ tr\u00ean \u0111o\u1ea1n $[-1;2]$ b\u1eb1ng\t\n\t\\choice\n\t{\\True $2$}\n\t{$-22$}\n\t{$-23$}\n\t{$-7$}\n\t\\loigiai{\n\t\tTa c\u00f3 $f'(x)=4x^3-20x$. Cho $f'(x)=0\\Leftrightarrow \\hoac{&x=0\\in[-1;2]\\\\&x=\\pm \\sqrt{5}\\notin[-1;2].}$\\\\\n\t\tC\u00f3 $f(-1)=-7;\\,f(0)=2;\\,f(2)=-22$.\\\\\n\t\tV\u1eady $\\max\\limits_{x\\in[-1;2]} f(x)=2$ t\u1ea1i $x=0$.\n\t}",
+            "created_date": {
+                "$date": 1621427751753
+            },
+            "last_update": {
+                "$date": 1621427751753
+            },
+            "sub_section": "2D1B3-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_37",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "C\u1eaft m\u1ed9t kh\u1ed1i n\u00f3n b\u1eb1ng m\u1ed9t m\u1eb7t ph\u1eb3ng qua tr\u1ee5c c\u1ee7a n\u00f3 ta \u0111\u01b0\u1ee3c thi\u1ebft di\u1ec7n l\u00e0 m\u1ed9t tam gi\u00e1c \u0111\u1ec1u c\u1ea1nh $a$. Th\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i n\u00f3n \u0111\u00e3 cho b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_37_C1",
+                    "content": "$\\dfrac{\\pi a^{3}}{8}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_37_C2",
+                    "content": "$\\dfrac{\\sqrt{3}\\pi a^{3}}{12}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_37_C3",
+                    "content": "$\\dfrac{\\pi a^{3}}{12}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_37_C4",
+                    "content": "$\\dfrac{\\sqrt{3}\\pi a^{3}}{24}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Kh\u1ed1i n\u00f3n c\u00f3 b\u00e1n k\u00ednh \u0111\u00e1y $r=\\dfrac{a}{2}$ v\u00e0 chi\u1ec1u cao $h=\\dfrac{a\\sqrt{3}}{2}$.\\\\ Th\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i n\u00f3n l\u00e0 $$V=\\dfrac{1}{3}\\pi r^2h=\\dfrac{1}{3}\\pi\\cdot\\left(\\dfrac{a}{2}\\right)^2\\cdot\\dfrac{a\\sqrt{3}}{2}=\\dfrac{\\sqrt{3}\\pi a^3}{24}.$$",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H2F1",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_geometry",
+                "math_12_geometry_C1"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2H2B1-1]\n\tC\u1eaft m\u1ed9t kh\u1ed1i n\u00f3n b\u1eb1ng m\u1ed9t m\u1eb7t ph\u1eb3ng qua tr\u1ee5c c\u1ee7a n\u00f3 ta \u0111\u01b0\u1ee3c thi\u1ebft di\u1ec7n l\u00e0 m\u1ed9t tam gi\u00e1c \u0111\u1ec1u c\u1ea1nh $a$. Th\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i n\u00f3n \u0111\u00e3 cho b\u1eb1ng\t\n\t\\choice\n\t{$\\dfrac{\\pi a^{3}}{8}$}\n\t{$\\dfrac{\\sqrt{3}\\pi a^{3}}{12}$}\n\t{$\\dfrac{\\pi a^{3}}{12}$}\n\t{\\True $\\dfrac{\\sqrt{3}\\pi a^{3}}{24}$}\n\t\\loigiai{\n\t\tKh\u1ed1i n\u00f3n c\u00f3 b\u00e1n k\u00ednh \u0111\u00e1y $r=\\dfrac{a}{2}$ v\u00e0 chi\u1ec1u cao $h=\\dfrac{a\\sqrt{3}}{2}$.\\\\\n\t\tTh\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i n\u00f3n l\u00e0 $$V=\\dfrac{1}{3}\\pi r^2h=\\dfrac{1}{3}\\pi\\cdot\\left(\\dfrac{a}{2}\\right)^2\\cdot\\dfrac{a\\sqrt{3}}{2}=\\dfrac{\\sqrt{3}\\pi a^3}{24}.$$\n\t}",
+            "created_date": {
+                "$date": 1621427751753
+            },
+            "last_update": {
+                "$date": 1621427751753
+            },
+            "sub_section": "2H2B1-1",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_38",
+            "description": "",
+            "level": 3,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00ecnh ch\u00f3p $S.ABCD$ c\u00f3 \u0111\u00e1y $ABCD$ l\u00e0 h\u00ecnh vu\u00f4ng c\u1ea1nh $a$, $SA$ vu\u00f4ng g\u00f3c v\u1edbi m\u1eb7t ph\u1eb3ng $(ABCD)$, g\u00f3c gi\u1eefa \u0111\u01b0\u1eddng th\u1eb3ng $SC$ v\u00e0 m\u1eb7t ph\u1eb3ng $(ABCD)$ b\u1eb1ng $45^\\circ$. Kho\u1ea3ng c\u00e1ch gi\u1eefa hai \u0111\u01b0\u1eddng th\u1eb3ng $SB$ v\u00e0 $AC$ b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_38_C1",
+                    "content": "$\\dfrac{4a}{7}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_38_C2",
+                    "content": "$\\dfrac{2a}{7}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_38_C3",
+                    "content": "$\\dfrac{a\\sqrt{10}}{5}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_38_C4",
+                    "content": "$\\dfrac{a\\sqrt{10}}{7}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\\begin{center}",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_EXPLAIN_37_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "\\end{center} Ta c\u00f3 $SA\\perp(ABCD)\\Rightarrow AC$ l\u00e0 h\u00ecnh chi\u1ebfu vu\u00f4ng g\u00f3c c\u1ee7a $SC$ l\u00ean $(ABCD)$ suy ra g\u00f3c gi\u1eefa $SC$ v\u00e0 $(ABCD)$ b\u1eb1ng $\\widehat{SCA}=45^\\circ\\Rightarrow SA=AC=a\\sqrt{2}$.\\\\ D\u1ef1ng h\u00ecnh b\u00ecnh h\u00e0nh $BCAE$.\\\\ G\u1ecdi $M$ l\u00e0 h\u00ecnh chi\u1ebfu vu\u00f4ng g\u00f3c c\u1ee7a $A$ tr\u00ean $BE$, $H$ l\u00e0 h\u00ecnh chi\u1ebfu vu\u00f4ng g\u00f3c c\u1ee7a $A$ tr\u00ean $SM$.\\\\ Ta c\u00f3 $\\\\begin{cases}SA\\perp BM\\\\MA\\perp BM\\\\end{cases}M}\\Rightarrow BM\\perp (SAM)$\\\\ M\u00e0 $AH\\subset (SAM)$ n\u00ean $AH\\perp BM\\Rightarrow AH\\perp(SBM)$.\\\\ Do \u0111\u00f3 $\\mathrm{d}(AC,SB)=\\mathrm{d}(A,(SBM))=AH$.\\\\ $\\triangle SAM$ vu\u00f4ng t\u1ea1i $A$, c\u00f3 \u0111\u01b0\u1eddng cao $AH$ n\u00ean $$\\dfrac{1}{AH^2}=\\dfrac{1}{SA^2}+\\dfrac{1}{AM^2}=\\dfrac{5}{2a^2.}$$ V\u1eady $\\mathrm{d}(AC,SB)=AH=\\dfrac{a\\sqrt{10}}{5}$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "1H3X5",
+                "math",
+                "math_11",
+                "math_11_hk2",
+                "math_11_geometry",
+                "math_11_geometry_C5"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[1H3K5-4]\n\tCho h\u00ecnh ch\u00f3p $S.ABCD$ c\u00f3 \u0111\u00e1y $ABCD$ l\u00e0 h\u00ecnh vu\u00f4ng c\u1ea1nh $a$, $SA$ vu\u00f4ng g\u00f3c v\u1edbi m\u1eb7t ph\u1eb3ng $(ABCD)$, g\u00f3c gi\u1eefa \u0111\u01b0\u1eddng th\u1eb3ng $SC$ v\u00e0 m\u1eb7t ph\u1eb3ng $(ABCD)$ b\u1eb1ng $45^\\circ$. Kho\u1ea3ng c\u00e1ch gi\u1eefa hai \u0111\u01b0\u1eddng th\u1eb3ng $SB$ v\u00e0 $AC$ b\u1eb1ng\t\n\t\\choice\n\t{$\\dfrac{4a}{7}$}\n\t{$\\dfrac{2a}{7}$}\n\t{\\True $\\dfrac{a\\sqrt{10}}{5}$}\n\t{$\\dfrac{a\\sqrt{10}}{7}$}\n\t\\loigiai{\n\t\t\\begin{center}\n\t\t\t\\begin{tikzpicture}[scale=0.6,line join=round, line cap=round,thick]\n\t\t\t\\tikzset{label style/.style={font=\\footnotesize}}\n\t\t\t\\coordinate (A) at (0,0);\n\t\t\t\\coordinate (B) at (-2,-3);\n\t\t\t\\coordinate (D) at (7,0);\n\t\t\t\\coordinate (C) at ($(B)+(D)-(A)$);\n\t\t\t\\coordinate (S) at ($(A)+(0,5)$);\n\t\t\t\\coordinate (E) at ($(A)+(B)-(C)$);\n\t\t\t\\coordinate (M) at ($(B)!0.5!(E)$);\n\t\t\t\\coordinate (H) at ($(S)!(A)!(M)$);\n\t\t\t\\tkzDrawSegments(S,B S,C S,D B,C C,D S,E B,E S,M)\n\t\t\t\\tkzDrawSegments[dashed,thin](A,D A,B S,A A,B A,C A,E A,M A,H)\n\t\t\t\\tkzMarkRightAngles[size=0.2,thin](S,A,D A,M,B A,H,M)\n\t\t\t\\tkzDrawPoints[fill=black,size=2pt](S,A,B,C,D,E,M,H)\n\t\t\t\\tkzLabelPoints[above](S)\n\t\t\t\\tkzLabelPoints[below](A,B,D,M)\n\t\t\t\\tkzLabelPoints[right](C)\n\t\t\t\\tkzLabelPoints[left](E,H)\n\t\t\t\\end{tikzpicture}\n\t\t\\end{center}\n\t\tTa c\u00f3 $SA\\perp(ABCD)\\Rightarrow AC$ l\u00e0 h\u00ecnh chi\u1ebfu vu\u00f4ng g\u00f3c c\u1ee7a $SC$ l\u00ean $(ABCD)$ suy ra g\u00f3c gi\u1eefa $SC$ v\u00e0 $(ABCD)$ b\u1eb1ng $\\widehat{SCA}=45^\\circ\\Rightarrow SA=AC=a\\sqrt{2}$.\\\\\n\t\tD\u1ef1ng h\u00ecnh b\u00ecnh h\u00e0nh $BCAE$.\\\\\n\t\tG\u1ecdi $M$ l\u00e0 h\u00ecnh chi\u1ebfu vu\u00f4ng g\u00f3c c\u1ee7a $A$ tr\u00ean $BE$, $H$ l\u00e0 h\u00ecnh chi\u1ebfu vu\u00f4ng g\u00f3c c\u1ee7a $A$ tr\u00ean $SM$.\\\\\n\t\tTa c\u00f3 $\\heva{&SA\\perp BM\\\\&MA\\perp BM}\\Rightarrow BM\\perp (SAM)$\\\\\n\t\tM\u00e0 $AH\\subset (SAM)$ n\u00ean $AH\\perp BM\\Rightarrow AH\\perp(SBM)$.\\\\\n\t\tDo \u0111\u00f3 $\\mathrm{d}(AC,SB)=\\mathrm{d}(A,(SBM))=AH$.\\\\\n\t\t$\\triangle SAM$ vu\u00f4ng t\u1ea1i $A$, c\u00f3 \u0111\u01b0\u1eddng cao $AH$ n\u00ean $$\\dfrac{1}{AH^2}=\\dfrac{1}{SA^2}+\\dfrac{1}{AM^2}=\\dfrac{5}{2a^2.}$$\n\t\tV\u1eady $\\mathrm{d}(AC,SB)=AH=\\dfrac{a\\sqrt{10}}{5}$.\n\t}",
+            "created_date": {
+                "$date": 1621427751753
+            },
+            "last_update": {
+                "$date": 1621427751753
+            },
+            "sub_section": "1H3K5-4",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_39",
+            "description": "",
+            "level": 3,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $f(x)$ li\u00ean t\u1ee5c tr\u00ean $\\mathbb{R}$ v\u00e0 th\u1ecfa m\u00e3n \u0111i\u1ec1u ki\u1ec7n $f(x)=4xf(x^2)+2x+1$. T\u00ednh $I=\\displaystyle\\int\\limits_0^1 f(x)\\mathrm{\\,d}x$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_39_C1",
+                    "content": "$I=2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_39_C2",
+                    "content": "$I=-2$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_39_C3",
+                    "content": "$I=-4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_39_C4",
+                    "content": "$I=-6$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\\begin{eqnarray*} I=\\displaystyle\\int\\limits_{0}^{1}f(x)\\mathrm{\\,d}x&=&\\displaystyle\\int\\limits_{0}^{1}\\left[4 x f\\left(x^{2}\\right)+2 x+1\\right]\\mathrm{\\,d}x=4 \\displaystyle\\int\\limits_{0}^{1}x f\\left(x^{2}\\right)\\mathrm{\\,d}x+\\displaystyle\\int\\limits_{0}^{1}(2 x+1)\\mathrm{\\,d}x\\\\ &=& 2\\displaystyle\\int\\limits_{0}^{1} f\\left(x^{2}\\right)\\mathrm{\\,d}(x^2)+(x^2+x)\\bigg|_0^1=2I+2 \\end{eqnarray*} Suy ra $I=-2$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D3X2",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_algebra",
+                "math_12_algebra_C2"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D3K2-4]\n\tCho h\u00e0m s\u1ed1 $f(x)$ li\u00ean t\u1ee5c tr\u00ean $\\mathbb{R}$ v\u00e0 th\u1ecfa m\u00e3n \u0111i\u1ec1u ki\u1ec7n $f(x)=4xf(x^2)+2x+1$. T\u00ednh $I=\\displaystyle\\int\\limits_0^1 f(x)\\mathrm{\\,d}x$.\t\n\t\\choice\n\t{$I=2$}\n\t{\\True $I=-2$}\n\t{$I=-4$}\n\t{$I=-6$}\n\t\\loigiai{\n\t\t\\begin{eqnarray*}\n\t\t\tI=\\displaystyle\\int\\limits_{0}^{1}f(x)\\mathrm{\\,d}x&=&\\displaystyle\\int\\limits_{0}^{1}\\left[4 x f\\left(x^{2}\\right)+2 x+1\\right]\\mathrm{\\,d}x=4 \\displaystyle\\int\\limits_{0}^{1}x f\\left(x^{2}\\right)\\mathrm{\\,d}x+\\displaystyle\\int\\limits_{0}^{1}(2 x+1)\\mathrm{\\,d}x\\\\\n\t\t\t&=& 2\\displaystyle\\int\\limits_{0}^{1} f\\left(x^{2}\\right)\\mathrm{\\,d}(x^2)+(x^2+x)\\bigg|_0^1=2I+2\n\t\t\\end{eqnarray*}\n\t\tSuy ra $I=-2$.\n\t}",
+            "created_date": {
+                "$date": 1621427751755
+            },
+            "last_update": {
+                "$date": 1621427751755
+            },
+            "sub_section": "2D3K2-4",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_40",
+            "description": "",
+            "level": 3,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "C\u1eaft h\u00ecnh n\u00f3n \u0111\u1ec9nh $S$ b\u1edfi m\u1ed9t m\u1eb7t ph\u1eb3ng \u0111i qua tr\u1ee5c ta \u0111\u01b0\u1ee3c thi\u1ebft di\u1ec7n l\u00e0 tam gi\u00e1c $SAB$ vu\u00f4ng c\u00e2n c\u00f3 c\u1ea1nh huy\u1ec1n b\u1eb1ng $a\\sqrt{2}$. G\u1ecdi $C$ l\u00e0 \u0111i\u1ec3m thu\u1ed9c \u0111\u01b0\u1eddng tr\u00f2n \u0111\u00e1y h\u00ecnh n\u00f3n sao cho m\u1eb7t ph\u1eb3ng $(SBC)$ t\u1ea1o v\u1edbi m\u1eb7t ph\u1eb3ng ch\u1ee9a \u0111\u00e1y h\u00ecnh n\u00f3n m\u1ed9t g\u00f3c $60^\\circ$. Di\u1ec7n t\u00edch c\u1ee7a tam gi\u00e1c $SBC$ b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_40_C1",
+                    "content": "$\\dfrac{a^2\\sqrt{3}}{4}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_40_C2",
+                    "content": "$\\dfrac{a^2\\sqrt{5}}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_40_C3",
+                    "content": "$\\dfrac{a^2\\sqrt{5}}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_40_C4",
+                    "content": "$\\dfrac{a^2\\sqrt{2}}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\\begin{center}",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_EXPLAIN_39_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "\\end{center} G\u1ecdi $O$ l\u00e0 t\u00e2m c\u1ee7a \u0111\u01b0\u1eddng tr\u00f2n \u0111\u00e1y. Gi\u1ea3 s\u1eed m\u1eb7t ph\u1eb3ng \u0111i qua tr\u1ee5c $SO$ c\u1ee7a h\u00ecnh n\u00f3n v\u00e0 c\u1eaft h\u00ecnh n\u00f3n theo m\u1ed9t thi\u1ebft di\u1ec7n l\u00e0 $\\triangle SAB$ vu\u00f4ng c\u00e2n t\u1ea1i $S$ c\u00f3 c\u1ea1nh huy\u1ec1n $AB=a\\sqrt{2}$.\\\\ Ta c\u00f3 $\\triangle SAB$ vu\u00f4ng c\u00e2n t\u1ea1i $S$ n\u00ean \\begin{itemize} \\item $SO=OA=OB=\\dfrac{AB}{2}=\\dfrac{a\\sqrt{2}}{2}$. \\item $r=OB=\\dfrac{AB}{2}=\\dfrac{a\\sqrt{2}}{2}$. \\end{itemize} G\u1ecdi $M$ l\u00e0 trung \u0111i\u1ec3m c\u1ee7a $BC$.\\\\ Ta c\u00f3 $\\\\begin{cases}(SBC)\\cap(OBC)=BC\\\\OM\\subset (OBC),\\,OM\\perp BC\\\\SM\\subset (SBC),\\,SM\\perp BC\\\\end{cases}BC}\\Rightarrow \\left(SM,OM\\right)=\\widehat{SMO}=60^\\circ$.\\\\ V\u00ec $\\triangle SMO$ vu\u00f4ng t\u1ea1i $O$ n\u00ean \\begin{itemize} \\item $SM=\\dfrac{SO}{\\sin \\widehat{SMO}}=\\dfrac{a\\sqrt{2}}{2}:\\sin 60^\\circ=\\dfrac{a\\sqrt{6}}{3}$. \\item $OM=SM\\cos\\widehat{SMO}=\\dfrac{a\\sqrt{6}}{3}\\cdot\\cos 60^\\circ=\\dfrac{a\\sqrt{6}}{6}$. \\end{itemize} Ta c\u00f3 $\\triangle OBM$ vu\u00f4ng t\u1ea1i $M$ n\u00ean $BM=\\sqrt{OB^2-OM^2}=\\dfrac{a\\sqrt{3}}{3}$. Suy ra $BC=2BM=\\dfrac{2a\\sqrt{3}}{3}$.\\\\ V\u1eady di\u1ec7n t\u00edch $\\triangle SBC$ l\u00e0 \\begin{eqnarray*} S&=&\\dfrac{1}{2}SM\\cdot BC=\\dfrac{1}{2}\\cdot\\dfrac{a\\sqrt{6}}{3}\\cdot\\dfrac{2a\\sqrt{3}}{3}\\\\&=&\\dfrac{a^2\\sqrt{2}}{3}. \\end{eqnarray*}",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H2F1",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_geometry",
+                "math_12_geometry_C1"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2H2K1-2]\n\tC\u1eaft h\u00ecnh n\u00f3n \u0111\u1ec9nh $S$ b\u1edfi m\u1ed9t m\u1eb7t ph\u1eb3ng \u0111i qua tr\u1ee5c ta \u0111\u01b0\u1ee3c thi\u1ebft di\u1ec7n l\u00e0 tam gi\u00e1c $SAB$ vu\u00f4ng c\u00e2n c\u00f3 c\u1ea1nh huy\u1ec1n b\u1eb1ng $a\\sqrt{2}$. G\u1ecdi $C$ l\u00e0 \u0111i\u1ec3m thu\u1ed9c \u0111\u01b0\u1eddng tr\u00f2n \u0111\u00e1y h\u00ecnh n\u00f3n sao cho m\u1eb7t ph\u1eb3ng $(SBC)$ t\u1ea1o v\u1edbi m\u1eb7t ph\u1eb3ng ch\u1ee9a \u0111\u00e1y h\u00ecnh n\u00f3n m\u1ed9t g\u00f3c $60^\\circ$. Di\u1ec7n t\u00edch c\u1ee7a tam gi\u00e1c $SBC$ b\u1eb1ng\t\n\t\\choice\n\t{$\\dfrac{a^2\\sqrt{3}}{4}$}\n\t{$\\dfrac{a^2\\sqrt{5}}{3}$}\n\t{$\\dfrac{a^2\\sqrt{5}}{2}$}\n\t{\\True $\\dfrac{a^2\\sqrt{2}}{3}$}\n\t\\loigiai{\\begin{center}\n\t\t\t\\begin{tikzpicture}[scale=0.7, font=\\footnotesize, line join=round, line cap=round, >=stealth, thick]\n\t\t\t\\def \\x{4.5} %b\u00e1n k\u00ednh tr\u1ee5c l\u1edbn elip\n\t\t\t\\def \\y{1.0} %b\u00e1n k\u00ednh tr\u1ee5c b\u00e9 elip\n\t\t\t\\def \\h{6.0} %chi\u1ec1u cao h\u00ecnh n\u00f3n\n\t\t\t\\def \\a{0.9}\n\t\t\t\\coordinate[label=left:$O$] (O) at (0,0);\n\t\t\t\\coordinate[label=above:$S$] (S) at ($(O)+(0,\\h)$);\n\t\t\t\\coordinate (E) at (180:\\x cm and \\y cm);\n\t\t\t\\coordinate (N) at (0:\\x cm and \\y cm);\n\t\t\t\\draw[dashed] (N) arc (0:180:\\x cm and \\y cm);\n\t\t\t\\draw (N) arc (0:-180:\\x cm and \\y cm);\n\t\t\t\\path (N) arc (0:-80:\\x cm and \\y cm) coordinate[label=below:$B$] (B);\n\t\t\t\\path (N) arc (0:45:\\x cm and \\y cm) coordinate[label=below:$C$] (C);\n\t\t\t\\coordinate[label=right:$M$] (M) at ($(C)!0.5!(B)$);\n\t\t\t\\coordinate[label=above left:$A$] (A) at ($(O)!-1!(B)$);\n\t\t\t\\draw (S)--(E) (S)--(N);\n\t\t\t\\draw[dashed] (B)--(O)--(C)--(B)--(S)--(O)--(M)--(S) (S)--(C) (O)--(A) (S)--(A);\n\t\t\t\\foreach \\i in {S,C,B,O,M,A} \\fill (\\i) circle(1.5pt);\n\t\t\t\\tkzMarkRightAngles(O,M,B)\n\t\t\t\\tkzMarkAngles[size=0.5cm,thin](S,M,O)\n\t\t\t\n\t\t\t\\end{tikzpicture}\n\t\t\\end{center}\n\t\tG\u1ecdi $O$ l\u00e0 t\u00e2m c\u1ee7a \u0111\u01b0\u1eddng tr\u00f2n \u0111\u00e1y. Gi\u1ea3 s\u1eed m\u1eb7t ph\u1eb3ng \u0111i qua tr\u1ee5c $SO$ c\u1ee7a h\u00ecnh n\u00f3n v\u00e0 c\u1eaft h\u00ecnh n\u00f3n theo m\u1ed9t thi\u1ebft di\u1ec7n l\u00e0 $\\triangle SAB$ vu\u00f4ng c\u00e2n t\u1ea1i $S$ c\u00f3 c\u1ea1nh huy\u1ec1n $AB=a\\sqrt{2}$.\\\\\n\t\tTa c\u00f3 $\\triangle SAB$ vu\u00f4ng c\u00e2n t\u1ea1i $S$ n\u00ean\n\t\t\\begin{itemize}\n\t\t\t\\item $SO=OA=OB=\\dfrac{AB}{2}=\\dfrac{a\\sqrt{2}}{2}$.\n\t\t\t\\item $r=OB=\\dfrac{AB}{2}=\\dfrac{a\\sqrt{2}}{2}$.\n\t\t\\end{itemize} \n\t\tG\u1ecdi $M$ l\u00e0 trung \u0111i\u1ec3m c\u1ee7a $BC$.\\\\\n\t\tTa c\u00f3 $\\heva{&(SBC)\\cap(OBC)=BC\\\\&OM\\subset (OBC),\\,OM\\perp BC\\\\&SM\\subset (SBC),\\,SM\\perp BC}\\Rightarrow \\left(SM,OM\\right)=\\widehat{SMO}=60^\\circ$.\\\\\n\t\tV\u00ec $\\triangle SMO$ vu\u00f4ng t\u1ea1i $O$ n\u00ean \n\t\t\\begin{itemize}\n\t\t\t\\item $SM=\\dfrac{SO}{\\sin \\widehat{SMO}}=\\dfrac{a\\sqrt{2}}{2}:\\sin 60^\\circ=\\dfrac{a\\sqrt{6}}{3}$.\n\t\t\t\\item $OM=SM\\cos\\widehat{SMO}=\\dfrac{a\\sqrt{6}}{3}\\cdot\\cos 60^\\circ=\\dfrac{a\\sqrt{6}}{6}$.\n\t\t\\end{itemize}\n\t\tTa c\u00f3 \t$\\triangle OBM$ vu\u00f4ng t\u1ea1i $M$ n\u00ean $BM=\\sqrt{OB^2-OM^2}=\\dfrac{a\\sqrt{3}}{3}$. Suy ra $BC=2BM=\\dfrac{2a\\sqrt{3}}{3}$.\\\\\n\t\tV\u1eady di\u1ec7n t\u00edch $\\triangle SBC$ l\u00e0\n\t\t\\begin{eqnarray*}\n\t\t\tS&=&\\dfrac{1}{2}SM\\cdot BC=\\dfrac{1}{2}\\cdot\\dfrac{a\\sqrt{6}}{3}\\cdot\\dfrac{2a\\sqrt{3}}{3}\\\\&=&\\dfrac{a^2\\sqrt{2}}{3}.\n\t\t\\end{eqnarray*}\n\t}",
+            "created_date": {
+                "$date": 1621427751756
+            },
+            "last_update": {
+                "$date": 1621427751756
+            },
+            "sub_section": "2H2K1-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_41",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $f(x)=-\\dfrac{1}{3}x^3-mx^2+(2m-3)x+2109m-2020$. C\u00f3 bao nhi\u00eau gi\u00e1 tr\u1ecb nguy\u00ean \u00e2m c\u1ee7a tham s\u1ed1 $m$ \u0111\u1ec3 h\u00e0m s\u1ed1 $f(x)$ ngh\u1ecbch bi\u1ebfn tr\u00ean $\\mathbb{R}$?",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_41_C1",
+                    "content": "$2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_41_C2",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_41_C3",
+                    "content": "$4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_41_C4",
+                    "content": "$5$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "H\u00e0m s\u1ed1 c\u00f3 t\u1eadp x\u00e1c \u0111\u1ecbnh $\\mathscr D=\\mathbb{R}$.\\\\ Ta c\u00f3 $f'(x)=-x^2-2mx+2m-3$.\\\\ H\u00e0m s\u1ed1 \u0111\u00e3 cho ngh\u1ecbch bi\u1ebfn tr\u00ean $\\mathbb{R}$ \\begin{eqnarray*} &\\Leftrightarrow& f'(x)=-x^2-2mx+2m-3\\le 0, \\forall x\\in \\mathbb{R}\\\\ &\\Leftrightarrow& \\\\begin{cases}-1 < 0\\\\(-m)^2-(-1)(2m-3)\\le 0\\\\end{cases}0}\\\\ &\\Leftrightarrow& m^2+2m-3\\le 0\\\\&\\Leftrightarrow& -3\\le m\\le 1. \\end{eqnarray*} Do $m$ nh\u1eadn gi\u00e1 tr\u1ecb nguy\u00ean \u00e2m n\u00ean $m\\in\\left\\lbrace-3;-2;-1\\right\\rbrace$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X1",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C1"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D1B1-3]\n\tCho h\u00e0m s\u1ed1 \t$f(x)=-\\dfrac{1}{3}x^3-mx^2+(2m-3)x+2109m-2020$. C\u00f3 bao nhi\u00eau gi\u00e1 tr\u1ecb nguy\u00ean \u00e2m c\u1ee7a tham s\u1ed1 $m$ \u0111\u1ec3 h\u00e0m s\u1ed1 $f(x)$ ngh\u1ecbch bi\u1ebfn tr\u00ean $\\mathbb{R}$?\t\n\t\\choice\n\t{$2$}\n\t{\\True $3$}\n\t{$4$}\n\t{$5$}\n\t\\loigiai{\n\t\tH\u00e0m s\u1ed1 c\u00f3 t\u1eadp x\u00e1c \u0111\u1ecbnh $\\mathscr D=\\mathbb{R}$.\\\\\n\t\tTa c\u00f3 $f'(x)=-x^2-2mx+2m-3$.\\\\\n\t\tH\u00e0m s\u1ed1 \u0111\u00e3 cho ngh\u1ecbch bi\u1ebfn tr\u00ean $\\mathbb{R}$\t\n\t\t\\begin{eqnarray*}\n\t\t\t&\\Leftrightarrow& f'(x)=-x^2-2mx+2m-3\\le 0, \\forall x\\in \\mathbb{R}\\\\\n\t\t\t&\\Leftrightarrow& \\heva{&-1<0\\\\&(-m)^2-(-1)(2m-3)\\le 0}\\\\\n\t\t\t&\\Leftrightarrow& m^2+2m-3\\le 0\\\\&\\Leftrightarrow& -3\\le m\\le 1.\n\t\t\\end{eqnarray*}\t\n\t\tDo $m$ nh\u1eadn gi\u00e1 tr\u1ecb nguy\u00ean \u00e2m n\u00ean $m\\in\\left\\lbrace-3;-2;-1\\right\\rbrace$.\n\t}",
+            "created_date": {
+                "$date": 1621427751757
+            },
+            "last_update": {
+                "$date": 1621427751757
+            },
+            "sub_section": "2D1B1-3",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_42",
+            "description": "",
+            "level": 2,
+            "duration": 120,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $f(x)=\\dfrac{ax+b}{cx+1}$ v\u1edbi $a,\\,b,\\,c\\in\\mathbb{R}$ c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean nh\u01b0 sau\\\\ Trong c\u00e1c s\u1ed1 $a,\\,b$ v\u00e0 $c$ c\u00f3 bao nhi\u00eau s\u1ed1 d\u01b0\u01a1ng?",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "}{",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_41_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "}",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_42_C1",
+                    "content": "$3$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_42_C2",
+                    "content": "$0$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_42_C3",
+                    "content": "$1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_42_C4",
+                    "content": "$2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $f'(x)=\\dfrac{a-bc}{(cx+1)^2},\\forall x \\neq-\\dfrac{1}{c}$.\\\\ T\u1eeb b\u1ea3ng bi\u1ebfn thi\u00ean ta th\u1ea5y \u0111\u1ed3 th\u1ecb c\u00f3 ti\u1ec7m c\u1eadn \u0111\u1ee9ng $x=-2$ v\u00e0 ti\u1ec7m c\u1eadn ngang $y=3$ v\u00e0 h\u00e0m s\u1ed1 ngh\u1ecbch bi\u1ebfn tr\u00ean t\u1eebng kho\u1ea3ng x\u00e1c \u0111\u1ecbnh n\u00ean $$\\\\begin{cases}-\\dfrac{1}{c} < 0\\\\\\dfrac{a}{c}>0\\\\a-bc < 0\\\\end{cases} 0}\\Rightarrow c>0,\\,a>0,\\,b>0.$$",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X4",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C4"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D1B4-3]\n\tCho h\u00e0m s\u1ed1 $f(x)=\\dfrac{ax+b}{cx+1}$ v\u1edbi $a,\\,b,\\,c\\in\\mathbb{R}$ \\immini{c\u00f3 b\u1ea3ng bi\u1ebfn thi\u00ean nh\u01b0 sau\\\\\n\t\tTrong c\u00e1c s\u1ed1 $a,\\,b$ v\u00e0 $c$ c\u00f3 bao nhi\u00eau s\u1ed1 d\u01b0\u01a1ng?\t\n\t\t\\haicot\n\t\t{\\True $3$}\n\t\t{$0$}\n\t\t{$1$}\n\t\t{$2$}}{\\begin{tikzpicture}\n\t\t\\tikzset{double style/.append style = {double distance=2pt}}\n\t\t\\tikzset{h style/.style = {pattern=north west lines}}\n\t\t\\tkzTabInit[nocadre=false,lgt=1.2,espcl=2.5,deltacl=0.6]\n\t\t{$x$ /0.6,$f'(x)$ /0.6,$f(y)$ /2}\n\t\t{$-\\infty$,$-2$,$+\\infty$}\n\t\t\\tkzTabLine{  ,-,d ,- , }\n\t\t\\tkzTabVar{+/$3$,-D+/$-\\infty$/$+\\infty$,-/$3$ }\n\t\t\\end{tikzpicture}}\n\t\\loigiai{\n\t\tTa c\u00f3 $f'(x)=\\dfrac{a-bc}{(cx+1)^2},\\forall x \\neq-\\dfrac{1}{c}$.\\\\\n\t\tT\u1eeb b\u1ea3ng bi\u1ebfn thi\u00ean ta th\u1ea5y \u0111\u1ed3 th\u1ecb c\u00f3 ti\u1ec7m c\u1eadn \u0111\u1ee9ng $x=-2$ v\u00e0 ti\u1ec7m c\u1eadn ngang $y=3$ v\u00e0 h\u00e0m s\u1ed1 ngh\u1ecbch bi\u1ebfn tr\u00ean t\u1eebng kho\u1ea3ng x\u00e1c \u0111\u1ecbnh n\u00ean $$\\heva{&-\\dfrac{1}{c}<0\\\\&\\dfrac{a}{c}>0\\\\&a-bc<0}\\Rightarrow c>0,\\,a>0,\\,b>0.$$\n\t}",
+            "created_date": {
+                "$date": 1621427751757
+            },
+            "last_update": {
+                "$date": 1621427751757
+            },
+            "sub_section": "2D1B4-3",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_43",
+            "description": "",
+            "level": 3,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Trong \u0111\u1ee3t \u1ee9ng ph\u00f3 d\u1ecbch b\u1ec7nh Covid-$19$, S\u1edf Y t\u1ebf th\u00e0nh ph\u1ed1 \u0111\u00e3 ch\u1ecdn ng\u1eabu nhi\u00ean $3$ \u0111\u1ed9i ph\u00f2ng ch\u1ed1ng d\u1ecbch c\u01a1 \u0111\u1ed9ng trong s\u1ed1 $5$ \u0111\u1ed9i c\u1ee7a Trung t\u00e2m y t\u1ebf d\u1ef1 ph\u00f2ng th\u00e0nh ph\u1ed1 v\u00e0 $20$ \u0111\u1ed9i c\u1ee7a c\u00e1c Trung t\u00e2m y t\u1ebf c\u01a1 s\u1edf \u0111\u1ec3 ki\u1ec3m tra c\u00f4ng t\u00e1c chu\u1ea9n b\u1ecb. X\u00e1c su\u1ea5t \u0111\u1ec3 c\u00f3 \u00edt nh\u1ea5t $2$ \u0111\u1ed9i c\u1ee7a c\u00e1c Trung t\u00e2m y t\u1ebf c\u01a1 s\u1edf \u0111\u01b0\u1ee3c ch\u1ecdn b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_43_C1",
+                    "content": "$\\dfrac{11}{23}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_43_C2",
+                    "content": "$\\dfrac{21}{23}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_43_C3",
+                    "content": "$\\dfrac{209}{230}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_43_C4",
+                    "content": "$\\dfrac{201}{230}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "S\u1ed1 ph\u1ea7n t\u1eed c\u1ee7a kh\u00f4ng gian m\u1eabu l\u00e0 $\\mathrm n(\\Omega)=\\mathrm{C}_{25}^3=2300$.\\\\ G\u1ecdi $A$ l\u00e0 \\lq\\lq bi\u1ebfn c\u1ed1 c\u00f3 \u00edt nh\u1ea5t $2$ \u0111\u1ed9i c\u1ee7a c\u00e1c Trung t\u00e2m y t\u1ebf c\u01a1 s\u1edf$\" \\,\\,l\u00e0 $\\mathrm n(A)=\\mathrm{C}$_{20}^2\\mathrm{C}_{5}^1+\\mathrm{C}_{20}^3=2090$.\\\\ V\u1eady $\\mathrm{P}(A)=\\dfrac{\\mathrm n(A)}{\\mathrm n(\\Omega)}=\\dfrac{209}{230}$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "1D2X5",
+                "math",
+                "math_11",
+                "math_11_hk1",
+                "math_11_algebra",
+                "math_11_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[1D2K5-2]\n\tTrong \u0111\u1ee3t \u1ee9ng ph\u00f3 d\u1ecbch b\u1ec7nh Covid-$19$, S\u1edf Y t\u1ebf th\u00e0nh ph\u1ed1 \u0111\u00e3 ch\u1ecdn ng\u1eabu nhi\u00ean $3$ \u0111\u1ed9i ph\u00f2ng ch\u1ed1ng d\u1ecbch c\u01a1 \u0111\u1ed9ng trong s\u1ed1 $5$ \u0111\u1ed9i c\u1ee7a Trung t\u00e2m y t\u1ebf d\u1ef1 ph\u00f2ng th\u00e0nh ph\u1ed1 v\u00e0 $20$ \u0111\u1ed9i c\u1ee7a c\u00e1c Trung t\u00e2m y t\u1ebf c\u01a1 s\u1edf \u0111\u1ec3 ki\u1ec3m tra c\u00f4ng t\u00e1c chu\u1ea9n b\u1ecb. X\u00e1c su\u1ea5t \u0111\u1ec3 c\u00f3 \u00edt nh\u1ea5t $2$ \u0111\u1ed9i c\u1ee7a c\u00e1c Trung t\u00e2m y t\u1ebf c\u01a1 s\u1edf \u0111\u01b0\u1ee3c ch\u1ecdn b\u1eb1ng\t\n\t\\choice\n\t{$\\dfrac{11}{23}$}\n\t{$\\dfrac{21}{23}$}\n\t{\\True $\\dfrac{209}{230}$}\n\t{$\\dfrac{201}{230}$}\n\t\\loigiai{\n\t\tS\u1ed1 ph\u1ea7n t\u1eed c\u1ee7a kh\u00f4ng gian m\u1eabu l\u00e0 $\\mathrm n(\\Omega)=\\mathrm{C}_{25}^3=2300$.\\\\\n\t\tG\u1ecdi $A$ l\u00e0 \\lq\\lq bi\u1ebfn c\u1ed1 c\u00f3 \u00edt nh\u1ea5t $2$ \u0111\u1ed9i c\u1ee7a c\u00e1c Trung t\u00e2m y t\u1ebf c\u01a1 s\u1edf\\rq\\rq \\,\\,l\u00e0 $\\mathrm n(A)=\\mathrm{C}_{20}^2\\mathrm{C}_{5}^1+\\mathrm{C}_{20}^3=2090$.\\\\\n\t\tV\u1eady $\\mathrm{P}(A)=\\dfrac{\\mathrm n(A)}{\\mathrm n(\\Omega)}=\\dfrac{209}{230}$.\n\t}",
+            "created_date": {
+                "$date": 1621427751758
+            },
+            "last_update": {
+                "$date": 1621427751758
+            },
+            "sub_section": "1D2K5-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_44",
+            "description": "",
+            "level": 3,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $f(x)$ li\u00ean t\u1ee5c tr\u00ean $\\mathbb{R}$ th\u1ecfa m\u00e3n $f(x)=f(2021-x)$ v\u00e0 $\\int\\limits_{1}^{2020}f(x)dx=1$. T\u00ednh t\u00edch ph\u00e2n $I=\\int\\limits_{1}^{2020}xf(x)dx.$",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_44_C1",
+                    "content": "$2021$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_44_C2",
+                    "content": "$4042$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_44_C3",
+                    "content": "$\\dfrac{2021}{2}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_44_C4",
+                    "content": "$1326$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "S\u1ed1 s\u1ea3n ph\u1ea9m b\u00e1n \u0111\u01b0\u1ee3c \u1edf ng\u00e0y $1,\\,2,\\,3,\\ldots$ l\u1eadp th\u00e0nh c\u1ea5p s\u1ed1 nh\u00e2n v\u1edbi $u_1=5,\\,q=2$.\\\\ Theo gi\u1ea3 thi\u1ebft ta c\u00f3 \\begin{eqnarray*} &&S_n\\ge 1200\\\\&\\Leftrightarrow& 5\\cdot\\dfrac{2^n-1}{2-1}\\ge 1200\\\\&\\Leftrightarrow& 2^n\\ge 241\\\\&\\Leftrightarrow& n\\ge\\log_2241\\approx 7{,}91. \\end{eqnarray*} V\u1eady s\u1ed1 ng\u00e0y \u00edt nh\u1ea5t \u0111\u1ec3 c\u1eeda h\u00e0ng \u0111\u00f3 b\u00e1n h\u1ebft $1200$ s\u1ea3n ph\u1ea9m l\u00e0 8.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D2X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D2K5-6]\n\tCho h\u00e0m s\u1ed1 $f(x)$ li\u00ean t\u1ee5c tr\u00ean $\\mathbb{R}$ th\u1ecfa m\u00e3n $f(x)=f(2021-x)$ v\u00e0 $\\int\\limits_{1}^{2020}f(x)dx=1$. T\u00ednh t\u00edch ph\u00e2n $I=\\int\\limits_{1}^{2020}xf(x)dx.$\n\t\\choice\n\t{$2021$}\n\t{$4042$}\n\t{\\True $\\dfrac{2021}{2}$}\n\t{$1326$}\n\t\\loigiai{\n\t\tS\u1ed1 s\u1ea3n ph\u1ea9m b\u00e1n \u0111\u01b0\u1ee3c \u1edf ng\u00e0y $1,\\,2,\\,3,\\ldots$ l\u1eadp th\u00e0nh c\u1ea5p s\u1ed1 nh\u00e2n v\u1edbi $u_1=5,\\,q=2$.\\\\\n\t\tTheo gi\u1ea3 thi\u1ebft ta c\u00f3\n\t\t\\begin{eqnarray*}\n\t\t\t&&S_n\\ge 1200\\\\&\\Leftrightarrow& 5\\cdot\\dfrac{2^n-1}{2-1}\\ge 1200\\\\&\\Leftrightarrow& 2^n\\ge 241\\\\&\\Leftrightarrow& n\\ge\\log_2241\\approx 7{,}91.\n\t\t\\end{eqnarray*}\n\t\tV\u1eady s\u1ed1 ng\u00e0y \u00edt nh\u1ea5t \u0111\u1ec3 c\u1eeda h\u00e0ng \u0111\u00f3 b\u00e1n h\u1ebft $1200$ s\u1ea3n ph\u1ea9m l\u00e0 8.\n\t}",
+            "created_date": {
+                "$date": 1621427751759
+            },
+            "last_update": {
+                "$date": 1621427751759
+            },
+            "sub_section": "2D2K5-6",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_45",
+            "description": "",
+            "level": 3,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00ecnh l\u1eadp ph\u01b0\u01a1ng $ABCD.A'B'C'D'$ c\u00f3 c\u1ea1nh $a$. G\u1ecdi $K$ l\u00e0 \u0111i\u1ec3m tr\u00ean c\u1ea1nh $CC'$ sao cho $CK=\\dfrac{2}{3}a$. M\u1eb7t ph\u1eb3ng $(\\alpha)$ \u0111i qua hai \u0111i\u1ec3m $A,\\,K$ v\u00e0 song song v\u1edbi $BD$, m\u1eb7t ph\u1eb3ng $(\\alpha)$ c\u1eaft $BB',\\,DD'$ l\u1ea7n l\u01b0\u1ee3t t\u1ea1i $M$ v\u00e0 $N$. Th\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i \u0111a di\u1ec7n $BCDNMK$ b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_45_C1",
+                    "content": "$\\dfrac{a^3}{9}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_45_C2",
+                    "content": "$\\dfrac{a^3}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_45_C3",
+                    "content": "$\\dfrac{2a^3}{9}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_45_C4",
+                    "content": "$\\dfrac{a^3}{6}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "v\u00ec $(\\alpha)\\parallel BD$ n\u00ean $MN\\parallel BD$.\\\\ G\u1ecdi $O,\\,O'$ l\u1ea7n l\u01b0\u1ee3t l\u00e0 t\u00e2m c\u1ee7a hai h\u00ecnh vu\u00f4ng $ABCD$ v\u00e0 $A'B'C'D'$; $I$ l\u00e0 giao \u0111i\u1ec3m c\u1ee7a $MN$ v\u00e0 $OO'$.\\\\ Suy ra $BM=OI=\\dfrac{1}{2}CK=\\dfrac{a}{3}$.\\\\ G\u1ecdi $V$ l\u00e0 th\u1ec3 t\u00edch kh\u1ed1i \u0111a di\u1ec7n c\u1ea7n t\u00ednh. \\begin{eqnarray*} V_{OBC.IMK}&=&2\\left( V_{A.BCKM}-V_{A.OBMI}\\right)\\\\ &=&2\\left(\\dfrac{1}{3}AB\\cdot S_{BCKM}-\\dfrac{1}{3}AO\\cdot S_{OBMI}\\right)\\\\&=&\\dfrac{2}{3}\\left(AB\\cdot S_{BCKM}-AO\\cdot S_{OBMI}\\right)\\\\&=&\\dfrac{2}{3}\\left[AB\\cdot\\dfrac{1}{2}BC(BM+CK)-AO\\cdot OB\\cdot BM\\right]\\\\&=&\\dfrac{2}{3}\\left[a\\cdot\\dfrac{1}{2}a\\left(\\dfrac{a}{3}+\\dfrac{2a}{3}\\right)-\\dfrac{a\\sqrt{2}}{2}\\cdot a\\dfrac{\\sqrt{2}}{2}\\cdot \\dfrac{a}{3}\\right]\\\\&=&\\dfrac{2a^3}{9}. \\end{eqnarray*} {",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_EXPLAIN_44_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "}",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2H1F3",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_geometry",
+                "math_12_geometry_C3"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2H1K3-2]\n\tCho h\u00ecnh l\u1eadp ph\u01b0\u01a1ng $ABCD.A'B'C'D'$ c\u00f3 c\u1ea1nh $a$. G\u1ecdi $K$ l\u00e0 \u0111i\u1ec3m tr\u00ean c\u1ea1nh $CC'$ sao cho $CK=\\dfrac{2}{3}a$. M\u1eb7t ph\u1eb3ng $(\\alpha)$ \u0111i qua hai  \u0111i\u1ec3m $A,\\,K$ v\u00e0 song song v\u1edbi $BD$, m\u1eb7t ph\u1eb3ng $(\\alpha)$ c\u1eaft $BB',\\,DD'$ l\u1ea7n l\u01b0\u1ee3t t\u1ea1i $M$ v\u00e0 $N$. Th\u1ec3 t\u00edch c\u1ee7a kh\u1ed1i \u0111a di\u1ec7n $BCDNMK$ b\u1eb1ng\n\t\\choice\n\t{$\\dfrac{a^3}{9}$}\n\t{$\\dfrac{a^3}{3}$}\n\t{\\True $\\dfrac{2a^3}{9}$}\n\t{$\\dfrac{a^3}{6}$}\n\t\\loigiai{\\immini{\n\t\t\tv\u00ec $(\\alpha)\\parallel BD$ n\u00ean $MN\\parallel BD$.\\\\\n\t\t\tG\u1ecdi $O,\\,O'$ l\u1ea7n l\u01b0\u1ee3t l\u00e0 t\u00e2m c\u1ee7a hai h\u00ecnh vu\u00f4ng $ABCD$ v\u00e0 $A'B'C'D'$; $I$ l\u00e0 giao \u0111i\u1ec3m c\u1ee7a $MN$ v\u00e0 $OO'$.\\\\\n\t\t\tSuy ra $BM=OI=\\dfrac{1}{2}CK=\\dfrac{a}{3}$.\\\\\n\t\t\tG\u1ecdi $V$ l\u00e0 th\u1ec3 t\u00edch kh\u1ed1i \u0111a di\u1ec7n c\u1ea7n t\u00ednh.\n\t\t\t\\begin{eqnarray*}\n\t\t\t\tV_{OBC.IMK}&=&2\\left( V_{A.BCKM}-V_{A.OBMI}\\right)\\\\ &=&2\\left(\\dfrac{1}{3}AB\\cdot S_{BCKM}-\\dfrac{1}{3}AO\\cdot S_{OBMI}\\right)\\\\&=&\\dfrac{2}{3}\\left(AB\\cdot S_{BCKM}-AO\\cdot S_{OBMI}\\right)\\\\&=&\\dfrac{2}{3}\\left[AB\\cdot\\dfrac{1}{2}BC(BM+CK)-AO\\cdot OB\\cdot BM\\right]\\\\&=&\\dfrac{2}{3}\\left[a\\cdot\\dfrac{1}{2}a\\left(\\dfrac{a}{3}+\\dfrac{2a}{3}\\right)-\\dfrac{a\\sqrt{2}}{2}\\cdot a\\dfrac{\\sqrt{2}}{2}\\cdot \\dfrac{a}{3}\\right]\\\\&=&\\dfrac{2a^3}{9}.\n\t\t\t\\end{eqnarray*}\n\t\t}{\\begin{tikzpicture}[scale=0.6,line join=round, line cap=round,thick]\n\t\t\t\\tikzset{label style/.style={font=\\footnotesize}}\n\t\t\t\\coordinate (D) at (0,0);\n\t\t\t\\coordinate (A) at (-2,-3);\n\t\t\t\\coordinate (C) at (7,0);\n\t\t\t\\coordinate (B) at ($(A)+(C)-(D)$);\n\t\t\t\\coordinate (A') at ($(A)+(0,7)$);\n\t\t\t\\coordinate (B') at ($(B)+(0,7)$);\n\t\t\t\\coordinate (C') at ($(C)+(0,7)$);\n\t\t\t\\coordinate (D') at ($(D)+(0,7)$);\n\t\t\t\\coordinate (O) at ($(A)!0.5!(C)$);\n\t\t\t\\coordinate (O') at ($(A')!0.5!(C')$);\n\t\t\t\\coordinate (N) at ($(B)+(0,2)$);\n\t\t\t\\coordinate (M) at ($(D)+(0,2)$);\n\t\t\t\\coordinate (I) at ($(O)+(0,2)$);\n\t\t\t\\coordinate (K) at ($(N)+(M)-(A)$);\n\t\t\t\\tkzDrawSegments(B,B' B',A' B,C C,C' C',B' A',D' D',C' A',C' B',D' N,K A,N A,B A,A')\n\t\t\t\\tkzDrawSegments[dashed,thin](A,D A,C B,D A,B A,A' O,O' A,N A,M D,C D,D' M,K A,M M,N)\n\t\t\t%\\tkzMarkRightAngles[size=0.2,thin](S,A,D S,A,B)\n\t\t\t\\tkzDrawPoints[fill=black,size=2pt](A,B,C,D,A',B',C',D',O,O',M,N,K,I)\n\t\t\t\\tkzLabelPoints[above](D',O')\n\t\t\t\\tkzLabelPoints[below](B)\n\t\t\t\\tkzLabelPoints[right](C,C',B',N,K,I)\n\t\t\t\\tkzLabelPoints[left](A,A',D,O,M)\n\t\t\t\\end{tikzpicture}}\n\t}",
+            "created_date": {
+                "$date": 1621427751759
+            },
+            "last_update": {
+                "$date": 1621427751759
+            },
+            "sub_section": "2H1K3-2",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_46",
+            "description": "",
+            "level": 4,
+            "duration": 240,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $y=f(x)$ c\u00f3 \u0111\u1ed3 th\u1ecb nh\u01b0 h\u00ecnh v\u1ebd sau S\u1ed1 nghi\u1ec7m thu\u1ed9c \u0111o\u1ea1n $\\left[-\\dfrac{\\pi}{2};3\\pi\\right]$ c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh\\\\ $2f(2\\cos x+1)+3=0$ l\u00e0",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "}{",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_QUESTION_45_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "}",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_46_C1",
+                    "content": "$7$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_46_C2",
+                    "content": "$6$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_46_C3",
+                    "content": "$11$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_46_C4",
+                    "content": "$12$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "Ta c\u00f3 $2f(2\\cos x+1)+3=0\\Leftrightarrow f(2\\cos x+1)=-\\dfrac{3}{2}\\Leftrightarrow \\\\left[\\\\begin{aligned}&2\\cos x+1=m\\in(-\\infty;-2)&\\quad\\quad\\quad\\quad(1)\\\\&2\\cos x+1=n\\in(0;1)&(2)\\\\&2\\cos x+1=p\\in(1;2).&(3)\\\\end{aligned}\\\\right$ \\begin{center}",
+                    "variety": "TEXT"
+                },
+                {
+                    "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_TN_4/TN_4_EXPLAIN_45_1.svg",
+                    "variety": "IMG"
+                },
+                {
+                    "content": "\\end{center} D\u1ef1a v\u00e0o \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=\\cos x$ tr\u00ean \u0111o\u1ea1n $\\left[-\\dfrac{\\pi}{2};3\\pi\\right]$ ta c\u00f3 \\begin{enumerate} \\item [(1)] $\\Leftrightarrow \\cos x=\\dfrac{m-1}{2}\\in\\left(-\\infty ;-\\dfrac{3}{2}\\right)$ suy ra ph\u01b0\u01a1ng tr\u00ecnh v\u00f4 nghi\u1ec7m. \\item [(2)] $\\Leftrightarrow \\cos x=\\dfrac{n-1}{2}\\in\\left(-\\dfrac{1}{2}; 0\\right)$ suy ra ph\u01b0\u01a1ng tr\u00ecnh c\u00f3 $3$ nghi\u1ec7m ph\u00e2n bi\u1ec7t. \\item [(3)] $\\Leftrightarrow\\cos x=\\dfrac{p-1}{2}\\in\\left(0 ; \\dfrac{1}{2}\\right)$ suy ra ph\u01b0\u01a1ng tr\u00ecnh c\u00f3 $4$ nghi\u1ec7m ph\u00e2n bi\u1ec7t. \\end{enumerate}",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D1G5-3]\n\tCho h\u00e0m s\u1ed1 $y=f(x)$ c\u00f3 \u0111\u1ed3 th\u1ecb nh\u01b0 h\u00ecnh v\u1ebd sau \\immini{\n\t\tS\u1ed1 nghi\u1ec7m thu\u1ed9c \u0111o\u1ea1n $\\left[-\\dfrac{\\pi}{2};3\\pi\\right]$ c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh\\\\ $2f(2\\cos x+1)+3=0$ l\u00e0\t\n\t\t\\choice\n\t\t{\\True $7$}\n\t\t{$6$}\n\t\t{$11$}\n\t\t{$12$}}{\\begin{tikzpicture}[scale=0.9,line join=round, line cap=round,>=stealth,thick]\n\t\t\\tikzset{label style/.style={font=\\footnotesize}}\n\t\t\\draw[->] (-2.1,0)--(3.1,0) node[below left] {$x$};\n\t\t\\draw[->] (0,-4.1)--(0,2.1) node[below left] {$y$};\n\t\t\\draw (0,0) node [below right] {$O$};\n\t\t\\foreach \\x in {-1,2}\n\t\t\\draw[thin] (\\x,1pt)--(\\x,-1pt) node [below] {$\\x$};\n\t\t\\foreach \\x in {1}\n\t\t\\draw[thin] (\\x,1pt)--(\\x,-1pt) node [above] {$\\x$};\n\t\t\\foreach \\y in {-3,-1}\n\t\t\\draw[thin] (1pt,\\y)--(-1pt,\\y) node [left] {$\\y$};\n\t\t\\foreach \\y in {1}\n\t\t\\draw[thin] (1pt,\\y)--(-1pt,\\y) node [above left] {$\\y$};\n\t\t\\foreach \\i /\\j in {-1/1,0/-1,1/-3,2/1}{\n\t\t\t\\draw[dashed] (\\i,0)|-(0,\\j);\n\t\t\t\\fill[black] (\\i,\\j) circle (2pt);\n\t\t}\n\t\t\\begin{scope}\n\t\t\\clip (-2,-4) rectangle (3,2);\n\t\t\\draw[samples=200,domain=-2:2.8,smooth,variable=\\x] plot (\\x,{1*((\\x)^3)+0*((\\x)^2)+-3*(\\x)+-1});\n\t\t\\end{scope}\n\t\t\\end{tikzpicture}}\n\t\\loigiai{\n\t\tTa c\u00f3 $2f(2\\cos x+1)+3=0\\Leftrightarrow f(2\\cos x+1)=-\\dfrac{3}{2}\\Leftrightarrow \\hoac{&2\\cos x+1=m\\in(-\\infty;-2)&\\quad\\quad\\quad\\quad(1)\\\\&2\\cos x+1=n\\in(0;1)&(2)\\\\&2\\cos x+1=p\\in(1;2).&(3)}$\n\t\t\\begin{center}\n\t\t\t\\begin{tikzpicture}[line join=round, line cap=round,>=stealth,thick]\n\t\t\t\\tikzset{label style/.style={font=\\footnotesize}}\n\t\t\t\\draw[->] (-3.1,0)--(10.1,0) node[below left] {$x$};\n\t\t\t\\draw[->] (0,-2.1)--(0,2.1) node[below left] {$y$};\n\t\t\t\\draw (0,0) node [below left] {$O$};\n\t\t\t\\foreach \\i /\\j in {-1.57/0,9.42/-1,0/-1,0/1}{\n\t\t\t\t\\draw[dashed] (\\i,0)|-(0,\\j);\n\t\t\t\t\\fill[black] (\\i,\\j) circle (2pt);\n\t\t\t}\n\t\t\t\\draw (-1.57,0) node[below]{$-\\dfrac{\\pi}{2}$}(9.42,0)node[above]{$3\\pi$}(0,1)node[above right]{$1$}(0,-1)node[left]{$-1$};\n\t\t\t\\begin{scope}\n\t\t\t\\clip (-3,-2) rectangle (10,2);\n\t\t\t\\draw[samples=200,domain=-2:10,smooth,variable=\\x] plot (\\x,{cos((\\x) r)});\n\t\t\t\\end{scope}\n\t\t\t\\end{tikzpicture}\n\t\t\\end{center}\n\t\tD\u1ef1a v\u00e0o \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $y=\\cos x$ tr\u00ean \u0111o\u1ea1n $\\left[-\\dfrac{\\pi}{2};3\\pi\\right]$ ta c\u00f3\n\t\t\\begin{enumerate}\n\t\t\t\\item [(1)] $\\Leftrightarrow \\cos x=\\dfrac{m-1}{2}\\in\\left(-\\infty ;-\\dfrac{3}{2}\\right)$ suy ra ph\u01b0\u01a1ng tr\u00ecnh v\u00f4 nghi\u1ec7m.\n\t\t\t\\item [(2)] $\\Leftrightarrow \\cos x=\\dfrac{n-1}{2}\\in\\left(-\\dfrac{1}{2}; 0\\right)$ suy ra ph\u01b0\u01a1ng tr\u00ecnh c\u00f3 $3$ nghi\u1ec7m ph\u00e2n bi\u1ec7t.\n\t\t\t\\item [(3)] $\\Leftrightarrow\\cos x=\\dfrac{p-1}{2}\\in\\left(0 ; \\dfrac{1}{2}\\right)$ suy ra ph\u01b0\u01a1ng tr\u00ecnh c\u00f3 $4$ nghi\u1ec7m ph\u00e2n bi\u1ec7t.\n\t\t\\end{enumerate}\n\t}",
+            "created_date": {
+                "$date": 1621427751760
+            },
+            "last_update": {
+                "$date": 1621427751760
+            },
+            "sub_section": "2D1G5-3",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_47",
+            "description": "",
+            "level": 4,
+            "duration": 240,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $f(x)=\\ln \\left(x+\\sqrt{x^2+1}\\right)$ v\u00e0 hai s\u1ed1 th\u1ef1c d\u01b0\u01a1ng $a,\\,b$ th\u1ecfa m\u00e3n\\\\ $f(a)+f(b-2)\\le 0$ v\u00e0 $4ab+\\dfrac{1}{ab}=2(a+b)$. Gi\u00e1 tr\u1ecb c\u1ee7a bi\u1ec3u th\u1ee9c $a^3+b^3$ b\u1eb1ng",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_47_C1",
+                    "content": "$5$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_47_C2",
+                    "content": "$2$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_47_C3",
+                    "content": "$4$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_47_C4",
+                    "content": "$7$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\\begin{align*} &f(a)+f(b-2) \\leq 0 \\Leftrightarrow \\ln \\left(a+\\sqrt{a^{2}+1}\\right)+\\ln \\left[b-2+\\sqrt{(b-2)^{2}+1}\\right] \\leq 0\\\\ &\\Leftrightarrow \\ln \\left\\{\\left(a+\\sqrt{a^{2}+1}\\right)\\left[b-2+\\sqrt{(b-2)^{2}+1}\\right]\\right\\}\\leq 0\\\\ &\\Leftrightarrow\\left(a+\\sqrt{a^{2}+1}\\right)\\left[b-2+\\sqrt{(b-2)^{2}+1}\\right] \\leq 1\\\\ &\\Leftrightarrow\\left(a+\\sqrt{a^{2}+1}\\right)\\left(-a+\\sqrt{a^{2}+1}\\right)\\left[b-2+\\sqrt{(b-2)^{2}+1}\\right] \\leq\\left(-a+\\sqrt{a^{2}+1}\\right)\\\\ &\\Leftrightarrow b-2+\\sqrt{(b-2)^{2}+1}\\leq-a+\\sqrt{(-a)^{2}+1}.\\tag{1} \\end{align*} X\u00e9t h\u00e0m s\u1ed1 $g(t)=t+\\sqrt{t^{2}+1}$ tr\u00ean $\\mathbb{R}$.\\\\ Ta c\u00f3 $g'(t)=1+\\dfrac{t}{\\sqrt{t^2+1}}=\\dfrac{\\sqrt{t^2+1}+t}{\\sqrt{t^2+1}}>0,\\,\\forall t\\in\\mathbb{R}$ suy ra h\u00e0m s\u1ed1 $g(t)$ l\u00e0 h\u00e0m \u0111\u1ed3ng bi\u1ebfn tr\u00ean $\\mathbb{R}$.\\\\ T\u1eeb $(1)$ suy ra \\begin{align*} g(b-2)\\le g(-a)\\Rightarrow b-2\\le -a\\Leftrightarrow a+b\\le 2.\\tag{2} \\end{align*} M\u1eb7t kh\u00e1c \\begin{align*}2(a+b)=4ab+\\dfrac{1}{a b}\\geq2\\sqrt{4ab\\cdot\\dfrac{1}{ab}}=4\\Rightarrow a+b\\ge 2.\\tag{3} \\end{align*} T\u1eeb $(2)$ v\u00e0 $(3)$ ta c\u00f3 $a+b=2$. Trong $(3)$ x\u1ea3y ra d\u1ea5u \\lq\\lq=$\"\\, khi $4ab=\\dfrac{1}${ab}\\Rightarrow ab=\\dfrac{1}{2}$.\\\\ Suy ra $a^{3}+b^{3}=(a+b)^{3}-3ab(a+b)=5$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D2X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D2G5-5]\n\tCho h\u00e0m s\u1ed1 $f(x)=\\ln \\left(x+\\sqrt{x^2+1}\\right)$ v\u00e0 hai s\u1ed1 th\u1ef1c d\u01b0\u01a1ng $a,\\,b$ th\u1ecfa m\u00e3n\\\\ $f(a)+f(b-2)\\le 0$ v\u00e0 $4ab+\\dfrac{1}{ab}=2(a+b)$. Gi\u00e1 tr\u1ecb c\u1ee7a bi\u1ec3u th\u1ee9c $a^3+b^3$ b\u1eb1ng\n\t\\choice\n\t{\\True $5$}\n\t{$2$}\n\t{$4$}\n\t{$7$}\n\t\\loigiai{\n\t\t\\begin{align*}\n\t\t&f(a)+f(b-2) \\leq 0 \\Leftrightarrow \\ln \\left(a+\\sqrt{a^{2}+1}\\right)+\\ln \\left[b-2+\\sqrt{(b-2)^{2}+1}\\right] \\leq 0\\\\\n\t\t&\\Leftrightarrow \\ln \\left\\{\\left(a+\\sqrt{a^{2}+1}\\right)\\left[b-2+\\sqrt{(b-2)^{2}+1}\\right]\\right\\}\\leq 0\\\\ &\\Leftrightarrow\\left(a+\\sqrt{a^{2}+1}\\right)\\left[b-2+\\sqrt{(b-2)^{2}+1}\\right] \\leq 1\\\\\n\t\t&\\Leftrightarrow\\left(a+\\sqrt{a^{2}+1}\\right)\\left(-a+\\sqrt{a^{2}+1}\\right)\\left[b-2+\\sqrt{(b-2)^{2}+1}\\right] \\leq\\left(-a+\\sqrt{a^{2}+1}\\right)\\\\\n\t\t&\\Leftrightarrow b-2+\\sqrt{(b-2)^{2}+1}\\leq-a+\\sqrt{(-a)^{2}+1}.\\tag{1}\n\t\t\\end{align*}\n\t\tX\u00e9t h\u00e0m s\u1ed1 $g(t)=t+\\sqrt{t^{2}+1}$ tr\u00ean $\\mathbb{R}$.\\\\\n\t\tTa c\u00f3 $g'(t)=1+\\dfrac{t}{\\sqrt{t^2+1}}=\\dfrac{\\sqrt{t^2+1}+t}{\\sqrt{t^2+1}}>0,\\,\\forall t\\in\\mathbb{R}$ suy ra h\u00e0m s\u1ed1 $g(t)$ l\u00e0 h\u00e0m \u0111\u1ed3ng bi\u1ebfn tr\u00ean $\\mathbb{R}$.\\\\\n\t\tT\u1eeb $(1)$ suy ra\n\t\t\\begin{align*}\n\t\tg(b-2)\\le g(-a)\\Rightarrow b-2\\le -a\\Leftrightarrow a+b\\le 2.\\tag{2}\n\t\t\\end{align*}\n\t\tM\u1eb7t kh\u00e1c \\begin{align*}2(a+b)=4ab+\\dfrac{1}{a b}\\geq2\\sqrt{4ab\\cdot\\dfrac{1}{ab}}=4\\Rightarrow a+b\\ge 2.\\tag{3} \\end{align*}\n\t\tT\u1eeb $(2)$ v\u00e0 $(3)$ ta c\u00f3 $a+b=2$. Trong $(3)$ x\u1ea3y ra d\u1ea5u \\lq\\lq=\\rq\\rq\\, khi $4ab=\\dfrac{1}{ab}\\Rightarrow ab=\\dfrac{1}{2}$.\\\\\n\t\tSuy ra $a^{3}+b^{3}=(a+b)^{3}-3ab(a+b)=5$.\n\t}",
+            "created_date": {
+                "$date": 1621427751761
+            },
+            "last_update": {
+                "$date": 1621427751761
+            },
+            "sub_section": "2D2G5-5",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_48",
+            "description": "",
+            "level": 4,
+            "duration": 240,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "Cho h\u00e0m s\u1ed1 $f(x)$ l\u00e0 h\u00e0m b\u1eadc $3$ v\u00e0 hai \u0111i\u1ec3m $A(-1;3),\\,B(1;-1)$ l\u00e0 hai \u0111i\u1ec3m c\u1ef1c tr\u1ecb c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $f(x)$. X\u00e9t h\u00e0m s\u1ed1 $g(x)=f(2x^3+x-1)+m$. Gi\u00e1 tr\u1ecb c\u1ee7a $m$\t\u0111\u1ec3 $\\max\\limits_{[0;1]} g(x)=-10$ l\u00e0",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_48_C1",
+                    "content": "$m=-12$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_48_C2",
+                    "content": "$m=-13$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_48_C3",
+                    "content": "$m=-1$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_48_C4",
+                    "content": "$m=3$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "V\u00ec $f(x)$ l\u00e0 h\u00e0m \u0111a th\u1ee9c b\u1eadc $3$ do \u0111\u00f3 $f(x)=ax^3+bx^2+cx+d,\\,(a\\ne 0)$.\\\\ Ta c\u00f3 $f'(x)=3ax^2+2bx+c$.\\\\ M\u1eb7t kh\u00e1c hai \u0111i\u1ec3m $A(-1;3),\\,B(1;-1)$ l\u00e0 hai \u0111i\u1ec3m c\u1ef1c tr\u1ecb c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $f(x)$.\\\\ Ta c\u00f3 $\\\\begin{cases}f(-1)=3\\\\f(1)=-1\\\\f'(-1)=0\\\\f'(1)=0\\\\end{cases})=0}\\Leftrightarrow \\\\begin{cases}-a+b-c+d=3\\\\a+b+c+d=-1\\\\3a-2b+c=0\\\\3a+2b+c=0\\\\end{cases}c=0}\\Leftrightarrow\\\\begin{cases}a=1\\\\b=0\\\\c=-3\\\\d=1.\\\\end{cases}=1.}$\\\\ Do \u0111\u00f3 $f(x)=x^3-3x+1\\Rightarrow f'(x)=3x^2-3=0\\Leftrightarrow \\\\left[\\\\begin{aligned}&x=-1\\\\&x=1.\\\\end{aligned}\\\\right$\\\\ Ta c\u00f3 $g'(x)=(6x^2+1)f'(2x^3+x-1)$.\\\\ Cho $g'(x)=0\\Leftrightarrow f'(2x^3+x-1)=0\\Leftrightarrow\\\\left[\\\\begin{aligned}&2x^3+x-1=-1\\\\&2x^3+x-1=1\\\\end{aligned}\\\\right\\Leftrightarrow \\\\left[\\\\begin{aligned}&x=0\\\\&x=t\\\\end{aligned}\\\\right$ v\u1edbi $\\\\begin{cases}t\\in(0;1)\\\\2t^3+t-1=1.\\\\end{cases}.}$\\\\ Suy ra $g(0)=f(-1)+m=m+3;\\,g(1)=f(2)+m=m+3;\\,g(t)=m-1.$\\\\ Do \u0111\u00f3 $\\max\\limits_{[0;1]} g(x)=m+3\\Rightarrow m+3=-10\\Leftrightarrow m=-13$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D1X3",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C3"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D1G3-6]\n\tCho h\u00e0m s\u1ed1 $f(x)$ l\u00e0 h\u00e0m b\u1eadc $3$ v\u00e0 hai \u0111i\u1ec3m $A(-1;3),\\,B(1;-1)$ l\u00e0 hai \u0111i\u1ec3m c\u1ef1c tr\u1ecb c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $f(x)$. X\u00e9t h\u00e0m s\u1ed1 $g(x)=f(2x^3+x-1)+m$. Gi\u00e1 tr\u1ecb c\u1ee7a $m$\t\u0111\u1ec3 $\\max\\limits_{[0;1]} g(x)=-10$ l\u00e0\n\t\\choice\n\t{$m=-12$}\n\t{\\True $m=-13$}\n\t{$m=-1$}\n\t{$m=3$}\n\t\\loigiai{\n\t\tV\u00ec $f(x)$ l\u00e0 h\u00e0m \u0111a th\u1ee9c b\u1eadc $3$ do \u0111\u00f3 $f(x)=ax^3+bx^2+cx+d,\\,(a\\ne 0)$.\\\\\n\t\tTa c\u00f3 $f'(x)=3ax^2+2bx+c$.\\\\\n\t\tM\u1eb7t kh\u00e1c hai \u0111i\u1ec3m $A(-1;3),\\,B(1;-1)$ l\u00e0 hai \u0111i\u1ec3m c\u1ef1c tr\u1ecb c\u1ee7a \u0111\u1ed3 th\u1ecb h\u00e0m s\u1ed1 $f(x)$.\\\\\n\t\tTa c\u00f3 $\\heva{&f(-1)=3\\\\&f(1)=-1\\\\&f'(-1)=0\\\\&f'(1)=0}\\Leftrightarrow \\heva{&-a+b-c+d=3\\\\&a+b+c+d=-1\\\\&3a-2b+c=0\\\\&3a+2b+c=0}\\Leftrightarrow\\heva{&a=1\\\\&b=0\\\\&c=-3\\\\&d=1.}$\\\\\n\t\tDo \u0111\u00f3 $f(x)=x^3-3x+1\\Rightarrow f'(x)=3x^2-3=0\\Leftrightarrow \\hoac{&x=-1\\\\&x=1.}$\\\\\n\t\tTa c\u00f3 $g'(x)=(6x^2+1)f'(2x^3+x-1)$.\\\\\n\t\tCho $g'(x)=0\\Leftrightarrow f'(2x^3+x-1)=0\\Leftrightarrow\\hoac{&2x^3+x-1=-1\\\\&2x^3+x-1=1}\\Leftrightarrow \\hoac{&x=0\\\\&x=t}$ v\u1edbi $\\heva{&t\\in(0;1)\\\\&2t^3+t-1=1.}$\\\\\n\t\tSuy ra $g(0)=f(-1)+m=m+3;\\,g(1)=f(2)+m=m+3;\\,g(t)=m-1.$\\\\\n\t\tDo \u0111\u00f3 $\\max\\limits_{[0;1]} g(x)=m+3\\Rightarrow m+3=-10\\Leftrightarrow m=-13$.\n\t}",
+            "created_date": {
+                "$date": 1621427751762
+            },
+            "last_update": {
+                "$date": 1621427751762
+            },
+            "sub_section": "2D1G3-6",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_49",
+            "description": "",
+            "level": 4,
+            "duration": 240,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "X\u00e9t c\u00e1c s\u1ed1 th\u1ef1c d\u01b0\u01a1ng $x,\\,y$ th\u1ecfa m\u00e3n $\\log_3\\dfrac{1-xy}{x+2y}=3xy+x+2y-4$. T\u00ecm gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a bi\u1ec3u th\u1ee9c $P=x+y$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_49_C1",
+                    "content": "$P_{min}=\\dfrac{-3+2\\sqrt{11}}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_49_C2",
+                    "content": "$P_{min}=\\dfrac{-1+\\sqrt{11}}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_49_C3",
+                    "content": "$P_{min}=\\dfrac{-3+2\\sqrt{11}}{9}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_49_C4",
+                    "content": "$P_{min}=\\dfrac{-2+9\\sqrt{11}}{3}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\\begin{eqnarray*} \\log_3\\dfrac{1-xy}{x+2y}=3xy+x+2y-4 &&\\Leftrightarrow \\log_{3}(1-x y)-\\log_{3}(x+2 y)=3(x y-1)+(x+2 y)-1\\\\ &&\\Leftrightarrow \\log_{3}3(1-x y)-\\log_{3}(x+2 y)=3(x y-1)+(x+2 y)\\\\ &&\\Leftrightarrow \\log_{3}3(1-x y)+3(1-x y)=\\log_{3}(x+2 y)+(x+2 y). \\end{eqnarray*} X\u00e9t h\u00e0m $f(t)=\\log_{3}t+t$ v\u1edbi $t>0$ c\u00f3 $f'(t)=\\dfrac{1}{t\\ln 3}+1>0,\\,\\forall t>0$.\\\\ Suy ra h\u00e0m s\u1ed1 $f(t)$ \u0111\u1ed3ng bi\u1ebfn tr\u00ean $(0;+\\infty)$.\\\\ Suy ra $f(3(1-x y))=f(x+2 y)\\Leftrightarrow 3-3 x y=x+2 y \\Leftrightarrow x=\\dfrac{3-2y}{1+3y}>0\\Rightarrow \\dfrac{-1}{3} < y < \\dfrac{3}{2}$.\\\\ \u0110i\u1ec1u ki\u1ec7n $\\dfrac{1-xy}{x+2y}>0\\Leftrightarrow \\dfrac{1+2y^2}{6y^2+3}>0,\\,\\forall y\\in\\mathbb{R}$.\\\\ Ta c\u00f3 $P=x+y=\\dfrac{3-2y}{1+3y}+y$.\\\\ X\u00e9t h\u00e0m s\u1ed1 $f(y)=\\dfrac{3-2y}{1+3y}+y$ v\u1edbi $\\dfrac{-1}{3} < y < \\dfrac{3}{2}$.\\\\ Ta c\u00f3 $f'(y)=1-\\dfrac{11}{(1+3y)^2}=0\\Leftrightarrow \\\\left[\\\\begin{aligned}&y=\\dfrac{-1+\\sqrt{11}}{3}\\\\&y=\\dfrac{-1-\\sqrt{11}}{3}.\\\\end{aligned}\\\\right$\\\\ V\u00ec $\\dfrac{-1}{3} < y < \\dfrac{3}{2}$ n\u00ean nh\u1eadn $y=\\dfrac{-1+\\sqrt{11}}{3}$\\\\ V\u1eady $P_{min}=f\\left( \\dfrac{-1+\\sqrt{11}}{3}\\right)=\\dfrac{-1+\\sqrt{11}}{3}$.",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D2X5",
+                "math",
+                "math_12",
+                "math_12_hk1",
+                "math_12_algebra",
+                "math_12_algebra_C5"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D2G5-5]\n\tX\u00e9t c\u00e1c s\u1ed1 th\u1ef1c d\u01b0\u01a1ng $x,\\,y$ th\u1ecfa m\u00e3n $\\log_3\\dfrac{1-xy}{x+2y}=3xy+x+2y-4$. T\u00ecm gi\u00e1 tr\u1ecb nh\u1ecf nh\u1ea5t c\u1ee7a bi\u1ec3u th\u1ee9c $P=x+y$.\t\n\t\\choice\n\t{$P_{min}=\\dfrac{-3+2\\sqrt{11}}{3}$}\n\t{\\True $P_{min}=\\dfrac{-1+\\sqrt{11}}{3}$}\n\t{$P_{min}=\\dfrac{-3+2\\sqrt{11}}{9}$}\n\t{$P_{min}=\\dfrac{-2+9\\sqrt{11}}{3}$}\n\t\\loigiai{\n\t\t\\begin{eqnarray*}\n\t\t\t\\log_3\\dfrac{1-xy}{x+2y}=3xy+x+2y-4\n\t\t\t&&\\Leftrightarrow \\log_{3}(1-x y)-\\log_{3}(x+2 y)=3(x y-1)+(x+2 y)-1\\\\\n\t\t\t&&\\Leftrightarrow \\log_{3}3(1-x y)-\\log_{3}(x+2 y)=3(x y-1)+(x+2 y)\\\\\n\t\t\t&&\\Leftrightarrow \\log_{3}3(1-x y)+3(1-x y)=\\log_{3}(x+2 y)+(x+2 y).\n\t\t\\end{eqnarray*}\n\t\tX\u00e9t h\u00e0m $f(t)=\\log_{3}t+t$ v\u1edbi $t>0$ c\u00f3 $f'(t)=\\dfrac{1}{t\\ln 3}+1>0,\\,\\forall t>0$.\\\\ Suy ra h\u00e0m s\u1ed1 $f(t)$ \u0111\u1ed3ng bi\u1ebfn tr\u00ean $(0;+\\infty)$.\\\\\n\t\tSuy ra $f(3(1-x y))=f(x+2 y)\\Leftrightarrow 3-3 x y=x+2 y \\Leftrightarrow x=\\dfrac{3-2y}{1+3y}>0\\Rightarrow \\dfrac{-1}{3}<y<\\dfrac{3}{2}$.\\\\\n\t\t\u0110i\u1ec1u ki\u1ec7n $\\dfrac{1-xy}{x+2y}>0\\Leftrightarrow \\dfrac{1+2y^2}{6y^2+3}>0,\\,\\forall y\\in\\mathbb{R}$.\\\\\n\t\tTa c\u00f3 $P=x+y=\\dfrac{3-2y}{1+3y}+y$.\\\\\n\t\tX\u00e9t h\u00e0m s\u1ed1 $f(y)=\\dfrac{3-2y}{1+3y}+y$ v\u1edbi $\\dfrac{-1}{3}<y<\\dfrac{3}{2}$.\\\\ Ta c\u00f3 $f'(y)=1-\\dfrac{11}{(1+3y)^2}=0\\Leftrightarrow \\hoac{&y=\\dfrac{-1+\\sqrt{11}}{3}\\\\&y=\\dfrac{-1-\\sqrt{11}}{3}.}$\\\\\n\t\tV\u00ec $\\dfrac{-1}{3}<y<\\dfrac{3}{2}$ n\u00ean nh\u1eadn $y=\\dfrac{-1+\\sqrt{11}}{3}$\\\\\n\t\tV\u1eady $P_{min}=f\\left( \\dfrac{-1+\\sqrt{11}}{3}\\right)=\\dfrac{-1+\\sqrt{11}}{3}$.\n\t}",
+            "created_date": {
+                "$date": 1621427751762
+            },
+            "last_update": {
+                "$date": 1621427751762
+            },
+            "sub_section": "2D2G5-5",
+            "status": "APPROVED"
+        },
+        {
+            "code": "TN_4_50",
+            "description": "",
+            "level": 3,
+            "duration": 180,
+            "question_properties": {
+                "kind": "DL",
+                "fillable": false,
+                "applicable": false,
+                "parametric": false
+            },
+            "question_contents": [
+                {
+                    "content": "G\u1ecdi $z_1$ v\u00e0 $z_2=3-2i$ l\u00e0 hai nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $az^2+bz+c=0(a,b,c\\in \\mathbb{R},a\\ne 0)$. T\u00ednh $T=|z_1-z_2|+3|z_1+z_2|$",
+                    "variety": "TEXT"
+                }
+            ],
+            "choices": [
+                {
+                    "code": "TN_4_50_C1",
+                    "content": "$22$",
+                    "variety": "TEXT",
+                    "right_choice": true
+                },
+                {
+                    "code": "TN_4_50_C2",
+                    "content": "$6$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_50_C3",
+                    "content": "$8\\sqrt{5}$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                },
+                {
+                    "code": "TN_4_50_C4",
+                    "content": "$17$",
+                    "variety": "TEXT",
+                    "right_choice": false
+                }
+            ],
+            "explanations": [
+                {
+                    "content": "\\begin{eqnarray*} \\displaystyle\\int\\limits $\\dfrac{1}${(x+1)\\sqrt{x}+x \\sqrt{x+1}}\\mathrm{\\,d}x&=&\\displaystyle\\int\\limits $\\dfrac{(x+1)\\sqrt{x}-x \\sqrt{x+1}}${(x+1)^{2}x-x^{2}(x+1)}\\mathrm{\\,d}x\\\\ &=&\\displaystyle\\int\\limits $\\dfrac{(x+1)\\sqrt{x}-x \\sqrt{x+1}}${x(x+1)}\\mathrm{\\,d}x\\\\&=&\\displaystyle\\int\\limits\\left($\\dfrac{1}${\\sqrt{x}}-$\\dfrac{1}${\\sqrt{x+1}}\\right)\\mathrm{\\,d}x=2 \\sqrt{x}-2 \\sqrt{x+1}+C. \\end{eqnarray*} Suy ra $f(x)=2\\sqrt{x}-2\\sqrt{x+1}+C$ m\u00e0 $f(1)=2-2\\sqrt{2}\\Leftrightarrow C=0$.\\\\ Ta c\u00f3 \\begin{eqnarray*} \\displaystyle\\int\\limits_{1}^{3}f(x)\\mathrm{\\,d}x&=&\\displaystyle\\int\\limits_{1}^{3}(2 \\sqrt{x}-2 \\sqrt{x+1})\\mathrm{\\,d}x\\\\&=&\\left.\\left($\\dfrac{4}${3}x \\sqrt{x}-$\\dfrac{4}${3}(x+1)\\sqrt{x+1}\\right)\\right|_{1}^{3}\\\\&=&4\\left(\\sqrt{3}+$\\dfrac{2 \\sqrt{2}}${3}-3\\right). \\end{eqnarray*}",
+                    "variety": "TEXT"
+                }
+            ],
+            "question_categories": [
+                "2D3X2",
+                "math",
+                "math_12",
+                "math_12_hk2",
+                "math_12_algebra",
+                "math_12_algebra_C2"
+            ],
+            "original_content": "%[Thi th\u1eed,Tr\u01b0\u1eddng THPT PLeiku, 2020]%[Duy S\u01a1n La]%[2D3K2-4]\n\tG\u1ecdi $z_1$ v\u00e0 $z_2=3-2i$ l\u00e0 hai nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh $az^2+bz+c=0(a,b,c\\in \\mathbb{R},a\\ne 0)$. T\u00ednh $T=|z_1-z_2|+3|z_1+z_2|$\n\t\\choice\n\t{\\True $22$}\n\t{$6$}\n\t{$8\\sqrt{5}$}\n\t{$17$}\n\t\\loigiai{\n\t\t\\begin{eqnarray*}\t\n\t\t\t\\displaystyle\\int\\limits \\frac{1}{(x+1)\\sqrt{x}+x \\sqrt{x+1}}\\mathrm{\\,d}x&=&\\displaystyle\\int\\limits \\frac{(x+1)\\sqrt{x}-x \\sqrt{x+1}}{(x+1)^{2}x-x^{2}(x+1)}\\mathrm{\\,d}x\\\\\n\t\t\t&=&\\displaystyle\\int\\limits \\frac{(x+1)\\sqrt{x}-x \\sqrt{x+1}}{x(x+1)}\\mathrm{\\,d}x\\\\&=&\\displaystyle\\int\\limits\\left(\\frac{1}{\\sqrt{x}}-\\frac{1}{\\sqrt{x+1}}\\right)\\mathrm{\\,d}x=2 \\sqrt{x}-2 \\sqrt{x+1}+C.\n\t\t\\end{eqnarray*}\n\t\tSuy ra $f(x)=2\\sqrt{x}-2\\sqrt{x+1}+C$ m\u00e0 $f(1)=2-2\\sqrt{2}\\Leftrightarrow C=0$.\\\\\n\t\tTa c\u00f3\n\t\t\\begin{eqnarray*}\n\t\t\t\\displaystyle\\int\\limits_{1}^{3}f(x)\\mathrm{\\,d}x&=&\\displaystyle\\int\\limits_{1}^{3}(2 \\sqrt{x}-2 \\sqrt{x+1})\\mathrm{\\,d}x\\\\&=&\\left.\\left(\\frac{4}{3}x \\sqrt{x}-\\frac{4}{3}(x+1)\\sqrt{x+1}\\right)\\right|_{1}^{3}\\\\&=&4\\left(\\sqrt{3}+\\frac{2 \\sqrt{2}}{3}-3\\right).\n\t\t\\end{eqnarray*}\n\t}",
+            "created_date": {
+                "$date": 1621427751762
+            },
+            "last_update": {
+                "$date": 1621427751762
+            },
+            "sub_section": "2D3K2-4",
+            "status": "APPROVED"
+        }
+    ]
+}

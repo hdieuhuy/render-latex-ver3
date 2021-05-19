@@ -76,6 +76,17 @@ const exams = [
   "ex2_3",
   "ex2_4",
   "ex2_5",
+
+  "TN_1",
+  "TN_2",
+  "TN_3",
+  "TN_4",
+  "TN_5",
+  "TN_6",
+  "TN_7",
+  "TN_8",
+  "TN_9",
+  "TN_10",
 ];
 
 let data = null;
