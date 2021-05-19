@@ -80,7 +80,7 @@ const exams = [
 
 let data = null;
 function App() {
-  let id = window.location.pathname.split("/")[1] || "trung_TN_1";
+  let id = window.location.pathname.split("/")[1] || "ex1_1";
   const newID = decodeURI(id);
   data = require(`./json/${newID}`);
 
