@@ -4,7 +4,7 @@ import { Empty, Popover, Input } from 'antd';
 import { LoadingOutlined, InfoCircleOutlined } from '@ant-design/icons';
 
 import { get, isEmpty } from 'lodash';
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 
 import { getExam } from '../api';
 import '../styles/exam.css';
@@ -17,6 +17,7 @@ const Exam = () => {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(true);
   const { duration, code, rank, name } = data;
+  const { push } = useHistory();
 
   const { examCode } = useParams();
 
@@ -26,7 +27,6 @@ const Exam = () => {
 
     getExam(examCode)
       .then((res) => {
-        console.log('res', res);
         const _data = JSON.parse(get(res.data, 'getExam.contentExam', {}));
 
         setData(_data);
@@ -34,12 +34,17 @@ const Exam = () => {
       })
       .catch(() => {
         setLoading(false);
+        setData({});
       });
   }, [examCode]);
 
   useEffect(() => {
     window.MathJax.Hub.Startup.Typeset();
   }, [data, loading]);
+
+  const onSearch = (value) => {
+    push(`/exam/${value}`);
+  };
 
   const title = <div>Code: {code && code}</div>;
 
@@ -48,6 +53,11 @@ const Exam = () => {
       <p>Name: {name && name.split('\\').pop()}</p>
       <p>Duration: {duration && duration}</p>
       <p>Rank: {rank && rank}</p>
+      <Input.Search
+        placeholder="eg. None_explain_4"
+        onSearch={onSearch}
+        style={{ width: 200 }}
+      />
     </div>
   );
 
@@ -128,9 +138,18 @@ const Exam = () => {
   return (
     <div className="Latex">
       <h3 id="title">Question</h3>
-      <Popover content={content} title={title} trigger="click" placement="left">
-        <InfoCircleOutlined style={{ fontSize: 24 }} id="infomation-icon" />
-      </Popover>
+      <div id="infomation-icon">
+        <Popover
+          content={content}
+          title={title}
+          trigger="click"
+          placement="left"
+          getPopupContainer={(trigger) => trigger.parentElement}
+          getTooltipContainer={(trigger) => trigger.parentElement}
+        >
+          <InfoCircleOutlined style={{ fontSize: 24 }} />
+        </Popover>
+      </div>
 
       {renderData()}
     </div>

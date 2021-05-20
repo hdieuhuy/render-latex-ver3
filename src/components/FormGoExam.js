@@ -19,7 +19,7 @@ const FormGoExam = () => {
         onFinish={onFinish}
       >
         <Form.Item name="examCode">
-          <Input placeholder="Exam Code" />
+          <Input placeholder="eg. None_explain_4" />
         </Form.Item>
 
         <Form.Item>

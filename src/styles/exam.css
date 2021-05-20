@@ -86,8 +86,8 @@ h3#title {
   padding: 66px;
 }
 
-#information-icon {
-  position: absolute;
+#infomation-icon {
+  position: fixed;
   right: 24px;
   top: 120px;
 }
