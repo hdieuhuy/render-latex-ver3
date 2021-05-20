@@ -1,33 +1,59 @@
 import React, { useEffect, useState } from 'react';
 import parse from 'html-react-parser';
-import { Empty } from 'antd';
+import { Empty, Popover, Input } from 'antd';
+import { LoadingOutlined, InfoCircleOutlined } from '@ant-design/icons';
 
-import { getExam } from '../api';
 import { get, isEmpty } from 'lodash';
 import { useParams } from 'react-router-dom';
+
+import { getExam } from '../api';
 import '../styles/exam.css';
+
+const antIcon = (
+  <LoadingOutlined style={{ fontSize: 80, color: '#74b9ff' }} spin />
+);
 
 const Exam = () => {
   const [data, setData] = useState({});
+  const [loading, setLoading] = useState(true);
+  const { duration, code, rank, name } = data;
+
   const { examCode } = useParams();
-  console.log('examCode', examCode);
 
   useEffect(() => {
     if (!examCode) return;
+    setLoading(true);
 
-    getExam(examCode).then((res) => {
-      console.log('res', res);
-      const _data = JSON.parse(get(res.data, 'getExam.contentExam', {}));
+    getExam(examCode)
+      .then((res) => {
+        console.log('res', res);
+        const _data = JSON.parse(get(res.data, 'getExam.contentExam', {}));
 
-      setData(_data);
-    });
+        setData(_data);
+        setLoading(false);
+      })
+      .catch(() => {
+        setLoading(false);
+      });
   }, [examCode]);
 
   useEffect(() => {
     window.MathJax.Hub.Startup.Typeset();
-  }, [data]);
+  }, [data, loading]);
+
+  const title = <div>Code: {code && code}</div>;
+
+  const content = (
+    <div>
+      <p>Name: {name && name.split('\\').pop()}</p>
+      <p>Duration: {duration && duration}</p>
+      <p>Rank: {rank && rank}</p>
+    </div>
+  );
 
   const renderData = () => {
+    if (loading) return <div className="loading__fullscreen">{antIcon}</div>;
+
     if (isEmpty(data))
       return <Empty description="Không tìm thấy trong database" />;
 
@@ -102,6 +128,9 @@ const Exam = () => {
   return (
     <div className="Latex">
       <h3 id="title">Question</h3>
+      <Popover content={content} title={title} trigger="click" placement="left">
+        <InfoCircleOutlined style={{ fontSize: 24 }} id="infomation-icon" />
+      </Popover>
 
       {renderData()}
     </div>

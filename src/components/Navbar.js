@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Exam from './Exam';
 import Upload from './UploadExam';
 import FormDelete from './FormDeleteExam';
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <Router>
       <div>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to="/delete">Delete</Link>
@@ -18,7 +18,7 @@ const Navbar = () => {
               <Link to="/upload">Upload</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

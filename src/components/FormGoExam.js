@@ -1,10 +1,14 @@
 import React from 'react';
 import { Form, Input, Button } from 'antd';
 import '../styles/formGo.css';
+import { useHistory } from 'react-router-dom';
 
 const FormGoExam = () => {
+  const { push } = useHistory();
+
   const onFinish = (value) => {
-    console.log('value', value);
+    const { examCode } = value;
+    push(`/exam/${examCode}`);
   };
 
   return (

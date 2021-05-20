@@ -21,6 +21,7 @@ h3#title {
 
 .Latex {
   padding: 0 2.5rem;
+  position: relative;
 }
 
 .question__categories {
@@ -75,4 +76,18 @@ h3#title {
 
 .full__text ul {
   list-style-type: upper-alpha;
+}
+
+.loading__fullscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 66px;
+}
+
+#information-icon {
+  position: absolute;
+  right: 24px;
+  top: 120px;
 }

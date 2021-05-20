@@ -1,31 +1,45 @@
 import React from 'react';
-import { Upload, message, Button } from 'antd';
-import { UploadOutlined } from '@ant-design/icons';
+import { Upload, message } from 'antd';
+import '../styles/uploadExam.css';
+import { InboxOutlined } from '@ant-design/icons';
+// import { uploadExam } from '../api';
+
+const baseUrl = 'https://node-render-latex.herokuapp.com/api/exam';
+
+const Dragger = Upload.Dragger;
 
 const UploadExam = () => {
   const props = {
-    name: 'file',
-    action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
-    headers: {
-      authorization: 'authorization-text',
-    },
+    name: 'content',
+    multiple: true,
+    showUploadList: true,
+    action: baseUrl,
     onChange(info) {
-      if (info.file.status !== 'uploading') {
-        console.log(info.file, info.fileList);
+      const { file } = info;
+
+      if (file.status === 'done' && file.response.error === false) {
+        message.success(`${file.name} được upload thành công`);
+        return;
       }
-      if (info.file.status === 'done') {
-        message.success(`${info.file.name} file uploaded successfully`);
-      } else if (info.file.status === 'error') {
-        message.error(`${info.file.name} file upload failed.`);
+
+      if (file.status === 'done' && file.response.error === true) {
+        message.error(file.response.message);
       }
     },
   };
 
   return (
-    <div>
-      <Upload {...props}>
-        <Button icon={<UploadOutlined />}>Click to Upload</Button>
-      </Upload>
+    <div className="upload-exam">
+      <h3>Upload Exam</h3>
+
+      <Dragger {...props}>
+        <p className="ant-upload-drag-icon">
+          <InboxOutlined />
+        </p>
+        <p className="ant-upload-text">
+          Click or drag file to this area to upload
+        </p>
+      </Dragger>
     </div>
   );
 };
