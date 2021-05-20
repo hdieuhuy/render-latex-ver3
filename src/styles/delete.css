@@ -1,0 +1,15 @@
+.form__delete {
+  display: flex;
+  flex-direction: column;
+
+  margin: 12px 36px;
+}
+
+.form__delete__listExam {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.form__delete__listExam .listExam__item {
+  padding: 8px 0;
+}

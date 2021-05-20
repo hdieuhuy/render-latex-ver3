@@ -1,0 +1,15 @@
+.menu__header {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.menu__header li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.menu__header .menu__header__isActive {
+  color: #ff7675;
+  font-weight: bold;
+}

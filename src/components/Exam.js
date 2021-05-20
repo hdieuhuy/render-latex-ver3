@@ -4,10 +4,11 @@ import { Empty, Popover, Input } from 'antd';
 import { LoadingOutlined, InfoCircleOutlined } from '@ant-design/icons';
 
 import { get, isEmpty } from 'lodash';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams, useHistory, Link } from 'react-router-dom';
 
-import { getExam } from '../api';
+import { getExam, getListExam } from '../api';
 import '../styles/exam.css';
+import MenuHeader from './Menu';
 
 const antIcon = (
   <LoadingOutlined style={{ fontSize: 80, color: '#74b9ff' }} spin />
@@ -16,11 +17,14 @@ const antIcon = (
 const Exam = () => {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(true);
+  const [dataMenu, setDataMenu] = useState([]);
+
   const { duration, code, rank, name } = data;
   const { push } = useHistory();
 
-  const { examCode } = useParams();
+  const { examCode = 'example' } = useParams();
 
+  // get Exam
   useEffect(() => {
     if (!examCode) return;
     setLoading(true);
@@ -38,9 +42,19 @@ const Exam = () => {
       });
   }, [examCode]);
 
+  // reload Mathjax
   useEffect(() => {
     window.MathJax.Hub.Startup.Typeset();
   }, [data, loading]);
+
+  // get list ExamCode
+  useEffect(() => {
+    getListExam().then((res) => {
+      const _data = get(res.data, 'allExam', []);
+
+      setDataMenu([..._data]);
+    });
+  }, []);
 
   const onSearch = (value) => {
     push(`/exam/${value}`);
@@ -49,8 +63,8 @@ const Exam = () => {
   const title = <div>Code: {code && code}</div>;
 
   const content = (
-    <div>
-      <p>Name: {name && name.split('\\').pop()}</p>
+    <div className="content__icon">
+      <p>Name: {(name && name.split('\\').pop()) || name}</p>
       <p>Duration: {duration && duration}</p>
       <p>Rank: {rank && rank}</p>
       <Input.Search
@@ -58,6 +72,12 @@ const Exam = () => {
         onSearch={onSearch}
         style={{ width: 200 }}
       />
+
+      <div className="info">
+        <Link to="/upload/exam">Upload Exam</Link>
+        <span>Or</span>
+        <Link to="/delete/exam">Delete Exam</Link>
+      </div>
     </div>
   );
 
@@ -137,19 +157,24 @@ const Exam = () => {
 
   return (
     <div className="Latex">
-      <h3 id="title">Question</h3>
-      <div id="infomation-icon">
-        <Popover
-          content={content}
-          title={title}
-          trigger="click"
-          placement="left"
-          getPopupContainer={(trigger) => trigger.parentElement}
-          getTooltipContainer={(trigger) => trigger.parentElement}
-        >
-          <InfoCircleOutlined style={{ fontSize: 24 }} />
-        </Popover>
-      </div>
+      <MenuHeader data={[...dataMenu]} currentActive={examCode} />
+
+      {!loading && <h3 id="title">Question</h3>}
+      {!loading && (
+        <div id="infomation-icon">
+          <Popover
+            content={content}
+            title={title}
+            trigger="click"
+            placement="left"
+            getPopupContainer={(trigger) => trigger.parentElement}
+            getTooltipContainer={(trigger) => trigger.parentElement}
+            zIndex={1000}
+          >
+            <InfoCircleOutlined style={{ fontSize: 24 }} />
+          </Popover>
+        </div>
+      )}
 
       {renderData()}
     </div>

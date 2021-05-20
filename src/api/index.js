@@ -9,4 +9,16 @@ const getExam = async (examCode) => {
   return res;
 };
 
-export { getExam };
+const getListExam = async () => {
+  const res = await axios.get(`${baseUrl}/api/all/`);
+
+  return res;
+};
+
+const deleteExam = async (examCode) => {
+  const res = await axios.delete(`${baseUrl}/api/exam/${examCode}`);
+
+  return res;
+};
+
+export { getExam, getListExam, deleteExam };
