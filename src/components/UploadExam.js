@@ -2,7 +2,6 @@ import React from 'react';
 import { Upload, message } from 'antd';
 import '../styles/uploadExam.css';
 import { InboxOutlined } from '@ant-design/icons';
-// import { uploadExam } from '../api';
 
 const baseUrl = 'https://node-render-latex.herokuapp.com/api/exam';
 

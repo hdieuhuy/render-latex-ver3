@@ -11,3 +11,12 @@
 .form__go__wrapper button {
   width: 100%;
 }
+
+.go-to-upload {
+  display: flex;
+  justify-content: center;
+}
+
+.go-to-upload span {
+  margin-right: 4px;
+}
