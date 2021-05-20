@@ -95,6 +95,7 @@ function App() {
   let id = window.location.pathname.split("/")[1] || "ex1_1";
   const newID = decodeURI(id);
   data = require(`./json/${newID}`);
+  console.log('data', data);
 
   useEffect(() => {
     const title = document.getElementById("title");
