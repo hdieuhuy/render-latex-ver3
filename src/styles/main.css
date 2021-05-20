@@ -1,0 +1,15 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 600px;
+  max-height: 240px;
+
+  padding: 24px 0;
+  display: block;
+}
