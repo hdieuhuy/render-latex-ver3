@@ -1,0 +1,3261 @@
+[{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cc5"
+  },
+  "code": "TN_11_1",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho cấp số nhân $\\left(u_n\\right)$ biết $u_n =3^n$. Công bội $q$ bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $3$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\pm 3$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{1}{3}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$-3$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $q=\\dfrac{u_{n+1}}{u_n}=\\dfrac{3^{n+1}}{3^n}= 3$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1D3Y4-1]\n\tCho cấp số nhân $\\left(u_n\\right)$ biết $u_n =3^n$. Công bội $q$ bằng\n\t\\choice\n\t{\\True $3$}\n\t{$\\pm 3$}\n\t{$\\dfrac{1}{3}$}\n\t{$-3$}\n\t\\loigiai{\n\t\tTa có $q=\\dfrac{u_{n+1}}{u_n}=\\dfrac{3^{n+1}}{3^n}= 3$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1D3Y4-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cc6"
+  },
+  "code": "TN_11_2",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Một hộp chứa $6$ bi xanh và $4$ bi đỏ. Có bao nhiêu cách lấy ngẫu nhiên $ 3 $ viên bi từ hộp bi?",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$480$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$720$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$80$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $120$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Số cách lấy ngẫu nhiên $3$ viên bi từ hộp $10$ viên bi là $\\mathrm{C}_{10}^3=120$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1D2Y2-1]\n\tMột hộp chứa $6$ bi xanh và $4$ bi đỏ. Có bao nhiêu cách lấy ngẫu nhiên $ 3 $ viên bi từ hộp bi?\n\t\\choice\n\t{$480$}\n\t{$720$}\n\t{$80$}\n\t{\\True $120$}\n\t\\loigiai{\n\t\tSố cách lấy ngẫu nhiên $3$ viên bi từ hộp $10$ viên bi là $\\mathrm{C}_{10}^3=120$.}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1D2Y2-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cc7"
+  },
+  "code": "TN_11_3",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $(1;2)$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$(-1;1)$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$(0;2)$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$(-2;2)$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Dựa vào đồ thị ta thấy hàm số đã cho đồng biến trên khoảng $(1;2)$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1Y1-2]\n\t\\immini{\n\t\tCho hàm số $y=f(x)$ có đồ thị như hình vẽ bên. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?\n\t\t\\choice\n\t\t{\\True $(1;2)$}\n\t\t{$(-1;1)$}\n\t\t{$(0;2)$}\n\t\t{$(-2;2)$}}\n\t{\n\t\t\\begin{tikzpicture}[scale=.7, line cap=round,line join=round,>=stealth,x=1.0cm,y=1.0cm]\n\t\t\\tkzInit[xmin=-2.5,xmax=2.5,ymax=3.5, ymin=-1.5]\n\t\t\\draw [->](-3,0)--(2.5,0)node[below]{\\footnotesize $x$};\n\t\t\\draw [->](0,-2.5)--(0,3.5)node[left]{\\footnotesize $y$};\n\t\t\\draw[fill=black](0pt,0pt) circle (.5pt) node[above left] {\\footnotesize $O$};\n\t\t\\clip(-3,-1.5) rectangle (2.5,3.5);\n\t\t\\draw[smooth,samples=100,domain=-3:2.5] plot(\\x,{(\\x)^3-3*(\\x)+1});\n\t\t\\foreach \\x in{-1,2}\\draw[fill=black] (\\x,0) circle (.5pt) node[below]{\\footnotesize $\\x$};\n\t\t\\draw[fill=black] (-2,0) circle (.5pt) node[above left]{\\footnotesize $-2$};\n\t\t\\draw[fill=black] (1,0) circle (.5pt) node[above]{\\footnotesize $1$};\n\t\t\\foreach \\y in{-1,3}\\draw[fill=black] (0,\\y)circle (1pt) node[below left]{\\footnotesize $\\y$};\n\t\t\\draw[fill=black] (0,1) circle (.5pt) node[right]{\\footnotesize $1$};\n\t\t\\draw [fill=black] (-1,3) circle (.5pt);\n\t\t\\draw [fill=black] (2,3) circle (.5pt);\n\t\t\\draw [fill=black] (-2,-1) circle (.5pt);\n\t\t\\draw [fill=black] (1,-1) circle (.5pt);\n\t\t\\draw[dashed] (-1,0) |- (-1,3) |- (2,3) |-(2,0) (-2,0) |- (-2,-1) |- (1,-1) |-(1,0);\n\t\t\\end{tikzpicture}\t\n\t}\n\t\\loigiai{\n\t\tDựa vào đồ thị ta thấy hàm số đã cho đồng biến trên khoảng $(1;2)$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1Y1-2]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cc8"
+  },
+  "code": "TN_11_4",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong không gian $Oxyz$, phương trình nào dưới đây là phương trình mặt cầu tâm $I(1;0;-2)$, bán kính $R=4$?",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$(x+1)^2+y^2+(z-2)^2=4$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $(x-1)^2+y^2+(z+2)^2=16$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$(x-1)^2+y^2+(z+2)^2=4$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$(x+1)^2+y^2+(z-2)^2=16$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Phương trình mặt cầu tâm $I(1;0;-2)$, bán kính $ R=4$ là $(x-1)^2+y^2+(z+2)^2=16$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3Y1-3]\n\tTrong không gian $Oxyz$, phương trình nào dưới đây là phương trình mặt cầu tâm $I(1;0;-2)$, bán kính $R=4$?\n\t\\choice\n\t{$(x+1)^2+y^2+(z-2)^2=4$}\n\t{\\True $(x-1)^2+y^2+(z+2)^2=16$}\n\t{$(x-1)^2+y^2+(z+2)^2=4$}\n\t{$(x+1)^2+y^2+(z-2)^2=16$}\n\t\\loigiai{\n\t\tPhương trình mặt cầu tâm $I(1;0;-2)$, bán kính $ R=4$ là $(x-1)^2+y^2+(z+2)^2=16$.}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3Y1-3]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cc9"
+  },
+  "code": "TN_11_5",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đây?{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $y=\\dfrac{2x-1}{x+1}$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$y=\\dfrac{2x-1}{x+2}$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$y=\\dfrac{2x+2}{x+1}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$y=\\dfrac{2x}{x+1}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Đồ thị hàm số có đường tiệm cận đứng $x=-1$ và đường tiệm cận ngang $y=2$.\\\\Đồ thị hàm số cắt trục tung tại điểm $(0;-2)$. \\\\Vậy hàm số $y=\\dfrac{2x-1}{x+1}$ thỏa mãn bài toán.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1Y5-1]\n\t\\immini{\n\t\tĐường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đây?\n\t\t\\choice\n\t\t{\\True $y=\\dfrac{2x-1}{x+1}$}\n\t\t{$y=\\dfrac{2x-1}{x+2}$}\n\t\t{$y=\\dfrac{2x+2}{x+1}$}\n\t\t{$y=\\dfrac{2x}{x+1}$}}\n\t{\n\t\t\\begin{tikzpicture}[scale=0.45,>=stealth, font=\\footnotesize, line join=round, line cap=round]\n\t\t\\def\\a{2} \\def\\b{-2} \\def\\c{1} \\def\\d{1} % Hệ số\n\t\t\\def\\xmin{-6} \\def\\xmax{4}\n\t\t\\def\\ymin{-4} \\def\\ymax{8}\n\t\t%\\draw[color=gray!50,dashed] (\\xmin,\\ymin) grid (\\xmax,\\ymax);\n\t\t\\draw[->] (\\xmin,0)--(\\xmax,0) node [below]{$x$};\n\t\t\\draw[->] (0,\\ymin)--(0,\\ymax) node [right]{$y$};\n\t\t\\draw[fill=black](0,0) circle (.5pt) node [below left]{$O$};\n\t\t\\draw[fill=black](1,0) circle (.5pt) node[below]{$1$};\n\t\t\\draw[fill=black](-1,0) circle (.5pt) node [below left]{$-1$};\n\t\t\\draw[fill=black](0,2) circle (.5pt) node[above right]{$2$};\n\t\t\\draw[fill=black](0,-2) circle (.5pt) node [right]{$-2$};\n\t\t\\clip (\\xmin+0.1,\\ymin+0.1) rectangle (\\xmax-0.1,\\ymax-0.1);\n\t\t\\draw[smooth,samples=300,domain=\\xmin:(-\\d/\\c-0.1)] plot(\\x,{(\\a*(\\x)+\\b)/(\\c*(\\x)+\\d)});\n\t\t\\draw[smooth,samples=300,domain=(-\\d/\\c+0.1:\\xmax)] plot(\\x,{(\\a*(\\x)+\\b)/(\\c*(\\x)+\\d)});\n\t\t\\draw[dashed] (-\\d/\\c,\\ymin)--(-\\d/\\c,\\ymax);\n\t\t\\draw[dashed] (\\xmin,\\a/\\c)--(\\xmax,\\a/\\c);\n\t\t\\end{tikzpicture}\n\t}\n\t\\loigiai{\n\t\tĐồ thị hàm số có đường tiệm cận đứng $x=-1$ và đường tiệm cận ngang $y=2$.\\\\\n\t\tĐồ thị hàm số cắt trục tung tại điểm $(0;-2)$. \\\\\n\t\tVậy hàm số $y=\\dfrac{2x-1}{x+1}$ thỏa mãn bài toán.}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1Y5-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cca"
+  },
+  "code": "TN_11_6",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong không gian $Oxyz$, đường thẳng $d \\colon \\heva{&x=1+2t\\\\ &y=2-3t\\\\ &z=3-t}$, $ t\\in \\mathbb{R} $ {\\bf không} đi qua điểm nào dưới đây?",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $P(2;-2;3)$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$N(-1;5;4)$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$M(3;-1;2)$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$Q(1;2;3)$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Vì $\\heva{&1+2t=2\\\\ &2-3t=-2\\\\ &3-t=3}$ vô nghiệm nên $P(2;-2;3)\\notin d$.%$\\heva{&1+2t=-1\\\\ &2-3t=5\\\\ &3-t=4}$ có nghiệm ($t=-1$) nên $N(-1;5;4)\\in d$.\\\\%$\\heva{&1+2t=3\\\\ &2-3t=-1\\\\ &3-t=2}$ có nghiệm ($t=1$) nên $M(3;-1;2) \\in d$.\\\\%$\\heva{&1+2t=1\\\\ &2-3t=2\\\\ &3-t=3}$ có nghiệm ($t=0$) nên $Q(1;2;3)\\in d$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3Y3-6]\n\tTrong không gian $Oxyz$, đường thẳng $d \\colon \\heva{&x=1+2t\\\\ &y=2-3t\\\\ &z=3-t}$, $ t\\in \\mathbb{R} $ {\\bf không} đi qua điểm nào dưới đây?\n\t\\choice\n\t{\\True $P(2;-2;3)$}\n\t{$N(-1;5;4)$}\n\t{$M(3;-1;2)$}\n\t{$Q(1;2;3)$}\n\t\\loigiai{\n\t\tVì $\\heva{&1+2t=2\\\\ &2-3t=-2\\\\ &3-t=3}$ vô nghiệm nên $P(2;-2;3)\\notin d$.\n\t\t%$\\heva{&1+2t=-1\\\\ &2-3t=5\\\\ &3-t=4}$ có nghiệm ($t=-1$) nên $N(-1;5;4)\\in d$.\\\\\n\t\t%$\\heva{&1+2t=3\\\\ &2-3t=-1\\\\ &3-t=2}$ có nghiệm ($t=1$) nên $M(3;-1;2) \\in d$.\\\\\n\t\t%$\\heva{&1+2t=1\\\\ &2-3t=2\\\\ &3-t=3}$ có nghiệm ($t=0$) nên $Q(1;2;3)\\in d$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3Y3-6]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ccb"
+  },
+  "code": "TN_11_7",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Tìm số phức liên hợp của số phức $z=i(1-2i)$.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$\\overline{z}=-2+i$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\overline{z}=-2-i$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\overline{z}=2-i$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$\\overline{z}=2+i$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $z=i(1-2i)=2+i$.\\\\Số phức liên hợp của số phức $z$ là $\\overline{z}=2-i$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D4Y1-2]\n\tTìm số phức liên hợp của số phức $z=i(1-2i)$.\n\t\\choice\n\t{$\\overline{z}=-2+i$}\n\t{$\\overline{z}=-2-i$}\n\t{\\True $\\overline{z}=2-i$}\n\t{$\\overline{z}=2+i$}\n\t\\loigiai{\n\t\tTa có $z=i(1-2i)=2+i$.\\\\\n\t\tSố phức liên hợp của số phức $z$ là $\\overline{z}=2-i$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D4Y1-2]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ccc"
+  },
+  "code": "TN_11_8",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho $a$ là số thực dương khác $1$. Tính $\\log_a \\left( a^2 \\right)$.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$I=-2$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $I=2$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$I=\\dfrac{1}{2}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$I=-\\dfrac{1}{2}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Với $a$ là số thực dương khác $1$, ta có $\\log_a \\left( a^2 \\right)=2 \\log_a a =2$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2Y3-2]\n\tCho $a$ là số thực dương khác $1$. Tính $\\log_a \\left( a^2 \\right)$.\n\t\\choice\n\t{$I=-2$}\n\t{\\True $I=2$}\n\t{$I=\\dfrac{1}{2}$}\n\t{$I=-\\dfrac{1}{2}$}\n\t\\loigiai{\n\t\tVới $a$ là số thực dương khác $1$, ta có $\\log_a \\left( a^2 \\right)=2 \\log_a a =2$.}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2Y3-2]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ccd"
+  },
+  "code": "TN_11_9",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Diện tích phần hình phẳng gạch chéo trong hình vẽ bên được tính theo công thức nào dưới đây?}{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $\\displaystyle\\int\\limits_1^3 \\left( -x^2+4x-3 \\right) \\mathrm{\\,d}x $",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\displaystyle\\int\\limits_1^3 \\left( x^2-2x-11 \\right) \\mathrm{\\,d}x $",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\displaystyle\\int\\limits_1^3 \\left( x^2-4x+3 \\right) \\mathrm{\\,d}x $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$\\displaystyle\\int\\limits_1^3 \\left( -x^2+2x+11 \\right) \\mathrm{\\,d}x $",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Dựa vào đồ thị hàm số ta suy ra công thức tính diện tích phần hình phẳng gạch chéo là$$\\displaystyle\\int\\limits_1^3 \\left[ \\left(-x^2+3x+4\\right)-\\left(7-x \\right)\\right] \\mathrm{\\,d}x=\\displaystyle\\int\\limits_1^3 \\left( -x^2+4x-3 \\right) \\mathrm{\\,d}x.$$}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3Y3-1]\n\t\\immini{Diện tích phần hình phẳng gạch chéo trong hình vẽ bên được tính theo công thức nào dưới đây?\n\t\t\\choice\n\t\t{\\True $\\displaystyle\\int\\limits_1^3 \\left( -x^2+4x-3 \\right) \\mathrm{\\,d}x $}\n\t\t{$\\displaystyle\\int\\limits_1^3 \\left( x^2-2x-11 \\right) \\mathrm{\\,d}x $}\n\t\t{$\\displaystyle\\int\\limits_1^3 \\left( x^2-4x+3 \\right) \\mathrm{\\,d}x $}\n\t\t{$\\displaystyle\\int\\limits_1^3 \\left( -x^2+2x+11 \\right) \\mathrm{\\,d}x $}\n\t}{\n\t\t\\begin{tikzpicture}[scale=0.65,>=stealth, font=\\footnotesize, line join=round, line cap=round]\n\t\t\\draw[->] (-1.5,0)--(6,0) node [below]{$x$};\n\t\t\\draw[->] (0,-.7)--(0,7.5) node [right]{$y$};\n\t\t\\draw[fill=black](0,0) circle (.5pt) node [below left]{$O$};\n\t\t\\draw(5,3) node [above]{$y=7-x$};\n\t\t\\draw(4,7) node [below]{$y=-x^2+3x+4$};\n\t\t\\draw[dashed] (1,0)--(1,6);\n\t\t\\draw[dashed] (3,0)--(3,4);\n\t\t\\clip (-1.5,-.7) rectangle (6,7.5);\n\t\t\\foreach \\x in{1,3}\\draw[fill=black](\\x,0)circle (.5pt) node[below]{\\footnotesize $\\x$};\n\t\t\\draw[thick,smooth,samples=100,domain=-1.5:6] plot(\\x,{7-(\\x)});\n\t\t\\draw[thick,smooth,samples=100,domain=-1.5:6] plot(\\x,{0-(\\x)^2+3*(\\x)+4});\n\t\t\\fill[pattern=north west lines] plot[smooth,samples=100,domain=1:3](\\x,{0-(\\x)^2+3*(\\x)+4})--plot[smooth,samples=100,domain=3:1](\\x,{7-(\\x)});\n\t\t\\fill[pattern=north west lines] plot[smooth,samples=100,domain=3:1](\\x,{0-(\\x)^2+3*(\\x)+4})--plot[smooth,samples=100,domain=1:3](\\x,{7-(\\x)});\n\t\t\\end{tikzpicture}\n\t}\n\t\\loigiai{\n\t\tDựa vào đồ thị hàm số ta suy ra công thức tính diện tích phần hình phẳng gạch chéo là\n\t\t$$\\displaystyle\\int\\limits_1^3 \\left[ \\left(-x^2+3x+4\\right)-\\left(7-x \\right)\\right] \\mathrm{\\,d}x=\\displaystyle\\int\\limits_1^3 \\left( -x^2+4x-3 \\right) \\mathrm{\\,d}x.$$\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3Y3-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cce"
+  },
+  "code": "TN_11_10",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $ y=\\dfrac{x-2}{x+1} $ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$3$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$1$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $2$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$4$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Tập xác định của hàm số: $ \\mathscr{D}=\\mathbb{R}\\setminus \\{-1\\} $.\\begin{itemize}\\item Ta có $  \\lim \\limits_{x \\to {-1}^+} y =\\lim \\limits_{x \\to {-1}^+} \\dfrac{x-2}{x+1}=-\\infty$; $  \\lim \\limits_{x \\to {-1}^-} y =\\lim \\limits_{x \\to {-1}^-} \\dfrac{x-2}{x+1} =+\\infty$.\\\\Suy ra $ x=-1 $ là tiệm cận đứng của đồ thị hàm số $ y=\\dfrac{x-2}{x+1} $.\\item Ta có $\\lim \\limits_{x\\to +\\infty} y =1$; $\\lim \\limits_{x\\to -\\infty} y =1$.\\\\Suy ra $ y=1 $ là tiệm cận ngang của đồ thị hàm số $ y=\\dfrac{x-2}{x+1} $.\\end{itemize}Vậy đồ thị hàm số $ y=\\dfrac{x-2}{x+1} $ có $ 3 $ đường tiệm cận.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1Y4-1]\n\tSố đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $ y=\\dfrac{x-2}{x+1} $ là\n\t\\choice\n\t{$3$}\n\t{$1$}\n\t{\\True $2$}\n\t{$4$}\n\t\\loigiai{\n\t\tTập xác định của hàm số: $ \\mathscr{D}=\\mathbb{R}\\setminus \\{-1\\} $.\n\t\t\\begin{itemize}\n\t\t\t\\item Ta có \n\t\t\t$  \\lim \\limits_{x \\to {-1}^+} y =\\lim \\limits_{x \\to {-1}^+} \\dfrac{x-2}{x+1}=-\\infty$; $  \\lim \\limits_{x \\to {-1}^-} y =\\lim \\limits_{x \\to {-1}^-} \\dfrac{x-2}{x+1} =+\\infty$.\\\\\n\t\t\tSuy ra $ x=-1 $ là tiệm cận đứng của đồ thị hàm số $ y=\\dfrac{x-2}{x+1} $.\n\t\t\t\\item Ta có \n\t\t\t$\\lim \\limits_{x\\to +\\infty} y =1$; $\\lim \\limits_{x\\to -\\infty} y =1$.\\\\\n\t\t\tSuy ra $ y=1 $ là tiệm cận ngang của đồ thị hàm số $ y=\\dfrac{x-2}{x+1} $.\n\t\t\\end{itemize}\n\t\tVậy đồ thị hàm số $ y=\\dfrac{x-2}{x+1} $ có $ 3 $ đường tiệm cận.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1Y4-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ccf"
+  },
+  "code": "TN_11_11",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Nguyên hàm $I=\\displaystyle \\int\\dfrac{x^2+2x}{x+1}\\mathrm{\\,d}x$ trên khoảng $ (0;+\\infty) $ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $\\dfrac{x^2}{2}+x-\\ln (x+1)+C$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{x^2}{2}-x-\\ln (x+1)+C$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$x^2+x-\\ln (x+1)+C$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{x^2}{2}+x+\\ln (x+1)+C$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Với $x \\in (0;+\\infty) $, ta có $I=\\displaystyle \\int\\dfrac{x^2+2x}{x+1}\\mathrm{\\,d}x=\\displaystyle \\int\\left(x+1-\\dfrac{1}{x+1}\\right)\\mathrm{\\,d}x=\\dfrac{x^2}{2}+x-\\ln (x+1)+C$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3Y1-1]\n\tNguyên hàm $I=\\displaystyle \\int\\dfrac{x^2+2x}{x+1}\\mathrm{\\,d}x$ trên khoảng $ (0;+\\infty) $ là\n\t\\choice\n\t{\\True $\\dfrac{x^2}{2}+x-\\ln (x+1)+C$}\n\t{$\\dfrac{x^2}{2}-x-\\ln (x+1)+C$}\n\t{$x^2+x-\\ln (x+1)+C$}\n\t{$\\dfrac{x^2}{2}+x+\\ln (x+1)+C$}\n\t\\loigiai{\n\t\tVới $x \\in (0;+\\infty) $, ta có $I=\\displaystyle \\int\\dfrac{x^2+2x}{x+1}\\mathrm{\\,d}x=\\displaystyle \\int\\left(x+1-\\dfrac{1}{x+1}\\right)\\mathrm{\\,d}x=\\dfrac{x^2}{2}+x-\\ln (x+1)+C$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3Y1-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd0"
+  },
+  "code": "TN_11_12",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong không gian $Oxyz$, mặt phẳng $(Oyz)$ có phương trình là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$ z=0 $",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$ x+y+z=0 $",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$ y=0 $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $ x=0 $",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Mặt phẳng $(Oyz)$ có phương trình là $ x=0 $.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3Y2-3]\n\tTrong không gian $Oxyz$, mặt phẳng $(Oyz)$ có phương trình là\n\t\\choice\n\t{$ z=0 $}\n\t{$ x+y+z=0 $}\n\t{$ y=0 $}\n\t{\\True $ x=0 $}\n\t\\loigiai{\n\t\tMặt phẳng $(Oyz)$ có phương trình là $ x=0 $.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3Y2-3]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd1"
+  },
+  "code": "TN_11_13",
+  "description": "",
+  "level": 1,
+  "duration": 60,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Thể tích của khối cầu có đường kính $ 2a $ bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$4 \\pi a^3 $",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\dfrac{4 \\pi a^3}{3}$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$ 2\\pi a^3 $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{\\pi a^3 }{3}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Khối cầu có đường kính $ 2a \\Rightarrow$ bán kính $ R=a $.\\\\Thể tích của khối cầu được tính theo công thức $ V=\\dfrac{4}{3}\\pi R^3=\\dfrac{4 \\pi a^3}{3}$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H2Y2-1]\n\tThể tích của khối cầu có đường kính $ 2a $ bằng\n\t\\choice\n\t{$4 \\pi a^3 $}\n\t{\\True $\\dfrac{4 \\pi a^3}{3}$}\n\t{$ 2\\pi a^3 $}\n\t{$\\dfrac{\\pi a^3 }{3}$}\n\t\\loigiai{\n\t\tKhối cầu có đường kính $ 2a \\Rightarrow$ bán kính $ R=a $.\\\\\n\t\tThể tích của khối cầu được tính theo công thức $ V=\\dfrac{4}{3}\\pi R^3=\\dfrac{4 \\pi a^3}{3}$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H2Y2-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd2"
+  },
+  "code": "TN_11_14",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong không gian $Oxyz$, cho ba điểm $A(5;-2;0)$, $B(-2;3;0)$ và $C(0;2;3)$. Trọng tâm $G$ của tam giác $ABC$ có tọa độ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $(1;1;1)$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$(1;2;1)$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$(2;0;-1)$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$(1;1;-2)$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $G$ là trọng tâm tam giác $ABC \\Rightarrow G \\heva{&x_G=\\dfrac{x_A+x_B+x_C}{3} \\\\ &y_G=\\dfrac{y_A+y_B+x_C}{3} \\\\ & z_G=\\dfrac{z_A+z_B+z_C}{3}\\\\} \\Rightarrow G(1;1;1)$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B1-1]\n\tTrong không gian $Oxyz$, cho ba điểm $A(5;-2;0)$, $B(-2;3;0)$ và $C(0;2;3)$. Trọng tâm $G$ của tam giác $ABC$ có tọa độ là\n\t\\choice\n\t{\\True $(1;1;1)$}\n\t{$(1;2;1)$}\n\t{$(2;0;-1)$}\n\t{$(1;1;-2)$}\n\t\\loigiai{\n\t\tTa có $G$ là trọng tâm tam giác $ABC \\Rightarrow G \\heva{&x_G=\\dfrac{x_A+x_B+x_C}{3} \\\\ &y_G=\\dfrac{y_A+y_B+x_C}{3} \\\\ & z_G=\\dfrac{z_A+z_B+z_C}{3}\\\\} \\Rightarrow G(1;1;1)$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B1-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd3"
+  },
+  "code": "TN_11_15",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Giá trị lớn nhất của hàm số $ f(x)=x^4-4x^2+5$ trên đoạn $ [-2;3] $ bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$ 1 $",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$ 5 $",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $ 50 $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$ 122 $",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Xét hàm số $ y=f(x)=x^4-4x^2+5$.\\\\$ y'=4x^3-8x $; $ y'=0\\Leftrightarrow \\hoac{&x=0 \\\\& x=\\pm \\sqrt{2}.\\\\} $\\\\Ta có $ f $ liên tục trên đoạn $ [-2;3] $.\\\\$ y(0)=5 $, $ y\\left(\\pm \\sqrt{2}\\right)=1$, $ y(-2)=5 $, $ y(3)=50 $.\\\\Vậy $ \\max \\limits_{[-2;3]} f(x)=y(3)= 50 $.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B3-1]\n\tGiá trị lớn nhất của hàm số $ f(x)=x^4-4x^2+5$ trên đoạn $ [-2;3] $ bằng \n\t\\choice\n\t{$ 1 $}\n\t{$ 5 $}\n\t{\\True $ 50 $}\n\t{$ 122 $}\n\t\\loigiai{\n\t\tXét hàm số $ y=f(x)=x^4-4x^2+5$.\\\\\n\t\t$ y'=4x^3-8x $; $ y'=0\\Leftrightarrow \\hoac{&x=0 \\\\& x=\\pm \\sqrt{2}.\\\\} $\\\\\n\t\tTa có $ f $ liên tục trên đoạn $ [-2;3] $.\\\\\n\t\t$ y(0)=5 $, $ y\\left(\\pm \\sqrt{2}\\right)=1$, $ y(-2)=5 $, $ y(3)=50 $.\\\\\n\t\tVậy $ \\max \\limits_{[-2;3]} f(x)=y(3)= 50 $.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B3-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd4"
+  },
+  "code": "TN_11_16",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong không gian $Oxyz$, cho $A(2;4;-6) $ và $B(9;7;4)$. Véc-tơ $\\overrightarrow {AB}$ có tọa độ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $(7;3;10)$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$(7;-3;10)$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$(11;11;-2)$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$(-7;-3;-10)$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $\\overrightarrow {AB}=\\left( x_B-x_A ; y_B-y_A ; z_B-z_A \\right)=(7;3;10)$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B1-1]\n\tTrong không gian $Oxyz$, cho $A(2;4;-6) $ và $B(9;7;4)$. Véc-tơ $\\overrightarrow {AB}$ có tọa độ là\n\t\\choice\n\t{\\True $(7;3;10)$}\n\t{$(7;-3;10)$}\n\t{$(11;11;-2)$}\n\t{$(-7;-3;-10)$}\n\t\\loigiai{\n\t\tTa có $\\overrightarrow {AB}=\\left( x_B-x_A ; y_B-y_A ; z_B-z_A \\right)=(7;3;10)$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B1-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd5"
+  },
+  "code": "TN_11_17",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $y=f(x)$ liên tục trên $ \\mathbb{R} $ và có bảng biến thiên như sau:",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "Tìm khẳng định đúng dưới đây.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True Hàm số đạt cực tiểu tại $x=2$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "Hàm số không có cực trị",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "Hàm số đạt cực đại tại $x=2$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "Hàm số đạt cực tiểu tại $x=1$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{{\\bf Phương pháp:}\\\\Sử dụng cách đọc bảng biến thiên như sau:\\\\Nếu $y'$ đổi dấu từ âm sang dương tại $x=a$ thì $x=a$ là điểm cực tiểu của hàm số.\\\\Nếu $y'$ đổi dấu từ dương sang âm tại $x=b$ thì $x=b$ là điểm cực đại của hàm số.\\\\{\\bf Cách giải:}\\\\Từ bảng biến thiên ta thấy hàm số đạt cực đại tại $x=1$ và đạt cực tiểu tại $x=-2$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B2-2]\n\tCho hàm số $y=f(x)$ liên tục trên $ \\mathbb{R} $ và có bảng biến thiên như sau:\n\t\\begin{center}\n\t\t\\begin{tikzpicture}\n\t\t\\tikzset{double style/.append style = {double distance=2pt}} \n\t\t\\tkzTabInit[nocadre=false,lgt=1.2,espcl=2.5,deltacl=0.6] \n\t\t{$x$ /.6, $y’$ /.6, $y$/2}\n\t\t{$-\\infty$,$1$,$2$,$+\\infty$}%\n\t\t\\tkzTabLine {,+,z,-,z,+,}\n\t\t\\tkzTabVar {-/$-\\infty$,+/$2$,-/$-1$,+/$+\\infty$}\n\t\t\\end{tikzpicture}\n\t\\end{center}\n\tTìm khẳng định đúng dưới đây.\n\t\\choice\n\t{\\True Hàm số đạt cực tiểu tại $x=2$}\n\t{Hàm số không có cực trị}\n\t{Hàm số đạt cực đại tại $x=2$}\n\t{Hàm số đạt cực tiểu tại $x=1$}\n\t\\loigiai{\n\t\t{\\bf Phương pháp:}\\\\\n\t\tSử dụng cách đọc bảng biến thiên như sau:\\\\\n\t\tNếu $y'$ đổi dấu từ âm sang dương tại $x=a$ thì $x=a$ là điểm cực tiểu của hàm số.\\\\\n\t\tNếu $y'$ đổi dấu từ dương sang âm tại $x=b$ thì $x=b$ là điểm cực đại của hàm số.\\\\\n\t\t{\\bf Cách giải:}\\\\\n\t\tTừ bảng biến thiên ta thấy hàm số đạt cực đại tại $x=1$ và đạt cực tiểu tại $x=-2$.}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B2-2]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd6"
+  },
+  "code": "TN_11_18",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Tập nghiệm của phương trình $\\log\\left(x^2+x+4\\right)=1$ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$\\{2\\}$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\{-2;3\\}$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\{-3\\}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\{-3;2\\}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có\\allowdisplaybreaks\\begin{eqnarray*}\\log\\left(x^2+x+4\\right)=1 &\\Leftrightarrow& \\heva{&x^2+x+4>0\\\\& x^2+x+4=10}\\\\&\\Leftrightarrow& x^2+x-6=0 \\\\&\\Leftrightarrow& \\hoac{&x=2 \\\\ &x=-3.}\\end{eqnarray*}Vậy tập nghiệm của phương trình là $\\{-3;2\\}$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2B5-1]\n\tTập nghiệm của phương trình $\\log\\left(x^2+x+4\\right)=1$ là\n\t\\choice\n\t{$\\{2\\}$}\n\t{$\\{-2;3\\}$}\n\t{$\\{-3\\}$}\n\t{\\True $\\{-3;2\\}$}\n\t\\loigiai{\n\t\tTa có\n\t\t\\allowdisplaybreaks\n\t\t\\begin{eqnarray*}\n\t\t\t\\log\\left(x^2+x+4\\right)=1 &\\Leftrightarrow& \\heva{&x^2+x+4>0\\\\& x^2+x+4=10}\\\\\n\t\t\t&\\Leftrightarrow& x^2+x-6=0 \\\\\n\t\t\t&\\Leftrightarrow& \\hoac{&x=2 \\\\ &x=-3.}\n\t\t\\end{eqnarray*}\n\t\tVậy tập nghiệm của phương trình là $\\{-3;2\\}$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2B5-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd7"
+  },
+  "code": "TN_11_19",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Họ nguyên hàm của hàm số $f(x)=\\mathrm{e}^{2x}-2x$ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$\\mathrm{e}^{2x}-1+C$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\dfrac{1}{2}\\mathrm{e}^{2x}-x^2+C$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{1}{2x+1}\\mathrm{e}^{2x}-x^2+C$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$\\mathrm{e}^{2x}-x^2+C$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $\\displaystyle\\int\\limits \\left( \\mathrm{e}^{2x}-2x \\right) \\mathrm{\\,d}x = \\dfrac{1}{2}\\mathrm{e}^{2x}-x^2+C$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3B1-1]\n\tHọ nguyên hàm của hàm số $f(x)=\\mathrm{e}^{2x}-2x$ là\n\t\\choice\n\t{$\\mathrm{e}^{2x}-1+C$}\n\t{\\True $\\dfrac{1}{2}\\mathrm{e}^{2x}-x^2+C$}\n\t{$\\dfrac{1}{2x+1}\\mathrm{e}^{2x}-x^2+C$}\n\t{$\\mathrm{e}^{2x}-x^2+C$}\n\t\\loigiai{\n\t\tTa có $\\displaystyle\\int\\limits \\left( \\mathrm{e}^{2x}-2x \\right) \\mathrm{\\,d}x = \\dfrac{1}{2}\\mathrm{e}^{2x}-x^2+C$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3B1-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd8"
+  },
+  "code": "TN_11_20",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $ y=f(x) $ liên tục trên đoạn $ [a;b] $. Diện tích hình phẳng giới hạn bởi đồ thị của hàm số $ y=f(x) $, trục hoành và hai đường thẳng $ x=a $, $ x=b $ ($ a<b $) được tính theo công thức",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$S=\\pi \\displaystyle\\int\\limits_a^b f^2(x)\\mathrm{\\,d}x$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$S=\\bigg| \\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x \\bigg|$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $S=\\displaystyle\\int\\limits_a^b |f(x)| \\mathrm{\\,d}x$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$S= \\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Diện tích hình phẳng giới hạn bởi đồ thị của hàm số $ y=f(x) $, trục hoành và hai đường thẳng $ x=a $, $ x=b $ ($ a<b $) được tính theo công thức: $S=\\displaystyle\\int\\limits_a^b |f(x)| \\mathrm{\\,d}x$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3B3-1] \n\tCho hàm số $ y=f(x) $ liên tục trên đoạn $ [a;b] $. Diện tích hình phẳng giới hạn bởi đồ thị của hàm số $ y=f(x) $, trục hoành và hai đường thẳng $ x=a $, $ x=b $ ($ a<b $) được tính theo công thức\n\t\\choice  \n\t{$S=\\pi \\displaystyle\\int\\limits_a^b f^2(x)\\mathrm{\\,d}x$}\t\n\t{$S=\\bigg| \\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x \\bigg|$}\n\t{\\True $S=\\displaystyle\\int\\limits_a^b |f(x)| \\mathrm{\\,d}x$}\n\t{$S= \\displaystyle\\int\\limits_a^b f(x)\\mathrm{\\,d}x$}\n\t\\loigiai{\n\t\tDiện tích hình phẳng giới hạn bởi đồ thị của hàm số $ y=f(x) $, trục hoành và hai đường thẳng $ x=a $, $ x=b $ ($ a<b $) được tính theo công thức: $S=\\displaystyle\\int\\limits_a^b |f(x)| \\mathrm{\\,d}x$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3B3-1] ",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cd9"
+  },
+  "code": "TN_11_21",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Tập nghiệm của bất phương trình $2^{x^2-3x}<16$ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$(-\\infty ;-4)\\cup (1;+\\infty)$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $(-1;4)$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$(-\\infty ;-1)\\cup (4;+\\infty)$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$(0;4)$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $2^{x^2-3x}<16 \\Leftrightarrow 2^{x^2-3x}<2^4 \\Leftrightarrow x^2-3x-4<0\\Leftrightarrow -1<x<4.$\\\\Vậy bất phương trình đã cho có tập nghiệm là $(-1;4)$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2B5-1]\n\tTập nghiệm của bất phương trình $2^{x^2-3x}<16$ là \n\t\\choice\n\t{$(-\\infty ;-4)\\cup (1;+\\infty)$}\n\t{\\True $(-1;4)$}\n\t{$(-\\infty ;-1)\\cup (4;+\\infty)$}\n\t{$(0;4)$}\n\t\\loigiai{\n\t\tTa có $2^{x^2-3x}<16 \\Leftrightarrow 2^{x^2-3x}<2^4 \\Leftrightarrow x^2-3x-4<0\\Leftrightarrow -1<x<4.$\\\\\n\t\tVậy bất phương trình đã cho có tập nghiệm là $(-1;4)$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2B5-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cda"
+  },
+  "code": "TN_11_22",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Điểm nào trong hình vẽ bên là điểm biểu diễn của số phức $ z=(1+i)(2-i) $?}{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True Điểm $Q$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "Điểm $P$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "Điểm $M$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "Điểm $N$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $z=(1+i)(2-i)=3+i \\Rightarrow Q(3;1)$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D4B1-2]\n\t\\immini{\n\t\tĐiểm nào trong hình vẽ bên là điểm biểu diễn của số phức $ z=(1+i)(2-i) $?\n\t\t\\choice\n\t\t{\\True Điểm $Q$}\n\t\t{Điểm $P$}\n\t\t{Điểm $M$}\n\t\t{Điểm $N$}\n\t}{\n\t\t\\begin{tikzpicture}[scale=.7, line cap=round,line join=round,>=stealth,x=1.0cm,y=1.0cm]\n\t\t\\tkzInit[xmin=-4,xmax=4,ymax=4, ymin=-2]\n\t\t\\draw [->](-4,0)--(4,0)node[below]{\\footnotesize $x$};\n\t\t\\draw [->](0,-2)--(0,4)node[left]{\\footnotesize $y$};\n\t\t\\draw[fill=black](0pt,0pt) circle (.5pt) node[above left] {\\footnotesize $O$};\n\t\t\\clip(-4,-2) rectangle (4,4);\n\t\t\\foreach \\x in{-2,-1,1,2,3}\\draw[fill=black](\\x,0)circle (.5pt) node[below]{\\footnotesize $\\x$};\n\t\t\\draw[fill=black] (-3,0) circle (.5pt) node[above]{\\footnotesize $-3$};\n\t\t\\foreach \\y in{1,2}\\draw[fill=black] (0,\\y) circle (.5pt) node[left]{\\footnotesize $\\y$};\n\t\t\\draw[fill=black] (0,-1) circle (.5pt) node[right]{\\footnotesize $-1$};\n\t\t\\draw[fill=black] (0,3) circle (.5pt) node[above right]{\\footnotesize $3$};\n\t\t\\coordinate[label={above right}:{$M$}](M) at (1,3);\n\t\t\\coordinate[label={above left}:{$N$}](N) at (-1,3);\n\t\t\\coordinate[label={below left}:{$P$}](P) at (-3,-1);\n\t\t\\coordinate[label={above right}:{$Q$}](Q) at (3,1);\n\t\t\\tkzDrawPoints[fill=black](M,N,P,Q)\n\t\t\\draw [fill=black] (-1,3) circle (.5pt);\n\t\t\\draw [fill=black] (1,3) circle (.5pt);\n\t\t\\draw [fill=black] (-3,-1) circle (.5pt);\n\t\t\\draw [fill=black] (3,1) circle (.5pt);\n\t\t\\draw[dashed] (-1,0) |- (-1,3) |- (1,3) |-(1,0) (-3,0) |- (-3,-1) |- (0,-1) (0,1) |-(3,1) |-(3,0);\n\t\t\\end{tikzpicture}\t\n\t}\n\t\\loigiai{\n\t\tTa có $z=(1+i)(2-i)=3+i \\Rightarrow Q(3;1)$.}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D4B1-2]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cdb"
+  },
+  "code": "TN_11_23",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Kí hiệu $ z_1 $, $ z_2 $ là hai nghiệm phức của phương trình $z^2-2z+4=0$. Giá trị của $\\left|z_1\\right|+2\\left|z_2\\right|$ bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$2\\sqrt{3}$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$2$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $6$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$4$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $z^2-2z+4=0\\Leftrightarrow \\hoac{& z=1+\\sqrt{3} i \\\\ & z=1-\\sqrt{3} i.}$\\\\Vì $ \\left|z_1\\right|=\\left|z_2\\right| =2 \\Rightarrow \\left|z_1\\right|+2\\left|z_2\\right|=2 + 2\\cdot 2 =6$. }",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D4B4-1]\n\tKí hiệu $ z_1 $, $ z_2 $ là hai nghiệm phức của phương trình $z^2-2z+4=0$. Giá trị của $\\left|z_1\\right|+2\\left|z_2\\right|$ bằng\n\t\\choice\n\t{$2\\sqrt{3}$}\n\t{$2$}\n\t{\\True $6$}\n\t{$4$}\n\t\\loigiai{\n\t\tTa có $z^2-2z+4=0\\Leftrightarrow \\hoac{& z=1+\\sqrt{3} i \\\\ & z=1-\\sqrt{3} i.}$\\\\\n\t\tVì $ \\left|z_1\\right|=\\left|z_2\\right| =2 \\Rightarrow \\left|z_1\\right|+2\\left|z_2\\right|=2 + 2\\cdot 2 =6$. \n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D4B4-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cdc"
+  },
+  "code": "TN_11_24",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong không gian với hệ trục tọa độ $Oxyz$, phương trình mặt cầu $\\left( S \\right)$ nhận $N(0;0;3)$ làm tâm và đi qua gốc tọa độ $ O $ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$x^2+y^2+z^2+6z+9=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$x^2+y^2+z^2-6z-9=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $x^2+y^2+z^2-6z=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$x^2+y^2+z^2+6z=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Mặt cầu $\\left( S \\right)$ nhận $N(0;0;3)$ làm tâm và đi qua gốc tọa độ $ O $ suy ra bán kính $ R=ON=3 $.\\\\Phương trình mặt cầu $\\left( S \\right)$ là$$(x-0)^2+(y-0)^2+(z-3)^2=9\\Leftrightarrow x^2+y^2+z^2-6z=0.$$}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B1-3]\n\tTrong không gian với hệ trục tọa độ $Oxyz$, phương trình mặt cầu $\\left( S \\right)$ nhận $N(0;0;3)$ làm tâm và đi qua gốc tọa độ $ O $ là\n\t\\choice\n\t{$x^2+y^2+z^2+6z+9=0$}\n\t{$x^2+y^2+z^2-6z-9=0$}\n\t{\\True $x^2+y^2+z^2-6z=0$}\n\t{$x^2+y^2+z^2+6z=0$}\n\t\\loigiai{\n\t\tMặt cầu $\\left( S \\right)$ nhận $N(0;0;3)$ làm tâm và đi qua gốc tọa độ $ O $ suy ra bán kính $ R=ON=3 $.\\\\\n\t\tPhương trình mặt cầu $\\left( S \\right)$ là\n\t\t$$(x-0)^2+(y-0)^2+(z-3)^2=9\\Leftrightarrow x^2+y^2+z^2-6z=0.$$\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B1-3]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cdd"
+  },
+  "code": "TN_11_25",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong không gian $Oxyz$, cho véc-tơ $ \\overrightarrow{u}=(1;1;0) $. Tìm véc-tơ $\\overrightarrow{v}$ ngược hướng với $ \\overrightarrow{u}$ biết $ \\left| \\overrightarrow{v}\\right| =3\\sqrt{2}$.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$\\overrightarrow{v}=(3;3;0)$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\overrightarrow{v}=\\left(-1;-1;-\\sqrt{16}\\right)$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\overrightarrow{v}=(-2;-2;0)$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\overrightarrow{v}=(-3;-3;0)$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $\\overrightarrow{v}$ ngược hướng với $ \\overrightarrow{u} \\Rightarrow \\overrightarrow{v}=k(1;1;0) =(k;k;0)$ ($ k<0 $).\\\\Khi đó $ \\left| \\overrightarrow{v}\\right|=\\sqrt{k^2+k^2} =3\\sqrt{2} \\Leftrightarrow k^2=9 \\Leftrightarrow \\hoac{&k=3\\,&\\text{(loại)}& \\\\ &k=-3\\,&\\text{(nhận)}&.}$\\\\Vậy $\\overrightarrow{v}=(-3;-3;0)$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B1-1]\n\tTrong không gian $Oxyz$, cho véc-tơ $ \\overrightarrow{u}=(1;1;0) $. Tìm véc-tơ $\\overrightarrow{v}$ ngược hướng với $ \\overrightarrow{u}$ biết $ \\left| \\overrightarrow{v}\\right| =3\\sqrt{2}$.\n\t\\choice\n\t{$\\overrightarrow{v}=(3;3;0)$}\n\t{$\\overrightarrow{v}=\\left(-1;-1;-\\sqrt{16}\\right)$}\n\t{$\\overrightarrow{v}=(-2;-2;0)$}\n\t{\\True $\\overrightarrow{v}=(-3;-3;0)$}\n\t\\loigiai{\n\t\tTa có $\\overrightarrow{v}$ ngược hướng với $ \\overrightarrow{u} \\Rightarrow \\overrightarrow{v}=k(1;1;0) =(k;k;0)$ ($ k<0 $).\\\\\n\t\tKhi đó $ \\left| \\overrightarrow{v}\\right|=\\sqrt{k^2+k^2} =3\\sqrt{2} \\Leftrightarrow k^2=9 \\Leftrightarrow \\hoac{&k=3\\,&\\text{(loại)}& \\\\ &k=-3\\,&\\text{(nhận)}&.}$\\\\\n\t\tVậy $\\overrightarrow{v}=(-3;-3;0)$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B1-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cde"
+  },
+  "code": "TN_11_26",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Tìm tập xác định $\\mathscr{D}$ của hàm số  $y=\\left(x^2-3x\\right)^{-4}$.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$\\mathscr{D} =(-\\infty;0) \\cup (3;+\\infty)$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\mathscr{D} =(0;3)$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\mathscr{D} = \\mathbb{R}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\mathscr{D} = \\mathbb{R}\\setminus \\{0;3\\}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Điều kiện xác định của hàm số là $x^2-3x\\neq 0 \\Leftrightarrow \\heva{& x\\neq 0 \\\\ & x\\neq 3.}$ \\\\Vậy $\\mathscr{D} = \\mathbb{R}\\setminus \\{0;3\\}$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2B4-1]\n\tTìm tập xác định $\\mathscr{D}$ của hàm số  $y=\\left(x^2-3x\\right)^{-4}$.\n\t\\choice\n\t{$\\mathscr{D} =(-\\infty;0) \\cup (3;+\\infty)$}\n\t{$\\mathscr{D} =(0;3)$}\n\t{$\\mathscr{D} = \\mathbb{R}$}\n\t{\\True $\\mathscr{D} = \\mathbb{R}\\setminus \\{0;3\\}$}\n\t\\loigiai{\n\t\tĐiều kiện xác định của hàm số là $x^2-3x\\neq 0 \\Leftrightarrow \\heva{& x\\neq 0 \\\\ & x\\neq 3.}$ \\\\\n\t\tVậy $\\mathscr{D} = \\mathbb{R}\\setminus \\{0;3\\}$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2B4-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cdf"
+  },
+  "code": "TN_11_27",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho $ \\displaystyle \\int \\limits_0^1 f(x) \\mathrm{\\,d} x =2$ và $ \\displaystyle \\int \\limits_0^1 g(x) \\mathrm{\\,d} x =5$. Khi đó $ \\displaystyle \\int \\limits_1^2 \\left[f(x)+2g(x)\\right] \\mathrm{\\,d} x $ bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$ 1 $",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $ 12 $",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$ -8 $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$ -3 $",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $ \\displaystyle \\int \\limits_1^2 \\left[f(x)+2g(x)\\right] \\mathrm{\\,d} x = \\displaystyle \\int \\limits_0^1 f(x) \\mathrm{\\,d} x +2\\displaystyle \\int \\limits_0^1 g(x) \\mathrm{\\,d} x =2+2\\cdot 5=12$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%Câu26%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3B2-1]\n\tCho $ \\displaystyle \\int \\limits_0^1 f(x) \\mathrm{\\,d} x =2$ và $ \\displaystyle \\int \\limits_0^1 g(x) \\mathrm{\\,d} x =5$. Khi đó $ \\displaystyle \\int \\limits_1^2 \\left[f(x)+2g(x)\\right] \\mathrm{\\,d} x $ bằng\n\t\\choice\n\t{$ 1 $}\n\t{\\True $ 12 $}\n\t{$ -8 $}\n\t{$ -3 $}\n\t\\loigiai{\n\t\tTa có $ \\displaystyle \\int \\limits_1^2 \\left[f(x)+2g(x)\\right] \\mathrm{\\,d} x = \\displaystyle \\int \\limits_0^1 f(x) \\mathrm{\\,d} x +2\\displaystyle \\int \\limits_0^1 g(x) \\mathrm{\\,d} x =2+2\\cdot 5=12$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%Câu26%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3B2-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce0"
+  },
+  "code": "TN_11_28",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong không gian $Oxyz$, cho điểm $M(1;2;3)$. Gọi $A$, $B$, $C$ lần lượt là hình chiếu vuông góc của điểm $M$ lên các trục $Ox$, $Oy$, $Oz$. Viết phương trình mặt phẳng $(ABC)$.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$\\dfrac{x}{1}-\\dfrac{y}{2}+\\dfrac{z}{3}=1$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=1$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$-\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=1$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Hình chiếu của điểm $ M(1;2;3) $ xuống trục $ Ox $ là $A(1;0;0)$.\\\\Hình chiếu của điểm $ M(1;2;3) $ xuống trục $ Oy $ là $B(0;2;0)$.\\\\Hình chiếu của điểm $ M(1;2;3) $ xuống trục $ Oz $ là $C(0;0;3)$.\\\\Phương trình mặt phẳng $(ABC)$ theo đoạn chắn là $\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=1$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B2-3]\n\tTrong không gian $Oxyz$, cho điểm $M(1;2;3)$. Gọi $A$, $B$, $C$ lần lượt là hình chiếu vuông góc của điểm $M$ lên các trục $Ox$, $Oy$, $Oz$. Viết phương trình mặt phẳng $(ABC)$.\n\t\\choice\n\t{$\\dfrac{x}{1}-\\dfrac{y}{2}+\\dfrac{z}{3}=1$}\n\t{\\True $\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=1$}\n\t{$\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=0$}\n\t{$-\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=1$}\n\t\\loigiai{\n\t\tHình chiếu của điểm $ M(1;2;3) $ xuống trục $ Ox $ là $A(1;0;0)$.\\\\\n\t\tHình chiếu của điểm $ M(1;2;3) $ xuống trục $ Oy $ là $B(0;2;0)$.\\\\\n\t\tHình chiếu của điểm $ M(1;2;3) $ xuống trục $ Oz $ là $C(0;0;3)$.\\\\\n\t\tPhương trình mặt phẳng $(ABC)$ theo đoạn chắn là $\\dfrac{x}{1}+\\dfrac{y}{2}+\\dfrac{z}{3}=1$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H3B2-3]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce1"
+  },
+  "code": "TN_11_29",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $y=f(x)$ liên tục trên $ [-3;3]$ và có bảng xét dấu đạo hàm như sau:",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "Mệnh đề nào sau đây {\\bf sai} về hàm số đó?",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "Hàm số đạt cực đại tại $x=2$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "Hàm số đạt cực tiểu tại $x=1$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "\\True Hàm số đạt cực tiểu tại $x=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "Hàm số đạt cực đại tại $x=-1$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{{\\bf Phương pháp:}\\\\Sử dụng cách đọc bảng xét dấu như sau:\\\\Nếu $y'$ đổi dấu từ âm sang dương tại $x=a$ thì $x=a$ là điểm cực tiểu của hàm số.\\\\Nếu $y'$ đổi dấu từ dương sang âm tại $x=b$ thì $x=b$ là điểm cực đại của hàm số.\\\\{\\bf Cách giải:}\\\\Từ bảng xét dấu ta thấy hàm số đạt cực đại tại $x=-1$ và $ x=2 $; hàm số đạt cực tiểu tại $x=1$.\\\\$y'$ không đổi dấu tại $x=0$ nên $x=0$ không phải là điểm cực trị của hàm số.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B2-2]\n\tCho hàm số $y=f(x)$ liên tục trên $ [-3;3]$ và có bảng xét dấu đạo hàm như sau:\n\t\\begin{center}\n\t\t\\begin{tikzpicture}\n\t\t\\tikzset{double style/.append style = {double distance=2pt}} \n\t\t\\tkzTabInit[nocadre=false,lgt=1.2,espcl=2.5,deltacl=0.6] \n\t\t{$x$ /.6, $f’(x)$ /.6}\n\t\t{$-3$,$-1$,$0$,$1$,$2$,$3$}\n\t\t\\tkzTabLine {,+,z,-,z,-,z,+,z,-}\n\t\t\\end{tikzpicture}\n\t\\end{center}\n\tMệnh đề nào sau đây {\\bf sai} về hàm số đó?\n\t\\choice\n\t{Hàm số đạt cực đại tại $x=2$}\n\t{Hàm số đạt cực tiểu tại $x=1$}\n\t{\\True Hàm số đạt cực tiểu tại $x=0$}\n\t{Hàm số đạt cực đại tại $x=-1$}\t\n\t\\loigiai{\n\t\t{\\bf Phương pháp:}\\\\\n\t\tSử dụng cách đọc bảng xét dấu như sau:\\\\\n\t\tNếu $y'$ đổi dấu từ âm sang dương tại $x=a$ thì $x=a$ là điểm cực tiểu của hàm số.\\\\\n\t\tNếu $y'$ đổi dấu từ dương sang âm tại $x=b$ thì $x=b$ là điểm cực đại của hàm số.\\\\\n\t\t{\\bf Cách giải:}\\\\\n\t\tTừ bảng xét dấu ta thấy hàm số đạt cực đại tại $x=-1$ và $ x=2 $; hàm số đạt cực tiểu tại $x=1$.\\\\\n\t\t$y'$ không đổi dấu tại $x=0$ nên $x=0$ không phải là điểm cực trị của hàm số.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B2-2]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce2"
+  },
+  "code": "TN_11_30",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $ y=f(x) $ có đồ thị như hình vẽ bên. Tìm tất cả các giá trị thực của tham số $ m $ để phương trình $ f(x)-m+2020=0 $ có $ 2 $ nghiệm phân biệt.}{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$\\hoac{&m>-3 \\\\ &m=-4 \\\\}$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$m>2015$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$m>-3$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\hoac{&m>2017 \\\\ &m=2016 \\\\}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "Ta có $f(x)-m+2020=0\\Leftrightarrow f(x) =m-2020. \\quad(*)$\\\\Số nghiệm của phương trình $(*)$ bằng số giao điểm của đồ thị hàm số $ y=f(x) $ và đường thẳng $ y=m-2020$.\\\\ Dựa vào đồ thị ta thấy đường thẳng $ y=m-2020$ cắt đồ thị tại $2$ điểm phân biệt khi và chỉ khi $$\\hoac{&m-2020>-3\\\\ &m-2020=-4 \\\\} \\Leftrightarrow \\hoac{&m>2017 \\\\ &m=2016.}$$Vậy $\\hoac{&m>2017 \\\\ &m=2016 \\\\}$ thỏa mãn yêu cầu bài toán.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B5-3]\n\t\\immini{\n\t\tCho hàm số $ y=f(x) $ có đồ thị như hình vẽ bên. Tìm tất cả các giá trị thực của tham số $ m $ để phương trình $ f(x)-m+2020=0 $ có $ 2 $ nghiệm phân biệt.\n\t\t\\choice\n\t\t{$\\hoac{&m>-3 \\\\ &m=-4 \\\\}$}\n\t\t{$m>2015$}\n\t\t{$m>-3$}\n\t\t{\\True $\\hoac{&m>2017 \\\\ &m=2016 \\\\}$}\n\t}{\n\t\t\\begin{tikzpicture}[scale=1, line cap=round,line join=round,>=stealth,x=1.0cm,y=1.0cm]\n\t\t\\tkzInit[xmin=-2.5,xmax=2.5,ymax=1, ymin=-4.5]\n\t\t\\draw [->](-2.5,0)--(2.5,0)node[below]{\\footnotesize $x$};\n\t\t\\draw [->](0,-4.5)--(0,1)node[left]{\\footnotesize $y$};\n\t\t\\draw[fill=black](0pt,0pt) circle (.5pt) node[below right] {\\footnotesize $O$};\n\t\t\\clip(-2.5,-4.5) rectangle (2.5,1);\n\t\t\\draw[smooth,samples=100,domain=-2.5:2.5] plot(\\x,{(\\x)^4-2*(\\x)^2-3});\n\t\t\\foreach \\x in{-1,1}\\draw[fill=black](\\x,0) circle (.5pt) node[above]{\\footnotesize $\\x$};\n\t\t\\foreach \\y in{-4,-3}\\draw[fill=black](0,\\y) circle (.5pt) node[above left]{\\footnotesize $\\y$};\n\t\t\\draw [fill=black] (-1,-4) circle (.5pt);\n\t\t\\draw [fill=black] (1,-4) circle (.5pt);\n\t\t\\draw[dashed] (-1,0) |- (-1,-4)|-(1,-4) |- (1,0);\n\t\t\\end{tikzpicture}\n\t}\n\t\\loigiai{\n\t\t\\begin{center}\n\t\t\t\\begin{tikzpicture}[scale=1, line cap=round,line join=round,>=stealth,x=1.0cm,y=1.0cm]\n\t\t\t\\tkzInit[xmin=-2.5,xmax=2.5,ymax=1, ymin=-4.5]\n\t\t\t\\draw [->](-2.5,0)--(2.5,0)node[below]{\\footnotesize $x$};\n\t\t\t\\draw [->](0,-4.5)--(0,1)node[left]{\\footnotesize $y$};\n\t\t\t\\draw[fill=black](0pt,0pt)circle (.5pt) node[below right] {\\footnotesize $O$};\n\t\t\t\\clip(-2.5,-4.5) rectangle (2.5,1);\n\t\t\t\\draw[smooth,samples=100,domain=-2.5:2.5] plot(\\x,{(\\x)^4-2*(\\x)^2-3});\n\t\t\t\\foreach \\x in{-1,1}\\draw[fill=black](\\x,0) circle (.5pt) node[above]{\\footnotesize $\\x$};\n\t\t\t\\foreach \\y in{-4,-3}\\draw[fill=black](0,\\y) circle (.5pt) node[above left]{\\footnotesize $\\y$};\n\t\t\t\\draw[dashed] (-1,0) |- (-1,-4)|-(1,-4) |- (1,0);\n\t\t\t\\draw (-2.5,-4)--(2.5,-4);\n\t\t\t\\draw (-2.5,-1)--(2.5,-1);\n\t\t\t\\draw(1.4,-4.5) node[above]{\\footnotesize $y=m-2020$};\n\t\t\t\\draw [fill=black] (-1,-4) circle (.5pt);\n\t\t\t\\draw [fill=black] (1,-4) circle (.5pt);\n\t\t\t\\end{tikzpicture}\n\t\t\\end{center}\n\t\tTa có $f(x)-m+2020=0\\Leftrightarrow f(x) =m-2020. \\quad(*)$\\\\\n\t\tSố nghiệm của phương trình $(*)$ bằng số giao điểm của đồ thị hàm số $ y=f(x) $ và đường thẳng $ y=m-2020$.\\\\ Dựa vào đồ thị ta thấy đường thẳng $ y=m-2020$ cắt đồ thị tại $2$ điểm phân biệt khi và chỉ khi $$\\hoac{&m-2020>-3\\\\ &m-2020=-4 \\\\} \\Leftrightarrow \\hoac{&m>2017 \\\\ &m=2016.}$$\n\t\tVậy $\\hoac{&m>2017 \\\\ &m=2016 \\\\}$ thỏa mãn yêu cầu bài toán.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B5-3]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce3"
+  },
+  "code": "TN_11_31",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Nếu $ \\log_7 x = \\log_7 b - \\log_7 {a^2} $ ($ a $, $ b>0 $) thì $ x $ nhận giá trị bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$ a^2b $",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $ a^{-2}b $",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$ a^2b^2 $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$ ab^2 $",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Điều kiện: $ x>0 $.\\\\Với $ a $, $ b>0 $, ta có \\begin{eqnarray*}\\log_7 x = \\log_7 b - \\log_7 {a^2} &\\Leftrightarrow&  \\log_7 x = \\log_7 \\left(b \\cdot  {a^{-2}}\\right) \\\\ &\\Leftrightarrow&  x=b \\cdot a^{-2}.\\end{eqnarray*}}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2B3-2]\n\tNếu $ \\log_7 x = \\log_7 b - \\log_7 {a^2} $ ($ a $, $ b>0 $) thì $ x $ nhận giá trị bằng\n\t\\choice\n\t{$ a^2b $}\n\t{\\True $ a^{-2}b $}\n\t{$ a^2b^2 $}\n\t{$ ab^2 $}\n\t\\loigiai{\n\t\tĐiều kiện: $ x>0 $.\\\\\n\t\tVới $ a $, $ b>0 $, ta có \n\t\t\\begin{eqnarray*}\n\t\t\t\\log_7 x = \\log_7 b - \\log_7 {a^2} &\\Leftrightarrow&  \\log_7 x = \\log_7 \\left(b \\cdot  {a^{-2}}\\right) \\\\ \n\t\t\t&\\Leftrightarrow&  x=b \\cdot a^{-2}.\n\t\t\\end{eqnarray*}\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2B3-2]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce4"
+  },
+  "code": "TN_11_32",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $y=ax^4+bx^2+c$ ($ a\\neq 0 $) có đồ thị như hình vẽ bên. Mệnh đề nào dưới đây đúng?}{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $a<0$, $ b>0 $, $ c<0 $",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$a<0$, $ b>0 $, $ c>0 $",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$a<0$, $ b<0 $, $ c<0 $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$a<0$, $ b<0 $, $ c>0 $",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Từ đồ thị ta thấy $\\lim\\limits_{x\\to +\\infty} y=-\\infty$ nên hệ số $a<0$.\\\\Đồ thị hàm số $y=ax^4+bx^2+c$ có $3$ cực trị thì $ab<0$, suy ra $b>0$.\\\\Đồ thị hàm số cắt trục $ Oy $ tại điểm có tung độ âm $ \\Rightarrow c<0 $.\\\\Vậy $a<0$, $ b>0 $, $ c<0 $.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B5-1]\n\t\\immini{\n\t\tCho hàm số $y=ax^4+bx^2+c$ ($ a\\neq 0 $) có đồ thị như hình vẽ bên. Mệnh đề nào dưới đây đúng?\n\t\t\\choice\n\t\t{\\True $a<0$, $ b>0 $, $ c<0 $}\n\t\t{$a<0$, $ b>0 $, $ c>0 $}\n\t\t{$a<0$, $ b<0 $, $ c<0 $}\n\t\t{$a<0$, $ b<0 $, $ c>0 $}\n\t}{\n\t\t\\begin{tikzpicture}[scale=.7, line cap=round,line join=round,>=stealth,x=1.0cm,y=1.0cm]\n\t\t\\tkzInit[xmin=-2.5,xmax=2.5,ymax=3.5, ymin=-1.5]\n\t\t\\draw [->](-3,0)--(3,0)node[below]{\\footnotesize $x$};\n\t\t\\draw [->](0,-1.5)--(0,3.5)node[left]{\\footnotesize $y$};\n\t\t\\draw[fill=black](0pt,0pt) circle (.5pt) node[above left] {\\footnotesize $O$};\n\t\t\\clip(-3,-1.5) rectangle (3,3.5);\n\t\t\\draw[smooth,samples=100,domain=-3:3] plot(\\x,{-(\\x)^4+4*(\\x)^2-1});\n\t\t\\end{tikzpicture}\t\n\t}\n\t\\loigiai{\n\t\tTừ đồ thị ta thấy $\\lim\\limits_{x\\to +\\infty} y=-\\infty$ nên hệ số $a<0$.\\\\\n\t\tĐồ thị hàm số $y=ax^4+bx^2+c$ có $3$ cực trị thì $ab<0$, suy ra $b>0$.\\\\\n\t\tĐồ thị hàm số cắt trục $ Oy $ tại điểm có tung độ âm $ \\Rightarrow c<0 $.\\\\\n\t\tVậy $a<0$, $ b>0 $, $ c<0 $.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1B5-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce5"
+  },
+  "code": "TN_11_33",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Hình nón có đường sinh $ \\ell=2a $ và hợp với đáy góc $ \\alpha = 60^\\circ $. Diện tích toàn phần của hình nón bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $ 3\\pi a^2$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$ \\pi a^2 $",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$ 2\\pi a^2 $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$ 4\\pi a^2 $",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Gọi $r$ là bán kính đáy của hình nón $ \\Rightarrow r=\\ell \\cdot \\cos \\alpha =2a \\cdot \\cos 60^\\circ =a$. \\\\Diện tích toàn phần của hình nón là \\\\$S_\\text{tp}=\\pi r\\ell+\\pi r^2=\\pi \\cdot a \\cdot 2a+\\pi a^2=3\\pi a^2$.}{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H2B1-2]\n\tHình nón có đường sinh $ \\ell=2a $ và hợp với đáy góc $ \\alpha = 60^\\circ $. Diện tích toàn phần của hình nón bằng\n\t\\choice\n\t{\\True $ 3\\pi a^2$}\n\t{$ \\pi a^2 $}\n\t{$ 2\\pi a^2 $}\n\t{$ 4\\pi a^2 $}\n\t\\loigiai{\n\t\t\\immini{\n\t\t\tGọi $r$ là bán kính đáy của hình nón $ \\Rightarrow r=\\ell \\cdot \\cos \\alpha =2a \\cdot \\cos 60^\\circ =a$. \\\\\n\t\t\tDiện tích toàn phần của hình nón là \\\\\n\t\t\t$S_\\text{tp}=\\pi r\\ell+\\pi r^2=\\pi \\cdot a \\cdot 2a+\\pi a^2=3\\pi a^2$.\n\t\t}{\n\t\t\t\\begin{tikzpicture}[scale=.85, line join=round, line cap=round]\n\t\t\t\\def \\x{2.2}\n\t\t\t\\def \\y{0.9}\n\t\t\t\\def \\h{3.5}\n\t\t\t\\coordinate (O) at (0,0);\n\t\t\t\\coordinate (S) at ($(O)+(0,\\h)$);\n\t\t\t\\coordinate (A) at (-120:\\x cm and \\y cm);\n\t\t\t\\coordinate (B) at ($(O)!-1!(A)$);\n\t\t\t\\coordinate (l) at (168:\\x cm and \\y cm);\n\t\t\t\\coordinate (r) at (12:\\x cm and \\y cm);\n\t\t\t\\draw[dashed] (r) arc (12:168:\\x cm and \\y cm);\n\t\t\t\\draw (r) arc (12:-192:\\x cm and \\y cm);\n\t\t\t\\tkzDrawSegments(S,l S,r S,A)\n\t\t\t\\tkzDrawSegments[dashed](S,O A,B S,B)\n\t\t\t\\tkzDrawPoints[fill=black,size=2](O,S,B)\n\t\t\t\\tkzLabelPoints[above](S);\n\t\t\t\\tkzLabelPoints[below](O,A);\n\t\t\t%\\tkzMarkRightAngle[size=0.5](S,O,A)\n\t\t\t\\tkzLabelSegment[left,pos=0.5](S,A){\\footnotesize $2a$}\n\t\t\t\\tkzMarkAngle[size=.5](O,A,S)\n\t\t\t\\tkzLabelAngle[pos=1](O,A,S){\\footnotesize $60^\\circ$}\n\t\t\t\\end{tikzpicture}\n\t\t}\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H2B1-2]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce6"
+  },
+  "code": "TN_11_34",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho một hình thang cân $ABCD$ có các cạnh đáy $AB= 2a$, $CD =4a$, cạnh bên $AD= BC =3a$. Hãy tính thể tích của khối tròn xoay sinh bởi hình thang đó khi quay quanh trục đối xứng của nó.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $\\dfrac{14a^3\\sqrt{2}}{3}$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{28a^3\\sqrt{2}}{3}$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{14a^3}{\\sqrt{3}}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{56a^3\\sqrt{2}}{3}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Gọi $O'$, $O$ lần lượt là trung điểm của $ AB $, $ CD $. Suy ra $ OO' $ là trục đối xứng của hình thang cân $ ABCD $. \\\\Kẻ $ AA'\\perp CD $ ($ A'\\in CD $).\\\\Khối tròn xoay sinh bởi hình thang cân $ ABCD $ khi quay quanh trục đối xứng $ OO' $ là khối nón cụt có bán kính hai đáy là }{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}\\noindent$ r_1=\\dfrac{AB}{2}=a $, $ r_2=\\dfrac{CD}{2}=2a $, chiều cao $ h= AA'=\\sqrt{AD^2-DA'^2}=\\sqrt{(3a)^2-a^2}=2\\sqrt{2}a$.\\\\Thể tích khối tròn xoay cần tìm là $$ V = \\dfrac{1}{3}\\pi \\left(r_1^2 + r_2^2 + r_1r_2\\right) h = \\dfrac{1}{3}\\pi \\left(a^2 + (2a)^2 + a\\cdot 2a\\right)  \\cdot 2\\sqrt{2}a = \\dfrac{14a^3\\sqrt{2}}{3}.$$}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H2B1-1]\n\tCho một hình thang cân $ABCD$ có các cạnh đáy $AB= 2a$, $CD =4a$, cạnh bên $AD= BC =3a$. Hãy tính thể tích của khối tròn xoay sinh bởi hình thang đó khi quay quanh trục đối xứng của nó.\n\t\\choice\n\t{\\True $\\dfrac{14a^3\\sqrt{2}}{3}$}\n\t{$\\dfrac{28a^3\\sqrt{2}}{3}$}\n\t{$\\dfrac{14a^3}{\\sqrt{3}}$}\n\t{$\\dfrac{56a^3\\sqrt{2}}{3}$}\n\t\\loigiai{\n\t\t\\immini{\n\t\t\tGọi $O'$, $O$ lần lượt là trung điểm của $ AB $, $ CD $. Suy ra $ OO' $ là trục đối xứng của hình thang cân $ ABCD $. \\\\\n\t\t\tKẻ $ AA'\\perp CD $ ($ A'\\in CD $).\\\\\n\t\t\tKhối tròn xoay sinh bởi hình thang cân $ ABCD $ khi quay quanh trục đối xứng $ OO' $ là khối nón cụt có bán kính hai đáy là \n\t\t}{\n\t\t\t\\begin{tikzpicture}[scale=0.45, line join=round, line cap=round]\n\t\t\t\\tikzset{label style/.style={font=\\footnotesize}}\n\t\t\t\\tkzDefPoints{0/0/O,3/0/B',-3/0/A',0/5.5/O'}\n\t\t\t%\\draw (B) arc (180:360:3cm and 1cm);\n\t\t\t%\t\\draw (O) ellipse (5cm and 1cm);\n\t\t\t\\draw (O') ellipse (3cm and 1cm);\n\t\t\t\\coordinate (C) at ($(O)+(0:5cm and 1cm)$);\n\t\t\t\\coordinate (B) at ($(O')+(0:3cm and 1cm)$);\n\t\t\t\\coordinate (D) at ($(O)+(180:5cm and 1cm)$);\n\t\t\t\\coordinate (A) at ($(O')+(180:3cm and 1cm)$);\n\t\t\t\\draw[dashed] (C) arc (0:180:5cm and 1cm);\n\t\t\t\\draw (C) arc (0:-180:5cm and 1cm);\n\t\t\t\\tkzDrawSegments(O',B C,B D,A O',A)\n\t\t\t\\tkzDrawSegments[dashed](O,O' O,C O,D A,A')\n\t\t\t\\tkzDrawPoints[fill=black](O,O',C,B,D,A)\n\t\t\t\\tkzLabelPoints[below right](O')\n\t\t\t\\tkzLabelPoints[above right](O,A')\n\t\t\t\\tkzLabelPoints[left](A,D)\n\t\t\t\\tkzLabelPoints[right](B,C)\n\t\t\t\\tkzLabelSegment[pos=.5,above](A,B){\\footnotesize $2a$}\n\t\t\t\\tkzLabelSegment[pos=.5,below](C,D){\\footnotesize $4a$}\n\t\t\t\\tkzLabelSegment[pos=.5,right](C,B){\\footnotesize $3a$}\n\t\t\t\\tkzLabelSegment[pos=.5,left](A,D){\\footnotesize $3a$}\n\t\t\t\\tkzMarkRightAngles(O',O,C)\n\t\t\t\\tkzMarkRightAngles(A,A',O)\n\t\t\t\\end{tikzpicture}\n\t\t}\n\t\t\\noindent\n\t\t$ r_1=\\dfrac{AB}{2}=a $, $ r_2=\\dfrac{CD}{2}=2a $, chiều cao $ h= AA'=\\sqrt{AD^2-DA'^2}=\\sqrt{(3a)^2-a^2}=2\\sqrt{2}a$.\\\\\n\t\tThể tích khối tròn xoay cần tìm là $$ V = \\dfrac{1}{3}\\pi \\left(r_1^2 + r_2^2 + r_1r_2\\right) h = \\dfrac{1}{3}\\pi \\left(a^2 + (2a)^2 + a\\cdot 2a\\right)  \\cdot 2\\sqrt{2}a = \\dfrac{14a^3\\sqrt{2}}{3}.$$\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H2B1-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce7"
+  },
+  "code": "TN_11_35",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hình chóp $S.ABCD$ có đáy $ ABCD $ là hình vuông, $SA$ vuông góc với mặt phẳng đáy, $AB=a$ và $ SB=2a $. Góc giữa đường thẳng $SB$ và mặt phẳng đáy bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $60^\\circ$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$90^\\circ$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$45^\\circ$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$30^\\circ$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $SB\\cap \\left( ABCD \\right)=B$; $SA\\bot \\left( ABCD \\right)$ tại $A$.\\\\Suy ra hình chiếu vuông góc của $SB$ lên mặt phẳng $\\left( ABCD \\right)$ là $AB$. Do đó góc giữa đường thẳng $SB$ và mặt phẳng $\\left( ABCD \\right)$ là $\\widehat{SBA}$.\\\\Ta có $\\cos \\widehat{SBA}=\\dfrac{AB}{SB}=\\dfrac{a}{2a}=\\dfrac{1}{2}\\Rightarrow \\widehat{SBA}=60^\\circ$.\\\\Vậy góc giữa đường thẳng $SB$ và mặt phẳng $\\left( ABCD \\right)$ bằng $60^\\circ$.}{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1H3B4-3]\n\tCho hình chóp $S.ABCD$ có đáy $ ABCD $ là hình vuông, $SA$ vuông góc với mặt phẳng đáy, $AB=a$ và $ SB=2a $. Góc giữa đường thẳng $SB$ và mặt phẳng đáy bằng\n\t\\choice\n\t{\\True $60^\\circ$}\n\t{$90^\\circ$}\n\t{$45^\\circ$}\n\t{$30^\\circ$}\n\t\\loigiai{\n\t\t\\immini{\n\t\t\tTa có $SB\\cap \\left( ABCD \\right)=B$; $SA\\bot \\left( ABCD \\right)$ tại $A$.\\\\\n\t\t\tSuy ra hình chiếu vuông góc của $SB$ lên mặt phẳng $\\left( ABCD \\right)$ là $AB$. Do đó góc giữa đường thẳng $SB$ và mặt phẳng $\\left( ABCD \\right)$ là $\\widehat{SBA}$.\\\\\n\t\t\tTa có $\\cos \\widehat{SBA}=\\dfrac{AB}{SB}=\\dfrac{a}{2a}=\\dfrac{1}{2}\\Rightarrow \\widehat{SBA}=60^\\circ$.\\\\\n\t\t\tVậy góc giữa đường thẳng $SB$ và mặt phẳng $\\left( ABCD \\right)$ bằng $60^\\circ$.\n\t\t}{\n\t\t\t\\begin{tikzpicture}[scale=0.5]\n\t\t\t\\tkzDefPoints{0/0/O, -4/-1/B, 2/-1/C}\n\t\t\t\\tkzDefPointBy[symmetry = center O](B)\n\t\t\t\\tkzGetPoint{D}\n\t\t\t\\tkzDefPointBy[symmetry = center O](C)\n\t\t\t\\tkzGetPoint{A}\n\t\t\t\\coordinate (S) at ($(A)+(0,6)$);\n\t\t\t\\tkzDrawSegments(S,B S,C S,D B,C D,C)\n\t\t\t\\tkzDrawSegments[dashed](A,S A,B A,C A,D)\n\t\t\t\\tkzLabelPoints[above](S)\n\t\t\t\\tkzLabelPoints[right](D,C)\n\t\t\t\\tkzLabelPoints[left](B,A)\n\t\t\t\\tkzDrawPoints[fill=black](A,B,C,D,S)\n\t\t\t\\tkzMarkAngle[size=1](A,B,S)\n\t\t\t\\end{tikzpicture}}\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1H3B4-3]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce8"
+  },
+  "code": "TN_11_36",
+  "description": "",
+  "level": 2,
+  "duration": 120,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hình chóp $S.ABC$. Gọi $ M $, $ N $, $ P $, $ Q $ lần lượt là trung điểm của $ SA $, $ SB $, $ SC $. Tỉ số thể tích $ \\dfrac{V_{S.ABC}}{V_{S.MNP}} $ bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$2$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $8$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$12$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$3$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $$ \\dfrac{V_{S.ABC}}{V_{S.MNP}} =\\dfrac{SA}{SM}\\cdot\\dfrac{SB}{SN}\\cdot\\dfrac{SC}{SP}=2\\cdot 2\\cdot 2=8.$$}{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H1B3-3]\n\tCho hình chóp $S.ABC$. Gọi $ M $, $ N $, $ P $, $ Q $ lần lượt là trung điểm của $ SA $, $ SB $, $ SC $. Tỉ số thể tích $ \\dfrac{V_{S.ABC}}{V_{S.MNP}} $ bằng\n\t\\choice\n\t{$2$}\n\t{\\True $8$}\n\t{$12$}\n\t{$3$}\n\t\\loigiai{\n\t\t\\immini{\n\t\t\tTa có $$ \\dfrac{V_{S.ABC}}{V_{S.MNP}} =\\dfrac{SA}{SM}\\cdot\\dfrac{SB}{SN}\\cdot\\dfrac{SC}{SP}=2\\cdot 2\\cdot 2=8.$$\n\t\t}{\n\t\t\t\\begin{tikzpicture}[scale=0.6]\n\t\t\t\\tkzDefPoints{0/0/A, 2/-2/B, 6/0/C,2/5/S}\n\t\t\t\\coordinate (M) at ($(S)!1/2!(A)$);\n\t\t\t\\coordinate (N) at ($(S)!1/2!(B)$);\n\t\t\t\\coordinate (P) at ($(S)!1/2!(C)$);\n\t\t\t\\tkzDrawPolygon(S,A,B,C)\n\t\t\t\\tkzDrawSegments[dashed](A,C M,P)\n\t\t\t\\tkzDrawSegments(M,N N,P S,B)\n\t\t\t\\tkzLabelPoints[above](S)\n\t\t\t\\tkzLabelPoints[below](B) \n\t\t\t\\tkzLabelPoints[below right](N) \n\t\t\t\\tkzLabelPoints[right](C,P)\n\t\t\t\\tkzLabelPoints[left](A,M)\n\t\t\t\\tkzDrawPoints[fill=black](A,B,C,S,M,N,P)\n\t\t\t\\end{tikzpicture}\t\n\t\t}\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H1B3-3]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ce9"
+  },
+  "code": "TN_11_37",
+  "description": "",
+  "level": 3,
+  "duration": 180,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Có $ 100 $ tấm thẻ được đánh số từ $ 201 $ đến $ 300 $ (mỗi tấm thẻ được đánh một số khác nhau). Lấy ngẫu nhiên $ 3 $ tấm thẻ trong hộp. Tính xác suất để lấy được $ 3 $ tấm thẻ có tổng các số ghi trên thẻ là số chia hết cho $ 3 $.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$\\dfrac{2203}{7350}$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{2179}{7350}$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{248}{3675}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\dfrac{817}{2450}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{ Số cách lấy ra $ 3 $ tấm thẻ trong $ 100 $ tấm thẻ là $ \\mathrm{C}_{100}^3=161700\\Rightarrow \\mathrm{n}(\\Omega)=161700 $.\\\\Trong $ 100 $ tấm thẻ từ $ 201 $ đến $ 300 $, số các tấm thẻ chia hết cho $ 3 $, chia $ 3 $ dư $ 1 $, chia $ 3 $ dư $ 2 $ lần lượt là $ 34 $ tấm, $ 33 $ tấm, $ 33 $ tấm.\\\\Gọi $A$ là biến cố \\lq\\lq Lấy được $ 3 $ tấm thẻ có tổng các số ghi trên thẻ là số chia hết cho $ 3 $\\rq\\rq.\\begin{itemize}\\item Trường hợp 1: Cả ba tấm thẻ lấy ra đều chia hết cho $ 3 $.\\\\Số cách lấy là $ \\mathrm{C}_{34}^3=5984 $ (cách).\\item Trường hợp 2: Cả ba tấm thẻ lấy ra đều chia $ 3 $ dư $ 1 $.\\\\Số cách lấy là $ \\mathrm{C}_{33}^3=5456 $ (cách).\\item Trường hợp 3: Cả ba tấm thẻ lấy ra đều chia $ 3 $ dư $ 2 $.\\\\Số cách lấy là $ \\mathrm{C}_{33}^3=5456 $ (cách).\\item Trường hợp 4: Ba tấm thẻ lấy ra có một tấm chia hết cho $ 3 $, một tấm chia $ 3 $ dư $ 1 $ và một tấm chia $ 3 $ dư $ 2 $.\\\\Số cách lấy là $ 34\\cdot 33 \\cdot 33=37026 $ (cách).\\end{itemize}Vậy số các trường hợp thuận lợi của biến cố $A$ là $ \\mathrm{n}(A)=5984+5456+5456+37026=53922 $ (cách).Xác suất của biến cố $A$ là $ \\mathrm{P}(A) =\\dfrac{\\mathrm{n}(A)}{ \\mathrm{n}(\\Omega)}=\\dfrac{53922}{161700}=\\dfrac{817}{2450}$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1D2K5-2] \n\tCó $ 100 $ tấm thẻ được đánh số từ $ 201 $ đến $ 300 $ (mỗi tấm thẻ được đánh một số khác nhau). Lấy ngẫu nhiên $ 3 $ tấm thẻ trong hộp. Tính xác suất để lấy được $ 3 $ tấm thẻ có tổng các số ghi trên thẻ là số chia hết cho $ 3 $. \n\t\\choice\n\t{$\\dfrac{2203}{7350}$}\n\t{$\\dfrac{2179}{7350}$}\n\t{$\\dfrac{248}{3675}$}\n\t{\\True $\\dfrac{817}{2450}$}\n\t\\loigiai{ \n\t\tSố cách lấy ra $ 3 $ tấm thẻ trong $ 100 $ tấm thẻ là $ \\mathrm{C}_{100}^3=161700\\Rightarrow \\mathrm{n}(\\Omega)=161700 $.\\\\\n\t\tTrong $ 100 $ tấm thẻ từ $ 201 $ đến $ 300 $, số các tấm thẻ chia hết cho $ 3 $, chia $ 3 $ dư $ 1 $, chia $ 3 $ dư $ 2 $ lần lượt là $ 34 $ tấm, $ 33 $ tấm, $ 33 $ tấm.\\\\\n\t\tGọi $A$ là biến cố \\lq\\lq Lấy được $ 3 $ tấm thẻ có tổng các số ghi trên thẻ là số chia hết cho $ 3 $\\rq\\rq.\n\t\t\\begin{itemize}\n\t\t\t\\item Trường hợp 1: Cả ba tấm thẻ lấy ra đều chia hết cho $ 3 $.\\\\\n\t\t\tSố cách lấy là $ \\mathrm{C}_{34}^3=5984 $ (cách).\n\t\t\t\\item Trường hợp 2: Cả ba tấm thẻ lấy ra đều chia $ 3 $ dư $ 1 $.\\\\\n\t\t\tSố cách lấy là $ \\mathrm{C}_{33}^3=5456 $ (cách).\n\t\t\t\\item Trường hợp 3: Cả ba tấm thẻ lấy ra đều chia $ 3 $ dư $ 2 $.\\\\\n\t\t\tSố cách lấy là $ \\mathrm{C}_{33}^3=5456 $ (cách).\n\t\t\t\\item Trường hợp 4: Ba tấm thẻ lấy ra có một tấm chia hết cho $ 3 $, một tấm chia $ 3 $ dư $ 1 $ và một tấm chia $ 3 $ dư $ 2 $.\\\\\n\t\t\tSố cách lấy là $ 34\\cdot 33 \\cdot 33=37026 $ (cách).\n\t\t\\end{itemize}\n\t\tVậy số các trường hợp thuận lợi của biến cố $A$ là \n\t\t\\begin{center}\n\t\t\t$ \\mathrm{n}(A)=5984+5456+5456+37026=53922 $ (cách).\n\t\t\\end{center}\n\t\tXác suất của biến cố $A$ là $ \\mathrm{P}(A) =\\dfrac{\\mathrm{n}(A)}{ \\mathrm{n}(\\Omega)}=\\dfrac{53922}{161700}=\\dfrac{817}{2450}$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1D2K5-2] ",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cea"
+  },
+  "code": "TN_11_38",
+  "description": "",
+  "level": 3,
+  "duration": 180,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật với $AB=a$, $ AD=2a $. Hình chiếu vuông góc của $ S $ trên mặt phẳng đáy là trung điểm $ H $ của $ AD $, góc giữa $ SB $ và mặt phẳng đáy $ ABCD $ là $ 45^\\circ $. Tính khoảng cách giữa hai đường thẳng $SD$ và $BH$ theo $ a $.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$a\\sqrt{\\dfrac{2}{3}}$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $a\\sqrt{\\dfrac{2}{5}}$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{2a}{\\sqrt{3}}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{a}{\\sqrt{3}}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Gọi $K$ là trung điểm của $BC$ thì $BH\\parallel KD$.\\\\Suy ra $BH \\parallel (SDK)$.\\\\Ta có $\\mathrm{d}(BH,SD)=\\mathrm{d}(BH,(SDK))=\\mathrm{d}(H,(SDK))$.\\\\Dễ thấy $ HKCD $ là hình vuông cạnh $ a $.\\\\Suy ra $ CH \\perp DK$ và $HC=a\\sqrt{2}$.\\\\Gọi $ I=CH \\cap DK $.\\\\Trong $ (SHC) $: Kẻ $ HJ \\perp SI $ ($ J\\in SI $).\\\\Vì $\\heva{& DK\\perp CH \\\\ & DK\\perp SH}\\Rightarrow DK \\perp (SHC)\\Rightarrow DK \\perp HJ$.}{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}\\noindentTa có $\\heva{& HJ\\perp SI \\\\ & HJ\\perp DK}\\Rightarrow HJ\\perp (SDK)\\Rightarrow HJ=\\mathrm{d}(H,(SDK))$.\\\\$ \\triangle SHB $ vuông tại $ H $, có $ \\widehat{SBH}= 45^\\circ \\Rightarrow \\triangle SHB $ vuông cân tại $ H \\Rightarrow SH=BH=a\\sqrt{2} $.\\\\Trong $ \\triangle SHI $ vuông tại $ H $, có $ HJ $ là đường cao: $$ \\dfrac{1}{HJ^2} = \\dfrac{1}{SH^2} + \\dfrac{1}{HI^2} = \\dfrac{1}{\\left( a\\sqrt{2} \\right)^2} + \\dfrac{1}{\\left( \\dfrac{a\\sqrt{2}}{2}\\right)^2} =\\dfrac{2}{5a^2}\\Rightarrow HJ=a\\sqrt{\\dfrac{2}{5}}.$$Vậy $\\mathrm{d}(BH,SD)=HJ=a\\sqrt{\\dfrac{2}{5}}$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1H3K5-4]\n\tCho hình chóp $S.ABCD$ có đáy là hình chữ nhật với $AB=a$, $ AD=2a $. Hình chiếu vuông góc của $ S $ trên mặt phẳng đáy là trung điểm $ H $ của $ AD $, góc giữa $ SB $ và mặt phẳng đáy $ ABCD $ là $ 45^\\circ $. Tính khoảng cách giữa hai đường thẳng $SD$ và $BH$ theo $ a $.\n\t\\choice\n\t{$a\\sqrt{\\dfrac{2}{3}}$}\n\t{\\True $a\\sqrt{\\dfrac{2}{5}}$}\n\t{$\\dfrac{2a}{\\sqrt{3}}$}\n\t{$\\dfrac{a}{\\sqrt{3}}$}\n\t\\loigiai{\n\t\t\\immini{\n\t\t\tGọi $K$ là trung điểm của $BC$ thì $BH\\parallel KD$.\\\\\n\t\t\tSuy ra $BH \\parallel (SDK)$.\\\\\n\t\t\tTa có $\\mathrm{d}(BH,SD)=\\mathrm{d}(BH,(SDK))=\\mathrm{d}(H,(SDK))$.\\\\\n\t\t\tDễ thấy $ HKCD $ là hình vuông cạnh $ a $.\\\\\n\t\t\tSuy ra $ CH \\perp DK$ và $HC=a\\sqrt{2}$.\\\\\n\t\t\tGọi $ I=CH \\cap DK $.\\\\\n\t\t\tTrong $ (SHC) $: Kẻ $ HJ \\perp SI $ ($ J\\in SI $).\\\\\n\t\t\tVì $\\heva{\n\t\t\t\t& DK\\perp CH \\\\ \n\t\t\t\t& DK\\perp SH}\\Rightarrow DK \\perp (SHC)\\Rightarrow DK \\perp HJ$.\n\t\t}\n\t\t{\n\t\t\t\\begin{tikzpicture}[scale=.8, font=\\footnotesize, line join=round, line cap=round, >=stealth]\n\t\t\t\\tkzDefPoints{0/0/A, 3/-2/C, -2/-2/D}\n\t\t\t\\clip(-2.5,-3) rectangle (6,5.5);\n\t\t\t\\tkzDefPointBy[translation=from D to C](A) \\tkzGetPoint{B}\n\t\t\t\\tkzDefMidPoint(A,D) \\tkzGetPoint{H}\n\t\t\t\\coordinate (S) at ($(H)+(0,5)$);\n\t\t\t\\tkzDefMidPoint(C,B) \\tkzGetPoint{K}\n\t\t\t\\tkzDefMidPoint(H,C) \\tkzGetPoint{I}\n\t\t\t\\coordinate (J) at ($(S)!2/5!(I)$);\n\t\t\t\\tkzDrawSegments(S,D S,C S,B D,C C,B S,K)\n\t\t\t\\tkzDrawSegments[dashed](S,A A,D S,H A,B D,K H,J H,B S,I H,C H,K)\n\t\t\t\\tkzDrawPoints[fill=black](S,A,B,C,D,H,K,I,J)\n\t\t\t\\tkzLabelPoints[left](A)\n\t\t\t\\tkzLabelPoints[above](S)\n\t\t\t\\tkzLabelPoints[below](H,D,C,I)\n\t\t\t\\tkzLabelPoints[right](B,K,J)\n\t\t\t\\tkzMarkRightAngles(S,H,B  A,D,C D,A,B D,C,B A,B,C H,J,I C,I,K)\n\t\t\t\\tkzLabelSegment[above,pos=0.4](A,B){ $a$}\n\t\t\t\\tkzLabelSegment[left,pos=.5](A,D){ $2a$}\n\t\t\t\\tkzMarkSegments[mark=||](H,A H,D)\n\t\t\t\\tkzMarkAngle[size=.4](S,B,H)\n\t\t\t\\tkzLabelAngle[pos=-1](S,B,H){$45^\\circ$}\n\t\t\t\\end{tikzpicture}\t\t\n\t\t}\n\t\t\\noindent\n\t\tTa có $\\heva{\n\t\t\t& HJ\\perp SI \\\\ \n\t\t\t& HJ\\perp DK}\\Rightarrow HJ\\perp (SDK)\\Rightarrow HJ=\\mathrm{d}(H,(SDK))$.\\\\\n\t\t$ \\triangle SHB $ vuông tại $ H $, có $ \\widehat{SBH}= 45^\\circ \\Rightarrow \\triangle SHB $ vuông cân tại $ H \\Rightarrow SH=BH=a\\sqrt{2} $.\\\\\n\t\tTrong $ \\triangle SHI $ vuông tại $ H $, có $ HJ $ là đường cao: $$ \\dfrac{1}{HJ^2} = \\dfrac{1}{SH^2} + \\dfrac{1}{HI^2} = \\dfrac{1}{\\left( a\\sqrt{2} \\right)^2} + \\dfrac{1}{\\left( \\dfrac{a\\sqrt{2}}{2}\\right)^2} =\\dfrac{2}{5a^2}\\Rightarrow HJ=a\\sqrt{\\dfrac{2}{5}}.$$\n\t\tVậy $\\mathrm{d}(BH,SD)=HJ=a\\sqrt{\\dfrac{2}{5}}$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[1H3K5-4]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ceb"
+  },
+  "code": "TN_11_39",
+  "description": "",
+  "level": 3,
+  "duration": 180,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $ y = \\dfrac{mx + 8}{x +2m}$ ($ m $ là tham số thực). Có bao nhiêu giá trị nguyên của $ m $ để hàm số đã cho nghịch biến trên khoảng $ (1;+\\infty) $?",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$ 4 $",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $ 2 $",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$ 5 $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$ 3 $",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Tập xác định: $\\mathscr{D} =  \\mathbb{R} \\setminus \\{ -2m \\}$.\\\\$  y'= \\dfrac{2m^2 - 8}{(x + 2m)^2},\\,\\forall x \\ne -2m$.\\\\Vì $x\\in (1;+\\infty) $, $ -2m \\ne x $ nên $ -2m \\in (-\\infty; 1] \\Leftrightarrow m \\in \\left[ -\\dfrac{1}{2};+ \\infty \\right)$.\\\\Hàm số đã cho nghịch biến trên khoảng $ (1;+\\infty) \\Leftrightarrow y' < 0,\\,\\forall x \\in (1;+\\infty)$. Khi đó$$ \\heva{&2m^2 - 8 < 0 \\\\ &m \\geq -\\dfrac{1}{2}} \\Leftrightarrow \\heva{&-2 < m < 2 \\\\ &m \\geq -\\dfrac{1}{2}} \\Leftrightarrow -\\dfrac{1}{2} \\leq m < 2.$$Mà $ m\\in \\mathbb{Z}\\Rightarrow m\\in \\{0;1\\} $.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1K1-3] \n\tCho hàm số $ y = \\dfrac{mx + 8}{x +2m}$ ($ m $ là tham số thực). Có bao nhiêu giá trị nguyên của $ m $ để hàm số đã cho nghịch biến trên khoảng $ (1;+\\infty) $?\n\t\\choice\n\t{$ 4 $}\n\t{\\True $ 2 $}\n\t{$ 5 $}\n\t{$ 3 $}\n\t\\loigiai{\n\t\tTập xác định: $\\mathscr{D} =  \\mathbb{R} \\setminus \\{ -2m \\}$.\\\\\n\t\t$  y'= \\dfrac{2m^2 - 8}{(x + 2m)^2},\\,\\forall x \\ne -2m$.\\\\\n\t\tVì $x\\in (1;+\\infty) $, $ -2m \\ne x $ nên $ -2m \\in (-\\infty; 1] \\Leftrightarrow m \\in \\left[ -\\dfrac{1}{2};+ \\infty \\right)$.\\\\\n\t\tHàm số đã cho nghịch biến trên khoảng $ (1;+\\infty) \\Leftrightarrow y' < 0,\\,\\forall x \\in (1;+\\infty)$. Khi đó\n\t\t$$ \\heva{&2m^2 - 8 < 0 \\\\ &m \\geq -\\dfrac{1}{2}} \\Leftrightarrow \n\t\t\\heva{&-2 < m < 2 \\\\ &m \\geq -\\dfrac{1}{2}} \\Leftrightarrow -\\dfrac{1}{2} \\leq m < 2.\n\t\t$$\n\t\tMà $ m\\in \\mathbb{Z}\\Rightarrow m\\in \\{0;1\\} $.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1K1-3] ",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cec"
+  },
+  "code": "TN_11_40",
+  "description": "",
+  "level": 3,
+  "duration": 180,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho $ a $, $b$ là các số thực dương thỏa mãn $ \\log_3x=\\log_4y=\\log_5(x+y)$. Giá trị của $ 2x+y $ bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$25$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$9$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $34$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$16$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Điều kiện: $ \\heva{&x > 0\\\\&y > 0.}$\\\\Đặt $\\log_3x=\\log_4y=\\log_5(x+y)=t $. Ta có $ x=3^t $, $ y=4^t $, $ x+y=5^t$.\\\\Suy ra $3^t+4^t=5^t \\Leftrightarrow  \\left(\\dfrac{3}{5}\\right)^t+ \\left(\\dfrac{4}{5}\\right)^t=1.\\quad (1)$\\\\Ta có $ t=2 $ là nghiệm của phương trình $ (1) $ vì $  \\left(\\dfrac{3}{5}\\right)^2+ \\left(\\dfrac{4}{5}\\right)^2=1 $.\\\\Ta chứng minh $ t=2 $ là nghiệm duy nhất.\\\\Thật vậy, xét $ f(t)= \\left(\\dfrac{3}{5}\\right)^t+ \\left(\\dfrac{4}{5}\\right)^t $.\\\\Ta có $ f'(t)= \\left(\\dfrac{3}{5}\\right)^t \\ln \\dfrac{3}{5}+ \\left(\\dfrac{4}{5}\\right)^t \\ln \\dfrac{4}{5}<0$, $ \\forall x\\in \\mathbb{R} $ nên $ f(t) $ nghịch biến trên $ \\mathbb{R} $.\\\\Do đó \\begin{itemize}\\item Với $ t>2 $ thì $ f(t) <f(2)$ hay $  \\left(\\dfrac{3}{5}\\right)^t+ \\left(\\dfrac{4}{5}\\right)^t<1 $ nên phương trình $ (1) $ không có nghiệm $ t>2 $.\\item Với $ t<2 $ thì $ f(t) <f(2)$ hay $  \\left(\\dfrac{3}{5}\\right)^t+ \\left(\\dfrac{4}{5}\\right)^t>1 $ nên phương trình $ (1) $ không có nghiệm $ t<2 $.\\end{itemize}Vậy phương trình $ (1) $ có một nghiệm duy nhất $ t=2 $.\\\\Từ đó suy ra $ x=9 $, $ y=16 \\Rightarrow 2x+y=34$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2K5-5]\n\tCho $ a $, $b$ là các số thực dương thỏa mãn $ \\log_3x=\\log_4y=\\log_5(x+y)$. Giá trị của $ 2x+y $ bằng\n\t\\choice\n\t{$25$}\n\t{$9$}\n\t{\\True $34$}\n\t{$16$}\n\t\\loigiai{\n\t\tĐiều kiện: $ \\heva{&x > 0\\\\&y > 0.}$\\\\\n\t\tĐặt $\\log_3x=\\log_4y=\\log_5(x+y)=t $. Ta có $ x=3^t $, $ y=4^t $, $ x+y=5^t$.\\\\\n\t\tSuy ra $3^t+4^t=5^t \\Leftrightarrow  \\left(\\dfrac{3}{5}\\right)^t+ \\left(\\dfrac{4}{5}\\right)^t=1.\\quad (1)$\\\\\n\t\tTa có $ t=2 $ là nghiệm của phương trình $ (1) $ vì $  \\left(\\dfrac{3}{5}\\right)^2+ \\left(\\dfrac{4}{5}\\right)^2=1 $.\\\\\n\t\tTa chứng minh $ t=2 $ là nghiệm duy nhất.\\\\\n\t\tThật vậy, xét $ f(t)= \\left(\\dfrac{3}{5}\\right)^t+ \\left(\\dfrac{4}{5}\\right)^t $.\\\\\n\t\tTa có $ f'(t)= \\left(\\dfrac{3}{5}\\right)^t \\ln \\dfrac{3}{5}+ \\left(\\dfrac{4}{5}\\right)^t \\ln \\dfrac{4}{5}<0$, $ \\forall x\\in \\mathbb{R} $ nên $ f(t) $ nghịch biến trên $ \\mathbb{R} $.\\\\\n\t\tDo đó \n\t\t\\begin{itemize}\n\t\t\t\\item Với $ t>2 $ thì $ f(t) <f(2)$ hay $  \\left(\\dfrac{3}{5}\\right)^t+ \\left(\\dfrac{4}{5}\\right)^t<1 $ nên phương trình $ (1) $ không có nghiệm $ t>2 $.\n\t\t\t\\item Với $ t<2 $ thì $ f(t) <f(2)$ hay $  \\left(\\dfrac{3}{5}\\right)^t+ \\left(\\dfrac{4}{5}\\right)^t>1 $ nên phương trình $ (1) $ không có nghiệm $ t<2 $.\n\t\t\\end{itemize}\n\t\tVậy phương trình $ (1) $ có một nghiệm duy nhất $ t=2 $.\\\\\n\t\tTừ đó suy ra $ x=9 $, $ y=16 \\Rightarrow 2x+y=34$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2K5-5]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4ced"
+  },
+  "code": "TN_11_41",
+  "description": "",
+  "level": 3,
+  "duration": 180,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $ f(x) $ có $ f(3)=-\\dfrac{25}{3} $ và $ f'(x)=\\dfrac{x}{\\sqrt{x+1}-1} $, $ \\forall x>0 $. Khi đó $\\displaystyle\\int\\limits_3^8 f(x) \\mathrm{\\,d}x$ bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$10$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{25}{3}$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{68}{5}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "\\True  $\\dfrac{13}{30}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có \\begin{eqnarray*}f(x) = \\displaystyle\\int f'(x)\\mathrm{\\,d}x &=& \\displaystyle\\int \\dfrac{x}{\\sqrt{x+1}-1}\\mathrm{\\,d}x\\\\&=&\\displaystyle\\int \\left(\\sqrt{x+1}+1\\right)\\mathrm{\\,d}x\\\\&=& \\dfrac{2}{3} \\sqrt{(x+1)^3}+x+C.\\end{eqnarray*}Ta có $ f(3)=-\\dfrac{25}{3} \\Rightarrow C=-\\dfrac{50}{3}$. Suy ra $ f(x) =\\dfrac{2}{3} \\sqrt{(x+1)^3}+x-\\dfrac{50}{3}$.\\\\Khi đó $\\displaystyle\\int\\limits_3^8 f(x) \\mathrm{\\,d}x=\\displaystyle\\int\\limits_3^8 \\left( \\dfrac{2}{3} \\sqrt{(x+1)^3}+x-\\dfrac{50}{3}\\right) \\mathrm{\\,d}x=\\left( \\dfrac{4}{15} \\sqrt{(x+1)^5}+\\dfrac{x^2}{2}-\\dfrac{50}{3}x\\right) \\bigg|_3^8 = \\dfrac{13}{30}$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3K2-4]\n\tCho hàm số $ f(x) $ có $ f(3)=-\\dfrac{25}{3} $ và $ f'(x)=\\dfrac{x}{\\sqrt{x+1}-1} $, $ \\forall x>0 $. Khi đó $\\displaystyle\\int\\limits_3^8 f(x) \\mathrm{\\,d}x$ bằng\n\t\\choice\n\t{$10$}\n\t{$\\dfrac{25}{3}$}\n\t{$\\dfrac{68}{5}$}\n\t{\\True  $\\dfrac{13}{30}$}\t\n\t\\loigiai{\n\t\tTa có \n\t\t\\begin{eqnarray*}\n\t\t\tf(x) = \\displaystyle\\int f'(x)\\mathrm{\\,d}x &=& \\displaystyle\\int \\dfrac{x}{\\sqrt{x+1}-1}\\mathrm{\\,d}x\\\\\n\t\t\t&=&\\displaystyle\\int \\left(\\sqrt{x+1}+1\\right)\\mathrm{\\,d}x\\\\\n\t\t\t&=& \\dfrac{2}{3} \\sqrt{(x+1)^3}+x+C.\n\t\t\\end{eqnarray*}\t\t\n\t\tTa có $ f(3)=-\\dfrac{25}{3} \\Rightarrow C=-\\dfrac{50}{3}$. Suy ra $ f(x) =\\dfrac{2}{3} \\sqrt{(x+1)^3}+x-\\dfrac{50}{3}$.\\\\\n\t\tKhi đó $\\displaystyle\\int\\limits_3^8 f(x) \\mathrm{\\,d}x=\\displaystyle\\int\\limits_3^8 \\left( \\dfrac{2}{3} \\sqrt{(x+1)^3}+x-\\dfrac{50}{3}\\right) \\mathrm{\\,d}x=\\left( \\dfrac{4}{15} \\sqrt{(x+1)^5}+\\dfrac{x^2}{2}-\\dfrac{50}{3}x\\right) \\bigg|_3^8 = \\dfrac{13}{30}$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3K2-4]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cee"
+  },
+  "code": "TN_11_42",
+  "description": "",
+  "level": 3,
+  "duration": 180,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hình chóp $ S.ABC $ có tam giác $ SAB $ nhọn và nằm trong mặt phẳng vuông góc với mặt đáy $ (ABC) $, tam giác $ ABC $ vuông tại $ C $ có $ AC=a $, $ \\widehat{ABC}=30^\\circ $. Mặt bên $ (SAC) $ và $ (SBC) $ cùng tạo với đáy góc bằng nhau và bằng $ 60^\\circ $. Thể tích của khối chóp $ S.ABC $ theo $ a $ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True  $\\dfrac{\\sqrt{3}a^3}{2\\left(1+\\sqrt{3} \\right)}$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{\\sqrt{2}a^3}{1+\\sqrt{3}}$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{\\sqrt{2}a^3}{2\\left(1+\\sqrt{2} \\right)}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{a^3}{2\\left(1+\\sqrt{5} \\right)}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Theo đề bài, $ (SAB)\\perp (ABC) $ theo giao tuyến $ AB $. \\\\Dựng $ SH \\perp AB \\Rightarrow SH \\perp (SAB)$.\\\\$ \\triangle ABC $ vuông nên $ \\tan 30^\\circ =\\dfrac{AC}{BC} \\Rightarrow BC=a\\sqrt{3}$.\\\\$ S_{ABC}=\\dfrac{1}{2}AC \\cdot BC = \\dfrac{a^2 \\sqrt{3}}{2}.\\quad(1) $\\\\Dựng $ HP \\perp AC $, $ HQ \\perp BC $. Suy ra \\\\$ \\widehat{SPH}=\\widehat{SQH}=((SAC),(ABC))=((SBC),(ABC))=60^\\circ$.\\\\Từ đó ta có $ \\triangle SPH = \\triangle SQH \\Rightarrow HP=HQ$.\\\\Suy ra $ HPCQ $ là hình vuông. }{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}\\noindentĐặt $ HQ=x $, $ 0<x<a\\sqrt{3} \\Rightarrow QB=a\\sqrt{3}-x$.\\\\$ \\triangle HQB $ vuông nên $ \\tan 60^\\circ =\\dfrac{QB}{HQ}\\Rightarrow x\\sqrt{3}=a\\sqrt{3}-x \\Rightarrow x=\\dfrac{a\\sqrt{3}}{\\sqrt{3}+1}=HQ$.\\\\$ \\triangle SHQ $ vuông nên $ \\tan 60^\\circ =\\dfrac{SH}{HQ}\\Rightarrow SH=\\dfrac{3a}{\\sqrt{3}+1}.\\quad(2)$\\\\\\noindentTừ $ (1) $ và $ (2) $ suy ra $ V=\\dfrac{\\sqrt{3}a^3}{2\\left(1+\\sqrt{3} \\right)} $.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H1K3-2] \n\tCho hình chóp $ S.ABC $ có tam giác $ SAB $ nhọn và nằm trong mặt phẳng vuông góc với mặt đáy $ (ABC) $, tam giác $ ABC $ vuông tại $ C $ có $ AC=a $, $ \\widehat{ABC}=30^\\circ $. Mặt bên $ (SAC) $ và $ (SBC) $ cùng tạo với đáy góc bằng nhau và bằng $ 60^\\circ $. Thể tích của khối chóp $ S.ABC $ theo $ a $ là \n\t\\choice\n\t{\\True  $\\dfrac{\\sqrt{3}a^3}{2\\left(1+\\sqrt{3} \\right)}$}\n\t{$\\dfrac{\\sqrt{2}a^3}{1+\\sqrt{3}}$}\n\t{$\\dfrac{\\sqrt{2}a^3}{2\\left(1+\\sqrt{2} \\right)}$}\n\t{$\\dfrac{a^3}{2\\left(1+\\sqrt{5} \\right)}$}\t\n\t\\loigiai{\n\t\t\\immini{\n\t\t\tTheo đề bài, $ (SAB)\\perp (ABC) $ theo giao tuyến $ AB $. \\\\\n\t\t\tDựng $ SH \\perp AB \\Rightarrow SH \\perp (SAB)$.\\\\\n\t\t\t$ \\triangle ABC $ vuông nên $ \\tan 30^\\circ =\\dfrac{AC}{BC} \\Rightarrow BC=a\\sqrt{3}$.\\\\\n\t\t\t$ S_{ABC}=\\dfrac{1}{2}AC \\cdot BC = \\dfrac{a^2 \\sqrt{3}}{2}.\\quad(1) $\\\\\n\t\t\tDựng $ HP \\perp AC $, $ HQ \\perp BC $. Suy ra \\\\\n\t\t\t$ \\widehat{SPH}=\\widehat{SQH}=((SAC),(ABC))=((SBC),(ABC))=60^\\circ$.\\\\\n\t\t\tTừ đó ta có $ \\triangle SPH = \\triangle SQH \\Rightarrow HP=HQ$.\\\\\n\t\t\tSuy ra $ HPCQ $ là hình vuông. \n\t\t}{\n\t\t\t\\begin{tikzpicture}[scale=0.7]\n\t\t\t\\tkzDefPoints{0/0/A, 2/-2/B, 6/0/C}\n\t\t\t\\coordinate (H) at ($(A)!1/3!(B)$);\n\t\t\t\\coordinate (S) at ($(H)+(0,5)$);\n\t\t\t\\tkzDrawPolygon(S,A,B,C)\n\t\t\t\\tkzDefLine[parallel=through H](B,C) \\tkzGetPoint{c}\n\t\t\t\\tkzInterLL(H,c)(A,C)    \\tkzGetPoint{P}\n\t\t\t\\tkzDefLine[parallel=through H](A,C) \\tkzGetPoint{d}\n\t\t\t\\tkzInterLL(H,d)(B,C)    \\tkzGetPoint{Q}\n\t\t\t\\tkzDrawSegments[dashed](A,C H,P H,Q S,P)\n\t\t\t\\tkzDrawSegments(S,H S,B S,Q)\n\t\t\t\\tkzLabelPoints[above](S)\n\t\t\t\\tkzLabelPoints[below](B) \n\t\t\t\\tkzLabelPoints[below right](Q) \n\t\t\t\\tkzLabelPoints[above right](P) \n\t\t\t\\tkzLabelPoints[below left](H) \n\t\t\t\\tkzLabelPoints[right](C)\n\t\t\t\\tkzLabelPoints[left](A)\n\t\t\t\\tkzDrawPoints[fill=black](A,B,C,S,H,P,Q)\n\t\t\t\\tkzMarkRightAngle[size=.2](S,H,B)\n\t\t\t\\tkzMarkRightAngle[size=.2](A,P,H)\n\t\t\t\\tkzMarkRightAngle[size=.2](A,C,B)\n\t\t\t\\tkzMarkRightAngle[size=.2](H,Q,B)\n\t\t\t\\tkzMarkAngle[size=.4](C,B,A)\n\t\t\t\\tkzLabelAngle[above right,pos=.4](C,B,A){\\footnotesize $30^\\circ$}\n\t\t\t\\end{tikzpicture}\t\n\t\t}\n\t\t\\noindent\n\t\tĐặt $ HQ=x $, $ 0<x<a\\sqrt{3} \\Rightarrow QB=a\\sqrt{3}-x$.\\\\\n\t\t$ \\triangle HQB $ vuông nên $ \\tan 60^\\circ =\\dfrac{QB}{HQ}\\Rightarrow x\\sqrt{3}=a\\sqrt{3}-x \\Rightarrow x=\\dfrac{a\\sqrt{3}}{\\sqrt{3}+1}=HQ$.\\\\\n\t\t$ \\triangle SHQ $ vuông nên $ \\tan 60^\\circ =\\dfrac{SH}{HQ}\\Rightarrow SH=\\dfrac{3a}{\\sqrt{3}+1}.\\quad(2)$\\\\\n\t\t\\noindent\n\t\tTừ $ (1) $ và $ (2) $ suy ra $ V=\\dfrac{\\sqrt{3}a^3}{2\\left(1+\\sqrt{3} \\right)} $.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2H1K3-2] ",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cef"
+  },
+  "code": "TN_11_43",
+  "description": "",
+  "level": 3,
+  "duration": 180,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong một lớp học gồm 18 học sinh nam và 17 học sinh nữ. Giáo viên gọi ngẫu nhiên 4 học sinh lên bảng. Tính xác suất để 4 học sinh được gọi có cả nam lẫn nữ.",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$\\dfrac{65}{71}$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $\\dfrac{443}{506}$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{69}{77}$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$\\dfrac{68}{75}$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{ Gọi $ x $ ($ x>0 $) là giá trị Tivi lúc ban đầu. Theo đề bài, sau $ 1 $ năm giá trị Tivi còn $ 0{,}9x $.\\\\Cuối năm thứ nhất còn $ 0{,}9x $.\\\\Cuối năm thứ hai còn $ 0{,}9 \\cdot 0{,}9x =0{,}9^2x$.\\\\$ \\cdots $\\\\Cuối năm thứ $n$ còn $ 0{,}9^nx $.\\\\Theo đề bài, sau $ n $ năm Tivi mất đi ít nhất $90 \\%$ giá trị của nó nên ta có $$ 0{,}9^nx \\leq  0{,}1x \\Leftrightarrow n>21{,}86.$$Mà $ n $ là số nguyên dương nhỏ nhất thỏa mãn nên $ n=22 $.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2K4-5]\n\tTrong một lớp học gồm 18 học sinh nam và 17 học sinh nữ. Giáo viên gọi ngẫu nhiên 4 học sinh lên bảng. Tính xác suất để 4 học sinh được gọi có cả nam lẫn nữ.\n\t\\choice\n\t{$\\dfrac{65}{71}$}\n\t{\\True $\\dfrac{443}{506}$}\n\t{$\\dfrac{69}{77}$}\n\t{$\\dfrac{68}{75}$}\n\t\\loigiai{ \n\t\tGọi $ x $ ($ x>0 $) là giá trị Tivi lúc ban đầu. Theo đề bài, sau $ 1 $ năm giá trị Tivi còn $ 0{,}9x $.\\\\\n\t\tCuối năm thứ nhất còn $ 0{,}9x $.\\\\\n\t\tCuối năm thứ hai còn $ 0{,}9 \\cdot 0{,}9x =0{,}9^2x$.\\\\\n\t\t$ \\cdots $\\\\\n\t\tCuối năm thứ $n$ còn $ 0{,}9^nx $.\\\\\n\t\tTheo đề bài, sau $ n $ năm Tivi mất đi ít nhất $90 \\%$ giá trị của nó nên ta có $$ 0{,}9^nx \\leq  0{,}1x \\Leftrightarrow n>21{,}86.$$\n\t\tMà $ n $ là số nguyên dương nhỏ nhất thỏa mãn nên $ n=22 $.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2K4-5]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cf0"
+  },
+  "code": "TN_11_44",
+  "description": "",
+  "level": 3,
+  "duration": 180,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho phương trình $\\log_3\\dfrac{2x - 1}{(x - 1)^2}=3x^2 - 8x + 5$ có hai nghiệm là $ a $ và $ \\dfrac{a}{b} $ (với $a$, $b\\in \\mathbb{N}^* $ và $ \\dfrac{a}{b} $ là phân số tối giản). Giá trị của $ b-a $ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $ 1 $",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$ 2 $",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$ 3 $",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$ 4 $",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Điều kiện: $ \\dfrac{2x - 1}{(x - 1)^2}>0 \\Leftrightarrow \\heva{&x>\\dfrac{1}{2} \\\\ &x\\ne1.} $\\\\Phương trình đã cho tương đương với \\begin{eqnarray*}&&  \\log_3(2x-1)+(2x-1) -1=\\log_3 {(x-1)^2} +3(x-1)^2 \\\\ &\\Leftrightarrow&  \\log_3(2x-1)+(2x-1) =\\log_3\\left( 3(x-1)^2\\right) +3(x-1)^2.  \\quad (1)\\end{eqnarray*}Xét hàm số $ f(t)=\\log_3t+t$, $t\\in (0;+\\infty) $ có $ f'(t) =\\dfrac{1}{t\\ln3}+1 >0$, $\\forall t\\in (0;+\\infty).$\\\\Với mọi $ x $ thuộc tập xác định thì $ 2x-1 $ và $ 3(x-1)^2 $ thuộc $ (0;+\\infty) $.\\\\Do đó phương trình $ (1) $ tương đương với \\begin{eqnarray*}&&  f\\left(3(x-1)^2 \\right)=f(2x-1) \\\\ &\\Leftrightarrow&  3(x-1)^2=2x-1\\\\&\\Leftrightarrow&  3x^2-8x+4=0\\\\&\\Leftrightarrow& \\hoac{&  x=2 \\,(\\text{thỏa mãn}) \\\\ & x=\\dfrac{2}{3} \\,(\\text{thỏa mãn}).}\\end{eqnarray*}Vậy $ a=2 $, $ b=3 \\Rightarrow b-a=1$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2K5-5]\n\tCho phương trình $\\log_3\\dfrac{2x - 1}{(x - 1)^2}=3x^2 - 8x + 5$ có hai nghiệm là $ a $ và $ \\dfrac{a}{b} $ (với $a$, $b\\in \\mathbb{N}^* $ và $ \\dfrac{a}{b} $ là phân số tối giản). Giá trị của $ b-a $ là\n\t\\choice\n\t{\\True $ 1 $}\n\t{$ 2 $}\n\t{$ 3 $}\n\t{$ 4 $}\n\t\\loigiai{\n\t\tĐiều kiện: $ \\dfrac{2x - 1}{(x - 1)^2}>0 \\Leftrightarrow \\heva{&x>\\dfrac{1}{2} \\\\ &x\\ne1.} $\\\\\n\t\tPhương trình đã cho tương đương với \n\t\t\\begin{eqnarray*}\n\t\t\t&&  \\log_3(2x-1)+(2x-1) -1=\\log_3 {(x-1)^2} +3(x-1)^2 \\\\ \n\t\t\t&\\Leftrightarrow&  \\log_3(2x-1)+(2x-1) =\\log_3\\left( 3(x-1)^2\\right) +3(x-1)^2.  \\quad (1)\n\t\t\\end{eqnarray*}\t\t\n\t\tXét hàm số $ f(t)=\\log_3t+t$, $t\\in (0;+\\infty) $ có $ f'(t) =\\dfrac{1}{t\\ln3}+1 >0$, $\\forall t\\in (0;+\\infty).$\\\\\n\t\tVới mọi $ x $ thuộc tập xác định thì $ 2x-1 $ và $ 3(x-1)^2 $ thuộc $ (0;+\\infty) $.\\\\\n\t\tDo đó phương trình $ (1) $ tương đương với \n\t\t\\begin{eqnarray*}\n\t\t\t&&  f\\left(3(x-1)^2 \\right)=f(2x-1) \\\\ \n\t\t\t&\\Leftrightarrow&  3(x-1)^2=2x-1\\\\\n\t\t\t&\\Leftrightarrow&  3x^2-8x+4=0\\\\\n\t\t\t&\\Leftrightarrow& \\hoac{&  x=2 \\,(\\text{thỏa mãn}) \\\\ & x=\\dfrac{2}{3} \\,(\\text{thỏa mãn}).}\n\t\t\\end{eqnarray*}\t\n\t\tVậy $ a=2 $, $ b=3 \\Rightarrow b-a=1$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2K5-5]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cf1"
+  },
+  "code": "TN_11_45",
+  "description": "",
+  "level": 4,
+  "duration": 240,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $ y=f(x) $ có bảng biến thiên như hình vẽ",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "Có bao nhiêu giá trị nguyên của $ m $ để phương trình $ f(1-2 \\sin x)=f(|m|) $ có nghiệm thực?",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$6$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $7$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$5$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$4$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Đặt $t=1-2 \\sin x$, $t \\in[-1 ; 3]$.\\\\ Phương trình trở thành $ f(t)=f(|m|) $ có nghiệm $t \\in[-1 ; 3] $.\\\\Bảng biến thiên của hàm số $ y=f(t) $ trên $[-1;3]$:",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "Dựa trên bảng biến thiên, để đường thẳng $y=f(|m|)$ cắt đồ thị hàm số $y=f(t)$ trên đoạn $[-1;3]$ thì $$-2 \\leq f(|m|) \\leq 2 \\Leftrightarrow|m| \\leq 3.$$Vậy $m \\in\\{-3,-2-1,0,1,2,3\\}$.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1G5-3]\n\tCho hàm số $ y=f(x) $ có bảng biến thiên như hình vẽ\n\t\\begin{center}\n\t\t\\begin{tikzpicture}[scale=.8]\n\t\t\\tkzTabInit[nocadre=false,lgt=1.2,espcl=2.5,deltacl=0.6]\n\t\t{$x$/.6,$f'(x)$/.6, $f(x)$/4}\n\t\t{$-\\infty$,$-1$,$0$,$2$,$3$,$+\\infty$}\n\t\t\\tkzTabLine{, , ,+,0,-,0,+, , ,}%\n\t\t\\draw\n\t\t(N13) node[above](A){$-\\infty$}\n\t\t($(N32)!0.3!(N33)$)  node[below](B){$2$}\n\t\t($(N22)!0.55!(N23)$)  node[below](I){$-2$}\n\t\t($(N42)!0.55!(N43)$)  node[below](C){$-2$}\n\t\t($(N52)!0.3!(N53)$)  node[below](J){$2$}\n\t\t(N62) node[below](D){$+\\infty$}\n\t\t;\n\t\t\\draw[-stealth](A)--(I)--(B);\n\t\t\\draw[-stealth] (B)--(C);\n\t\t\\draw[-stealth](C)--(J)--(D);\n\t\t\\draw[dashed]\n\t\t(N21)--(I)\n\t\t(N51)--(J)\n\t\t;\n\t\t\\end{tikzpicture}\n\t\\end{center}\n\tCó bao nhiêu giá trị nguyên của $ m $ để phương trình $ f(1-2 \\sin x)=f(|m|) $ có nghiệm thực?\n\t\\choice\n\t{$6$}\n\t{\\True $7$}\t\n\t{$5$}\n\t{$4$}\n\t\\loigiai{\n\t\tĐặt $t=1-2 \\sin x$, $t \\in[-1 ; 3]$.\\\\ \n\t\tPhương trình trở thành $ f(t)=f(|m|) $ có nghiệm $t \\in[-1 ; 3] $.\\\\\n\t\tBảng biến thiên của hàm số $ y=f(t) $ trên $[-1;3]$:\n\t\t\\begin{center}\n\t\t\t\\begin{tikzpicture}[every node/.style={circle,fill=white,inner sep=0.1pt},arrow/.style={>=latex,->,shorten <=7pt,shorten >=7pt},x=1.5cm,y=.6cm,font=\\footnotesize]\n\t\t\t\\def\\n{6} % số nhãn chiều dài\n\t\t\t\\def\\m{6} % số nhãn chiều cao\n\t\t\t\\foreach \\i in {0,...,\\n} \\foreach \\j in {0,...,\\m}{\\path(\\i,-\\j)coordinate(\\j\\i);}\n\t\t\t\\path (-.5,0)node{$t$} (-.5,-1)node{$f'(t)$} (-.5,-\\m/2-1)node{$f(t)$};\n\t\t\t\\path (00)node[right]{$-1$} (0\\n)node[left]{$3$};\n\t\t\t\\path (02)node{$0$} (04)node{$2$};\n\t\t\t\\path (11)node{$+$} (12)node{$0$} (13)node{$-$} (14)node{$0$} (15)node{$+$};\n\t\t\t\\path (60)node[right]{$-2$} (2\\n)node[left]{$2$};\n\t\t\t\\path (22)node{$2$}(64)node{$-2$}\n\t\t\t(40)+(30:0.7)node{\\scriptsize $ $};\n\t\t\t\\draw[arrow] ($(60)+(0:0.3)$)--($(22)+(0:0)$);\n\t\t\t\\draw[arrow] ($(22)+(0:0)$)--($(64)+(0:0)$);\n\t\t\t\\draw[arrow] ($(64)+(0,0)$)--($(2\\n)+(180:0.1)$);\n\t\t\t\\draw[dashed] (40)--(46);\n\t\t\t\\draw[shift={(-1,.5)}](0,0) rectangle +(\\n+1,-\\m-1)\n\t\t\t(0,-1)--+(0:\\n+1)(0,-2)--+(0:\\n+1)(1,0)--+(-90:\\m+1);\n\t\t\t\\end{tikzpicture}\n\t\t\\end{center}\n\t\tDựa trên bảng biến thiên, để đường thẳng $y=f(|m|)$ cắt đồ thị hàm số $y=f(t)$ trên đoạn $[-1;3]$ thì $$-2 \\leq f(|m|) \\leq 2 \\Leftrightarrow|m| \\leq 3.$$\n\t\tVậy $m \\in\\{-3,-2-1,0,1,2,3\\}$.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1G5-3]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cf2"
+  },
+  "code": "TN_11_46",
+  "description": "",
+  "level": 4,
+  "duration": 240,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $ y=f(x) $ liên tục trên $ \\mathbb{R} $ sao cho $ \\max \\limits_{x \\in[0 ; 10]} f(x)=f(2)=4 $. Xét hàm số $ g(x)=f\\left(x^{3}+x\\right)-x^{2}+2 x+m $. Giá trị của tham số $ m $ để $ \\max \\limits_{x \\in[0 ; 2]} g(x)=8 $ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$4$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $3$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$5$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$-1$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Đặt $ t=x^3+x $. Vì $ x \\in[0 ; 2] \\Rightarrow t \\in[0 ; 10] $.\\\\Ta có \\allowdisplaybreaks\\begin{eqnarray*}\\max \\limits_{x \\in[0 ; 2]} g(x)&=&  \\max \\limits_{x \\in[0 ; 2]}\\left[f\\left(x^3+x\\right)-x^2+2 x+m\\right] \\\\ &\\leq &\\max \\limits_{x \\in[0 ; 2]} f\\left(x^3+x\\right)+\\max \\limits_{x \\in[0 ; 2]}\\left[-x^2+2 x+m\\right]  \\\\ &=& \\max _{t \\in[0 ; 10]} f(t)+1+m\\,\\text{(với}\\, t=x^{3}+x \\,\\text{và} \\, \\max \\limits_{x \\in[0 ; 2]}\\left[-x^{2}+2 x+m\\right]=1+m\\text{)} \\\\&\\leq& \\max \\limits_{x \\in[0 ; 10]} f(x)+1+m = 4+1+m=5+m.\\end{eqnarray*}Suy ra $ \\max \\limits_{x \\in[0 ; 2]} g(x)=5+m \\Leftrightarrow \\heva{&x=1 \\\\ &t=2\\\\} \\Leftrightarrow x=1$.\\\\Theo giả thiết, ta có $ \\max \\limits_{x \\in[0 ; 2]} g(x)=8 \\Leftrightarrow m+5=8 \\Leftrightarrow m=3 $.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1G3-1]\n\tCho hàm số $ y=f(x) $ liên tục trên $ \\mathbb{R} $ sao cho $ \\max \\limits_{x \\in[0 ; 10]} f(x)=f(2)=4 $. Xét hàm số $ g(x)=f\\left(x^{3}+x\\right)-x^{2}+2 x+m $. Giá trị của tham số $ m $ để $ \\max \\limits_{x \\in[0 ; 2]} g(x)=8 $ là\n\t\\choice\n\t{$4$}\n\t{\\True $3$}\t\n\t{$5$}\n\t{$-1$}\n\t\\loigiai{\n\t\tĐặt $ t=x^3+x $. Vì $ x \\in[0 ; 2] \\Rightarrow t \\in[0 ; 10] $.\\\\\n\t\tTa có \n\t\t\\allowdisplaybreaks\n\t\t\\begin{eqnarray*}\n\t\t\t\\max \\limits_{x \\in[0 ; 2]} g(x)&=&  \\max \\limits_{x \\in[0 ; 2]}\\left[f\\left(x^3+x\\right)-x^2+2 x+m\\right] \\\\ \n\t\t\t&\\leq &\\max \\limits_{x \\in[0 ; 2]} f\\left(x^3+x\\right)+\\max \\limits_{x \\in[0 ; 2]}\\left[-x^2+2 x+m\\right]  \\\\ \n\t\t\t&=& \\max _{t \\in[0 ; 10]} f(t)+1+m\\,\\text{(với}\\, t=x^{3}+x \\,\\text{và} \\, \\max \\limits_{x \\in[0 ; 2]}\\left[-x^{2}+2 x+m\\right]=1+m\\text{)} \\\\\n\t\t\t&\\leq& \\max \\limits_{x \\in[0 ; 10]} f(x)+1+m = 4+1+m=5+m.\n\t\t\\end{eqnarray*}\n\t\tSuy ra $ \\max \\limits_{x \\in[0 ; 2]} g(x)=5+m \\Leftrightarrow \\heva{&x=1 \\\\ &t=2\\\\} \\Leftrightarrow x=1$.\\\\\n\t\tTheo giả thiết, ta có $ \\max \\limits_{x \\in[0 ; 2]} g(x)=8 \\Leftrightarrow m+5=8 \\Leftrightarrow m=3 $.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1G3-1]",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cf3"
+  },
+  "code": "TN_11_47",
+  "description": "",
+  "level": 4,
+  "duration": 240,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $ y=f (x) $ có đồ thị hàm số như hình bên. Hàm số \\break $g(x)=f\\left(-x^2+3 x\\right)$ có bao nhiêu điểm cực đại?{",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "}",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $3$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$4$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$5$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$6$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $g'(x)=(-2 x+3)\\cdot f'\\left(-x^2+3 x\\right)$.\\\\$g'(x)=0 \\Leftrightarrow \\hoac{&-2 x+3=0 \\\\& f'\\left(-x^{2}+3 x\\right)=0\\\\} \\overset{\\text{ theo đồ thị } f(x)} \\longleftrightarrow \\hoac{&x=\\dfrac{3}{2}\\\\&-x^2+3 x=-2\\\\&-x^2+3 x=0} \\Leftrightarrow \\hoac{& x=\\dfrac{3}{2}\\\\&x= \\dfrac{3\\pm \\sqrt{17}}{2} \\\\ & x=0\\\\ & x=3.} $\\\\Bảng biến thiên",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "Dựa vào bảng biến thiên ta suy ra hàm số $g(x)$ có $ 3 $ điểm cực đại.\\\\{\\bf Chú ý:} Dấu của $g'(x)$ được xác định như sau: Ví dụ chọn $ x=4 \\in \\left(\\dfrac{3+\\sqrt{17}}{2} ;+\\infty \\right) $.\\\\Ta có \\\\$-2 x+3=-5<0.\\quad(1)$\\\\\\noindent $ -x^2+3x=-4 \\overset{\\text{ theo đồ thị } f(x)} \\longleftrightarrow$ $ f'(-4)>0 $ (Vì $ f $ đang tăng). $ \\quad(2) $\\\\\\noindent Từ $(1)$ và $(2)$ suy ra $g'(x)=(-2 x+3)\\cdot f'\\left(-x^2+3 x\\right)<0$ trên khoảng $ \\left(\\dfrac{3+\\sqrt{17}}{2} ;+\\infty\\right) $.\\\\Nhận thấy các nghiệm của phương trình $ g'(x)=0 $ là các nghiệm bội lẻ nên $ g'(x)$ qua nghiệm đổi dấu.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1G2-6] \n\t\\immini{Cho hàm số $ y=f (x) $ có đồ thị hàm số như hình bên. Hàm số \\break $g(x)=f\\left(-x^2+3 x\\right)$ có bao nhiêu điểm cực đại?\n\t\t\\choice\n\t\t{\\True $3$}\n\t\t{$4$}\n\t\t{$5$}\n\t\t{$6$}}\n\t{\n\t\t\\begin{tikzpicture}[scale=.8, line cap=round,line join=round,>=stealth,x=1.0cm,y=1.0cm]\n\t\t\\tkzInit[xmin=-3,xmax=2,ymax=3, ymin=-2.5]\n\t\t\\draw [->](-3,0)--(2,0)node[below]{\\footnotesize $x$};\n\t\t\\draw [->](0,-2.5)--(0,3)node[left]{\\footnotesize $y$};\n\t\t\\draw[fill=black](0pt,0pt) circle (.5pt) node[above left] {\\footnotesize $O$};\n\t\t\\clip(-3,-2.5) rectangle (2,3);\n\t\t\\draw[smooth,samples=100,domain=-3:2] plot(\\x,{(\\x)^3+3*(\\x)^2-2});\n\t\t\\draw[fill=black] (-2,0) circle (.5pt) node[below]{\\footnotesize $-2$};\n\t\t\\draw[fill=black] (0,2) circle (.5pt) node[right]{\\footnotesize $2$};\n\t\t\\draw[fill=black] (0,-2) circle (.5pt) node[right]{\\footnotesize $-2$};\n\t\t\\draw [fill=black] (-2,2) circle (.5pt);\n\t\t\\draw[dashed] (-2,0) |- (-2,2) |- (0,2);\n\t\t\\end{tikzpicture}\t\n\t}\t\n\t\\loigiai{\n\t\tTa có $g'(x)=(-2 x+3)\\cdot f'\\left(-x^2+3 x\\right)$.\\\\\n\t\t$g'(x)=0 \\Leftrightarrow \\hoac{&-2 x+3=0 \\\\& f'\\left(-x^{2}+3 x\\right)=0\\\\} \\overset{\\text{ theo đồ thị } f(x)} \\longleftrightarrow \\hoac{&x=\\dfrac{3}{2}\\\\&-x^2+3 x=-2\\\\&-x^2+3 x=0} \\Leftrightarrow \\hoac{& x=\\dfrac{3}{2}\\\\&x= \\dfrac{3\\pm \\sqrt{17}}{2} \\\\ & x=0\\\\ & x=3.} $\\\\\n\t\tBảng biến thiên\n\t\t\\begin{center}\n\t\t\t\\begin{tikzpicture}\n\t\t\t\\tkzTabInit[nocadre=false,lgt=1.2,espcl=2.5,deltacl=0.6]\n\t\t\t{$x$ /0.6, $g'$ /0.6, $g$ /2.}\n\t\t\t{$-\\infty$,$-\\frac{3-\\sqrt{17}}{2}$,$0$,$ \\frac{3}{2} $,$ 3 $,$ \\frac{3-\\sqrt{17}}{2} $,$+\\infty$}\n\t\t\t\\tkzTabLine{,+,$ 0 $,-,$0$,+,$0$,-,$ 0 $,+,$ 0 $,-,}\n\t\t\t\\tkzTabVar{-/$ $,+/$ $,-/$ $,+/$ $,-/$ $,+/$ $,-/$ $}\n\t\t\t\\end{tikzpicture}\n\t\t\\end{center}\n\t\tDựa vào bảng biến thiên ta suy ra hàm số $g(x)$ có $ 3 $ điểm cực đại.\\\\\n\t\t{\\bf Chú ý:} Dấu của $g'(x)$ được xác định như sau: Ví dụ chọn $ x=4 \\in \\left(\\dfrac{3+\\sqrt{17}}{2} ;+\\infty \\right) $.\\\\\n\t\tTa có \\\\\n\t\t$-2 x+3=-5<0.\\quad(1)$\\\\\n\t\t\\noindent \n\t\t$ -x^2+3x=-4 \\overset{\\text{ theo đồ thị } f(x)} \\longleftrightarrow$ $ f'(-4)>0 $ (Vì $ f $ đang tăng). $ \\quad(2) $\\\\\n\t\t\\noindent \n\t\tTừ $(1)$ và $(2)$ suy ra $g'(x)=(-2 x+3)\\cdot f'\\left(-x^2+3 x\\right)<0$ trên khoảng $ \\left(\\dfrac{3+\\sqrt{17}}{2} ;+\\infty\\right) $.\\\\\n\t\tNhận thấy các nghiệm của phương trình $ g'(x)=0 $ là các nghiệm bội lẻ nên $ g'(x)$ qua nghiệm đổi dấu.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1G2-6] ",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cf4"
+  },
+  "code": "TN_11_48",
+  "description": "",
+  "level": 4,
+  "duration": 240,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Cho hàm số $ f(x) $ liên tục trên $ \\mathbb{R} $ và thỏa mãn $$\\sqrt{1+\\ln ^{2} x} \\left[2019 f(\\ln x)+2020 \\cdot \\ln x \\cdot f\\left(\\ln ^{2} x\\right)\\right]=2021 \\ln x,\\,\\forall x \\in (0 ;+\\infty).$$ Biết $\\displaystyle \\int \\limits_0^1 f(x) \\mathrm{\\,d} x=\\dfrac{a}{b} \\left(\\sqrt{2}-1\\right) $ với $ \\dfrac{a}{b} $ tối giản và $a$, $b \\in \\mathbb{N}$. Khi đó $ a+b $ bằng",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "\\True $5050$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "$4039$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$4041$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$4040$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Từ giả thiết ta suy ra \\allowdisplaybreaks\\begin{eqnarray*}&& 2019 f(\\ln x)+2020 \\cdot \\ln x \\cdot f\\left(\\ln ^2 x\\right)=\\dfrac{2021 \\cdot \\ln x}{\\sqrt{1+\\ln ^{2} x}},\\, \\forall x \\in (0 ;+\\infty) \\\\ &\\Rightarrow& \\dfrac{2019}{x} f(\\ln x)+\\dfrac{2020 \\ln x}{x} f\\left(\\ln ^{2} x\\right)=\\dfrac{2021 \\ln x}{x \\sqrt{1+\\ln ^{2} x}},\\,\\forall x \\in (0 ;+\\infty)\\\\ &\\Rightarrow& \\displaystyle \\int \\limits_1^{\\mathrm{e}}\\left(\\dfrac{2019}{x} f(\\ln x)+\\dfrac{2020 \\ln x}{x} f\\left(\\ln ^{2} x\\right)\\right) \\mathrm{\\,d} x=\\displaystyle\\int\\limits_{1}^{\\mathrm{e}} \\dfrac{2021 \\ln x}{x \\sqrt{1+\\ln ^{2} x}} \\mathrm{\\,d} x\\\\&\\Rightarrow&  2019 \\displaystyle\\int\\limits_{1}^{\\mathrm{e}} f(\\ln x) \\mathrm{\\,d} \\left(\\ln x\\right)+1010 \\displaystyle\\int\\limits_{1}^{\\mathrm{e}} f\\left(\\ln ^{2} x\\right) \\mathrm{\\,d}  \\left(\\ln ^{2} x\\right)=\\dfrac{2021}{2} \\int\\limits_{1}^{\\mathrm{e}} \\dfrac{\\mathrm{d}\\left(1+\\ln ^{2} x\\right)}{\\sqrt{1+\\ln ^{2} x}} \\\\&\\Rightarrow& 2019 \\displaystyle\\int\\limits_{0}^{1} f(t) \\mathrm{\\,d}t+1010 \\int \\limits_{0}^{1} f(t) \\mathrm{\\,d} t=2021(\\sqrt{2}-1) \\\\&\\Rightarrow&  3029 \\displaystyle\\int\\limits_{1}^{2} f(t) \\mathrm{\\,d}t=2021(\\sqrt{2}-1) \\\\&\\Rightarrow&  \\displaystyle\\int_{1}^{2} f(t) \\mathrm{\\,d} t=\\dfrac{2021}{3029}(\\sqrt{2}-1).\\end{eqnarray*}Suy ra $ a+b=5050 $.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3G2-4] \n\tCho hàm số $ f(x) $ liên tục trên $ \\mathbb{R} $ và thỏa mãn $$\\sqrt{1+\\ln ^{2} x} \\left[2019 f(\\ln x)+2020 \\cdot \\ln x \\cdot f\\left(\\ln ^{2} x\\right)\\right]=2021 \\ln x,\\,\\forall x \\in (0 ;+\\infty).$$ Biết $\\displaystyle \\int \\limits_0^1 f(x) \\mathrm{\\,d} x=\\dfrac{a}{b} \\left(\\sqrt{2}-1\\right) $ với $ \\dfrac{a}{b} $ tối giản và $a$, $b \\in \\mathbb{N}$. Khi đó $ a+b $ bằng\n\t\\choice\n\t{\\True $5050$}\t\n\t{$4039$}\n\t{$4041$}\n\t{$4040$}\n\t\\loigiai{\n\t\tTừ giả thiết ta suy ra \n\t\t\\allowdisplaybreaks\n\t\t\\begin{eqnarray*}\n\t\t\t&& 2019 f(\\ln x)+2020 \\cdot \\ln x \\cdot f\\left(\\ln ^2 x\\right)=\\dfrac{2021 \\cdot \\ln x}{\\sqrt{1+\\ln ^{2} x}},\\, \\forall x \\in (0 ;+\\infty) \\\\ \n\t\t\t&\\Rightarrow& \\dfrac{2019}{x} f(\\ln x)+\\dfrac{2020 \\ln x}{x} f\\left(\\ln ^{2} x\\right)=\\dfrac{2021 \\ln x}{x \\sqrt{1+\\ln ^{2} x}},\\,\\forall x \\in (0 ;+\\infty)\\\\ \n\t\t\t&\\Rightarrow& \\displaystyle \\int \\limits_1^{\\mathrm{e}}\\left(\\dfrac{2019}{x} f(\\ln x)+\\dfrac{2020 \\ln x}{x} f\\left(\\ln ^{2} x\\right)\\right) \\mathrm{\\,d} x=\\displaystyle\\int\\limits_{1}^{\\mathrm{e}} \\dfrac{2021 \\ln x}{x \\sqrt{1+\\ln ^{2} x}} \\mathrm{\\,d} x\\\\\n\t\t\t&\\Rightarrow&  2019 \\displaystyle\\int\\limits_{1}^{\\mathrm{e}} f(\\ln x) \\mathrm{\\,d} \\left(\\ln x\\right)+1010 \\displaystyle\\int\\limits_{1}^{\\mathrm{e}} f\\left(\\ln ^{2} x\\right) \\mathrm{\\,d}  \\left(\\ln ^{2} x\\right)=\\dfrac{2021}{2} \\int\\limits_{1}^{\\mathrm{e}} \\dfrac{\\mathrm{d}\\left(1+\\ln ^{2} x\\right)}{\\sqrt{1+\\ln ^{2} x}} \\\\\n\t\t\t&\\Rightarrow& 2019 \\displaystyle\\int\\limits_{0}^{1} f(t) \\mathrm{\\,d}t+1010 \\int \\limits_{0}^{1} f(t) \\mathrm{\\,d} t=2021(\\sqrt{2}-1) \\\\\n\t\t\t&\\Rightarrow&  3029 \\displaystyle\\int\\limits_{1}^{2} f(t) \\mathrm{\\,d}t=2021(\\sqrt{2}-1) \\\\\n\t\t\t&\\Rightarrow&  \\displaystyle\\int_{1}^{2} f(t) \\mathrm{\\,d} t=\\dfrac{2021}{3029}(\\sqrt{2}-1).\n\t\t\\end{eqnarray*}\n\t\tSuy ra $ a+b=5050 $.\n\t}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D3G2-4] ",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cf5"
+  },
+  "code": "TN_11_49",
+  "description": "",
+  "level": 4,
+  "duration": 240,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Trong không gian với hệ tọa độ $Oxyz$, mặt phẳng $(P)$ đi qua điểm $M(1;-1;2)$ và cắt các tia $Ox,Oy,Oz$ lần lượt tại $N,H,K$ sao cho thể tích của tứ diện $ONHK$ đạt giá trị nhỏ nhất. Phương trình của mặt phẳng $(P)$ là",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$2x-2y+z+6=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $2x-2y+z-6=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$2x+2y-z+2=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$2x+2y-z-2=0$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Điều kiện $2020m + x^2 \\geq 0$.\\\\Ta có\\begin{eqnarray*}\\sqrt{2020 m+\\sqrt{2020 m+x^{2}}}=x^{2} &\\Leftrightarrow&  2020 m+\\sqrt{2020 m+x^{2}}=x^{4}\\\\ &\\Leftrightarrow& 2020 m+x^{2}+\\sqrt{2020 m+x^{2}}=x^{4}+x^{2}.\\quad(1)\\end{eqnarray*}Xét hàm số $ f(t)=t^{2}+t $ trên $ [0 ;+\\infty) $.\\\\Ta có $f'(t)=2 t+1>0$, $\\forall t \\geq 0 \\Rightarrow f(t)$ luôn đồng biến trên $ [0 ;+\\infty) $.\\\\Khi đó $(1) \\Leftrightarrow f\\left(\\sqrt{2020 m+x^{2}}\\right)=f\\left(x^{2}\\right) \\Leftrightarrow \\sqrt{2020 m+x^{2}}=x^{2} \\Leftrightarrow 2020 m=x^{4}-x^{2} $.\\\\Xét hàm số $ g(x)=x^{4}-x^{2}$ có $g'(x)=4 x^{3}-2 x $; $g'(x)=0 \\Leftrightarrow 4 x^{3}-2 x=0 \\Leftrightarrow\\hoac{&x=0 \\\\ &x=\\pm \\dfrac{1}{\\sqrt{2}}.}$\\\\Ta có bảng biến thiên",
+      "variety": "TEXT"
+    },
+    {
+      "content": "https://d1hg5umxljlmgz.cloudfront.net/image_latex/Img_Question_Bank/Img_{prefix}/{file}.{ext}",
+      "variety": "IMG"
+    },
+    {
+      "content": "Từ bảng biến thiên suy ra phương trình đã cho có $2$ nghiệm $\\Leftrightarrow \\hoac{&2020 m=-\\dfrac{1}{4} \\\\ &2020 m>0} \\Leftrightarrow \\hoac{&m=-\\dfrac{1}{8080} \\\\ &m>0.}$\\\\Vì $ m $ âm nên $ m=-\\dfrac{1}{8080} $.\\\\Vậy có $1$ giá trị của tham số $m $ cần tìm.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1G1-4] \n\tTrong không gian với hệ tọa độ $Oxyz$, mặt phẳng $(P)$ đi qua điểm $M(1;-1;2)$ và cắt các tia $Ox,Oy,Oz$ lần lượt tại $N,H,K$ sao cho thể tích của tứ diện $ONHK$ đạt giá trị nhỏ nhất. Phương trình của mặt phẳng $(P)$ là\n\t\\choice\n\t{$2x-2y+z+6=0$}\t\n\t{\\True $2x-2y+z-6=0$}\n\t{$2x+2y-z+2=0$}\n\t{$2x+2y-z-2=0$}\n\t\\loigiai{\n\t\tĐiều kiện $2020m + x^2 \\geq 0$.\\\\\n\t\tTa có\n\t\t\\begin{eqnarray*}\n\t\t\t\\sqrt{2020 m+\\sqrt{2020 m+x^{2}}}=x^{2} &\\Leftrightarrow&  2020 m+\\sqrt{2020 m+x^{2}}=x^{4}\\\\ \n\t\t\t&\\Leftrightarrow& 2020 m+x^{2}+\\sqrt{2020 m+x^{2}}=x^{4}+x^{2}.\\quad(1)\n\t\t\\end{eqnarray*}\n\t\tXét hàm số $ f(t)=t^{2}+t $ trên $ [0 ;+\\infty) $.\\\\\n\t\tTa có $f'(t)=2 t+1>0$, $\\forall t \\geq 0 \\Rightarrow f(t)$ luôn đồng biến trên $ [0 ;+\\infty) $.\\\\\n\t\tKhi đó $(1) \\Leftrightarrow f\\left(\\sqrt{2020 m+x^{2}}\\right)=f\\left(x^{2}\\right) \\Leftrightarrow \\sqrt{2020 m+x^{2}}=x^{2} \\Leftrightarrow 2020 m=x^{4}-x^{2} $.\\\\\n\t\tXét hàm số $ g(x)=x^{4}-x^{2}$ có $g'(x)=4 x^{3}-2 x $; $g'(x)=0 \\Leftrightarrow 4 x^{3}-2 x=0 \\Leftrightarrow\\hoac{&x=0 \\\\ &x=\\pm \\dfrac{1}{\\sqrt{2}}.}$\\\\\n\t\tTa có bảng biến thiên\n\t\t\\begin{center}\n\t\t\t\\begin{tikzpicture}\n\t\t\t\\tkzTabInit[nocadre=false,lgt=1.2,espcl=2.5,deltacl=0.6]\n\t\t\t{$x$ /0.6, $y'$ /0.6, $y$ /2.}\n\t\t\t{$-\\infty$,$-\\frac{1}{\\sqrt{2}}$,$0$,$ \\frac{1}{\\sqrt{2}} $,$+\\infty$}\n\t\t\t\\tkzTabLine{,-,$0$,+,$0$,-,$ 0 $,+,}\n\t\t\t\\tkzTabVar{+/$+\\infty$,-/$-\\frac{1}{4}$,+/$0$,-/$-\\frac{1}{4}$,+/$+\\infty$}\n\t\t\t\\end{tikzpicture}\n\t\t\\end{center}\n\t\tTừ bảng biến thiên suy ra phương trình đã cho có $2$ nghiệm $\\Leftrightarrow \\hoac{&2020 m=-\\dfrac{1}{4} \\\\ &2020 m>0} \\Leftrightarrow \\hoac{&m=-\\dfrac{1}{8080} \\\\ &m>0.}$\\\\\n\t\tVì $ m $ âm nên $ m=-\\dfrac{1}{8080} $.\\\\\n\t\tVậy có $1$ giá trị của tham số $m $ cần tìm.}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D1G1-4] ",
+  "status": "APPROVED"
+},{
+  "_id": {
+    "$oid": "60a537d6f12a00291fac4cf6"
+  },
+  "code": "TN_11_50",
+  "description": "",
+  "level": 4,
+  "duration": 240,
+  "question_properties": {
+    "kind": "DL",
+    "fillable": false,
+    "applicable": false,
+    "parametric": false
+  },
+  "question_contents": [
+    {
+      "content": "Có bao nhiêu cặp số nguyên $(x ; y)$ thỏa mãn $0<x \\leq 2020$ và $2^x+\\log _{2} \\dfrac{x}{2-y}=2^{2-y}$?",
+      "variety": "TEXT"
+    }
+  ],
+  "choices": [
+    {
+      "content": "$2018$",
+      "variety": "TEXT",
+      "code": "TN_11_C1",
+      "right_choice": false
+    },
+    {
+      "content": "\\True $2020$",
+      "variety": "TEXT",
+      "code": "TN_11_C2",
+      "right_choice": false
+    },
+    {
+      "content": "$2019$",
+      "variety": "TEXT",
+      "code": "TN_11_C3",
+      "right_choice": false
+    },
+    {
+      "content": "$2021$",
+      "variety": "TEXT",
+      "code": "TN_11_C4",
+      "right_choice": false
+    }
+  ],
+  "question_categories": null,
+  "explanations": [
+    {
+      "content": "{Ta có $2^{x}+\\log _{2} \\dfrac{x}{2-y}=2^{2-y} \\Leftrightarrow 2^{x}+\\log _{2} x=2^{2-y}+\\log _{2}(2-y).\\quad(*)$\\\\Hàm số $ f(t)=2^t+\\log _2 t $ liên tục trên khoảng $ (0 ;+\\infty) $.\\\\$f'(t)=2^t \\ln 2+\\dfrac{1}{t \\ln 2}>0,\\, \\forall t>0 \\Rightarrow$ hàm số $ f(t) $ đồng biến trên $(0 ;+\\infty)$.\\\\Mà phương trình $(*) \\Leftrightarrow f(x)=f(2-y) \\Leftrightarrow x=2-y$.\\\\Từ đó suy ra có $2020$ cặp số thỏa mãn.}",
+      "variety": "TEXT"
+    }
+  ],
+  "original_content": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2G5-5] \n\tCó bao nhiêu cặp số nguyên $(x ; y)$ thỏa mãn $0<x \\leq 2020$ và $2^x+\\log _{2} \\dfrac{x}{2-y}=2^{2-y}$?\n\t\\choice\n\t{$2018$}\n\t{\\True $2020$}\n\t{$2019$}\n\t{$2021$}\t\n\t\\loigiai{\n\t\tTa có $2^{x}+\\log _{2} \\dfrac{x}{2-y}=2^{2-y} \\Leftrightarrow 2^{x}+\\log _{2} x=2^{2-y}+\\log _{2}(2-y).\\quad(*)$\\\\\n\t\tHàm số $ f(t)=2^t+\\log _2 t $ liên tục trên khoảng $ (0 ;+\\infty) $.\\\\\n\t\t$f'(t)=2^t \\ln 2+\\dfrac{1}{t \\ln 2}>0,\\, \\forall t>0 \\Rightarrow$ hàm số $ f(t) $ đồng biến trên $(0 ;+\\infty)$.\\\\\n\t\tMà phương trình $(*) \\Leftrightarrow f(x)=f(2-y) \\Leftrightarrow x=2-y$.\\\\\n\t\tTừ đó suy ra có $2020$ cặp số thỏa mãn.}",
+  "created_date": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "last_update": {
+    "$date": "2021-05-19T10:54:19.558Z"
+  },
+  "sub_section": "%[Thi Thử Trường THPT Yên Phong 2, Bắc Ninh]%[Lương Như Quỳnh, 12EX-11-2020]%[2D2G5-5] ",
+  "status": "APPROVED"
+}]
