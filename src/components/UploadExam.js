@@ -2,6 +2,7 @@ import React from 'react';
 import { Upload, message } from 'antd';
 import '../styles/uploadExam.css';
 import { InboxOutlined } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 
 const baseUrl = 'https://node-render-latex.herokuapp.com/api/exam';
 
@@ -39,6 +40,10 @@ const UploadExam = () => {
           Click or drag file to this area to upload
         </p>
       </Dragger>
+
+      <div className="go-to-upload">
+        <Link to="/">Go to Home</Link>
+      </div>
     </div>
   );
 };
