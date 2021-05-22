@@ -92,45 +92,47 @@ const Exam = () => {
         <div className="question">
           <h3 className="question__title">
             {key + 1}.
-            {item.question_contents.map(
+            {item?.question_contents.map(
               (title) =>
                 (title.variety === 'TEXT' && title.content) ||
                 (title.variety === 'HTML' && parse(title.content))
             )}
             <span className="info">
-              [Time: {item.duration}, Level: {item.level}
-              {item.question_properties.parametric && ', Parametric'},{' '}
-              {item.code && item.code}]
+              [Time: {item?.duration}, Level: {item?.level}
+              {item?.question_properties?.parametric && ', Parametric'},{' '}
+              {item?.code && item?.code}]
             </span>
           </h3>
 
-          {item.question_contents.map(
+          {item?.question_contents?.map(
             (img) =>
               img.variety === 'IMG' && <img alt="img math" src={img.content} />
           )}
         </div>
 
-        {item.question_categories && (
-          <div className="question__categories">{item.question_categories}</div>
+        {item?.question_categories && (
+          <div className="question__categories">
+            {item?.question_categories}
+          </div>
         )}
 
         <div className="choice">
           <ul>
-            {item.choices.map((choice) =>
-              choice.right_choice ? (
+            {item?.choices?.map((choice) =>
+              choice?.right_choice ? (
                 <li className="choice__true">
-                  {choice.variety === 'TEXT' ? (
-                    choice.content
+                  {choice?.variety === 'TEXT' ? (
+                    choice?.content
                   ) : (
-                    <img alt="img math" src={choice.content} />
+                    <img alt="img math" src={choice?.content} />
                   )}
                 </li>
               ) : (
                 <li className="choice">
-                  {choice.variety === 'TEXT' ? (
-                    choice.content
+                  {choice?.variety === 'TEXT' ? (
+                    choice?.content
                   ) : (
-                    <img alt="img math" src={choice.content} />
+                    <img alt="img math" src={choice?.content} />
                   )}
                 </li>
               )
@@ -138,15 +140,15 @@ const Exam = () => {
           </ul>
         </div>
 
-        {item.explanations && (
+        {item?.explanations && (
           <div className="explannation">
             <h4>Lời Giải:</h4>
-            {item.explanations.map(
+            {item?.explanations.map(
               (data) =>
-                (data.variety === 'TEXT' && <p> {data.content} </p>) ||
-                (data.variety === 'HTML' && parse(data.content)) ||
-                (data.variety === 'IMG' && (
-                  <img alt="img math" src={data.content} />
+                (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
+                (data?.variety === 'HTML' && parse(data?.content)) ||
+                (data?.variety === 'IMG' && (
+                  <img alt="img math" src={data?.content} />
                 ))
             )}
           </div>
