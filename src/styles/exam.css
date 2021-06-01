@@ -24,9 +24,29 @@ h3#title {
   position: relative;
 }
 
+.item {
+  position: relative;
+  margin: 24px 0;
+}
+
+.item .action {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 42px;
+}
+
 .question__categories {
   color: #00c9a7;
-  font-weight: bold;
+}
+
+.question__categories span {
+  padding: 0 8px;
+}
+
+.question__categories span:last-child {
+  padding-right: 8px;
+  padding-left: 0;
 }
 
 .question__title {
@@ -90,6 +110,8 @@ h3#title {
   position: fixed;
   right: 24px;
   top: 30%;
+
+  z-index: 1000;
 }
 
 .info {

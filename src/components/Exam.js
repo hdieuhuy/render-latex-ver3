@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import parse from 'html-react-parser';
-import { Empty, Popover, Input } from 'antd';
+import { Empty, Popover, Input, Button } from 'antd';
 import { LoadingOutlined, InfoCircleOutlined } from '@ant-design/icons';
 
 import { get, isEmpty } from 'lodash';
@@ -9,6 +9,7 @@ import { useParams, useHistory, Link } from 'react-router-dom';
 import { getExam, getListExam } from '../api';
 import '../styles/exam.css';
 import MenuHeader from './Menu';
+import ModalExam from './ModalExam';
 
 const antIcon = (
   <LoadingOutlined style={{ fontSize: 80, color: '#74b9ff' }} spin />
@@ -18,11 +19,22 @@ const Exam = () => {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(true);
   const [dataMenu, setDataMenu] = useState([]);
+  const [questionCode, setQuestionCode] = useState('');
+  const [showModal, setShowModal] = useState(false);
 
   const { duration, code, rank, name } = data;
   const { push } = useHistory();
 
   const { examCode = 'example' } = useParams();
+
+  const openModal = (questionCode) => {
+    setQuestionCode(questionCode);
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
 
   // get Exam
   useEffect(() => {
@@ -112,7 +124,7 @@ const Exam = () => {
 
         {item?.question_categories && (
           <div className="question__categories">
-            {item?.question_categories}
+            {item?.question_categories.map(category => <span>{category}</span>)}
           </div>
         )}
 
@@ -153,6 +165,12 @@ const Exam = () => {
             )}
           </div>
         )}
+
+        <div className="action">
+          <Button type="primary" onClick={() => openModal(item.code)}>
+            Đổi câu hỏi
+          </Button>
+        </div>
       </div>
     ));
   };
@@ -179,6 +197,14 @@ const Exam = () => {
       )}
 
       {renderData()}
+
+      <ModalExam
+        showModal={showModal}
+        questionCode={questionCode}
+        setQuestionCode={setQuestionCode}
+        openModal={openModal}
+        closeModal={closeModal}
+      />
     </div>
   );
 };
