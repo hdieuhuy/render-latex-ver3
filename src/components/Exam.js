@@ -124,7 +124,9 @@ const Exam = () => {
 
         {item?.question_categories && (
           <div className="question__categories">
-            {item?.question_categories.map(category => <span>{category}</span>)}
+            {item?.question_categories.map((category) => (
+              <span>{category}</span>
+            ))}
           </div>
         )}
 
@@ -150,6 +152,12 @@ const Exam = () => {
               )
             )}
           </ul>
+
+          <div className="action">
+            <Button type="primary" onClick={() => openModal(item.code)}>
+              Đổi câu hỏi
+            </Button>
+          </div>
         </div>
 
         {item?.explanations && (
@@ -165,12 +173,6 @@ const Exam = () => {
             )}
           </div>
         )}
-
-        <div className="action">
-          <Button type="primary" onClick={() => openModal(item.code)}>
-            Đổi câu hỏi
-          </Button>
-        </div>
       </div>
     ));
   };

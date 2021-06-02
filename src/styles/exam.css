@@ -25,15 +25,7 @@ h3#title {
 }
 
 .item {
-  position: relative;
   margin: 24px 0;
-}
-
-.item .action {
-  position: absolute;
-  z-index: 10;
-  top: 0;
-  right: 42px;
 }
 
 .question__categories {
@@ -57,6 +49,17 @@ h3#title {
 .question__title .info {
   padding-left: 0.5rem;
   font-weight: bold;
+}
+
+.choice {
+  position: relative;
+}
+
+.choice .action {
+  position: absolute;
+  /* z-index: 10; */
+  bottom: 0;
+  right: 28px;
 }
 
 .choice ul {
