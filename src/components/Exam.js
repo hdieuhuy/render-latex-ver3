@@ -101,7 +101,7 @@ const Exam = () => {
 
     return data.list_questions.map((item, key) => {
       const isGeometry = item.question_categories.find(
-        (question) => question === 'math_12_geometry' || 'math_11_geometry'
+        (question) => question === 'math_12_geometry' || question === 'math_11_geometry'
       );
 
       return (
@@ -124,7 +124,7 @@ const Exam = () => {
             {item?.question_contents?.map(
               (img) =>
                 img.variety === 'IMG' && (
-                  <img alt="img math" src={img.content} />
+                  <img alt="img math" src={img.content} className={isGeometry && 'isGeometry'} />
                 )
             )}
           </div>
@@ -145,7 +145,7 @@ const Exam = () => {
                     {choice?.variety === 'TEXT' ? (
                       choice?.content
                     ) : (
-                      <img alt="img math" src={choice?.content} />
+                      <img alt="img math" src={choice?.content} className={isGeometry && 'isGeometry'} />
                     )}
                   </li>
                 ) : (

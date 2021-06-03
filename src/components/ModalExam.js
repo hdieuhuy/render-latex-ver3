@@ -136,7 +136,7 @@ const ModalExam = ({
               {item?.questionContents?.map(
                 (img) =>
                   img.variety === 'IMG' && (
-                    <img alt="img math" src={img.content} />
+                    <img alt="img math" src={img.content} className={isGeometry && 'isGeometry'} />
                   )
               )}
             </div>
@@ -165,7 +165,7 @@ const ModalExam = ({
                       {choice?.variety === 'TEXT' ? (
                         choice?.content
                       ) : (
-                        <img alt="img math" src={choice?.content} />
+                        <img alt="img math" src={choice?.content} className={isGeometry && 'isGeometry'} />
                       )}
                     </li>
                   )
