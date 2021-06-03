@@ -112,6 +112,10 @@ const ModalExam = ({
       {loading && <div className="loading__fullscreen">{antIcon}</div>}
 
       {listQuestion?.map((item, key) => {
+        const isGeometry = item.question_categories.find(
+          (question) => question === 'math_12_geometry' || 'math_11_geometry'
+        );
+
         return (
           <div className="item">
             <div className="question">
@@ -153,7 +157,7 @@ const ModalExam = ({
                       {choice?.variety === 'TEXT' ? (
                         choice?.content
                       ) : (
-                        <img alt="img math" src={choice?.content} />
+                        <img alt="img math" src={choice?.content} className={isGeometry && 'isGeometry'} />
                       )}
                     </li>
                   ) : (
@@ -177,7 +181,7 @@ const ModalExam = ({
                     (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
                     (data?.variety === 'HTML' && parse(data?.content)) ||
                     (data?.variety === 'IMG' && (
-                      <img alt="img math" src={data?.content} />
+                      <img alt="img math" src={data?.content} className={isGeometry && 'isGeometry'} />
                     ))
                 )}
               </div>

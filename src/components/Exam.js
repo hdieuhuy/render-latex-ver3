@@ -99,82 +99,90 @@ const Exam = () => {
     if (isEmpty(data))
       return <Empty description="Không tìm thấy trong database" />;
 
-    return data.list_questions.map((item, key) => (
-      <div className="item">
-        <div className="question">
-          <h3 className="question__title">
-            {key + 1}.
-            {item?.question_contents.map(
-              (title) =>
-                (title.variety === 'TEXT' && title.content) ||
-                (title.variety === 'HTML' && parse(title.content))
-            )}
-            <span className="info">
-              [Time: {item?.duration}, Level: {item?.level}
-              {item?.question_properties?.parametric && ', Parametric'},{' '}
-              {item?.code && item?.code}]
-            </span>
-          </h3>
+    return data.list_questions.map((item, key) => {
+      const isGeometry = item.question_categories.find(
+        (question) => question === 'math_12_geometry' || 'math_11_geometry'
+      );
 
-          {item?.question_contents?.map(
-            (img) =>
-              img.variety === 'IMG' && <img alt="img math" src={img.content} />
+      return (
+        <div className="item">
+          <div className="question">
+            <h3 className="question__title">
+              {key + 1}.
+              {item?.question_contents.map(
+                (title) =>
+                  (title.variety === 'TEXT' && title.content) ||
+                  (title.variety === 'HTML' && parse(title.content))
+              )}
+              <span className="info">
+                [Time: {item?.duration}, Level: {item?.level}
+                {item?.question_properties?.parametric && ', Parametric'},{' '}
+                {item?.code && item?.code}]
+              </span>
+            </h3>
+
+            {item?.question_contents?.map(
+              (img) =>
+                img.variety === 'IMG' && (
+                  <img alt="img math" src={img.content} />
+                )
+            )}
+          </div>
+
+          {item?.question_categories && (
+            <div className="question__categories">
+              {item?.question_categories.map((category) => (
+                <span>{category}</span>
+              ))}
+            </div>
+          )}
+
+          <div className="choice">
+            <ul>
+              {item?.choices?.map((choice) =>
+                choice?.right_choice ? (
+                  <li className="choice__true">
+                    {choice?.variety === 'TEXT' ? (
+                      choice?.content
+                    ) : (
+                      <img alt="img math" src={choice?.content} />
+                    )}
+                  </li>
+                ) : (
+                  <li className="choice">
+                    {choice?.variety === 'TEXT' ? (
+                      choice?.content
+                    ) : (
+                      <img alt="img math" src={choice?.content} className={isGeometry && 'isGeometry'} />
+                    )}
+                  </li>
+                )
+              )}
+            </ul>
+
+            <div className="action">
+              <Button type="primary" onClick={() => openModal(item.code)}>
+                Đổi câu hỏi
+              </Button>
+            </div>
+          </div>
+
+          {item?.explanations && (
+            <div className="explannation">
+              <h4>Lời Giải:</h4>
+              {item?.explanations.map(
+                (data) =>
+                  (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
+                  (data?.variety === 'HTML' && parse(data?.content)) ||
+                  (data?.variety === 'IMG' && (
+                    <img className={isGeometry && 'isGeometry'} alt="img math" src={data?.content} />
+                  ))
+              )}
+            </div>
           )}
         </div>
-
-        {item?.question_categories && (
-          <div className="question__categories">
-            {item?.question_categories.map((category) => (
-              <span>{category}</span>
-            ))}
-          </div>
-        )}
-
-        <div className="choice">
-          <ul>
-            {item?.choices?.map((choice) =>
-              choice?.right_choice ? (
-                <li className="choice__true">
-                  {choice?.variety === 'TEXT' ? (
-                    choice?.content
-                  ) : (
-                    <img alt="img math" src={choice?.content} />
-                  )}
-                </li>
-              ) : (
-                <li className="choice">
-                  {choice?.variety === 'TEXT' ? (
-                    choice?.content
-                  ) : (
-                    <img alt="img math" src={choice?.content} />
-                  )}
-                </li>
-              )
-            )}
-          </ul>
-
-          <div className="action">
-            <Button type="primary" onClick={() => openModal(item.code)}>
-              Đổi câu hỏi
-            </Button>
-          </div>
-        </div>
-
-        {item?.explanations && (
-          <div className="explannation">
-            <h4>Lời Giải:</h4>
-            {item?.explanations.map(
-              (data) =>
-                (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
-                (data?.variety === 'HTML' && parse(data?.content)) ||
-                (data?.variety === 'IMG' && (
-                  <img alt="img math" src={data?.content} />
-                ))
-            )}
-          </div>
-        )}
-      </div>
-    ));
+      );
+    });
   };
 
   return (

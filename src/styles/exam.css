@@ -7,11 +7,7 @@ html {
 }
 
 img {
-  max-width: 600px;
-  max-height: 240px;
-
   padding: 24px 0;
-  display: block;
 }
 
 h3#title {
@@ -26,6 +22,10 @@ h3#title {
 
 .item {
   margin: 24px 0;
+}
+
+.isGeometry {
+  width: 300px;
 }
 
 .question__categories {
@@ -57,7 +57,6 @@ h3#title {
 
 .choice .action {
   position: absolute;
-  /* z-index: 10; */
   bottom: 0;
   right: 28px;
 }

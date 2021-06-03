@@ -7,9 +7,6 @@ html {
 }
 
 img {
-  max-width: 600px;
-  max-height: 240px;
-
   padding: 24px 0;
   display: block;
 }
