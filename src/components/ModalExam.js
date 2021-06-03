@@ -113,7 +113,7 @@ const ModalExam = ({
 
       {listQuestion?.map((item, key) => {
         const isGeometry = item.question_categories.find(
-          (question) => question === 'math_12_geometry' || 'math_11_geometry'
+          (question) => question === 'math_12_geometry' || question === 'math_11_geometry'
         );
 
         return (
