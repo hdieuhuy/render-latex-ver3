@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Modal, message, Empty } from 'antd';
+import { Modal, message, Empty, Tooltip, Popover } from 'antd';
 import parse from 'html-react-parser';
 import { gql, useLazyQuery } from '@apollo/client';
 import { LoadingOutlined } from '@ant-design/icons';
@@ -123,19 +123,32 @@ const ModalExam = ({
         return (
           <div className="item">
             <div className="question">
-              <h3 className="question__title">
-                {key + 1}.
-                {item?.questionContents.map(
+              <Tooltip
+                title={item?.questionContents.map(
                   (title) =>
                     (title.variety === 'TEXT' && title.content) ||
                     (title.variety === 'HTML' && parse(title.content))
                 )}
-                <span className="info">
-                  [Time: {item?.duration}, Level: {item?.level}
-                  {item?.questionProperties?.parametric && ', Parametric'},{' '}
-                  {item?.code && item?.code}]
-                </span>
-              </h3>
+                placement="topLeft"
+                trigger={['click']}
+                getPopupContainer={(trigger) => trigger.parentElement}
+                getTooltipContainer={(trigger) => trigger.parentElement}
+              >
+                <h3 className="question__title pointer">
+                  {key + 1}.
+                  {item?.questionContents.map(
+                    (title) =>
+                      (title.variety === 'TEXT' && title.content) ||
+                      (title.variety === 'HTML' && parse(title.content))
+                  )}
+                </h3>
+              </Tooltip>
+
+              <span className="info">
+                [Time: {item?.duration}, Level: {item?.level}
+                {item?.questionProperties?.parametric && ', Parametric'},{' '}
+                {item?.code && item?.code}]
+              </span>
 
               {item?.questionContents?.map(
                 (img) =>
@@ -158,53 +171,92 @@ const ModalExam = ({
             )}
 
             <div className="choice">
-              <ul>
-                {item?.choices?.map((choice) =>
-                  choice?.rightChoice ? (
-                    <li className="choice__true">
-                      {choice?.variety === 'TEXT' ? (
-                        choice?.content
-                      ) : (
-                        <img
-                          alt="img math"
-                          src={choice?.content}
-                          className={isGeometry && 'isGeometry'}
-                        />
-                      )}
-                    </li>
-                  ) : (
-                    <li className="choice">
-                      {choice?.variety === 'TEXT' ? (
-                        choice?.content
-                      ) : (
-                        <img
-                          alt="img math"
-                          src={choice?.content}
-                          className={isGeometry && 'isGeometry'}
-                        />
-                      )}
-                    </li>
-                  )
-                )}
-              </ul>
+              <Tooltip
+                placement="rightTop"
+                trigger={['click']}
+                getPopupContainer={(trigger) => trigger.parentElement}
+                getTooltipContainer={(trigger) => trigger.parentElement}
+                title={item?.choices?.map((choice, index) => (
+                  <p>
+                    {index + 1}.{' '}
+                    {choice?.variety === 'TEXT' ? (
+                      choice?.content
+                    ) : (
+                      <img
+                        alt="img math"
+                        src={choice?.content}
+                        className={isGeometry && 'isGeometry'}
+                      />
+                    )}
+                  </p>
+                ))}
+              >
+                <ul className="pointer">
+                  {item?.choices?.map((choice) =>
+                    choice?.right_choice ? (
+                      <li className="choice__true">
+                        {choice?.variety === 'TEXT' ? (
+                          choice?.content
+                        ) : (
+                          <img
+                            alt="img math"
+                            src={choice?.content}
+                            className={isGeometry && 'isGeometry'}
+                          />
+                        )}
+                      </li>
+                    ) : (
+                      <li className="choice">
+                        {choice?.variety === 'TEXT' ? (
+                          choice?.content
+                        ) : (
+                          <img
+                            alt="img math"
+                            src={choice?.content}
+                            className={isGeometry && 'isGeometry'}
+                          />
+                        )}
+                      </li>
+                    )
+                  )}
+                </ul>
+              </Tooltip>
             </div>
 
             {item?.explanations && (
-              <div className="explannation">
-                <h4>Lời Giải:</h4>
-                {item?.explanations.map(
+              <Popover
+                trigger={['click']}
+                getPopupContainer={(trigger) => trigger.parentElement}
+                getTooltipContainer={(trigger) => trigger.parentElement}
+                title={item?.explanations.map(
                   (data) =>
                     (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
                     (data?.variety === 'HTML' && parse(data?.content)) ||
                     (data?.variety === 'IMG' && (
                       <img
+                        className={isGeometry && 'isGeometry'}
                         alt="img math"
                         src={data?.content}
-                        className={isGeometry && 'isGeometry'}
                       />
                     ))
                 )}
-              </div>
+              >
+                <div className="explannation pointer">
+                  <h4>Lời Giải:</h4>
+                  {item?.explanations.map(
+                    (data) =>
+                      (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
+                      (data?.variety === 'HTML' && parse(data?.content)) ||
+                      (data?.variety === 'IMG' && (
+                        <img
+                          className={isGeometry && 'isGeometry'}
+                          alt="img math"
+                          src={data?.content}
+                        />
+                      ))
+                  )}
+                </div>
+              </Popover>
             )}
           </div>
         );

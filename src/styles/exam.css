@@ -67,6 +67,7 @@ p.info {
 
 .choice ul {
   list-style-type: upper-alpha;
+  width: 40%;
 }
 
 .choice__true {
@@ -126,4 +127,8 @@ p.info {
 
 .content__icon .info span {
   padding: 0 4px;
+}
+
+.ant-tooltip {
+  max-width: unset !important;
 }

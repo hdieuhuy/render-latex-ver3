@@ -154,35 +154,54 @@ const Exam = () => {
           )}
 
           <div className="choice">
-            <ul>
-              {item?.choices?.map((choice) =>
-                choice?.right_choice ? (
-                  <li className="choice__true">
-                    {choice?.variety === 'TEXT' ? (
-                      choice?.content
-                    ) : (
-                      <img
-                        alt="img math"
-                        src={choice?.content}
-                        className={isGeometry && 'isGeometry'}
-                      />
-                    )}
-                  </li>
-                ) : (
-                  <li className="choice">
-                    {choice?.variety === 'TEXT' ? (
-                      choice?.content
-                    ) : (
-                      <img
-                        alt="img math"
-                        src={choice?.content}
-                        className={isGeometry && 'isGeometry'}
-                      />
-                    )}
-                  </li>
-                )
-              )}
-            </ul>
+            <Tooltip
+              placement="rightTop"
+              trigger={['click']}
+              title={item?.choices?.map((choice, index) => (
+                <p>
+                  {index + 1}.{' '}
+                  {choice?.variety === 'TEXT' ? (
+                    choice?.content
+                  ) : (
+                    <img
+                      alt="img math"
+                      src={choice?.content}
+                      className={isGeometry && 'isGeometry'}
+                    />
+                  )}
+                </p>
+              ))}
+            >
+              <ul className="pointer">
+                {item?.choices?.map((choice) =>
+                  choice?.right_choice ? (
+                    <li className="choice__true">
+                      {choice?.variety === 'TEXT' ? (
+                        choice?.content
+                      ) : (
+                        <img
+                          alt="img math"
+                          src={choice?.content}
+                          className={isGeometry && 'isGeometry'}
+                        />
+                      )}
+                    </li>
+                  ) : (
+                    <li className="choice">
+                      {choice?.variety === 'TEXT' ? (
+                        choice?.content
+                      ) : (
+                        <img
+                          alt="img math"
+                          src={choice?.content}
+                          className={isGeometry && 'isGeometry'}
+                        />
+                      )}
+                    </li>
+                  )
+                )}
+              </ul>
+            </Tooltip>
 
             <div className="action">
               <Button type="primary" onClick={() => openModal(item.code)}>
@@ -192,9 +211,9 @@ const Exam = () => {
           </div>
 
           {item?.explanations && (
-            <div className="explannation">
-              <h4>Lời Giải:</h4>
-              {item?.explanations.map(
+            <Popover
+              trigger={['click']}
+              title={item?.explanations.map(
                 (data) =>
                   (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
                   (data?.variety === 'HTML' && parse(data?.content)) ||
@@ -206,7 +225,23 @@ const Exam = () => {
                     />
                   ))
               )}
-            </div>
+            >
+              <div className="explannation">
+                <h4>Lời Giải:</h4>
+                {item?.explanations.map(
+                  (data) =>
+                    (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
+                    (data?.variety === 'HTML' && parse(data?.content)) ||
+                    (data?.variety === 'IMG' && (
+                      <img
+                        className={isGeometry && 'isGeometry'}
+                        alt="img math"
+                        src={data?.content}
+                      />
+                    ))
+                )}
+              </div>
+            </Popover>
           )}
         </div>
       );
