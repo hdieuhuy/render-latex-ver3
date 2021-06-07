@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import parse from 'html-react-parser';
-import { Empty, Popover, Input, Button } from 'antd';
+import { Empty, Popover, Input, Button, Tooltip } from 'antd';
 import { LoadingOutlined, InfoCircleOutlined } from '@ant-design/icons';
 
 import { get, isEmpty } from 'lodash';
@@ -101,30 +101,46 @@ const Exam = () => {
 
     return data.list_questions.map((item, key) => {
       const isGeometry = item.question_categories.find(
-        (question) => question === 'math_12_geometry' || question === 'math_11_geometry'
+        (question) =>
+          question === 'math_12_geometry' || question === 'math_11_geometry'
       );
 
       return (
         <div className="item">
           <div className="question">
-            <h3 className="question__title">
-              {key + 1}.
-              {item?.question_contents.map(
+            <Tooltip
+              title={item?.question_contents.map(
                 (title) =>
                   (title.variety === 'TEXT' && title.content) ||
                   (title.variety === 'HTML' && parse(title.content))
               )}
-              <span className="info">
-                [Time: {item?.duration}, Level: {item?.level}
-                {item?.question_properties?.parametric && ', Parametric'},{' '}
-                {item?.code && item?.code}]
-              </span>
-            </h3>
+              placement="topLeft"
+              trigger={['click']}
+            >
+              <h3 className="question__title pointer">
+                {key + 1}.
+                {item?.question_contents.map(
+                  (title) =>
+                    (title.variety === 'TEXT' && title.content) ||
+                    (title.variety === 'HTML' && parse(title.content))
+                )}
+              </h3>
+            </Tooltip>
+
+            <p className="info">
+              [Time: {item?.duration}, Level: {item?.level}
+              {item?.question_properties?.parametric && ', Parametric'},{' '}
+              {item?.code && item?.code}]
+            </p>
 
             {item?.question_contents?.map(
               (img) =>
                 img.variety === 'IMG' && (
-                  <img alt="img math" src={img.content} className={isGeometry && 'isGeometry'} />
+                  <img
+                    alt="img math"
+                    src={img.content}
+                    className={isGeometry && 'isGeometry'}
+                  />
                 )
             )}
           </div>
@@ -145,7 +161,11 @@ const Exam = () => {
                     {choice?.variety === 'TEXT' ? (
                       choice?.content
                     ) : (
-                      <img alt="img math" src={choice?.content} className={isGeometry && 'isGeometry'} />
+                      <img
+                        alt="img math"
+                        src={choice?.content}
+                        className={isGeometry && 'isGeometry'}
+                      />
                     )}
                   </li>
                 ) : (
@@ -153,7 +173,11 @@ const Exam = () => {
                     {choice?.variety === 'TEXT' ? (
                       choice?.content
                     ) : (
-                      <img alt="img math" src={choice?.content} className={isGeometry && 'isGeometry'} />
+                      <img
+                        alt="img math"
+                        src={choice?.content}
+                        className={isGeometry && 'isGeometry'}
+                      />
                     )}
                   </li>
                 )
@@ -175,7 +199,11 @@ const Exam = () => {
                   (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
                   (data?.variety === 'HTML' && parse(data?.content)) ||
                   (data?.variety === 'IMG' && (
-                    <img className={isGeometry && 'isGeometry'} alt="img math" src={data?.content} />
+                    <img
+                      className={isGeometry && 'isGeometry'}
+                      alt="img math"
+                      src={data?.content}
+                    />
                   ))
               )}
             </div>

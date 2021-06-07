@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Modal, message } from 'antd';
+import { Modal, message, Empty } from 'antd';
 import parse from 'html-react-parser';
 import { gql, useLazyQuery } from '@apollo/client';
 import { LoadingOutlined } from '@ant-design/icons';
@@ -71,6 +71,7 @@ const ModalExam = ({
   const [getListQuestion, { data, loading }] = useLazyQuery(getQuestion, {
     fetchPolicy: 'network-only',
   });
+  console.log('data', data);
 
   const listQuestion = data?.getQuestion?.question;
   const listQuestionExist = data?.getQuestion?.questionExists;
@@ -111,9 +112,12 @@ const ModalExam = ({
 
       {loading && <div className="loading__fullscreen">{antIcon}</div>}
 
+      {data?.error && <Empty description={data?.message} />}
+
       {listQuestion?.map((item, key) => {
-        const isGeometry = item.question_categories.find(
-          (question) => question === 'math_12_geometry' || question === 'math_11_geometry'
+        const isGeometry = item.questionCategories.find(
+          (question) =>
+            question === 'math_12_geometry' || question === 'math_11_geometry'
         );
 
         return (
@@ -136,7 +140,11 @@ const ModalExam = ({
               {item?.questionContents?.map(
                 (img) =>
                   img.variety === 'IMG' && (
-                    <img alt="img math" src={img.content} className={isGeometry && 'isGeometry'} />
+                    <img
+                      alt="img math"
+                      src={img.content}
+                      className={isGeometry && 'isGeometry'}
+                    />
                   )
               )}
             </div>
@@ -157,7 +165,11 @@ const ModalExam = ({
                       {choice?.variety === 'TEXT' ? (
                         choice?.content
                       ) : (
-                        <img alt="img math" src={choice?.content} className={isGeometry && 'isGeometry'} />
+                        <img
+                          alt="img math"
+                          src={choice?.content}
+                          className={isGeometry && 'isGeometry'}
+                        />
                       )}
                     </li>
                   ) : (
@@ -165,7 +177,11 @@ const ModalExam = ({
                       {choice?.variety === 'TEXT' ? (
                         choice?.content
                       ) : (
-                        <img alt="img math" src={choice?.content} className={isGeometry && 'isGeometry'} />
+                        <img
+                          alt="img math"
+                          src={choice?.content}
+                          className={isGeometry && 'isGeometry'}
+                        />
                       )}
                     </li>
                   )
@@ -181,7 +197,11 @@ const ModalExam = ({
                     (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
                     (data?.variety === 'HTML' && parse(data?.content)) ||
                     (data?.variety === 'IMG' && (
-                      <img alt="img math" src={data?.content} className={isGeometry && 'isGeometry'} />
+                      <img
+                        alt="img math"
+                        src={data?.content}
+                        className={isGeometry && 'isGeometry'}
+                      />
                     ))
                 )}
               </div>

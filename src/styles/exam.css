@@ -15,6 +15,10 @@ h3#title {
   text-align: center;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .Latex {
   padding: 0 2.5rem;
   position: relative;
@@ -46,7 +50,7 @@ h3#title {
   font-weight: 500;
 }
 
-.question__title .info {
+p.info {
   padding-left: 0.5rem;
   font-weight: bold;
 }
