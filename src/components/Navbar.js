@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Exam from './Exam';
 import Upload from './UploadExam';
 import FormDelete from './FormDeleteExam';
+import Test from './Test';
 
 const Navbar = () => {
   return (
@@ -22,6 +23,9 @@ const Navbar = () => {
           </Route>
           <Route path="/delete/exam">
             <FormDelete />
+          </Route>
+          <Route path="/test/exam">
+            <Test />
           </Route>
         </Switch>
       </div>
