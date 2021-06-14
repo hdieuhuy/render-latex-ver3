@@ -9,4 +9,12 @@ html {
 img {
   padding: 24px 0;
   display: block;
+
+  max-height: 300px;
+  min-width: 240px;
+  max-width: 600px;
+}
+
+.configMath {
+  display: none;
 }
