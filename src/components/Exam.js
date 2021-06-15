@@ -99,11 +99,13 @@ const Exam = () => {
     if (isEmpty(data))
       return <Empty description="Không tìm thấy trong database" />;
 
-    return data.list_questions.map((item, key) => {
+    return data?.list_questions.map((item, key) => {
       const isGeometry = item.question_categories.find(
         (question) =>
           question === 'math_12_geometry' || question === 'math_11_geometry'
       );
+
+      console.log('item', item);
 
       return (
         <div className="item">
@@ -209,6 +211,40 @@ const Exam = () => {
               </Button>
             </div>
           </div>
+
+          {item?.solves && (
+            <Popover
+              trigger={['click']}
+              title={item?.solves.map(
+                (data) =>
+                  (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
+                  (data?.variety === 'HTML' && parse(data?.content)) ||
+                  (data?.variety === 'IMG' && (
+                    <img
+                      className={isGeometry && 'isGeometry'}
+                      alt="img math"
+                      src={data?.content}
+                    />
+                  ))
+              )}
+            >
+              <div className="solves">
+                <h4>Phương pháp giải:</h4>
+                {item?.solves.map(
+                  (data) =>
+                    (data?.variety === 'TEXT' && <p> {data?.content} </p>) ||
+                    (data?.variety === 'HTML' && parse(data?.content)) ||
+                    (data?.variety === 'IMG' && (
+                      <img
+                        className={isGeometry && 'isGeometry'}
+                        alt="img math"
+                        src={data?.content}
+                      />
+                    ))
+                )}
+              </div>
+            </Popover>
+          )}
 
           {item?.explanations && (
             <Popover

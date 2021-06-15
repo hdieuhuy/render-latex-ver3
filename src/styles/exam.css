@@ -89,6 +89,21 @@ p.info {
   padding: 0.5rem 0;
 }
 
+.solves {
+  border: 1px solid #44aee3;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.solves h4 {
+  font-weight: bold;
+}
+
+.solves ul li {
+  padding: 0.5rem 0;
+}
+
 .full__text {
   border: 1px solid #2d3436;
   border-radius: 4px;
