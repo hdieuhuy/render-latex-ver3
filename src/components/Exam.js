@@ -105,8 +105,6 @@ const Exam = () => {
           question === 'math_12_geometry' || question === 'math_11_geometry'
       );
 
-      console.log('item', item);
-
       return (
         <div className="item">
           <div className="question">
@@ -124,7 +122,14 @@ const Exam = () => {
                 {item?.question_contents.map(
                   (title) =>
                     (title.variety === 'TEXT' && title.content) ||
-                    (title.variety === 'HTML' && parse(title.content))
+                    (title.variety === 'HTML' && parse(title.content)) ||
+                    (title.variety === 'IMG' && (
+                      <img
+                        alt="img math"
+                        src={title.content}
+                        className={isGeometry && 'isGeometry'}
+                      />
+                    ))
                 )}
               </h3>
             </Tooltip>
@@ -134,17 +139,6 @@ const Exam = () => {
               {item?.question_properties?.parametric && ', Parametric'},{' '}
               {item?.code && item?.code}]
             </p>
-
-            {item?.question_contents?.map(
-              (img) =>
-                img.variety === 'IMG' && (
-                  <img
-                    alt="img math"
-                    src={img.content}
-                    className={isGeometry && 'isGeometry'}
-                  />
-                )
-            )}
           </div>
 
           {item?.question_categories && (
