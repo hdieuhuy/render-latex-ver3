@@ -100,10 +100,7 @@ const Exam = () => {
       return <Empty description="Không tìm thấy trong database" />;
 
     return data?.list_questions.map((item, key) => {
-      const isGeometry = item.question_categories.find(
-        (question) =>
-          question === 'math_12_geometry' || question === 'math_11_geometry'
-      );
+      const isGeometry = '';
 
       return (
         <div className="item">

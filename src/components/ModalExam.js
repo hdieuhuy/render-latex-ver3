@@ -115,10 +115,7 @@ const ModalExam = ({
       {data?.error && <Empty description={data?.message} />}
 
       {listQuestion?.map((item, key) => {
-        const isGeometry = item.questionCategories.find(
-          (question) =>
-            question === 'math_12_geometry' || question === 'math_11_geometry'
-        );
+        const isGeometry = '';
 
         return (
           <div className="item">
