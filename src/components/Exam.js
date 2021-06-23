@@ -118,7 +118,14 @@ const Exam = () => {
               title={item?.question_contents.map(
                 (title) =>
                   (title.variety === 'TEXT' && title.content) ||
-                  (title.variety === 'HTML' && parse(title.content))
+                  (title.variety === 'HTML' && parse(title.content)) ||
+                  (title.variety === 'IMG' && (
+                    <img
+                      alt="img math"
+                      src={title.content}
+                      className={isGeometry && 'isGeometry'}
+                    />
+                  ))
               )}
               placement="topLeft"
               trigger={['click']}
