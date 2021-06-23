@@ -143,3 +143,8 @@ p.info {
 .ant-tooltip {
   max-width: unset !important;
 }
+
+#config_math {
+  display: none;
+  opacity: 0;
+}

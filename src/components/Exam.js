@@ -114,7 +114,7 @@ const Exam = () => {
       return (
         <div className="item">
           <div className="question">
-            <Tooltip
+            <Popover
               title={item?.question_contents.map(
                 (title) =>
                   (title.variety === 'TEXT' && title.content) ||
@@ -138,7 +138,7 @@ const Exam = () => {
                     ))
                 )}
               </h3>
-            </Tooltip>
+            </Popover>
 
             <p className="info">
               [Time: {item?.duration}, Level: {item?.level}
@@ -286,6 +286,8 @@ const Exam = () => {
 
   return (
     <div className="Latex">
+      <div id="config_math"></div>
+
       <MenuHeader data={[...dataMenu]} currentActive={examCode} />
 
       {!loading && <h3 id="title">Question</h3>}

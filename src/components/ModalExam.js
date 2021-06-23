@@ -120,7 +120,7 @@ const ModalExam = ({
         return (
           <div className="item">
             <div className="question">
-              <Tooltip
+              <Popover
                 title={item?.questionContents.map(
                   (title) =>
                     (title.variety === 'TEXT' && title.content) ||
@@ -146,7 +146,7 @@ const ModalExam = ({
                       ))
                   )}
                 </h3>
-              </Tooltip>
+              </Popover>
 
               <span className="info">
                 [Time: {item?.duration}, Level: {item?.level}
@@ -172,15 +172,15 @@ const ModalExam = ({
                 title={item?.choices?.map((choice, index) => (
                   <p>
                     {index + 1}.{' '}
-                    {choice?.variety === 'TEXT' ? (
-                      choice?.content
-                    ) : (
-                      <img
-                        alt="img math"
-                        src={choice?.content}
-                        className={isGeometry && 'isGeometry'}
-                      />
-                    )}
+                    {(choice?.variety === 'TEXT' && choice?.content) ||
+                      (choice?.variety === 'HTML' && choice?.content) ||
+                      (choice?.variety === 'IMG' && (
+                        <img
+                          alt="img math"
+                          src={choice?.content}
+                          className={isGeometry && 'isGeometry'}
+                        />
+                      ))}
                   </p>
                 ))}
               >
@@ -188,27 +188,27 @@ const ModalExam = ({
                   {item?.choices?.map((choice) =>
                     choice?.right_choice ? (
                       <li className="choice__true">
-                        {choice?.variety === 'TEXT' ? (
-                          choice?.content
-                        ) : (
-                          <img
-                            alt="img math"
-                            src={choice?.content}
-                            className={isGeometry && 'isGeometry'}
-                          />
-                        )}
+                        {(choice?.variety === 'TEXT' && choice?.content) ||
+                          (choice?.variety === 'HTML' && choice?.content) ||
+                          (choice?.variety === 'IMG' && (
+                            <img
+                              alt="img math"
+                              src={choice?.content}
+                              className={isGeometry && 'isGeometry'}
+                            />
+                          ))}
                       </li>
                     ) : (
                       <li className="choice">
-                        {choice?.variety === 'TEXT' ? (
-                          choice?.content
-                        ) : (
-                          <img
-                            alt="img math"
-                            src={choice?.content}
-                            className={isGeometry && 'isGeometry'}
-                          />
-                        )}
+                        {(choice?.variety === 'TEXT' && choice?.content) ||
+                          (choice?.variety === 'HTML' && choice?.content) ||
+                          (choice?.variety === 'IMG' && (
+                            <img
+                              alt="img math"
+                              src={choice?.content}
+                              className={isGeometry && 'isGeometry'}
+                            />
+                          ))}
                       </li>
                     )
                   )}
