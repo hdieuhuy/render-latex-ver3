@@ -68,6 +68,15 @@ const Exam = () => {
     });
   }, []);
 
+  useEffect(() => {
+    const configMacros = `$
+    \\newcommand{\\hoac}[1]{ \\left[\\begin{aligned}#1\\end{aligned}\\right.}
+    \\newcommand{\\heva}[1]{\\left\\{ \\begin{aligned}{#1}\\end{aligned}\\right.}
+    $`;
+
+    document.getElementById('config_math').innerHTML = configMacros;
+  });
+
   const onSearch = (value) => {
     push(`/exam/${value}`);
   };
@@ -169,27 +178,27 @@ const Exam = () => {
                 {item?.choices?.map((choice) =>
                   choice?.right_choice ? (
                     <li className="choice__true">
-                      {choice?.variety === 'TEXT' ? (
-                        choice?.content
-                      ) : (
-                        <img
-                          alt="img math"
-                          src={choice?.content}
-                          className={isGeometry && 'isGeometry'}
-                        />
-                      )}
+                      {(choice?.variety === 'TEXT' && choice?.content) ||
+                        (choice?.variety === 'HTML' && choice?.content) ||
+                        (choice?.variety === 'IMG' && (
+                          <img
+                            alt="img math"
+                            src={choice?.content}
+                            className={isGeometry && 'isGeometry'}
+                          />
+                        ))}
                     </li>
                   ) : (
                     <li className="choice">
-                      {choice?.variety === 'TEXT' ? (
-                        choice?.content
-                      ) : (
-                        <img
-                          alt="img math"
-                          src={choice?.content}
-                          className={isGeometry && 'isGeometry'}
-                        />
-                      )}
+                      {(choice?.variety === 'TEXT' && choice?.content) ||
+                        (choice?.variety === 'HTML' && choice?.content) ||
+                        (choice?.variety === 'IMG' && (
+                          <img
+                            alt="img math"
+                            src={choice?.content}
+                            className={isGeometry && 'isGeometry'}
+                          />
+                        ))}
                     </li>
                   )
                 )}
