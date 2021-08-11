@@ -164,7 +164,7 @@ const Exam = () => {
             </div>
           )}
 
-          {isEmpty(item?.hashtag) && (
+          {!isEmpty(item?.hashtag) && (
             <div>
               {item?.hashtag.map((hastag) => (
                 <span>{`#${hastag.name}`}</span>
