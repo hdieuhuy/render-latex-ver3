@@ -174,7 +174,7 @@ const ModalExam = ({
             {!isEmpty(item?.hashtag) && (
               <div>
                 {item?.hashtag.map((hastag) => (
-                  <span>{`#${hastag.name}`}</span>
+                  <span className="hashtag">{`#${hastag.name}`}</span>
                 ))}
               </div>
             )}
