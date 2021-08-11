@@ -167,9 +167,7 @@ const Exam = () => {
           {!isEmpty(item?.hashtag) && (
             <div>
               {item?.hashtag.map((hastag) => (
-                <Tooltip title={hastag.type}>
-                  <span className="hashtag">{`#${hastag.name}`}</span>
-                </Tooltip>
+                <span className="hashtag">{`#${hastag.name}(${hastag.type})`}</span>
               ))}
             </div>
           )}
