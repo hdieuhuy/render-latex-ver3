@@ -102,6 +102,8 @@ const Exam = () => {
     </div>
   );
 
+  console.log('data', data);
+
   const renderData = () => {
     if (loading) return <div className="loading__fullscreen">{antIcon}</div>;
 
@@ -158,6 +160,14 @@ const Exam = () => {
             <div className="question__categories">
               {item?.question_categories.map((category) => (
                 <span>{category}</span>
+              ))}
+            </div>
+          )}
+
+          {isEmpty(item?.hashtag) && (
+            <div>
+              {item?.hashtag.map((hastag) => (
+                <span>{`#${hastag.name}`}</span>
               ))}
             </div>
           )}

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Modal, message, Empty, Tooltip, Popover } from 'antd';
 import parse from 'html-react-parser';
+import { isEmpty } from 'lodash';
 import { gql, useLazyQuery } from '@apollo/client';
 import { LoadingOutlined } from '@ant-design/icons';
 
@@ -166,6 +167,14 @@ const ModalExam = ({
               <div className="question__categories">
                 {item?.questionCategories?.map((category) => (
                   <span>{category}</span>
+                ))}
+              </div>
+            )}
+
+            {isEmpty(item?.hashtag) && (
+              <div>
+                {item?.hashtag.map((hastag) => (
+                  <span>{`#${hastag.name}`}</span>
                 ))}
               </div>
             )}
