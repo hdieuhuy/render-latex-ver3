@@ -181,12 +181,14 @@ const Exam = () => {
                   {index + 1}.{' '}
                   {choice?.variety === 'TEXT' ? (
                     choice?.content
-                  ) : (
+                  ) : choice?.variety === 'IMG' ? (
                     <img
                       alt="img math"
                       src={choice?.content}
                       className={isGeometry && 'isGeometry'}
                     />
+                  ) : (
+                    parse(choice?.content)
                   )}
                 </p>
               ))}
@@ -196,7 +198,8 @@ const Exam = () => {
                   choice?.right_choice ? (
                     <li className="choice__true">
                       {(choice?.variety === 'TEXT' && choice?.content) ||
-                        (choice?.variety === 'HTML' && choice?.content) ||
+                        (choice?.variety === 'HTML' &&
+                          parse(choice?.content)) ||
                         (choice?.variety === 'IMG' && (
                           <img
                             alt="img math"
@@ -208,7 +211,8 @@ const Exam = () => {
                   ) : (
                     <li className="choice">
                       {(choice?.variety === 'TEXT' && choice?.content) ||
-                        (choice?.variety === 'HTML' && choice?.content) ||
+                        (choice?.variety === 'HTML' &&
+                          parse(choice?.content)) ||
                         (choice?.variety === 'IMG' && (
                           <img
                             alt="img math"

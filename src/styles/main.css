@@ -18,6 +18,8 @@ img {
 img.img-inline {
   display: inline;
   min-width: 56px;
+  max-height: unset;
+  max-width: unset;
 }
 
 .configMath {
