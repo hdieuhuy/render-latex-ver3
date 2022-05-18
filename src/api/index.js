@@ -4,7 +4,11 @@ import axios from 'axios';
 const baseUrl = 'https://node-render-exam.herokuapp.com';
 
 const getExam = async (examCode) => {
-  const res = await axios.get(`${baseUrl}/api/exam/${examCode}`);
+  const res = await axios.get(`${baseUrl}/api/exam/${examCode}`, {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
+  });
 
   return res;
 };

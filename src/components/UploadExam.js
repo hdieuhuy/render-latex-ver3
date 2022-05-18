@@ -14,6 +14,9 @@ const UploadExam = () => {
     multiple: true,
     showUploadList: true,
     action: baseUrl,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
     onChange(info) {
       const { file } = info;
 
