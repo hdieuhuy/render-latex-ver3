@@ -38,17 +38,18 @@ const Exam = () => {
 
   // get Exam
   useEffect(() => {
-    if (!examCode) return;
     setLoading(true);
+    console.log({ examCode });
 
     getExam(examCode)
       .then((res) => {
-        const _data = JSON.parse(get(res.data, 'getExam.contentExam', {}));
+        const _data = JSON.parse(get(res.data.data, 'contentExam', {}));
 
         setData(_data);
         setLoading(false);
       })
-      .catch(() => {
+      .catch((err) => {
+        console.log({ err });
         setLoading(false);
         setData({});
       });
@@ -62,7 +63,7 @@ const Exam = () => {
   // get list ExamCode
   useEffect(() => {
     getListExam().then((res) => {
-      const _data = get(res.data, 'allExam', []);
+      const _data = get(res.data.data, 'allExam', []);
 
       setDataMenu([..._data]);
     });
@@ -101,8 +102,6 @@ const Exam = () => {
       </div>
     </div>
   );
-
-  console.log('data', data);
 
   const renderData = () => {
     if (loading) return <div className="loading__fullscreen">{antIcon}</div>;

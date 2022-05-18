@@ -72,7 +72,6 @@ const ModalExam = ({
   const [getListQuestion, { data, loading }] = useLazyQuery(getQuestion, {
     fetchPolicy: 'network-only',
   });
-  console.log('data', data);
 
   const listQuestion = data?.getQuestion?.question;
   const listQuestionExist = data?.getQuestion?.questionExists;
