@@ -30,7 +30,7 @@ const FormDelete = () => {
   useEffect(() => {
     getListExam()
       .then((res) => {
-        const _data = get(res.data, 'allExam', []);
+        const _data = get(res.data.data, 'allExam', []);
 
         setLoading(false);
         setDataMenu([..._data]);
