@@ -4,7 +4,7 @@ import '../styles/uploadExam.css';
 import { InboxOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 
-const baseUrl = 'https://node-render-latex.herokuapp.com/api/exam';
+const baseUrl = 'https://node-render-exam.herokuapp.com/api/exam';
 
 const Dragger = Upload.Dragger;
 
